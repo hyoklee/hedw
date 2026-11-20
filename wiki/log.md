@@ -49,3 +49,9 @@
 
 - `developer.nrel.gov` no longer resolves (NREL is now NLR); `developer.nlr.gov` works.
 - The API key signup is behind reCAPTCHA and needs first and last name, so the user has to create the key. Recorded in [concept-data-access.md](concept-data-access.md).
+
+## [2026-11-20] test | NLR API key and the first NSRDB download
+
+- The user-provided key is saved in `~/.config/hedw/nlr.env` (mode 600, outside the repo).
+- `developer.nlr.gov/.../nsrdb-GOES-aggregated-v4-0-0-download.csv` returns a 302 to S3 (`nsrdb-data.stratus.nlr.gov`). `full_name` is not required.
+- New York 2019: 8,760 rows, all `Minute = 30`. pandas 2.3.3 nearest-tie goes to the later record, so HEDW-US row HH:00 holds NSRDB HH:30. Recorded in [concept-nsrdb.md](concept-nsrdb.md); script `agent/checks/nearest_tie.py`.

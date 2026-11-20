@@ -15,3 +15,6 @@ __pycache__/
 core.*
 # upstream code clones (re-clone at the commit in wiki/source-upstream-code.md)
 raw/upstream/
+raw/nsrdb/*.csv
+raw/power/*
+!raw/power/sample_hourly_stlouis_20190701.json
