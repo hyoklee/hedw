@@ -1,0 +1,151 @@
+city,date_anomalous_and_filled
+Alabama_Birmingham,2020-02-14
+Alabama_Huntsville,2020-02-14
+Alabama_Mobile,2020-02-13
+Alabama_Mobile,2021-01-21
+Alabama_Montgomery,2019-11-18
+Alabama_Montgomery,2020-02-14
+Arizona_Chandler,2019-11-20
+Arizona_Gilbert,2019-11-20
+Arizona_Glendale,2019-11-20
+Arizona_Mesa,2019-11-20
+Arizona_Peoria,2019-11-20
+Arizona_Phoenix,2019-11-20
+Arizona_Scottsdale,2019-11-20
+Arizona_Tempe,2019-11-20
+Arizona_Tucson,2019-11-19
+Arizona_Tucson,2019-11-20
+Arkansas_LittleRock,2020-02-13
+California_Bakersfield,2022-12-20
+California_Fresno,2022-07-31
+California_Glendale,2022-11-07
+District of Columbia_Washington,2019-11-17
+District of Columbia_Washington,2019-11-20
+District of Columbia_Washington,2020-02-14
+Florida_CapeCoral,2019-11-17
+Florida_CapeCoral,2019-11-18
+Florida_CapeCoral,2019-11-19
+Florida_FortLauderdale,2019-11-17
+Florida_FortLauderdale,2019-11-19
+Florida_Hialeah,2019-11-19
+Florida_Jacksonville,2020-02-13
+Florida_Miami,2019-11-19
+Florida_Orlando,2020-02-13
+Florida_PembrokePines,2019-11-17
+Florida_PembrokePines,2019-11-19
+Florida_PortSt.Lucie,2019-11-19
+Florida_St.Petersburg,2019-11-17
+Florida_St.Petersburg,2019-11-18
+Florida_St.Petersburg,2019-11-19
+Florida_St.Petersburg,2020-02-14
+Florida_Tallahassee,2020-02-13
+Florida_Tampa,2019-11-17
+Florida_Tampa,2019-11-18
+Florida_Tampa,2020-02-13
+Florida_Tampa,2020-02-14
+Georgia_Atlanta,2020-02-14
+Georgia_Augusta-RichmondCounty,2019-11-18
+Georgia_Augusta-RichmondCounty,2020-02-14
+Georgia_Columbus,2020-02-14
+Illinois_Aurora,2020-02-13
+Illinois_Chicago,2020-02-14
+Indiana_Indianapolis,2020-02-13
+Iowa_DesMoines,2019-11-18
+Iowa_DesMoines,2020-02-13
+Kansas_OverlandPark,2019-11-18
+Kentucky_Lexington-Fayette,2019-11-19
+Kentucky_Louisville,2020-02-14
+Louisiana_BatonRouge,2020-02-13
+Louisiana_Shreveport,2019-11-20
+Louisiana_Shreveport,2020-02-13
+Maryland_Baltimore,2019-11-18
+Maryland_Baltimore,2019-11-20
+Maryland_Baltimore,2020-02-14
+Massachusetts_Boston,2020-02-14
+Massachusetts_Worcester,2020-02-14
+Minnesota_Minneapolis,2020-02-13
+Minnesota_Minneapolis,2020-02-14
+Minnesota_Minneapolis,2021-10-08
+Minnesota_St.Paul,2020-02-13
+Minnesota_St.Paul,2020-02-14
+Mississippi_Jackson,2020-02-14
+Missouri_KansasCity,2019-11-18
+Missouri_Springfield,2019-11-18
+Missouri_Springfield,2020-02-13
+Missouri_Springfield,2020-02-14
+Missouri_St.Louis,2020-02-13
+Missouri_St.Louis,2020-02-14
+Nebraska_Lincoln,2019-11-18
+Nebraska_Omaha,2019-11-18
+Nevada_Henderson,2021-06-17
+Nevada_LasVegas,2021-04-25
+Nevada_LasVegas,2021-07-22
+Nevada_NorthLasVegas,2021-07-22
+Nevada_Reno,2021-10-30
+New Jersey_JerseyCity,2020-02-14
+New Jersey_Newark,2020-02-14
+New Mexico_Albuquerque,2019-11-20
+New York_Buffalo,2020-02-14
+New York_NewYork,2020-02-14
+New York_Yonkers,2020-02-14
+New York_Yonkers,2021-01-22
+North Carolina_Charlotte,2020-02-14
+North Carolina_Durham,2019-11-17
+North Carolina_Durham,2020-02-14
+North Carolina_Fayetteville,2020-02-14
+North Carolina_Greensboro,2019-11-17
+North Carolina_Greensboro,2019-11-19
+North Carolina_Greensboro,2020-02-14
+North Carolina_Raleigh,2019-11-17
+North Carolina_Raleigh,2020-02-14
+North Carolina_Winston-Salem,2019-11-19
+North Carolina_Winston-Salem,2020-02-13
+North Carolina_Winston-Salem,2020-02-14
+Ohio_Akron,2020-02-14
+Ohio_Toledo,2020-02-14
+Pennsylvania_Philadelphia,2019-11-17
+Pennsylvania_Philadelphia,2019-11-18
+Pennsylvania_Philadelphia,2020-02-14
+Pennsylvania_Pittsburgh,2020-02-14
+Rhode Island_Providence,2020-02-14
+South Dakota_SiouxFalls,2019-11-17
+South Dakota_SiouxFalls,2020-02-13
+Tennessee_Chattanooga,2020-02-14
+Tennessee_Knoxville,2020-02-13
+Tennessee_Knoxville,2020-02-14
+Tennessee_Nashville,2019-11-19
+Tennessee_Nashville,2020-02-13
+Texas_Amarillo,2019-11-20
+Texas_Arlington,2019-11-20
+Texas_Arlington,2020-02-13
+Texas_Austin,2019-11-20
+Texas_Brownsville,2020-02-14
+Texas_CorpusChristi,2019-11-20
+Texas_Dallas,2019-11-20
+Texas_Dallas,2020-02-13
+Texas_ElPaso,2019-11-17
+Texas_ElPaso,2019-11-20
+Texas_FortWorth,2019-11-20
+Texas_FortWorth,2020-02-13
+Texas_Garland,2019-11-20
+Texas_Garland,2020-02-13
+Texas_GrandPrairie,2019-11-20
+Texas_GrandPrairie,2020-02-13
+Texas_Houston,2019-11-20
+Texas_Irving,2019-11-20
+Texas_Irving,2020-02-13
+Texas_Lubbock,2019-11-20
+Texas_Lubbock,2020-02-14
+Texas_Plano,2022-02-26
+Texas_SanAntonio,2019-11-20
+Virginia_Chesapeake,2019-11-20
+Virginia_Chesapeake,2020-02-14
+Virginia_NewportNews,2019-11-17
+Virginia_NewportNews,2019-11-20
+Virginia_Norfolk,2019-11-20
+Virginia_Norfolk,2020-02-14
+Virginia_Richmond,2019-11-17
+Virginia_Richmond,2019-11-18
+Virginia_Richmond,2020-02-14
+Virginia_VirginiaBeach,2019-11-20
+Wisconsin_Milwaukee,2020-02-14

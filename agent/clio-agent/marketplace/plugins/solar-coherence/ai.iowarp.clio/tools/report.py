@@ -48,7 +48,9 @@ def hedw_report(run: str = "", city: str = "") -> str:
 def hedw_day(city: str, date: str) -> str:
     """Hourly NSRDB GHI, solar zenith and NASA POWER all-sky and clear-sky
     irradiance (W/m2, UTC) for one city and day (date = YYYY-MM-DD, 2019-2023),
-    with the daily totals in Wh/m2. Read from the raw files; authoritative."""
+    with the daily totals in Wh/m2, plus NSRDB's fill flag (percent of the hour
+    gap-filled; 100 = no retrieval) and cloud type when available. Read from the
+    raw files; authoritative."""
     co = _load("coherence")
     root = _root()
     name = city.strip()
@@ -59,9 +61,16 @@ def hedw_day(city: str, date: str) -> str:
     ns, _ = co.load_nsrdb(str(f))
     pw, _ = co.load_power(str(root / "raw" / "power" / f"{name}.json"))
     d = ns.loc[date].join(pw.loc[date], how="inner")
-    lines = ["hour_utc ghi_nsrdb zen power_allsky power_clear"]
+    fl = root / "raw" / "nsrdb" / "flags" / f"{name}_{y}_flags.csv"
+    if fl.is_file():
+        ff = _load("fillflags")
+        d = d.join(ff.load(name).loc[date][["Fill Flag", "Cloud Type"]], how="left")
+    lines = ["hour_utc ghi_nsrdb zen power_allsky power_clear"
+             + (" nsrdb_fill_pct nsrdb_cloud_type" if "Fill Flag" in d else "")]
     for t, r in d.iterrows():
-        lines.append(f"{t.hour:02d} {r.GHI:.0f} {r.zen:.1f} {r.ALLSKY_SFC_SW_DWN:.0f} {r.CLRSKY_SFC_SW_DWN:.0f}")
+        extra = f" {r['Fill Flag']:.0f} {r['Cloud Type']:.0f}" if "Fill Flag" in d else ""
+        lines.append(f"{t.hour:02d} {r.GHI:.0f} {r.zen:.1f} {r.ALLSKY_SFC_SW_DWN:.0f} "
+                     f"{r.CLRSKY_SFC_SW_DWN:.0f}{extra}")
     lines.append(f"daily Wh/m2: nsrdb {d.GHI.sum():.0f} power {d.ALLSKY_SFC_SW_DWN.sum():.0f} "
                  f"power_clear {d.CLRSKY_SFC_SW_DWN.sum():.0f}")
     return "\n".join(lines)

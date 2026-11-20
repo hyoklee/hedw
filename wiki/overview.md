@@ -21,7 +21,7 @@
 - **Headline:**
   - HEDW-US's solar stream is coherent with POWER: lag 0 h everywhere, median daily r 0.977, median bias +1.1 %.
   - Disagreement concentrates where POWER's 1° cells mix ocean, mountains and land (17 cities).
-  - NSRDB gap-filled at least one day regionally (2020-02-14, 31 cities). HEDW-US carries those values without a flag.
+  - NSRDB gap-filled every city east of about −113° (109 cities) on 6 days (2019-11-17 to 20, 2020-02-13 to 14), plus a median of 1.3 % of daylight hours elsewhere. HEDW-US carries these values without a flag.
 - **Open:**
   - `data.zip` needs a DataPort login, to check the released files and the quarantined cities ([concept-data-access.md](concept-data-access.md)).
   - A ground-station check (SURFRAD) of the flagged cities.

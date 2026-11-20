@@ -1,0 +1,60 @@
+installed hedw (agent-plugins): 0 plugins, 0 agents
+held until trusted (executable parts changed): solar-coherence, agents
+  warning: hedw: agent classes are imported after the trust step [marketplace_untrusted]
+trusted hedw: 1 plugins, 1 agents
+INFO:     Started server process [145474]
+INFO:     Waiting for application startup.
+WARNING | ⚑ BOOT mark=lifespan_started at=3.955
+WARNING | codex fence unusable on this host reason=codex_linux_fence_unavailable detail=codex exited 1: bwrap: Creating new namespace failed: nesting depth or /proc/sys/user/max_*_namespaces exceeded (ENOSPC)
+WARNING | ⚑ BOOT mark=serving at=5.916
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8100 (Press CTRL+C to quit)
+WARNING | ⚑ BOOT step=marketplace seconds=0.127 start=5.921 thread=MainThread outcome=ok
+INFO:     127.0.0.1:56978 - "PATCH /v1/session-defaults HTTP/1.1" 503 Service Unavailable
+WARNING | ⚑ BOOT step=protected_execution seconds=0.486 start=5.943 thread=MainThread outcome=ok
+/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/fastapi/openapi/utils.py:295: UserWarning: Duplicate Operation ID h5grove_root_v1_workspaces__wid__h5grove__head for function h5grove_root at /home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/gact/routes/workspace_h5grove.py
+  warnings.warn(message, stacklevel=1)
+WARNING | ⚑ BOOT step=openapi_schema seconds=0.648 start=5.921 thread=MainThread outcome=ok
+WARNING | ⚑ BOOT step=orphans seconds=1.167 start=5.917 thread=MainThread outcome=ok
+WARNING | ⚑ BOOT step=task_history_restore seconds=0.003 start=7.666 thread=asyncio_4 outcome=ok
+WARNING | ⚑ BOOT step=interrupted_sessions seconds=0.001 start=7.675 thread=asyncio_4 outcome=ok
+WARNING | ⚑ BOOT step=interaction_times seconds=0.000 start=7.676 thread=asyncio_4 outcome=ok
+WARNING | ⚑ BOOT step=clio_core_and_store seconds=1.210 start=6.466 thread=MainThread outcome=ok
+INFO:     127.0.0.1:56990 - "PATCH /v1/session-defaults HTTP/1.1" 503 Service Unavailable
+WARNING | ⚑ BOOT step=obligations_held seconds=0.008 start=10.061 thread=MainThread outcome=ok
+WARNING | ⚑ BOOT mark=task_runtime_ready at=10.071
+WARNING | ⚑ BOOT step=obligations seconds=0.007 start=10.071 thread=MainThread outcome=ok
+WARNING | ⚑ BOOT step=agent_construct seconds=0.256 start=9.868 thread=MainThread outcome=ok
+WARNING | ⚑ BOOT step=artifact_registry seconds=0.010 start=10.129 thread=MainThread outcome=ok
+WARNING | ⚑ BOOT mark=agent_ready at=10.141
+[clio-agent-gact] agent ready.
+WARNING | ⚑ BOOT step=cas_gc seconds=0.000 start=10.144 thread=MainThread outcome=ok
+WARNING | ⚑ BOOT step=first_doctor_pass seconds=0.343 start=9.869 thread=MainThread outcome=ok
+INFO:     127.0.0.1:56996 - "PATCH /v1/session-defaults HTTP/1.1" 200 OK
+clio-agent 0.9.7.x on port 8100, default agent hedw/solar-coherence
+INFO:     127.0.0.1:57004 - "POST /v1/sessions HTTP/1.1" 200 OK
+WARNING | ⚑ RESIDENT-LEDGER rehydrate session=sess_00970b3b3d5c bytes=0
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+INFO:     127.0.0.1:57004 - "POST /v1/sessions/sess_00970b3b3d5c/messages HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:57004 - "GET /v1/sessions/sess_00970b3b3d5c/events HTTP/1.1" 200 OK
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+2026/11/20 14:56:17 WARNING dspy.primitives.module: Calling module.forward(...) on React directly is discouraged. Please use module(...) instead.
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | usage rollup degraded to an estimate because the LM fired but reported zero usage reason=usage_estimated strategy=price_table_estimate session=sess_00970b3b3d5c
+WARNING | ⚑ REASONING captured 2 call(s): mistral-large-4-nvfp4=217c; mistral-large-4-nvfp4=1425c
+INFO:     127.0.0.1:58016 - "GET /v1/sessions/sess_00970b3b3d5c/messages HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58016 - "GET /v1/sessions/sess_00970b3b3d5c HTTP/1.1" 200 OK
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)

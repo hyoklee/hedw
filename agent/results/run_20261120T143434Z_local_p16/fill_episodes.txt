@@ -1,0 +1,2 @@
+2019-11-18: filled 109 cities, lon -112.2..-71.1; not filled 40, lon -157.9..-115.0, not-filled east of -105: 0, filled west of -105: 12
+2020-02-14: filled 109 cities, lon -112.2..-71.1; not filled 40, lon -157.9..-115.0, not-filled east of -105: 0, filled west of -105: 12

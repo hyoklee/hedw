@@ -324,3 +324,10 @@ WARNING | ⚑ RESIDENT-LEDGER task_tree_released session=sess_fbdf370126d1 dropp
 WARNING | ⚑ RESIDENT-LEDGER task_tree_released session=sess_fae35f7ff0da dropped=True
 WARNING | ⚑ RESIDENT-LEDGER task_tree_released session=sess_66748fe2180e dropped=True
 WARNING | ⚑ TOOLS workspace_fleet_reaped root=/home/hyoklee/.local/share/clio/clio-agent-097/cwd reason=idle_ttl resident=0
+ERROR | clio-core runtime daemon crashed: pid=4139556 exit=-9 (0xFFFFFFF7); log: /home/hyoklee/.local/share/clio/clio-agent-097/runtime-state/clio-runtime.log
+INFO:     127.0.0.1:33764 - "GET /v1/health HTTP/1.1" 503 Service Unavailable
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+WARNING | clio-core daemon stop skipped (reason=clio_core_daemon_not_owned guard=not_owned): no daemon this home started is running
+INFO:     Application shutdown complete.
+INFO:     Finished server process [4138048]

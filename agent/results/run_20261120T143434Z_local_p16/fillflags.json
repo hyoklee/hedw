@@ -1,0 +1,1549 @@
+{
+ "cities": 149,
+ "frac_daylight_hours_fill_ge50": {
+  "median": 0.01336,
+  "max": 0.08038,
+  "min": 0.00652,
+  "city_max": "Nevada_NorthLasVegas"
+ },
+ "base_rate_filled_days": 0.00615,
+ "top_anomalous_days_listed": 3508,
+ "top_anomalous_days_filled": 150,
+ "frac_top_anomalous_days_filled": 0.0428,
+ "frac_fill_anomalous_cities_median": 0.03731,
+ "frac_fill_other_cities_median": 0.01311,
+ "dates_most_cities_filled": [
+  [
+   "2019-11-19",
+   110
+  ],
+  [
+   "2019-11-18",
+   109
+  ],
+  [
+   "2020-02-13",
+   109
+  ],
+  [
+   "2019-11-20",
+   109
+  ],
+  [
+   "2019-11-17",
+   109
+  ],
+  [
+   "2020-02-14",
+   109
+  ],
+  [
+   "2021-07-22",
+   40
+  ],
+  [
+   "2021-12-20",
+   39
+  ],
+  [
+   "2022-11-07",
+   34
+  ],
+  [
+   "2021-02-16",
+   17
+  ]
+ ],
+ "per_city": {
+  "Alabama_Birmingham": {
+   "daylight_hours": 17407,
+   "daylight_hours_fill_ge50": 184,
+   "daylight_hours_fill_100": 63,
+   "frac_daylight_fill_ge50": 0.01057,
+   "filled_days": 8,
+   "top_anomalous_days_listed": 22,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Alabama_Huntsville": {
+   "daylight_hours": 17399,
+   "daylight_hours_fill_ge50": 184,
+   "daylight_hours_fill_100": 62,
+   "frac_daylight_fill_ge50": 0.01058,
+   "filled_days": 8,
+   "top_anomalous_days_listed": 17,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Alabama_Mobile": {
+   "daylight_hours": 17557,
+   "daylight_hours_fill_ge50": 160,
+   "daylight_hours_fill_100": 65,
+   "frac_daylight_fill_ge50": 0.00911,
+   "filled_days": 8,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 2,
+   "anomalous": false
+  },
+  "Alabama_Montgomery": {
+   "daylight_hours": 17359,
+   "daylight_hours_fill_ge50": 166,
+   "daylight_hours_fill_100": 60,
+   "frac_daylight_fill_ge50": 0.00956,
+   "filled_days": 7,
+   "top_anomalous_days_listed": 22,
+   "of_which_filled": 2,
+   "anomalous": false
+  },
+  "Arizona_Chandler": {
+   "daylight_hours": 17395,
+   "daylight_hours_fill_ge50": 186,
+   "daylight_hours_fill_100": 62,
+   "frac_daylight_fill_ge50": 0.01069,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Arizona_Gilbert": {
+   "daylight_hours": 17387,
+   "daylight_hours_fill_ge50": 200,
+   "daylight_hours_fill_100": 63,
+   "frac_daylight_fill_ge50": 0.0115,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 22,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Arizona_Glendale": {
+   "daylight_hours": 17364,
+   "daylight_hours_fill_ge50": 213,
+   "daylight_hours_fill_100": 64,
+   "frac_daylight_fill_ge50": 0.01227,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Arizona_Mesa": {
+   "daylight_hours": 17386,
+   "daylight_hours_fill_ge50": 198,
+   "daylight_hours_fill_100": 63,
+   "frac_daylight_fill_ge50": 0.01139,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 20,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Arizona_Peoria": {
+   "daylight_hours": 17358,
+   "daylight_hours_fill_ge50": 216,
+   "daylight_hours_fill_100": 63,
+   "frac_daylight_fill_ge50": 0.01244,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Arizona_Phoenix": {
+   "daylight_hours": 17369,
+   "daylight_hours_fill_ge50": 244,
+   "daylight_hours_fill_100": 62,
+   "frac_daylight_fill_ge50": 0.01405,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Arizona_Scottsdale": {
+   "daylight_hours": 17376,
+   "daylight_hours_fill_ge50": 196,
+   "daylight_hours_fill_100": 64,
+   "frac_daylight_fill_ge50": 0.01128,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Arizona_Tempe": {
+   "daylight_hours": 17373,
+   "daylight_hours_fill_ge50": 219,
+   "daylight_hours_fill_100": 65,
+   "frac_daylight_fill_ge50": 0.01261,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Arizona_Tucson": {
+   "daylight_hours": 17568,
+   "daylight_hours_fill_ge50": 219,
+   "daylight_hours_fill_100": 65,
+   "frac_daylight_fill_ge50": 0.01247,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 2,
+   "anomalous": false
+  },
+  "Arkansas_LittleRock": {
+   "daylight_hours": 17479,
+   "daylight_hours_fill_ge50": 195,
+   "daylight_hours_fill_100": 66,
+   "frac_daylight_fill_ge50": 0.01116,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 23,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "California_Anaheim": {
+   "daylight_hours": 17677,
+   "daylight_hours_fill_ge50": 652,
+   "daylight_hours_fill_100": 70,
+   "frac_daylight_fill_ge50": 0.03688,
+   "filled_days": 19,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "California_Bakersfield": {
+   "daylight_hours": 17542,
+   "daylight_hours_fill_ge50": 868,
+   "daylight_hours_fill_100": 89,
+   "frac_daylight_fill_ge50": 0.04948,
+   "filled_days": 29,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "California_ChulaVista": {
+   "daylight_hours": 17665,
+   "daylight_hours_fill_ge50": 591,
+   "daylight_hours_fill_100": 75,
+   "frac_daylight_fill_ge50": 0.03346,
+   "filled_days": 23,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": true
+  },
+  "California_Fontana": {
+   "daylight_hours": 17712,
+   "daylight_hours_fill_ge50": 821,
+   "daylight_hours_fill_100": 89,
+   "frac_daylight_fill_ge50": 0.04635,
+   "filled_days": 26,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": true
+  },
+  "California_Fremont": {
+   "daylight_hours": 17301,
+   "daylight_hours_fill_ge50": 562,
+   "daylight_hours_fill_100": 72,
+   "frac_daylight_fill_ge50": 0.03248,
+   "filled_days": 23,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "California_Fresno": {
+   "daylight_hours": 17187,
+   "daylight_hours_fill_ge50": 663,
+   "daylight_hours_fill_100": 65,
+   "frac_daylight_fill_ge50": 0.03858,
+   "filled_days": 19,
+   "top_anomalous_days_listed": 22,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "California_GardenGrove": {
+   "daylight_hours": 17680,
+   "daylight_hours_fill_ge50": 667,
+   "daylight_hours_fill_100": 106,
+   "frac_daylight_fill_ge50": 0.03773,
+   "filled_days": 20,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "California_Glendale": {
+   "daylight_hours": 17656,
+   "daylight_hours_fill_ge50": 667,
+   "daylight_hours_fill_100": 77,
+   "frac_daylight_fill_ge50": 0.03778,
+   "filled_days": 21,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": true
+  },
+  "California_HuntingtonBeach": {
+   "daylight_hours": 17699,
+   "daylight_hours_fill_ge50": 540,
+   "daylight_hours_fill_100": 80,
+   "frac_daylight_fill_ge50": 0.03051,
+   "filled_days": 18,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "California_Irvine": {
+   "daylight_hours": 17684,
+   "daylight_hours_fill_ge50": 545,
+   "daylight_hours_fill_100": 72,
+   "frac_daylight_fill_ge50": 0.03082,
+   "filled_days": 17,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "California_LongBeach": {
+   "daylight_hours": 17668,
+   "daylight_hours_fill_ge50": 672,
+   "daylight_hours_fill_100": 78,
+   "frac_daylight_fill_ge50": 0.03803,
+   "filled_days": 19,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": true
+  },
+  "California_LosAngeles": {
+   "daylight_hours": 17655,
+   "daylight_hours_fill_ge50": 760,
+   "daylight_hours_fill_100": 104,
+   "frac_daylight_fill_ge50": 0.04305,
+   "filled_days": 25,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": true
+  },
+  "California_Modesto": {
+   "daylight_hours": 17216,
+   "daylight_hours_fill_ge50": 683,
+   "daylight_hours_fill_100": 84,
+   "frac_daylight_fill_ge50": 0.03967,
+   "filled_days": 18,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "California_MorenoValley": {
+   "daylight_hours": 17720,
+   "daylight_hours_fill_ge50": 480,
+   "daylight_hours_fill_100": 60,
+   "frac_daylight_fill_ge50": 0.02709,
+   "filled_days": 7,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": true
+  },
+  "California_Oakland": {
+   "daylight_hours": 17307,
+   "daylight_hours_fill_ge50": 646,
+   "daylight_hours_fill_100": 83,
+   "frac_daylight_fill_ge50": 0.03733,
+   "filled_days": 31,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": true
+  },
+  "California_Oceanside": {
+   "daylight_hours": 17643,
+   "daylight_hours_fill_ge50": 445,
+   "daylight_hours_fill_100": 59,
+   "frac_daylight_fill_ge50": 0.02522,
+   "filled_days": 14,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "California_Ontario": {
+   "daylight_hours": 17708,
+   "daylight_hours_fill_ge50": 686,
+   "daylight_hours_fill_100": 73,
+   "frac_daylight_fill_ge50": 0.03874,
+   "filled_days": 16,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": true
+  },
+  "California_Oxnard": {
+   "daylight_hours": 17665,
+   "daylight_hours_fill_ge50": 447,
+   "daylight_hours_fill_100": 59,
+   "frac_daylight_fill_ge50": 0.0253,
+   "filled_days": 15,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": true
+  },
+  "California_RanchoCucamonga": {
+   "daylight_hours": 17718,
+   "daylight_hours_fill_ge50": 599,
+   "daylight_hours_fill_100": 74,
+   "frac_daylight_fill_ge50": 0.03381,
+   "filled_days": 13,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": true
+  },
+  "California_Riverside": {
+   "daylight_hours": 17698,
+   "daylight_hours_fill_ge50": 804,
+   "daylight_hours_fill_100": 119,
+   "frac_daylight_fill_ge50": 0.04543,
+   "filled_days": 24,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "California_Sacramento": {
+   "daylight_hours": 17176,
+   "daylight_hours_fill_ge50": 656,
+   "daylight_hours_fill_100": 66,
+   "frac_daylight_fill_ge50": 0.03819,
+   "filled_days": 11,
+   "top_anomalous_days_listed": 14,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "California_SanBernardino": {
+   "daylight_hours": 17678,
+   "daylight_hours_fill_ge50": 897,
+   "daylight_hours_fill_100": 90,
+   "frac_daylight_fill_ge50": 0.05074,
+   "filled_days": 31,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": true
+  },
+  "California_SanDiego": {
+   "daylight_hours": 17665,
+   "daylight_hours_fill_ge50": 659,
+   "daylight_hours_fill_100": 66,
+   "frac_daylight_fill_ge50": 0.03731,
+   "filled_days": 22,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": true
+  },
+  "California_SanFrancisco": {
+   "daylight_hours": 17325,
+   "daylight_hours_fill_ge50": 630,
+   "daylight_hours_fill_100": 93,
+   "frac_daylight_fill_ge50": 0.03636,
+   "filled_days": 29,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "California_SanJose": {
+   "daylight_hours": 17319,
+   "daylight_hours_fill_ge50": 600,
+   "daylight_hours_fill_100": 70,
+   "frac_daylight_fill_ge50": 0.03464,
+   "filled_days": 20,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "California_SantaAna": {
+   "daylight_hours": 17687,
+   "daylight_hours_fill_ge50": 604,
+   "daylight_hours_fill_100": 72,
+   "frac_daylight_fill_ge50": 0.03415,
+   "filled_days": 13,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "California_SantaClarita": {
+   "daylight_hours": 17686,
+   "daylight_hours_fill_ge50": 468,
+   "daylight_hours_fill_100": 57,
+   "frac_daylight_fill_ge50": 0.02646,
+   "filled_days": 10,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "California_SantaRosa": {
+   "daylight_hours": 17289,
+   "daylight_hours_fill_ge50": 590,
+   "daylight_hours_fill_100": 77,
+   "frac_daylight_fill_ge50": 0.03413,
+   "filled_days": 15,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "California_Stockton": {
+   "daylight_hours": 17219,
+   "daylight_hours_fill_ge50": 679,
+   "daylight_hours_fill_100": 66,
+   "frac_daylight_fill_ge50": 0.03943,
+   "filled_days": 19,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "Colorado_Aurora": {
+   "daylight_hours": 17410,
+   "daylight_hours_fill_ge50": 264,
+   "daylight_hours_fill_100": 60,
+   "frac_daylight_fill_ge50": 0.01516,
+   "filled_days": 8,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "Colorado_ColoradoSprings": {
+   "daylight_hours": 17484,
+   "daylight_hours_fill_ge50": 301,
+   "daylight_hours_fill_100": 65,
+   "frac_daylight_fill_ge50": 0.01722,
+   "filled_days": 7,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "Colorado_Denver": {
+   "daylight_hours": 17403,
+   "daylight_hours_fill_ge50": 257,
+   "daylight_hours_fill_100": 65,
+   "frac_daylight_fill_ge50": 0.01477,
+   "filled_days": 7,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "District of Columbia_Washington": {
+   "daylight_hours": 17110,
+   "daylight_hours_fill_ge50": 154,
+   "daylight_hours_fill_100": 59,
+   "frac_daylight_fill_ge50": 0.009,
+   "filled_days": 7,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 3,
+   "anomalous": false
+  },
+  "Florida_CapeCoral": {
+   "daylight_hours": 17791,
+   "daylight_hours_fill_ge50": 116,
+   "daylight_hours_fill_100": 64,
+   "frac_daylight_fill_ge50": 0.00652,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 23,
+   "of_which_filled": 3,
+   "anomalous": false
+  },
+  "Florida_FortLauderdale": {
+   "daylight_hours": 17748,
+   "daylight_hours_fill_ge50": 127,
+   "daylight_hours_fill_100": 65,
+   "frac_daylight_fill_ge50": 0.00716,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 2,
+   "anomalous": true
+  },
+  "Florida_Hialeah": {
+   "daylight_hours": 17765,
+   "daylight_hours_fill_ge50": 156,
+   "daylight_hours_fill_100": 64,
+   "frac_daylight_fill_ge50": 0.00878,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": true
+  },
+  "Florida_Jacksonville": {
+   "daylight_hours": 17442,
+   "daylight_hours_fill_ge50": 141,
+   "daylight_hours_fill_100": 63,
+   "frac_daylight_fill_ge50": 0.00808,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Florida_Miami": {
+   "daylight_hours": 17766,
+   "daylight_hours_fill_ge50": 124,
+   "daylight_hours_fill_100": 64,
+   "frac_daylight_fill_ge50": 0.00698,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": true
+  },
+  "Florida_Orlando": {
+   "daylight_hours": 17627,
+   "daylight_hours_fill_ge50": 158,
+   "daylight_hours_fill_100": 64,
+   "frac_daylight_fill_ge50": 0.00896,
+   "filled_days": 7,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Florida_PembrokePines": {
+   "daylight_hours": 17757,
+   "daylight_hours_fill_ge50": 148,
+   "daylight_hours_fill_100": 64,
+   "frac_daylight_fill_ge50": 0.00833,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 2,
+   "anomalous": true
+  },
+  "Florida_PortSt.Lucie": {
+   "daylight_hours": 17728,
+   "daylight_hours_fill_ge50": 142,
+   "daylight_hours_fill_100": 65,
+   "frac_daylight_fill_ge50": 0.00801,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Florida_St.Petersburg": {
+   "daylight_hours": 17649,
+   "daylight_hours_fill_ge50": 142,
+   "daylight_hours_fill_100": 62,
+   "frac_daylight_fill_ge50": 0.00805,
+   "filled_days": 7,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 4,
+   "anomalous": false
+  },
+  "Florida_Tallahassee": {
+   "daylight_hours": 17414,
+   "daylight_hours_fill_ge50": 127,
+   "daylight_hours_fill_100": 66,
+   "frac_daylight_fill_ge50": 0.00729,
+   "filled_days": 7,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Florida_Tampa": {
+   "daylight_hours": 17633,
+   "daylight_hours_fill_ge50": 128,
+   "daylight_hours_fill_100": 62,
+   "frac_daylight_fill_ge50": 0.00726,
+   "filled_days": 7,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 4,
+   "anomalous": false
+  },
+  "Georgia_Atlanta": {
+   "daylight_hours": 17295,
+   "daylight_hours_fill_ge50": 141,
+   "daylight_hours_fill_100": 63,
+   "frac_daylight_fill_ge50": 0.00815,
+   "filled_days": 7,
+   "top_anomalous_days_listed": 14,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Georgia_Augusta-RichmondCounty": {
+   "daylight_hours": 17287,
+   "daylight_hours_fill_ge50": 153,
+   "daylight_hours_fill_100": 67,
+   "frac_daylight_fill_ge50": 0.00885,
+   "filled_days": 7,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 2,
+   "anomalous": false
+  },
+  "Georgia_Columbus": {
+   "daylight_hours": 17307,
+   "daylight_hours_fill_ge50": 156,
+   "daylight_hours_fill_100": 63,
+   "frac_daylight_fill_ge50": 0.00901,
+   "filled_days": 7,
+   "top_anomalous_days_listed": 22,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Hawaii_Honolulu": {
+   "daylight_hours": 18351,
+   "daylight_hours_fill_ge50": 907,
+   "daylight_hours_fill_100": 92,
+   "frac_daylight_fill_ge50": 0.04943,
+   "filled_days": 33,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": true
+  },
+  "Idaho_BoiseCity": {
+   "daylight_hours": 16963,
+   "daylight_hours_fill_ge50": 929,
+   "daylight_hours_fill_100": 97,
+   "frac_daylight_fill_ge50": 0.05477,
+   "filled_days": 16,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "Illinois_Aurora": {
+   "daylight_hours": 16975,
+   "daylight_hours_fill_ge50": 248,
+   "daylight_hours_fill_100": 72,
+   "frac_daylight_fill_ge50": 0.01461,
+   "filled_days": 9,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Illinois_Chicago": {
+   "daylight_hours": 16949,
+   "daylight_hours_fill_ge50": 256,
+   "daylight_hours_fill_100": 70,
+   "frac_daylight_fill_ge50": 0.0151,
+   "filled_days": 9,
+   "top_anomalous_days_listed": 14,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Indiana_FortWayne": {
+   "daylight_hours": 17031,
+   "daylight_hours_fill_ge50": 303,
+   "daylight_hours_fill_100": 73,
+   "frac_daylight_fill_ge50": 0.01779,
+   "filled_days": 9,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "Indiana_Indianapolis": {
+   "daylight_hours": 17137,
+   "daylight_hours_fill_ge50": 247,
+   "daylight_hours_fill_100": 74,
+   "frac_daylight_fill_ge50": 0.01441,
+   "filled_days": 8,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Iowa_DesMoines": {
+   "daylight_hours": 16985,
+   "daylight_hours_fill_ge50": 249,
+   "daylight_hours_fill_100": 73,
+   "frac_daylight_fill_ge50": 0.01466,
+   "filled_days": 9,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 2,
+   "anomalous": false
+  },
+  "Kansas_OverlandPark": {
+   "daylight_hours": 17143,
+   "daylight_hours_fill_ge50": 201,
+   "daylight_hours_fill_100": 69,
+   "frac_daylight_fill_ge50": 0.01172,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Kansas_Wichita": {
+   "daylight_hours": 17108,
+   "daylight_hours_fill_ge50": 194,
+   "daylight_hours_fill_100": 62,
+   "frac_daylight_fill_ge50": 0.01134,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "Kentucky_Lexington-Fayette": {
+   "daylight_hours": 17174,
+   "daylight_hours_fill_ge50": 192,
+   "daylight_hours_fill_100": 60,
+   "frac_daylight_fill_ge50": 0.01118,
+   "filled_days": 7,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Kentucky_Louisville": {
+   "daylight_hours": 17194,
+   "daylight_hours_fill_ge50": 224,
+   "daylight_hours_fill_100": 65,
+   "frac_daylight_fill_ge50": 0.01303,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 21,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Louisiana_BatonRouge": {
+   "daylight_hours": 17648,
+   "daylight_hours_fill_ge50": 181,
+   "daylight_hours_fill_100": 71,
+   "frac_daylight_fill_ge50": 0.01026,
+   "filled_days": 9,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Louisiana_NewOrleans": {
+   "daylight_hours": 17715,
+   "daylight_hours_fill_ge50": 180,
+   "daylight_hours_fill_100": 67,
+   "frac_daylight_fill_ge50": 0.01016,
+   "filled_days": 7,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "Louisiana_Shreveport": {
+   "daylight_hours": 17410,
+   "daylight_hours_fill_ge50": 219,
+   "daylight_hours_fill_100": 67,
+   "frac_daylight_fill_ge50": 0.01258,
+   "filled_days": 10,
+   "top_anomalous_days_listed": 24,
+   "of_which_filled": 2,
+   "anomalous": false
+  },
+  "Maryland_Baltimore": {
+   "daylight_hours": 17099,
+   "daylight_hours_fill_ge50": 178,
+   "daylight_hours_fill_100": 60,
+   "frac_daylight_fill_ge50": 0.01041,
+   "filled_days": 8,
+   "top_anomalous_days_listed": 22,
+   "of_which_filled": 3,
+   "anomalous": false
+  },
+  "Massachusetts_Boston": {
+   "daylight_hours": 16940,
+   "daylight_hours_fill_ge50": 285,
+   "daylight_hours_fill_100": 65,
+   "frac_daylight_fill_ge50": 0.01682,
+   "filled_days": 11,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Massachusetts_Worcester": {
+   "daylight_hours": 16987,
+   "daylight_hours_fill_ge50": 227,
+   "daylight_hours_fill_100": 57,
+   "frac_daylight_fill_ge50": 0.01336,
+   "filled_days": 11,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Michigan_Detroit": {
+   "daylight_hours": 16788,
+   "daylight_hours_fill_ge50": 326,
+   "daylight_hours_fill_100": 82,
+   "frac_daylight_fill_ge50": 0.01942,
+   "filled_days": 7,
+   "top_anomalous_days_listed": 8,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "Michigan_GrandRapids": {
+   "daylight_hours": 16844,
+   "daylight_hours_fill_ge50": 273,
+   "daylight_hours_fill_100": 93,
+   "frac_daylight_fill_ge50": 0.01621,
+   "filled_days": 9,
+   "top_anomalous_days_listed": 23,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "Minnesota_Minneapolis": {
+   "daylight_hours": 16684,
+   "daylight_hours_fill_ge50": 331,
+   "daylight_hours_fill_100": 77,
+   "frac_daylight_fill_ge50": 0.01984,
+   "filled_days": 13,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 3,
+   "anomalous": false
+  },
+  "Minnesota_St.Paul": {
+   "daylight_hours": 16702,
+   "daylight_hours_fill_ge50": 305,
+   "daylight_hours_fill_100": 83,
+   "frac_daylight_fill_ge50": 0.01826,
+   "filled_days": 9,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 2,
+   "anomalous": false
+  },
+  "Mississippi_Jackson": {
+   "daylight_hours": 17709,
+   "daylight_hours_fill_ge50": 195,
+   "daylight_hours_fill_100": 66,
+   "frac_daylight_fill_ge50": 0.01101,
+   "filled_days": 9,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Missouri_KansasCity": {
+   "daylight_hours": 17129,
+   "daylight_hours_fill_ge50": 215,
+   "daylight_hours_fill_100": 72,
+   "frac_daylight_fill_ge50": 0.01255,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Missouri_Springfield": {
+   "daylight_hours": 17369,
+   "daylight_hours_fill_ge50": 216,
+   "daylight_hours_fill_100": 71,
+   "frac_daylight_fill_ge50": 0.01244,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 3,
+   "anomalous": false
+  },
+  "Missouri_St.Louis": {
+   "daylight_hours": 17163,
+   "daylight_hours_fill_ge50": 180,
+   "daylight_hours_fill_100": 63,
+   "frac_daylight_fill_ge50": 0.01049,
+   "filled_days": 9,
+   "top_anomalous_days_listed": 16,
+   "of_which_filled": 2,
+   "anomalous": false
+  },
+  "Nebraska_Lincoln": {
+   "daylight_hours": 16982,
+   "daylight_hours_fill_ge50": 252,
+   "daylight_hours_fill_100": 75,
+   "frac_daylight_fill_ge50": 0.01484,
+   "filled_days": 8,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Nebraska_Omaha": {
+   "daylight_hours": 16967,
+   "daylight_hours_fill_ge50": 226,
+   "daylight_hours_fill_100": 70,
+   "frac_daylight_fill_ge50": 0.01332,
+   "filled_days": 8,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Nevada_Henderson": {
+   "daylight_hours": 17512,
+   "daylight_hours_fill_ge50": 1191,
+   "daylight_hours_fill_100": 101,
+   "frac_daylight_fill_ge50": 0.06801,
+   "filled_days": 27,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Nevada_LasVegas": {
+   "daylight_hours": 17525,
+   "daylight_hours_fill_ge50": 1374,
+   "daylight_hours_fill_100": 156,
+   "frac_daylight_fill_ge50": 0.0784,
+   "filled_days": 43,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 2,
+   "anomalous": false
+  },
+  "Nevada_NorthLasVegas": {
+   "daylight_hours": 17517,
+   "daylight_hours_fill_ge50": 1408,
+   "daylight_hours_fill_100": 137,
+   "frac_daylight_fill_ge50": 0.08038,
+   "filled_days": 48,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Nevada_Reno": {
+   "daylight_hours": 17364,
+   "daylight_hours_fill_ge50": 1164,
+   "daylight_hours_fill_100": 105,
+   "frac_daylight_fill_ge50": 0.06704,
+   "filled_days": 41,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "New Jersey_JerseyCity": {
+   "daylight_hours": 17007,
+   "daylight_hours_fill_ge50": 260,
+   "daylight_hours_fill_100": 59,
+   "frac_daylight_fill_ge50": 0.01529,
+   "filled_days": 7,
+   "top_anomalous_days_listed": 19,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "New Jersey_Newark": {
+   "daylight_hours": 17001,
+   "daylight_hours_fill_ge50": 380,
+   "daylight_hours_fill_100": 64,
+   "frac_daylight_fill_ge50": 0.02235,
+   "filled_days": 8,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "New Mexico_Albuquerque": {
+   "daylight_hours": 17935,
+   "daylight_hours_fill_ge50": 296,
+   "daylight_hours_fill_100": 69,
+   "frac_daylight_fill_ge50": 0.0165,
+   "filled_days": 8,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "New York_Buffalo": {
+   "daylight_hours": 16852,
+   "daylight_hours_fill_ge50": 275,
+   "daylight_hours_fill_100": 55,
+   "frac_daylight_fill_ge50": 0.01632,
+   "filled_days": 10,
+   "top_anomalous_days_listed": 24,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "New York_NewYork": {
+   "daylight_hours": 16997,
+   "daylight_hours_fill_ge50": 254,
+   "daylight_hours_fill_100": 62,
+   "frac_daylight_fill_ge50": 0.01494,
+   "filled_days": 8,
+   "top_anomalous_days_listed": 19,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "New York_Rochester": {
+   "daylight_hours": 16863,
+   "daylight_hours_fill_ge50": 266,
+   "daylight_hours_fill_100": 65,
+   "frac_daylight_fill_ge50": 0.01577,
+   "filled_days": 10,
+   "top_anomalous_days_listed": 23,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "New York_Yonkers": {
+   "daylight_hours": 16997,
+   "daylight_hours_fill_ge50": 176,
+   "daylight_hours_fill_100": 60,
+   "frac_daylight_fill_ge50": 0.01035,
+   "filled_days": 9,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 2,
+   "anomalous": false
+  },
+  "North Carolina_Charlotte": {
+   "daylight_hours": 17218,
+   "daylight_hours_fill_ge50": 169,
+   "daylight_hours_fill_100": 64,
+   "frac_daylight_fill_ge50": 0.00982,
+   "filled_days": 7,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "North Carolina_Durham": {
+   "daylight_hours": 17292,
+   "daylight_hours_fill_ge50": 190,
+   "daylight_hours_fill_100": 65,
+   "frac_daylight_fill_ge50": 0.01099,
+   "filled_days": 8,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 2,
+   "anomalous": false
+  },
+  "North Carolina_Fayetteville": {
+   "daylight_hours": 17281,
+   "daylight_hours_fill_ge50": 177,
+   "daylight_hours_fill_100": 64,
+   "frac_daylight_fill_ge50": 0.01024,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "North Carolina_Greensboro": {
+   "daylight_hours": 17237,
+   "daylight_hours_fill_ge50": 188,
+   "daylight_hours_fill_100": 64,
+   "frac_daylight_fill_ge50": 0.01091,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 3,
+   "anomalous": false
+  },
+  "North Carolina_Raleigh": {
+   "daylight_hours": 17327,
+   "daylight_hours_fill_ge50": 188,
+   "daylight_hours_fill_100": 61,
+   "frac_daylight_fill_ge50": 0.01085,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 18,
+   "of_which_filled": 2,
+   "anomalous": false
+  },
+  "North Carolina_Winston-Salem": {
+   "daylight_hours": 17199,
+   "daylight_hours_fill_ge50": 178,
+   "daylight_hours_fill_100": 62,
+   "frac_daylight_fill_ge50": 0.01035,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 3,
+   "anomalous": false
+  },
+  "Ohio_Akron": {
+   "daylight_hours": 16941,
+   "daylight_hours_fill_ge50": 250,
+   "daylight_hours_fill_100": 68,
+   "frac_daylight_fill_ge50": 0.01476,
+   "filled_days": 8,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Ohio_Cincinnati": {
+   "daylight_hours": 17122,
+   "daylight_hours_fill_ge50": 213,
+   "daylight_hours_fill_100": 61,
+   "frac_daylight_fill_ge50": 0.01244,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 21,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "Ohio_Cleveland": {
+   "daylight_hours": 16853,
+   "daylight_hours_fill_ge50": 284,
+   "daylight_hours_fill_100": 67,
+   "frac_daylight_fill_ge50": 0.01685,
+   "filled_days": 10,
+   "top_anomalous_days_listed": 15,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "Ohio_Columbus": {
+   "daylight_hours": 17062,
+   "daylight_hours_fill_ge50": 325,
+   "daylight_hours_fill_100": 66,
+   "frac_daylight_fill_ge50": 0.01905,
+   "filled_days": 8,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "Ohio_Toledo": {
+   "daylight_hours": 16895,
+   "daylight_hours_fill_ge50": 320,
+   "daylight_hours_fill_100": 89,
+   "frac_daylight_fill_ge50": 0.01894,
+   "filled_days": 10,
+   "top_anomalous_days_listed": 21,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Oklahoma_OklahomaCity": {
+   "daylight_hours": 17231,
+   "daylight_hours_fill_ge50": 199,
+   "daylight_hours_fill_100": 62,
+   "frac_daylight_fill_ge50": 0.01155,
+   "filled_days": 7,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "Oklahoma_Tulsa": {
+   "daylight_hours": 17167,
+   "daylight_hours_fill_ge50": 191,
+   "daylight_hours_fill_100": 66,
+   "frac_daylight_fill_ge50": 0.01113,
+   "filled_days": 7,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "Oregon_Portland": {
+   "daylight_hours": 16544,
+   "daylight_hours_fill_ge50": 625,
+   "daylight_hours_fill_100": 79,
+   "frac_daylight_fill_ge50": 0.03778,
+   "filled_days": 19,
+   "top_anomalous_days_listed": 16,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "Pennsylvania_Philadelphia": {
+   "daylight_hours": 17070,
+   "daylight_hours_fill_ge50": 228,
+   "daylight_hours_fill_100": 57,
+   "frac_daylight_fill_ge50": 0.01336,
+   "filled_days": 8,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 3,
+   "anomalous": false
+  },
+  "Pennsylvania_Pittsburgh": {
+   "daylight_hours": 16994,
+   "daylight_hours_fill_ge50": 226,
+   "daylight_hours_fill_100": 61,
+   "frac_daylight_fill_ge50": 0.0133,
+   "filled_days": 8,
+   "top_anomalous_days_listed": 14,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Rhode Island_Providence": {
+   "daylight_hours": 16995,
+   "daylight_hours_fill_ge50": 284,
+   "daylight_hours_fill_100": 62,
+   "frac_daylight_fill_ge50": 0.01671,
+   "filled_days": 7,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "South Dakota_SiouxFalls": {
+   "daylight_hours": 16794,
+   "daylight_hours_fill_ge50": 283,
+   "daylight_hours_fill_100": 75,
+   "frac_daylight_fill_ge50": 0.01685,
+   "filled_days": 7,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 2,
+   "anomalous": false
+  },
+  "Tennessee_Chattanooga": {
+   "daylight_hours": 17236,
+   "daylight_hours_fill_ge50": 195,
+   "daylight_hours_fill_100": 63,
+   "frac_daylight_fill_ge50": 0.01131,
+   "filled_days": 8,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Tennessee_Knoxville": {
+   "daylight_hours": 17177,
+   "daylight_hours_fill_ge50": 133,
+   "daylight_hours_fill_100": 62,
+   "frac_daylight_fill_ge50": 0.00774,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 2,
+   "anomalous": false
+  },
+  "Tennessee_Memphis": {
+   "daylight_hours": 17463,
+   "daylight_hours_fill_ge50": 174,
+   "daylight_hours_fill_100": 66,
+   "frac_daylight_fill_ge50": 0.00996,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "Tennessee_Nashville": {
+   "daylight_hours": 17365,
+   "daylight_hours_fill_ge50": 199,
+   "daylight_hours_fill_100": 60,
+   "frac_daylight_fill_ge50": 0.01146,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 2,
+   "anomalous": false
+  },
+  "Texas_Amarillo": {
+   "daylight_hours": 17688,
+   "daylight_hours_fill_ge50": 226,
+   "daylight_hours_fill_100": 63,
+   "frac_daylight_fill_ge50": 0.01278,
+   "filled_days": 7,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Texas_Arlington": {
+   "daylight_hours": 17330,
+   "daylight_hours_fill_ge50": 209,
+   "daylight_hours_fill_100": 68,
+   "frac_daylight_fill_ge50": 0.01206,
+   "filled_days": 8,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 2,
+   "anomalous": false
+  },
+  "Texas_Austin": {
+   "daylight_hours": 17520,
+   "daylight_hours_fill_ge50": 280,
+   "daylight_hours_fill_100": 74,
+   "frac_daylight_fill_ge50": 0.01598,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Texas_Brownsville": {
+   "daylight_hours": 17816,
+   "daylight_hours_fill_ge50": 218,
+   "daylight_hours_fill_100": 71,
+   "frac_daylight_fill_ge50": 0.01224,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Texas_CorpusChristi": {
+   "daylight_hours": 17617,
+   "daylight_hours_fill_ge50": 215,
+   "daylight_hours_fill_100": 68,
+   "frac_daylight_fill_ge50": 0.0122,
+   "filled_days": 7,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Texas_Dallas": {
+   "daylight_hours": 17327,
+   "daylight_hours_fill_ge50": 215,
+   "daylight_hours_fill_100": 76,
+   "frac_daylight_fill_ge50": 0.01241,
+   "filled_days": 9,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 2,
+   "anomalous": false
+  },
+  "Texas_ElPaso": {
+   "daylight_hours": 18045,
+   "daylight_hours_fill_ge50": 207,
+   "daylight_hours_fill_100": 66,
+   "frac_daylight_fill_ge50": 0.01147,
+   "filled_days": 7,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 2,
+   "anomalous": false
+  },
+  "Texas_FortWorth": {
+   "daylight_hours": 17343,
+   "daylight_hours_fill_ge50": 229,
+   "daylight_hours_fill_100": 77,
+   "frac_daylight_fill_ge50": 0.0132,
+   "filled_days": 8,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 2,
+   "anomalous": false
+  },
+  "Texas_Garland": {
+   "daylight_hours": 17313,
+   "daylight_hours_fill_ge50": 215,
+   "daylight_hours_fill_100": 74,
+   "frac_daylight_fill_ge50": 0.01242,
+   "filled_days": 9,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 2,
+   "anomalous": false
+  },
+  "Texas_GrandPrairie": {
+   "daylight_hours": 17328,
+   "daylight_hours_fill_ge50": 206,
+   "daylight_hours_fill_100": 72,
+   "frac_daylight_fill_ge50": 0.01189,
+   "filled_days": 10,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 2,
+   "anomalous": false
+  },
+  "Texas_Houston": {
+   "daylight_hours": 17535,
+   "daylight_hours_fill_ge50": 262,
+   "daylight_hours_fill_100": 67,
+   "frac_daylight_fill_ge50": 0.01494,
+   "filled_days": 10,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Texas_Irving": {
+   "daylight_hours": 17325,
+   "daylight_hours_fill_ge50": 210,
+   "daylight_hours_fill_100": 73,
+   "frac_daylight_fill_ge50": 0.01212,
+   "filled_days": 7,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 2,
+   "anomalous": false
+  },
+  "Texas_Laredo": {
+   "daylight_hours": 17700,
+   "daylight_hours_fill_ge50": 286,
+   "daylight_hours_fill_100": 74,
+   "frac_daylight_fill_ge50": 0.01616,
+   "filled_days": 7,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "Texas_Lubbock": {
+   "daylight_hours": 17783,
+   "daylight_hours_fill_ge50": 224,
+   "daylight_hours_fill_100": 66,
+   "frac_daylight_fill_ge50": 0.0126,
+   "filled_days": 7,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 2,
+   "anomalous": false
+  },
+  "Texas_Plano": {
+   "daylight_hours": 17324,
+   "daylight_hours_fill_ge50": 206,
+   "daylight_hours_fill_100": 78,
+   "frac_daylight_fill_ge50": 0.01189,
+   "filled_days": 7,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Texas_SanAntonio": {
+   "daylight_hours": 17566,
+   "daylight_hours_fill_ge50": 314,
+   "daylight_hours_fill_100": 77,
+   "frac_daylight_fill_ge50": 0.01788,
+   "filled_days": 8,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Utah_SaltLakeCity": {
+   "daylight_hours": 17434,
+   "daylight_hours_fill_ge50": 414,
+   "daylight_hours_fill_100": 93,
+   "frac_daylight_fill_ge50": 0.02375,
+   "filled_days": 7,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "Virginia_Chesapeake": {
+   "daylight_hours": 17315,
+   "daylight_hours_fill_ge50": 163,
+   "daylight_hours_fill_100": 61,
+   "frac_daylight_fill_ge50": 0.00941,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 2,
+   "anomalous": false
+  },
+  "Virginia_NewportNews": {
+   "daylight_hours": 17297,
+   "daylight_hours_fill_ge50": 155,
+   "daylight_hours_fill_100": 59,
+   "frac_daylight_fill_ge50": 0.00896,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 2,
+   "anomalous": false
+  },
+  "Virginia_Norfolk": {
+   "daylight_hours": 17316,
+   "daylight_hours_fill_ge50": 163,
+   "daylight_hours_fill_100": 58,
+   "frac_daylight_fill_ge50": 0.00941,
+   "filled_days": 7,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 2,
+   "anomalous": false
+  },
+  "Virginia_Richmond": {
+   "daylight_hours": 17226,
+   "daylight_hours_fill_ge50": 162,
+   "daylight_hours_fill_100": 63,
+   "frac_daylight_fill_ge50": 0.0094,
+   "filled_days": 6,
+   "top_anomalous_days_listed": 13,
+   "of_which_filled": 3,
+   "anomalous": false
+  },
+  "Virginia_VirginiaBeach": {
+   "daylight_hours": 17297,
+   "daylight_hours_fill_ge50": 141,
+   "daylight_hours_fill_100": 55,
+   "frac_daylight_fill_ge50": 0.00815,
+   "filled_days": 7,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 1,
+   "anomalous": false
+  },
+  "Washington_Seattle": {
+   "daylight_hours": 16144,
+   "daylight_hours_fill_ge50": 613,
+   "daylight_hours_fill_100": 76,
+   "frac_daylight_fill_ge50": 0.03797,
+   "filled_days": 15,
+   "top_anomalous_days_listed": 24,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "Washington_Spokane": {
+   "daylight_hours": 16328,
+   "daylight_hours_fill_ge50": 860,
+   "daylight_hours_fill_100": 110,
+   "frac_daylight_fill_ge50": 0.05267,
+   "filled_days": 15,
+   "top_anomalous_days_listed": 16,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "Washington_Tacoma": {
+   "daylight_hours": 16228,
+   "daylight_hours_fill_ge50": 613,
+   "daylight_hours_fill_100": 66,
+   "frac_daylight_fill_ge50": 0.03777,
+   "filled_days": 16,
+   "top_anomalous_days_listed": 14,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "Washington_Vancouver": {
+   "daylight_hours": 16530,
+   "daylight_hours_fill_ge50": 617,
+   "daylight_hours_fill_100": 103,
+   "frac_daylight_fill_ge50": 0.03733,
+   "filled_days": 18,
+   "top_anomalous_days_listed": 15,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "Wisconsin_Madison": {
+   "daylight_hours": 16929,
+   "daylight_hours_fill_ge50": 297,
+   "daylight_hours_fill_100": 70,
+   "frac_daylight_fill_ge50": 0.01754,
+   "filled_days": 8,
+   "top_anomalous_days_listed": 25,
+   "of_which_filled": 0,
+   "anomalous": false
+  },
+  "Wisconsin_Milwaukee": {
+   "daylight_hours": 16926,
+   "daylight_hours_fill_ge50": 321,
+   "daylight_hours_fill_100": 95,
+   "frac_daylight_fill_ge50": 0.01896,
+   "filled_days": 13,
+   "top_anomalous_days_listed": 12,
+   "of_which_filled": 1,
+   "anomalous": false
+  }
+ }
+}

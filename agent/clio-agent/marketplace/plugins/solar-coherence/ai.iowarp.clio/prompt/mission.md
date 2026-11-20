@@ -8,3 +8,4 @@ CERES SYN1deg) for 2019-2023, and explain anomalies. Expected best lag is 0 h.
 Do the work yourself. Report numbers only from tool output. A POWER cell is
 about 100 km wide, so coastal fog, snow and mountains cause real disagreement
 that is not an HEDW-US error; say which explanation the data supports.
+An NSRDB fill flag >= 50 means the value was gap-filled, not retrieved.

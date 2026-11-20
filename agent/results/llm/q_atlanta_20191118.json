@@ -1,0 +1,22 @@
+{
+ "question": "Is the NSRDB irradiance for Georgia_Atlanta on 2019-11-18 a real measurement of the sky? Compare with NASA POWER and explain.",
+ "agent": "hedw/solar-coherence",
+ "tools": [
+  {
+   "tool": "hedw_report",
+   "ok": true
+  },
+  {
+   "tool": "hedw_day",
+   "ok": true
+  }
+ ],
+ "permissions": [],
+ "session_id": "sess_00970b3b3d5c",
+ "stop_reason": "end_turn",
+ "status": "completed",
+ "elapsed_s": 8.2,
+ "answer": "**Short answer: No \u2014 on 2019-11-18 the NSRDB GHI for Georgia_Atlanta is not a satellite retrieval of the actual sky. Every one of the 24 hours carries `nsrdb_fill_pct = 100`, which means 100% gap-filled (no retrieval); the values are model-filled estimates, not measured irradiance.** ([hedw_day](call:sess_00970b3b3d5c/call_250663594209) output above)\n\n**What the day looks like** (all UTC, from `hedw_day`):\n\n- Night hours (00\u201311, 22\u201323): NSRDB and POWER both 0 W/m\u00b2 \u2014 consistent with darkness, solar zenith 99\u2013165\u00b0.\n- Daylight hours track each other closely: 13:00 \u2192 120 vs 181 W/m\u00b2; 14:00 \u2192 326 vs 359; 15:00 \u2192 527 vs 509; 16:00 \u2192 617 vs 608; 17:00 \u2192 634 vs 639; 18:00 \u2192 585 vs 590.\n- Daily totals: NSRDB **3559 Wh/m\u00b2** vs POWER all-sky **3844 Wh/m\u00b2** vs POWER clear-sky 3938 Wh/m\u00b2 \u2014 NSRDB runs about **7% below** POWER for the day, and below clear-sky, so both datasets indicate a mostly cloudy day (NSRDB cloud type 3 through midday).\n\n**Comparison with NASA POWER and interpretation:**\n\n- Despite being entirely gap-filled, the NSRDB day still agrees well with POWER's independent 1\u00b0 CERES SYN1deg estimate (hourly correlation is strong day-by-day; city-wide `r_hourly = 0.9806`, `bias_pct = 1.58`, best lag 0 h over 2019\u20132023). So the fill is physically plausible \u2014 it is a good *estimate*, just not a *measurement*.\n- The ~7% daily deficit of NSRDB vs POWER is ordinary given the ~100 km POWER cell vs the 4 km NSRDB pixel: sub-cell cloud variability (Atlanta metro convection/stratus on a November day) can easily produce that, and it is **not** evidence of an HEDW-US error. This day does not appear among Georgia_Atlanta's top anomalous days (those are e.g. 2019-02-22 with NSRDB 975 vs POWER 2349 Wh/m\u00b2), so 2019-11-18 is a routine, well-behaved cloudy day.\n- The one caveat that matters for provenance: because `fill >= 50` on all 24 hours, you should not cite these numbers as observed radiation \u2014 they are gap-filled. The close match to POWER says the gap-fill was accurate, not that the sky was measured.\n\nSources: [hedw_day Georgia_Atlanta 2019-11-18](call:sess_00970b3b3d5c/call_250663594209) \u00b7 [hedw_report Georgia_Atlanta](call:sess_00970b3b3d5c/call_c7446dcd6ea3) \u2014 both authoritative run outputs, no shell cross-check needed.",
+ "tokens_input": 16537,
+ "tokens_output": 1259
+}

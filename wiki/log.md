@@ -105,3 +105,10 @@
 - **What:** merge commit `9b44e0f3e` keeps both sides and applies `PathPolicy` to `csv::` sources. It adds a refusal test (a CSV under `.ssh` gives ParseOmni −2).
 - **Result:** `ctest -R '^cae_'` passes 46/46 and the PR is mergeable again.
 - **Side effect:** the ctest run killed the clio-agent runtime again, so the server was restarted ([workflow_aurora_clio.md](workflow_aurora_clio.md)).
+
+## [2026-11-20] test | NSRDB gap-fill audit (fill_flag, 745 city-years)
+- **Download:** `fetch_all.py --only flags` fetched 745/750 in 1,010 s (Anchorage has no data). Analysis: `agent/fillflags.py`. Results: `fillflags.json`, `fillflag_days.csv` and `fill_episodes.txt` in `run_20261120T143434Z_local_p16`.
+- **Routine filling:** a median of 1.34 % of daylight hours (clear-sky GHI > 200) have fill ≥ 50.
+- **Episodes:** 2019-11-17 to 20 and 2020-02-13 to 14 were filled in the same 109 cities, all east of about −113°. None of the 40 western cities is affected.
+- **Enrichment:** filled days are 4.28 % of the listed anomalous days against a 0.615 % base rate. Flagged cities have a median of 3.73 % filled hours against 1.31 % for the rest.
+- **Agent:** clio-agent plugin 0.2.0: `hedw_day` now shows the fill flag and cloud type. On Atlanta 2019-11-18 it correctly said the values were gap-filled, all numbers verified, with one interpretive error ("mostly cloudy" on a clear day).

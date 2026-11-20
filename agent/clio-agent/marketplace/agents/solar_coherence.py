@@ -7,7 +7,7 @@ class SolarCoherence(Agent):
     """One agent, no delegation: hedw_report for run results, hedw_day for hourly data, shell for PBS."""
 
     id = "solar-coherence"
-    version = "0.1.0"
+    version = "0.2.0"
     name = "HEDW-US solar coherence"
     role = (
         "a solar-resource data analyst checking the HEDW-US irradiance (NSRDB GHI) "

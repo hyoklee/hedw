@@ -1,0 +1,36 @@
+installed hedw (agent-plugins): 1 plugins, 1 agents
+trusted hedw: 1 plugins, 1 agents
+INFO:     Started server process [95147]
+INFO:     Waiting for application startup.
+WARNING | ⚑ BOOT mark=lifespan_started at=5.484
+WARNING | codex fence unusable on this host reason=codex_linux_fence_unavailable detail=codex exited 1: bwrap: Creating new namespace failed: nesting depth or /proc/sys/user/max_*_namespaces exceeded (ENOSPC)
+WARNING | ⚑ BOOT mark=serving at=8.833
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8100 (Press CTRL+C to quit)
+WARNING | ⚑ BOOT step=marketplace seconds=0.223 start=8.838 thread=MainThread outcome=ok
+/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/fastapi/openapi/utils.py:295: UserWarning: Duplicate Operation ID h5grove_root_v1_workspaces__wid__h5grove__head for function h5grove_root at /home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/gact/routes/workspace_h5grove.py
+  warnings.warn(message, stacklevel=1)
+WARNING | ⚑ BOOT step=openapi_schema seconds=0.642 start=8.839 thread=MainThread outcome=ok
+WARNING | ⚑ BOOT step=protected_execution seconds=0.568 start=8.924 thread=MainThread outcome=ok
+WARNING | ⚑ BOOT step=orphans seconds=1.146 start=8.833 thread=MainThread outcome=ok
+INFO:     127.0.0.1:51076 - "PATCH /v1/session-defaults HTTP/1.1" 503 Service Unavailable
+WARNING | ⚑ BOOT step=task_history_restore seconds=0.002 start=10.700 thread=asyncio_4 outcome=ok
+WARNING | ⚑ BOOT step=interrupted_sessions seconds=0.000 start=10.723 thread=asyncio_4 outcome=ok
+WARNING | ⚑ BOOT step=interaction_times seconds=0.000 start=10.723 thread=asyncio_4 outcome=ok
+WARNING | ⚑ BOOT step=clio_core_and_store seconds=1.231 start=9.492 thread=MainThread outcome=ok
+INFO:     127.0.0.1:49186 - "PATCH /v1/session-defaults HTTP/1.1" 503 Service Unavailable
+WARNING | ⚑ BOOT step=obligations_held seconds=0.015 start=13.996 thread=MainThread outcome=ok
+WARNING | ⚑ BOOT mark=task_runtime_ready at=14.011
+WARNING | ⚑ BOOT step=obligations seconds=0.006 start=14.011 thread=MainThread outcome=ok
+WARNING | ⚑ BOOT step=agent_construct seconds=0.578 start=13.487 thread=MainThread outcome=ok
+WARNING | ⚑ BOOT step=artifact_registry seconds=0.016 start=14.067 thread=MainThread outcome=ok
+WARNING | ⚑ BOOT mark=agent_ready at=14.086
+[clio-agent-gact] agent ready.
+WARNING | ⚑ BOOT step=cas_gc seconds=0.001 start=14.090 thread=MainThread outcome=ok
+WARNING | ⚑ BOOT step=first_doctor_pass seconds=0.340 start=13.801 thread=MainThread outcome=ok
+INFO:     127.0.0.1:49198 - "PATCH /v1/session-defaults HTTP/1.1" 200 OK
+clio-agent 0.9.7.x on port 8100, default agent hedw/solar-coherence
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [95147]

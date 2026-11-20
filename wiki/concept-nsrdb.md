@@ -23,3 +23,14 @@
 - **Still to confirm against data:** whether the released files show this, and how big it looks against NASA POWER. That requires `data.zip` and POWER's hour-labelling convention.
 
 **Related:** [concept-ghi.md](concept-ghi.md), [concept-solar-coherence.md](concept-solar-coherence.md), [concept-data-access.md](concept-data-access.md)
+
+
+## Gap filling (`fill_flag`), measured 2026-11-20
+
+- **What the flag looks like:**
+  - The hourly GOES aggregated v4 product returns `Fill Flag` values from 0 to 100 in steps of about 7. We read it as the percentage of the hour's sub-hourly samples that NSRDB gap-filled; this is an inference.
+  - The file header lists the 30-min codes: 1 Missing Image, 2 Low Irradiance, 3 Exceeds Clearsky, 4 Missing Cloud Properties, 5 Rayleigh Violation.
+- **Routine filling:** across 149 target cities in 2019–2023, a median of 1.34 % of daylight hours (clear-sky GHI > 200 W/m²) are at least half filled. The highest is North Las Vegas at 8.04 %.
+- **Domain-wide fills:** on 2019-11-17 to 20 and 2020-02-13 to 14, every target city east of about −113° (109 cities) is filled for most of the day, and no western city is.
+  - On clear days the filled GHI is far too low. Birmingham on 2020-02-14 has a flat 25–51 W/m² against a POWER clear sky of up to 763.
+- **Effect on HEDW-US:** HEDW-US does not carry `Fill Flag`, so these values look like observations. Details are in [agent_solar_coherence.md](agent_solar_coherence.md#gap-filling-across-all-cities-fillflagsjson-fill_episodestxt).

@@ -13,7 +13,7 @@ HEDW-US's `solar_GHI` is the NSRDB GOES aggregated v4.0.0 GHI requested by the a
 | Data | 150 target cities: 745 NSRDB city-years (Anchorage has no GOES coverage) and 150 POWER 5-year hourly series | `agent/fetch/fetch_all.py` |
 | Detector | Per city: correlation, lag scan, bias, RMSE, physics checks, monthly bias, anomalous days (robust z of the daily log ratio) | `agent/coherence.py` |
 | Aggregation | Robust z across cities, flags, `cities.csv`, `city_years.csv`, `anomalous_days.csv`, `summary.json`, figures | `agent/aggregate.py` |
-| Gap-fill audit | NSRDB `fill_flag` / `cloud_type` vs the anomalies | `agent/fillflags.py` |
+| Gap-fill audit | NSRDB `fill_flag` / `cloud_type` for 745 city-years vs the anomalies | `agent/fillflags.py` |
 | Aurora | `qsub` to `debug`, project `IOWarp`: 1 node, `mpiexec` N ranks over the city manifest, then aggregation | `agent/pbs/{submit.sh,coherence.pbs,worker.sh}` |
 | Login node | The same worker run as P local processes | `agent/run_local.sh` |
 | clio-agent | Plugin agent `hedw/solar-coherence` (clio-agent 0.9.7.1, Mistral Large 4 on ALCF Minerva) with tools `hedw_report` (run digest or one city) and `hedw_day` (hourly NSRDB vs POWER for one city-day) | `agent/clio-agent/` |
@@ -102,9 +102,21 @@ These are representativeness differences between a 4 km and a 100 km product. Th
 - **Effect on HEDW-US:** the regional filled day passes into HEDW-US's `solar_GHI` unflagged. The dataset keeps no fill flag, so pristine cities with "zero missing values" can still carry imputed solar values. The agent flags these days for removal or masking in solar-driven load models.
 - **NSRDB reads high:** this mostly happens in snow events, for example 2021-02-17 (Winter Storm Uri) in 15 cities and 2021-02-10 in 11. This fits the known difficulty of telling snow from cloud in satellite retrievals. For Dallas on 2021-02-17, NSRDB has 2,623 Wh/m² against POWER's 719.
 
-### Gap filling across all cities
+### Gap filling across all cities (`fillflags.json`, `fill_episodes.txt`)
 
-*Pending: the `fill_flag` download for all 745 city-years is running; results are filed in `fillflags.json`.*
+A second NSRDB pass downloaded `ghi, clearsky_ghi, cloud_type, fill_flag` for all 745 city-years (1,010 s). `agent/fillflags.py` counts daylight hours (clear-sky GHI > 200 W/m², which excludes the low-sun hours) whose fill flag is ≥ 50.
+
+- **Routine filling:** a median of **1.34 %** of daylight hours per city are mostly gap-filled. The range is 0.65 % to 8.04 %, the highest in North Las Vegas.
+- **Two domain-wide episodes:**
+  - The episodes are **2019-11-17 to 2019-11-20** and **2020-02-13 to 2020-02-14**.
+  - On each of these six days, at least half the daylight hours are filled in **the same 109 cities**: every target city east of about −113° longitude, from −112.2 to −71.1.
+  - None of the 40 cities at −115° or further west is affected.
+  - The whole eastern satellite side of NSRDB was therefore filled: no retrieval, apparently missing GOES-East input (cause not verified).
+  - The 31 cities with NSRDB under half of POWER on 2020-02-14 are the clear-sky part of this episode. On cloudy days the filled values happen to land closer to POWER.
+- **Anomalous days are enriched:** 4.28 % of the listed anomalous days (150 of 3,508) are filled days, against a base rate of 0.615 % of all days. That is about 7× chance.
+- **Flagged cities fill more:** their median filled share of daylight hours is 3.73 %, against 1.31 % for the other cities, so part of their low correlation comes from NSRDB's own gaps.
+
+**Consequence for HEDW-US:** the six filled days, about 1.3 % of daylight hours, and longer gaps in the West pass into `solar_GHI` with no flag, because the HEDW-US columns do not include `Fill Flag`. Solar features such as `btm_solar_proxy` and `solar_volatility_3h` inherit them. Users training solar-driven load models should mask these days. The list is in `fillflag_days.csv`, and the agent's `hedw_day` tool now shows the fill flag per hour.
 
 ## LLM steps and their reliability
 
@@ -116,6 +128,11 @@ These are representativeness differences between a 4 km and a 100 km product. Th
   - median 2.2 s, max 3.5 s;
   - median 16,066 input tokens.
 - **Open question (Dallas, 2021-02-17):** `agent/results/llm/q_dallas_20210217.json` took 20.6 s and 5 tool calls (1 `hedw_report` and 4 `hedw_day`; the agent fetched the neighbouring days itself). Every number it quoted was checked against the raw files: 4,923/3,645, 3,920/2,608, 2,623/719 and 3,806/2,166 Wh/m². Its explanation, resolution plus snow, is a reasonable hypothesis but was presented with more confidence than the data supports.
+- **Gap-fill question (plugin 0.2.0, Atlanta 2019-11-18):** `agent/results/llm/q_atlanta_20191118.json` took 8.2 s and 2 tool calls. The agent answered "not a measurement: every hour has fill 100", which is correct, and all of its numbers check out:
+  - daily totals of 3,559 / 3,844 / 3,938 Wh/m²;
+  - the hourly pairs;
+  - r_hourly 0.9806 and bias +1.58 %.
+  One interpretive error: it called the day "mostly cloudy", although POWER all-sky is 97.6 % of clear-sky (a clear day), and the cloud type is 0 at 16–17 UTC.
 - **Operations:** running clio-core's ctest on the same login node killed the agent's embedded runtime, because `cr_pre_test_cleanup` and `cr_post_test_cleanup` `kill -9` port 9413 and every `clio_run`. The server answered 503 with `ClioCoreRuntimeLostError` until it was restarted. See [workflow_aurora_clio.md](workflow_aurora_clio.md).
 
 ### clio-coder interpretation (`interpretation.md`, 16 s)

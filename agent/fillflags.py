@@ -10,7 +10,7 @@ Fill Flag in the hourly GOES v4 product takes values 0..100 in steps of ~7
 samples that NSRDB gap-filled (inference, not documented in the file header,
 whose legend lists the 30-min codes 1-5: Missing Image, Low Irradiance,
 Exceeds Clearsky, Missing Cloud Properties, Rayleigh Violation).
-A "filled day" here: >= 50 % of daylight hours (clearsky_ghi > 0) have fill_flag >= 50.
+A "filled day" here: >= 50 % of daylight hours (clearsky_ghi > 200 W/m2) have fill_flag >= 50.
 
 usage: fillflags.py <run_dir>
 """
@@ -45,7 +45,7 @@ def main(run):
         d = load(name)
         if d is None:
             continue
-        day = d["Clearsky GHI"] > 0
+        day = d["Clearsky GHI"] > 200   # exclude low-sun hours (often flagged "Low Irradiance")
         ff = d["Fill Flag"]
         g = pd.DataFrame({"day": day, "filled": day & (ff >= 50), "full": day & (ff >= 100)})
         daily = g.resample("1D").sum()
