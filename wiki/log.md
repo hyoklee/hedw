@@ -112,3 +112,15 @@
 - **Episodes:** 2019-11-17 to 20 and 2020-02-13 to 14 were filled in the same 109 cities, all east of about −113°. None of the 40 western cities is affected.
 - **Enrichment:** filled days are 4.28 % of the listed anomalous days against a 0.615 % base rate. Flagged cities have a median of 3.73 % filled hours against 1.31 % for the rest.
 - **Agent:** clio-agent plugin 0.2.0: `hedw_day` now shows the fill flag and cloud type. On Atlanta 2019-11-18 it correctly said the values were gap-filled, all numbers verified, with one interpretive error ("mostly cloudy" on a clear day).
+
+## [2026-11-20] test | SURFRAD ground truth for the coherence check
+- **Question:** check SURFRAD stations for the 17 flagged cities.
+- **Answer:** none is close. The nearest stations are Hanford CA and Desert Rock NV at 238–454 km for California, Goodwin Creek at ~1,300 km for South Florida, and ~4,000 km for Honolulu. None is in a comparable coastal climate.
+- **Alternative test:** NSRDB and POWER against the ground at the 7 SURFRAD stations, 2019–2023. The 1-min data was reduced to hourly while streaming (`agent/ground/fetch_ground.py`); NSRDB, flags and POWER were fetched at the station coordinates; `agent/ground/validate.py` did the comparison. Results: `agent/results/ground_20261120_surfrad/`.
+  - NSRDB is closer than POWER at all 7: median daily RMSE 9.1 % against 11.8 %, hourly 62.1 against 78.7 W/m².
+  - Routine filled hours are fine (36.6 against 41.2 W/m²).
+  - The episode fill days are wrong in NSRDB: median absolute daily error 28.2 % against 10.2 % for POWER, hourly RMSE 107.5 against 63.1 W/m².
+- **Operations:**
+  - GML refused TLS from this node after about 12,000 files at 8 workers. The SOLRAD fetch now waits for GML and resumes with 3 workers.
+  - NSRDB returned 3 transient HTTP 400s for station-years; they succeeded on retry.
+- **Pages:** [source-noaa-surfrad-solrad.md](source-noaa-surfrad-solrad.md), [agent_solar_coherence.md](agent_solar_coherence.md#ground-truth-surfrad-and-solrad).

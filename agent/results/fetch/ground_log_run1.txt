@@ -1,0 +1,7 @@
+15:17:55 SURFRAD_Bondville_IL skip
+15:17:55 SURFRAD_TableMountain_CO {'ok': 1800, 'error': 24, 'missing': 2} in 109 s
+15:19:44 SURFRAD_DesertRock_NV {'ok': 1800, 'missing': 2, 'error': 24} in 117 s
+15:21:41 SURFRAD_FortPeck_MT {'ok': 1800, 'error': 24, 'missing': 2} in 116 s
+15:23:37 SURFRAD_GoodwinCreek_MS {'ok': 1800, 'error': 24, 'missing': 2} in 115 s
+15:25:33 SURFRAD_PennState_PA {'ok': 1796, 'missing': 6, 'error': 24} in 116 s
+15:27:29 SURFRAD_SiouxFalls_SD {'ok': 1801, 'error': 24, 'missing': 1} in 118 s

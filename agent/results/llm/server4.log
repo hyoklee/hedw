@@ -58,3 +58,9 @@ WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 
 WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
 WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
 WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ RESIDENT-LEDGER idle_ttl session=sess_00970b3b3d5c bytes=222740
+WARNING | ⚑ RESIDENT-LEDGER swept released=1
+WARNING | ⚑ RESIDENT-LEDGER arc_released session=sess_00970b3b3d5c segments=16 inflight_pending=0
+WARNING | ⚑ RESIDENT-LEDGER task_tree_released session=sess_00970b3b3d5c dropped=True
+WARNING | ⚑ RESIDENT-LEDGER model_clients_released session=sess_00970b3b3d5c
+WARNING | ⚑ TOOLS workspace_fleet_reaped root=/home/hyoklee/.local/share/clio/clio-agent-097/cwd reason=idle_ttl resident=0

@@ -11,6 +11,7 @@
 | [source-paper-hedw-us.md](source-paper-hedw-us.md) | Sleiman & Bo, *IEEE Data Descriptions* 3:859–867 (2026). Construction, 34 columns, quality audit, benchmarks, solar timing caveats |
 | [source-upstream-code.md](source-upstream-code.md) | Authors' MIT pipeline (commit e15d054): city coordinates, exact NSRDB request; NREL host now dead |
 | [source-ieee-dataport-fpqq-nr70.md](source-ieee-dataport-fpqq-nr70.md) | DataPort record: 141 cities × 43,824 h × 22 columns, `data.zip` 3.18 GB, CC BY 4.0, login required |
+| [source-noaa-surfrad-solrad.md](source-noaa-surfrad-solrad.md) | NOAA GML SURFRAD (7) and SOLRAD (7) ground pyranometers, 2019–2023; none within 238 km of a flagged city; GML throttles bulk downloads |
 | [source-nasa-power.md](source-nasa-power.md) | POWER Hourly API v2.10.5: `ALLSKY_SFC_SW_DWN` in Wh/m², UTC, CERES SYN1deg |
 
 ## Concepts
@@ -32,7 +33,7 @@
 
 | Page | Summary |
 |---|---|
-| [agent_solar_coherence.md](agent_solar_coherence.md) | NSRDB (HEDW-US solar) vs NASA POWER, 149 cities, 2019–2023: lag 0 h in all 745 city-years, median daily r 0.977; 17 coastal or mountain-edge cities flagged; NSRDB gap-filled the whole eastern domain (109 cities) on 6 days, passed into HEDW-US unflagged; clio-agent 10/10, clio-coder prose errors |
+| [agent_solar_coherence.md](agent_solar_coherence.md) | NSRDB (HEDW-US solar) vs NASA POWER, 149 cities, 2019–2023: lag 0 h in all 745 city-years, median daily r 0.977; 17 coastal or mountain-edge cities flagged; NSRDB gap-filled the whole eastern domain (109 cities) on 6 days, passed into HEDW-US unflagged; clio-agent 10/10, clio-coder prose errors; at 7 SURFRAD sites NSRDB beats POWER (daily RMSE 9.1 % vs 11.8 %) but is badly wrong on the filled days (28.2 % vs 10.2 %) |
 
 ## Workflow studies
 

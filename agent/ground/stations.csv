@@ -1,0 +1,15 @@
+name,lat,lon,network,code,dir,elev_m
+SURFRAD_Bondville_IL,40.05,-88.37,surfrad,bon,surfrad/Bondville_IL,213
+SURFRAD_TableMountain_CO,40.125,-105.237,surfrad,tbl,surfrad/Boulder_CO,1689
+SURFRAD_DesertRock_NV,36.624,-116.019,surfrad,dra,surfrad/Desert_Rock_NV,1007
+SURFRAD_FortPeck_MT,48.31,-105.10,surfrad,fpk,surfrad/Fort_Peck_MT,634
+SURFRAD_GoodwinCreek_MS,34.25,-89.87,surfrad,gwn,surfrad/Goodwin_Creek_MS,98
+SURFRAD_PennState_PA,40.72,-77.93,surfrad,psu,surfrad/Penn_State_PA,376
+SURFRAD_SiouxFalls_SD,43.73,-96.62,surfrad,sxf,surfrad/Sioux_Falls_SD,473
+SOLRAD_Albuquerque_NM,35.03796,-106.62211,solrad,abq,solrad/abq,1617
+SOLRAD_Bismarck_ND,46.77179,-100.75955,solrad,bis,solrad/bis,503
+SOLRAD_Hanford_CA,36.31,-119.63,solrad,hnx,solrad/hnx,73
+SOLRAD_Madison_WI,43.07250,-89.41133,solrad,msn,solrad/msn,271
+SOLRAD_Seattle_WA,47.68685,-122.25667,solrad,sea,solrad/sea,20
+SOLRAD_SaltLakeCity_UT,40.77220,-111.95495,solrad,slc,solrad/slc,1288
+SOLRAD_Sterling_VA,38.97203,-77.48690,solrad,ste,solrad/ste,85

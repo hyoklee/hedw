@@ -1,0 +1,8 @@
+GML back at 15:31:27
+15:31:27 SURFRAD_Bondville_IL skip
+15:31:27 SURFRAD_TableMountain_CO 26 day(s) requested: {'ok': 24, 'missing': 2} in 2 s
+15:31:29 SURFRAD_DesertRock_NV 26 day(s) requested: {'missing': 2, 'ok': 24} in 2 s
+15:31:31 SURFRAD_FortPeck_MT 26 day(s) requested: {'ok': 24, 'missing': 2} in 2 s
+15:31:33 SURFRAD_GoodwinCreek_MS 26 day(s) requested: {'ok': 24, 'missing': 2} in 2 s
+15:31:34 SURFRAD_PennState_PA 30 day(s) requested: {'missing': 6, 'ok': 24} in 2 s
+15:31:36 SURFRAD_SiouxFalls_SD 25 day(s) requested: {'ok': 24, 'missing': 1} in 2 s

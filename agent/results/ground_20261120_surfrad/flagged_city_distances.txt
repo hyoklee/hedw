@@ -1,0 +1,18 @@
+flagged city                 nearest station                  km
+California_ChulaVista        SURFRAD_DesertRock_NV           454
+California_Fontana           SURFRAD_DesertRock_NV           309
+California_Glendale          SOLRAD_Hanford_CA               271
+California_LongBeach         SOLRAD_Hanford_CA               311
+California_LosAngeles        SOLRAD_Hanford_CA               281
+California_MorenoValley      SURFRAD_DesertRock_NV           318
+California_Oakland           SOLRAD_Hanford_CA               287
+California_Ontario           SOLRAD_Hanford_CA               308
+California_Oxnard            SOLRAD_Hanford_CA               238
+California_RanchoCucamonga   SOLRAD_Hanford_CA               307
+California_SanBernardino     SURFRAD_DesertRock_NV           303
+California_SanDiego          SURFRAD_DesertRock_NV           447
+Florida_FortLauderdale       SURFRAD_GoodwinCreek_MS        1299
+Florida_Hialeah              SURFRAD_GoodwinCreek_MS        1311
+Florida_Miami                SURFRAD_GoodwinCreek_MS        1325
+Florida_PembrokePines        SURFRAD_GoodwinCreek_MS        1298
+Hawaii_Honolulu              SOLRAD_Hanford_CA              4047

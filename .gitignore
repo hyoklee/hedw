@@ -18,3 +18,5 @@ raw/upstream/
 raw/nsrdb/*.csv
 raw/power/*
 !raw/power/sample_hourly_stlouis_20190701.json
+raw/nsrdb/flags/
+raw/ground/

@@ -118,6 +118,68 @@ A second NSRDB pass downloaded `ghi, clearsky_ghi, cloud_type, fill_flag` for al
 
 **Consequence for HEDW-US:** the six filled days, about 1.3 % of daylight hours, and longer gaps in the West pass into `solar_GHI` with no flag, because the HEDW-US columns do not include `Fill Flag`. Solar features such as `btm_solar_proxy` and `solar_volatility_3h` inherit them. Users training solar-driven load models should mask these days. The list is in `fillflag_days.csv`, and the agent's `hedw_day` tool now shows the fill flag per hour.
 
+## Ground truth: SURFRAD and SOLRAD
+
+**Can the flagged cities be checked against ground stations?** Not directly. The nearest station to any flagged city is 238 km away:
+- Southern California: Hanford or Desert Rock, 238–454 km.
+- South Florida: Goodwin Creek, about 1,300 km.
+- Honolulu: about 4,000 km.
+
+None is in a comparable coastal climate ([source-noaa-surfrad-solrad.md](source-noaa-surfrad-solrad.md)).
+
+**What the stations can test:**
+1. Which product is closer to the ground at the station sites: NSRDB, the HEDW-US source, or POWER.
+2. Whether NSRDB's gap-filled values are wrong.
+
+Both products were fetched for the exact station coordinates. The ground value is the hourly mean of 1-min QC-0 data, using the component sum where available. Daylight means zenith < 85° with all three series valid.
+
+**Run:** `agent/results/ground_20261120_surfrad/`, with the **7 SURFRAD stations**, 2019–2023. The 7 SOLRAD stations are waiting on GML throttling and will be added to this table when they arrive.
+
+| Station | Daily r NSRDB | Daily r POWER | Daily MBE % NSRDB | Daily MBE % POWER | Daily RMSE % NSRDB | Daily RMSE % POWER | Hourly RMSE W/m² NSRDB | Hourly RMSE W/m² POWER | Days NSRDB closer |
+|---|---|---|---|---|---|---|---|---|---|
+| Bondville_IL | 0.9926 | 0.9709 | 1.37 | -2.13 | 7.3 | 14.1 | 53.0 | 88.6 | 0.73 |
+| TableMountain_CO | 0.9738 | 0.9337 | 1.02 | -0.2 | 11.0 | 15.9 | 91.6 | 117.5 | 0.627 |
+| DesertRock_NV | 0.9938 | 0.9843 | -0.01 | -1.74 | 4.3 | 7.1 | 52.3 | 72.9 | 0.736 |
+| FortPeck_MT | 0.9864 | 0.9801 | -1.01 | -0.75 | 10.3 | 11.8 | 65.1 | 77.2 | 0.567 |
+| GoodwinCreek_MS | 0.9905 | 0.9821 | 3.16 | 0.98 | 7.9 | 9.6 | 62.1 | 78.7 | 0.595 |
+| PennState_PA | 0.9893 | 0.9764 | 1.57 | 1.29 | 9.1 | 13.3 | 62.5 | 87.7 | 0.632 |
+| SiouxFalls_SD | 0.9873 | 0.9811 | 1.23 | 1.02 | 9.1 | 10.7 | 59.5 | 72.2 | 0.568 |
+
+![RMSE by station](../agent/results/ground_20261120_surfrad/figures/rmse_by_station.png)
+
+**Findings:**
+
+1. **NSRDB is closer to the ground than POWER at all 7 stations.**
+   - Median daily RMSE is 9.1 % for NSRDB against 11.8 % for POWER.
+   - Median hourly RMSE is 62.1 against 78.7 W/m².
+   - Median daily r is 0.9893 against 0.9801.
+   - NSRDB is closer on a median 63 % of days.
+   - The largest POWER penalty is at Table Mountain, on the Front Range edge (15.9 % against 11.0 %), and at Bondville (14.1 % against 7.3 %).
+
+   In this comparison POWER is the noisier reference. That supports reading the 17 flagged cities as POWER representativeness (1° cells), not an HEDW-US defect, though it is not proof for those cities.
+
+2. **Routine NSRDB gap filling is harmless.**
+   - Filled hours outside the episodes (9064 station-hours): NSRDB RMSE 36.6 W/m² against POWER 41.2 on the same hours, with a median NSRDB MBE of -4.0 %.
+   - Retrieved hours: NSRDB 63.0 against POWER 80.4.
+
+3. **The domain-wide fill episodes are genuinely wrong in NSRDB, and so in HEDW-US.**
+   - On the six episode days, 36 station-days were filled (all SURFRAD stations from -105.237 to -77.93 longitude). Desert Rock at −116.0° was not filled, consistent with the −113° split.
+   - Median absolute daily error is **28.2 % for NSRDB against 10.2 % for POWER**.
+   - Hourly RMSE on the episode hours (322 station-hours) is 107.5 W/m² for NSRDB against 63.1 for POWER, with a median NSRDB MBE of -13.0 %.
+   - The errors go both ways:
+
+     | Station | Day | Measured (Wh/m²) | NSRDB | POWER |
+     |---|---|---|---|---|
+     | Goodwin Creek | 2020-02-14 (clear) | 4,992 | 2,058 | 5,009 |
+     | Sioux Falls | 2020-02-14 | 3,859 | 1,523 | 3,707 |
+     | Bondville | 2019-11-18 (overcast) | 583 | 1,437 | 1,129 |
+
+   ![episode days](../agent/results/ground_20261120_surfrad/figures/episode_days.png)
+
+**Recommendation for HEDW-US users:**
+- Mask 2019-11-17 to 2019-11-20 and 2020-02-13 to 2020-02-14 in `solar_*` and derived columns for all cities east of about −113°.
+- Otherwise the solar stream is better than the POWER alternative.
+
 ## LLM steps and their reliability
 
 ### clio-agent (`hedw/solar-coherence`)
@@ -148,6 +210,6 @@ It did surface the Birmingham 2020-02-14 day. Takeaway: number checking catches 
 ## Limitations
 
 - This compares NSRDB with POWER, not the released HEDW-US files. The 141-city membership is inferred: 7 targets lack a county mapping, Anchorage has no data, and one more is unknown. Processing that HEDW-US applied after the download is not covered.
-- POWER is not ground truth. Its 1° cells explain most of the flagged cities. A ground-station check (SURFRAD, SOLRAD) would settle which product is right.
+- POWER is not ground truth. At the 7 SURFRAD sites NSRDB beats it everywhere, but no ground station is within 238 km of a flagged city. Settling those cities needs CIMIS (California), FAWN (Florida) or Hawaii pyranometers.
 - The anomalous-day test is per city and relative, so the threshold (|z| > 4 and > 1 kWh/m²/day) sets the count.
 - Reading the hourly Fill Flag as a percentage is an inference from its values, not from documentation.

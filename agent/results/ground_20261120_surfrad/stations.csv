@@ -1,0 +1,8 @@
+station,lat,lon,elev_m,days,nsrdb_daily_r,power_daily_r,nsrdb_daily_mbe_pct,power_daily_mbe_pct,nsrdb_hourly_rmse_wm2,power_hourly_rmse_wm2,nsrdb_daily_rmse_pct,power_daily_rmse_pct,daily_nsrdb_closer_frac
+SURFRAD_Bondville_IL,40.05,-88.37,213.0,1820,0.9926,0.9709,1.37,-2.13,53.0,88.6,7.3,14.1,0.73
+SURFRAD_TableMountain_CO,40.125,-105.237,1689.0,1791,0.9738,0.9337,1.02,-0.2,91.6,117.5,11.0,15.9,0.627
+SURFRAD_DesertRock_NV,36.624,-116.019,1007.0,1792,0.9938,0.9843,-0.01,-1.74,52.3,72.9,4.3,7.1,0.736
+SURFRAD_FortPeck_MT,48.31,-105.1,634.0,1794,0.9864,0.9801,-1.01,-0.75,65.1,77.2,10.3,11.8,0.567
+SURFRAD_GoodwinCreek_MS,34.25,-89.87,98.0,1793,0.9905,0.9821,3.16,0.98,62.1,78.7,7.9,9.6,0.595
+SURFRAD_PennState_PA,40.72,-77.93,376.0,1787,0.9893,0.9764,1.57,1.29,62.5,87.7,9.1,13.3,0.632
+SURFRAD_SiouxFalls_SD,43.73,-96.62,473.0,1796,0.9873,0.9811,1.23,1.02,59.5,72.2,9.1,10.7,0.568

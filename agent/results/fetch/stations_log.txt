@@ -1,0 +1,172 @@
+15:17:57 power SURFRAD_Bondville_IL: 3201124
+15:17:57 power SURFRAD_TableMountain_CO: 3212510
+15:17:59 power SURFRAD_FortPeck_MT: 3204573
+15:17:59 power SURFRAD_DesertRock_NV: 3213408
+15:18:00 power SURFRAD_PennState_PA: 3200827
+15:18:00 power SURFRAD_GoodwinCreek_MS: 3203555
+15:18:02 power SURFRAD_SiouxFalls_SD: 3203603
+15:18:02 power SOLRAD_Albuquerque_NM: 3214596
+15:18:03 power SOLRAD_Hanford_CA: 3209412
+15:18:03 power SOLRAD_Bismarck_ND: 3205430
+15:18:05 power SOLRAD_Seattle_WA: 3199454
+15:18:05 power SOLRAD_Madison_WI: 3200126
+15:18:06 power SOLRAD_Sterling_VA: 3202729
+15:18:07 power SOLRAD_SaltLakeCity_UT: 3210642
+15:18:07 POWER done: 14/14 ok
+15:18:12 nsrdb SURFRAD_Bondville_IL 2019: 709339
+15:18:17 nsrdb SURFRAD_TableMountain_CO 2019: 713728
+15:18:19 nsrdb SURFRAD_DesertRock_NV 2019: 707823
+15:18:21 nsrdb SURFRAD_Bondville_IL 2020: 711525
+15:18:25 nsrdb SURFRAD_TableMountain_CO 2020: 713501
+15:18:32 nsrdb SURFRAD_TableMountain_CO 2021: 712374
+15:18:35 nsrdb SURFRAD_DesertRock_NV 2020: 711874
+15:18:37 nsrdb SURFRAD_Bondville_IL 2021: 707672
+15:18:42 nsrdb SURFRAD_TableMountain_CO 2022: 711511
+15:18:43 nsrdb SURFRAD_DesertRock_NV 2021: 710393
+15:18:43 nsrdb SURFRAD_Bondville_IL 2022: 707727
+15:19:07   HTTP 400 SURFRAD_TableMountain_CO_2023.csv try 1: {"inputs":{"params":{},"query":{"names":"2023","interval":"60","utc":"true","leap_day":"true","email":"<redacted>","affiliation":"<redacted>","reason":"Academic Research","attributes":"ghi,dni,dhi,air_temperature,wind_speed,wind_direction,dew_point,relative_humidity,surface_pressure,sur
+15:19:07 nsrdb SURFRAD_TableMountain_CO 2023: -400
+15:19:19 nsrdb SURFRAD_FortPeck_MT 2019: 711352
+15:19:24 nsrdb SURFRAD_FortPeck_MT 2020: 714787
+15:19:24   HTTP 400 SURFRAD_DesertRock_NV_2022.csv try 1: {"inputs":{"params":{},"query":{"names":"2022","interval":"60","utc":"true","leap_day":"true","email":"<redacted>","affiliation":"<redacted>","reason":"Academic Research","attributes":"ghi,dni,dhi,air_temperature,wind_speed,wind_direction,dew_point,relative_humidity,surface_pressure,sur
+15:19:24 nsrdb SURFRAD_DesertRock_NV 2022: -400
+15:19:25   HTTP 400 SURFRAD_Bondville_IL_2023.csv try 1: {"inputs":{"params":{},"query":{"names":"2023","interval":"60","utc":"true","leap_day":"true","email":"<redacted>","affiliation":"<redacted>","reason":"Academic Research","attributes":"ghi,dni,dhi,air_temperature,wind_speed,wind_direction,dew_point,relative_humidity,surface_pressure,sur
+15:19:25 nsrdb SURFRAD_Bondville_IL 2023: -400
+15:19:30 nsrdb SURFRAD_FortPeck_MT 2021: 711231
+15:19:30 nsrdb SURFRAD_GoodwinCreek_MS 2019: 707497
+15:19:36 nsrdb SURFRAD_GoodwinCreek_MS 2020: 712454
+15:19:36 nsrdb SURFRAD_FortPeck_MT 2022: 711354
+15:19:41 nsrdb SURFRAD_GoodwinCreek_MS 2021: 712211
+15:19:46 nsrdb SURFRAD_DesertRock_NV 2023: 710064
+15:19:46 nsrdb SURFRAD_FortPeck_MT 2023: 712709
+15:19:47 nsrdb SURFRAD_GoodwinCreek_MS 2022: 711851
+15:19:52 nsrdb SURFRAD_PennState_PA 2019: 668689
+15:19:52 nsrdb SURFRAD_SiouxFalls_SD 2019: 709341
+15:19:53 nsrdb SURFRAD_GoodwinCreek_MS 2023: 709842
+15:19:58 nsrdb SURFRAD_PennState_PA 2020: 672790
+15:19:58 nsrdb SURFRAD_SiouxFalls_SD 2020: 712592
+15:19:59 nsrdb SOLRAD_Albuquerque_NM 2019: 716149
+15:20:03 nsrdb SURFRAD_PennState_PA 2021: 672164
+15:20:04 nsrdb SURFRAD_SiouxFalls_SD 2021: 707905
+15:20:05 nsrdb SOLRAD_Albuquerque_NM 2020: 715251
+15:20:08 nsrdb SURFRAD_PennState_PA 2022: 668824
+15:20:10 nsrdb SOLRAD_Albuquerque_NM 2021: 713637
+15:20:10 nsrdb SURFRAD_SiouxFalls_SD 2022: 711223
+15:20:14 nsrdb SURFRAD_PennState_PA 2023: 667615
+15:20:16 nsrdb SURFRAD_SiouxFalls_SD 2023: 711053
+15:20:17 nsrdb SOLRAD_Albuquerque_NM 2022: 715033
+15:20:20 nsrdb SOLRAD_Bismarck_ND 2019: 707988
+15:20:22 nsrdb SOLRAD_Hanford_CA 2019: 700388
+15:20:23 nsrdb SOLRAD_Albuquerque_NM 2023: 714282
+15:20:26 nsrdb SOLRAD_Bismarck_ND 2020: 713630
+15:20:31 nsrdb SOLRAD_Hanford_CA 2020: 701506
+15:20:33 nsrdb SOLRAD_Bismarck_ND 2021: 712031
+15:20:33 nsrdb SOLRAD_Madison_WI 2019: 707769
+15:20:41 nsrdb SOLRAD_Hanford_CA 2021: 702087
+15:20:45 nsrdb SOLRAD_Bismarck_ND 2022: 712578
+15:20:47 nsrdb SOLRAD_Hanford_CA 2022: 701058
+15:20:51 nsrdb SOLRAD_Bismarck_ND 2023: 709952
+15:20:54 nsrdb SOLRAD_Hanford_CA 2023: 701483
+15:21:00 nsrdb SOLRAD_Seattle_WA 2019: 714027
+15:21:04 nsrdb SOLRAD_SaltLakeCity_UT 2019: 709809
+15:21:11 nsrdb SOLRAD_Seattle_WA 2020: 714784
+15:21:15 nsrdb SOLRAD_SaltLakeCity_UT 2020: 714067
+15:21:16 nsrdb SOLRAD_Seattle_WA 2021: 711590
+15:21:17 nsrdb SOLRAD_Madison_WI 2020: 707039
+15:21:21 nsrdb SOLRAD_Seattle_WA 2022: 715838
+15:21:22 nsrdb SOLRAD_Madison_WI 2021: 708098
+15:21:27 nsrdb SOLRAD_Seattle_WA 2023: 710962
+15:21:28 nsrdb SOLRAD_Madison_WI 2022: 711173
+15:21:32 nsrdb SOLRAD_Sterling_VA 2019: 711198
+15:21:33 nsrdb SOLRAD_Madison_WI 2023: 709476
+15:21:36 nsrdb SOLRAD_SaltLakeCity_UT 2021: 713283
+15:21:38 nsrdb SOLRAD_Sterling_VA 2020: 713256
+15:21:41 nsrdb SOLRAD_SaltLakeCity_UT 2022: 712192
+15:21:44 nsrdb SOLRAD_Sterling_VA 2021: 714965
+15:21:47 nsrdb SOLRAD_SaltLakeCity_UT 2023: 709122
+15:21:50 nsrdb SOLRAD_Sterling_VA 2022: 714975
+15:21:56 nsrdb SOLRAD_Sterling_VA 2023: 711391
+15:21:57 NSRDB done: 67/70 ok; failed: [('SURFRAD_Bondville_IL', 2023, -400), ('SURFRAD_TableMountain_CO', 2023, -400), ('SURFRAD_DesertRock_NV', 2022, -400)]
+15:21:57 elapsed 241 s
+15:21:57   HTTP 429 SURFRAD_DesertRock_NV_2019_flags.csv try 1: Error Code,Error Message
+"OVER_RATE_LIMIT","You have exceeded your rate limit. Try again later or contact us for assistance: https://developer.nrel.gov/contact/"
+15:22:00 nsrdb SURFRAD_TableMountain_CO 2019: 225059
+15:22:00 nsrdb SURFRAD_Bondville_IL 2019: 224437
+15:22:03 nsrdb SURFRAD_TableMountain_CO 2020: 225636
+15:22:03 nsrdb SURFRAD_Bondville_IL 2020: 224936
+15:22:06 nsrdb SURFRAD_DesertRock_NV 2019: 225188
+15:22:07 nsrdb SURFRAD_Bondville_IL 2021: 224001
+15:22:08 nsrdb SURFRAD_TableMountain_CO 2021: 224756
+15:22:11 nsrdb SURFRAD_DesertRock_NV 2020: 226616
+15:22:11 nsrdb SURFRAD_Bondville_IL 2022: 223938
+15:22:12 nsrdb SURFRAD_TableMountain_CO 2022: 224745
+15:22:15 nsrdb SURFRAD_DesertRock_NV 2021: 226594
+15:22:15 nsrdb SURFRAD_Bondville_IL 2023: 223775
+15:22:15 nsrdb SURFRAD_TableMountain_CO 2023: 224513
+15:22:19 nsrdb SURFRAD_GoodwinCreek_MS 2019: 224194
+15:22:19 nsrdb SURFRAD_FortPeck_MT 2019: 225017
+15:22:20 nsrdb SURFRAD_DesertRock_NV 2022: 226733
+15:22:23 nsrdb SURFRAD_FortPeck_MT 2020: 225451
+15:22:23 nsrdb SURFRAD_GoodwinCreek_MS 2020: 224745
+15:22:24 nsrdb SURFRAD_DesertRock_NV 2023: 224550
+15:22:25   HTTP 429 SURFRAD_GoodwinCreek_MS_2021_flags.csv try 1: Error Code,Error Message
+"OVER_RATE_LIMIT","You have exceeded your rate limit. Try again later or contact us for assistance: https://developer.nrel.gov/contact/"
+15:22:25   HTTP 429 SURFRAD_PennState_PA_2019_flags.csv try 1: Error Code,Error Message
+"OVER_RATE_LIMIT","You have exceeded your rate limit. Try again later or contact us for assistance: https://developer.nrel.gov/contact/"
+15:22:31 nsrdb SURFRAD_FortPeck_MT 2021: 224200
+15:22:32 nsrdb SURFRAD_GoodwinCreek_MS 2021: 223991
+15:22:38 nsrdb SURFRAD_PennState_PA 2019: 224569
+15:22:45 nsrdb SURFRAD_PennState_PA 2020: 224927
+15:23:03 nsrdb SURFRAD_GoodwinCreek_MS 2022: 223917
+15:23:04 nsrdb SURFRAD_PennState_PA 2021: 223995
+15:23:07 nsrdb SURFRAD_PennState_PA 2022: 224031
+15:23:09 nsrdb SURFRAD_FortPeck_MT 2022: 224269
+15:23:10 nsrdb SURFRAD_GoodwinCreek_MS 2023: 223924
+15:23:11 nsrdb SURFRAD_PennState_PA 2023: 223732
+15:23:13 nsrdb SURFRAD_FortPeck_MT 2023: 224202
+15:23:14 nsrdb SURFRAD_SiouxFalls_SD 2019: 224817
+15:23:15 nsrdb SOLRAD_Albuquerque_NM 2019: 225148
+15:23:17 nsrdb SOLRAD_Bismarck_ND 2019: 224824
+15:23:18 nsrdb SOLRAD_Albuquerque_NM 2020: 225643
+15:23:19 nsrdb SURFRAD_SiouxFalls_SD 2020: 225236
+15:23:20   HTTP 429 SURFRAD_SiouxFalls_SD_2021_flags.csv try 1: Error Code,Error Message
+"OVER_RATE_LIMIT","You have exceeded your rate limit. Try again later or contact us for assistance: https://developer.nrel.gov/contact/"
+15:23:21 nsrdb SOLRAD_Bismarck_ND 2020: 225356
+15:23:22 nsrdb SOLRAD_Albuquerque_NM 2021: 224729
+15:23:24 nsrdb SOLRAD_Bismarck_ND 2021: 224135
+15:23:26 nsrdb SOLRAD_Albuquerque_NM 2022: 224848
+15:23:28 nsrdb SOLRAD_Bismarck_ND 2022: 224205
+15:23:29 nsrdb SURFRAD_SiouxFalls_SD 2021: 224117
+15:23:30 nsrdb SOLRAD_Albuquerque_NM 2023: 224751
+15:23:31 nsrdb SOLRAD_Bismarck_ND 2023: 224053
+15:23:33 nsrdb SURFRAD_SiouxFalls_SD 2022: 224124
+15:23:34 nsrdb SOLRAD_Hanford_CA 2019: 224765
+15:23:35 nsrdb SOLRAD_Madison_WI 2019: 224466
+15:23:37 nsrdb SURFRAD_SiouxFalls_SD 2023: 224060
+15:23:37 nsrdb SOLRAD_Hanford_CA 2020: 226082
+15:23:38   HTTP 429 SOLRAD_Hanford_CA_2021_flags.csv try 1: Error Code,Error Message
+"OVER_RATE_LIMIT","You have exceeded your rate limit. Try again later or contact us for assistance: https://developer.nrel.gov/contact/"
+15:23:39 nsrdb SOLRAD_Madison_WI 2020: 225031
+15:23:40 nsrdb SOLRAD_Seattle_WA 2019: 224675
+15:23:43 nsrdb SOLRAD_Madison_WI 2021: 223926
+15:23:44 nsrdb SOLRAD_Seattle_WA 2020: 225956
+15:23:47 nsrdb SOLRAD_Madison_WI 2022: 223931
+15:23:48 nsrdb SOLRAD_Seattle_WA 2021: 225676
+15:23:48 nsrdb SOLRAD_Hanford_CA 2021: 226002
+15:23:51 nsrdb SOLRAD_Madison_WI 2023: 223729
+15:23:52 nsrdb SOLRAD_Hanford_CA 2022: 226186
+15:23:52 nsrdb SOLRAD_Seattle_WA 2022: 225635
+15:23:54 nsrdb SOLRAD_SaltLakeCity_UT 2019: 224971
+15:23:56 nsrdb SOLRAD_Hanford_CA 2023: 224146
+15:23:56 nsrdb SOLRAD_Seattle_WA 2023: 223671
+15:23:58 nsrdb SOLRAD_SaltLakeCity_UT 2020: 225487
+15:23:59 nsrdb SOLRAD_Sterling_VA 2019: 224436
+15:24:02 nsrdb SOLRAD_SaltLakeCity_UT 2021: 224524
+15:24:03 nsrdb SOLRAD_Sterling_VA 2020: 224911
+15:24:05 nsrdb SOLRAD_SaltLakeCity_UT 2022: 224630
+15:24:07 nsrdb SOLRAD_Sterling_VA 2021: 223971
+15:24:09 nsrdb SOLRAD_SaltLakeCity_UT 2023: 224360
+15:24:11 nsrdb SOLRAD_Sterling_VA 2022: 223986
+15:24:15 nsrdb SOLRAD_Sterling_VA 2023: 223844
+15:24:16 flags done: 70/70 ok; failed: []
+15:24:16 elapsed 139 s
