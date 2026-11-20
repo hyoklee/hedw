@@ -1,0 +1,15 @@
+station,lat,lon,days,nsrdb_daily_r,power_daily_r,nsrdb_daily_mbe_pct,power_daily_mbe_pct,nsrdb_daily_rmse_pct,power_daily_rmse_pct,nsrdb_hourly_rmse_wm2,power_hourly_rmse_wm2,daily_nsrdb_closer_frac
+FAWN_Arcadia,27.22621,-81.83838,1801,0.9361,0.9186,14.77,9.92,19.6,16.5,140.2,131.6,0.312
+FAWN_BelleGlade,26.65678,-80.63001,1806,0.9458,0.9237,15.65,10.95,19.9,16.9,129.9,124.4,0.331
+FAWN_Citra,29.4101,-82.1732,1821,0.9743,0.9604,21.72,17.47,24.3,21.0,126.5,119.8,0.323
+FAWN_FortLauderdale,26.0853,-80.2405,1813,0.9615,0.8997,8.86,4.83,13.1,15.8,116.2,138.5,0.54
+FAWN_Homestead,25.5126,-80.5031,1813,0.951,0.908,18.03,15.06,21.6,20.4,138.9,142.3,0.335
+FAWN_Immokalee,26.46207,-81.44052,1823,0.9658,0.9497,11.63,8.03,14.7,12.7,120.2,117.2,0.344
+FAWN_LakeAlfred,28.10186,-81.71128,1811,0.9672,0.952,14.02,7.78,17.4,15.0,129.4,129.1,0.34
+FAWN_Okeechobee,27.33059,-80.85141,1729,0.9484,0.9212,11.27,7.24,16.1,15.4,163.3,163.1,0.371
+FAWN_Wellington,26.68076,-80.30058,1826,0.9539,0.9281,16.2,11.13,20.0,16.5,125.2,120.3,0.33
+MIDC_LMU_2011-2014,,,1461,0.978,0.9551,5.65,-3.11,10.1,11.2,74.5,87.6,0.475
+Florida_FortLauderdale (city products vs FAWN_FortLauderdale),,,1813,0.9296,0.8997,10.87,4.83,17.4,15.8,137.4,138.5,0.445
+Florida_PembrokePines (city products vs FAWN_FortLauderdale),,,1813,0.9516,0.8997,8.72,4.83,13.9,15.8,129.0,138.5,0.531
+Florida_Hialeah (city products vs FAWN_FortLauderdale),,,1813,0.9184,0.9023,9.79,7.48,17.3,16.7,150.2,141.0,0.454
+Florida_Miami (city products vs FAWN_FortLauderdale),,,1813,0.883,0.9023,10.3,7.48,20.1,16.7,161.3,141.0,0.379

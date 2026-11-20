@@ -1,0 +1,16 @@
+FAWN yearly bias of the products vs ground (%), and daily r (bias-insensitive)
+station                2019:NS/PW 2020:NS/PW 2021:NS/PW 2022:NS/PW 2023:NS/PW   daily_r NS / PW
+FAWN_FortLauderdale     +8.5/ +3.9  +7.4/ +3.3  +8.1/ +3.3 +11.3/ +6.8  +9.0/ +7.0   0.9615 / 0.8997
+FAWN_Homestead         +18.6/+14.0 +19.1/+15.6 +17.9/+14.7 +20.6/+16.7 +14.0/+14.3   0.951 / 0.908
+FAWN_Wellington        +12.6/ +7.5 +15.1/ +9.2 +18.5/+13.2 +22.9/+17.6 +12.4/ +8.6   0.9539 / 0.9281
+FAWN_BelleGlade        +19.1/+14.0 +20.4/+15.6 +17.6/+12.8  +9.4/ +5.0 +12.7/ +8.2   0.9458 / 0.9237
+FAWN_Immokalee         +11.7/ +8.5 +10.7/ +7.1 +10.7/ +6.4 +13.0/ +8.1 +12.0/+10.1   0.9658 / 0.9497
+FAWN_Okeechobee        +11.5/ +7.5 +16.3/+11.3 +15.0/+10.0 +17.2/+13.7  -4.8/ -7.3   0.9484 / 0.9212
+FAWN_Arcadia           +17.8/+12.9 +11.6/ +6.5 +10.8/ +5.7 +24.7/+19.0 +10.3/ +6.8   0.9361 / 0.9186
+FAWN_LakeAlfred        +15.5/+10.0 +15.0/ +8.9 +14.2/ +7.7 +13.1/ +6.2 +12.5/ +6.3   0.9672 / 0.952
+FAWN_Citra             +22.5/+18.3 +23.4/+20.5 +24.8/+19.8 +25.4/+19.9 +13.4/ +9.6   0.9743 / 0.9604
+Florida_FortLauderdale     vs FAWN_FortLauderdale (11 km): daily r NSRDB 0.9296 POWER 0.8997
+Florida_PembrokePines      vs FAWN_FortLauderdale (10 km): daily r NSRDB 0.9516 POWER 0.8997
+Florida_Hialeah            vs FAWN_FortLauderdale (26 km): daily r NSRDB 0.9184 POWER 0.9023
+Florida_Miami              vs FAWN_FortLauderdale (36 km): daily r NSRDB 0.883 POWER 0.9023
+LMU daily r: NSRDB 0.978 POWER 0.9551

@@ -1,0 +1,5 @@
+flagged Florida city      nearest FAWN stations (great-circle km)
+Florida_FortLauderdale   FAWN_FortLauderdale 11 km; FAWN_Wellington 64 km; FAWN_BelleGlade 77 km
+Florida_Hialeah          FAWN_FortLauderdale 26 km; FAWN_Homestead 44 km; FAWN_Wellington 92 km
+Florida_Miami            FAWN_FortLauderdale 36 km; FAWN_Homestead 42 km; FAWN_Wellington 103 km
+Florida_PembrokePines    FAWN_FortLauderdale 10 km; FAWN_Homestead 59 km; FAWN_Wellington 75 km

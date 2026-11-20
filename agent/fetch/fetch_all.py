@@ -74,7 +74,7 @@ def check_nsrdb(body):
 def check_power(body):
     d = json.loads(body)
     n = len(d["properties"]["parameter"]["ALLSKY_SFC_SW_DWN"])
-    if n != 43824:
+    if n < 8760 * len(YEARS):
         raise ValueError(f"POWER returned {n} hours")
 
 
@@ -99,13 +99,14 @@ def fetch_nsrdb(city, env, outdir, attrs=ATTRS, suffix=""):
 
 
 def fetch_power(city, outdir):
-    out = os.path.join(outdir, f"{city['name']}.json")
+    tag = "" if (YEARS[0], YEARS[-1]) == (2019, 2023) else f"_{YEARS[0]}-{YEARS[-1]}"
+    out = os.path.join(outdir, f"{city['name']}{tag}.json")
     if os.path.exists(out) and os.path.getsize(out) > 0:
         return "skip"
     p = {"parameters": "ALLSKY_SFC_SW_DWN,CLRSKY_SFC_SW_DWN,ALLSKY_SFC_SW_DNI,ALLSKY_SFC_SW_DIFF",
          "community": "RE", "longitude": f"{float(city['lon']):.4f}",
-         "latitude": f"{float(city['lat']):.4f}", "start": "20190101",
-         "end": "20231231", "format": "JSON", "time-standard": "UTC"}
+         "latitude": f"{float(city['lat']):.4f}", "start": f"{YEARS[0]}0101",
+         "end": f"{YEARS[-1]}1231", "format": "JSON", "time-standard": "UTC"}
     n = get(POWER_URL, p, out, check_power)
     log(f"power {city['name']}: {n}")
     return n
@@ -118,7 +119,11 @@ def main():
                     help="flags: NSRDB ghi, clearsky_ghi, cloud_type, fill_flag into raw/nsrdb/flags/")
     ap.add_argument("--workers", type=int, default=3)
     ap.add_argument("--limit", type=int)
+    ap.add_argument("--years", default="2019-2023", help="first-last, e.g. 2011-2014 (default the HEDW-US period)")
     a = ap.parse_args()
+    global YEARS
+    y0, y1 = (int(v) for v in a.years.split("-"))
+    YEARS = range(y0, y1 + 1)
     cities = list(csv.DictReader(open(a.cities)))[: a.limit]
     nd, pd_ = os.path.join(ROOT, "raw/nsrdb"), os.path.join(ROOT, "raw/power")
     os.makedirs(nd, exist_ok=True); os.makedirs(pd_, exist_ok=True)
@@ -130,7 +135,7 @@ def main():
             res = list(ex.map(lambda c: fetch_nsrdb(c, env, fd, FLAG_ATTRS, "_flags"), cities))
         bad = [(c["name"], y, n) for c, r in zip(cities, res) for y, n in r
                if not (n == "skip" or (isinstance(n, int) and n > 0))]
-        log(f"flags done: {len(cities)*5 - len(bad)}/{len(cities)*5} ok; failed: {bad}")
+        log(f"flags done: {len(cities)*len(YEARS) - len(bad)}/{len(cities)*len(YEARS)} ok; failed: {bad}")
         log(f"elapsed {time.time()-t0:.0f} s")
         return
     if a.only != "nsrdb":
@@ -142,7 +147,7 @@ def main():
             nres = list(ex.map(lambda c: fetch_nsrdb(c, env, nd), cities))
         bad = [(c["name"], y, n) for c, r in zip(cities, nres) for y, n in r
                if not (n == "skip" or (isinstance(n, int) and n > 0))]
-        log(f"NSRDB done: {len(cities)*5 - len(bad)}/{len(cities)*5} ok; failed: {bad}")
+        log(f"NSRDB done: {len(cities)*len(YEARS) - len(bad)}/{len(cities)*len(YEARS)} ok; failed: {bad}")
     log(f"elapsed {time.time()-t0:.0f} s")
 
 

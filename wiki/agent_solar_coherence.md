@@ -86,7 +86,9 @@ Mean monthly bias by calendar month (`seasonal_bias.txt` in the run):
 - **Inland Empire:** NSRDB reads low in late winter and spring. Here the POWER cell spans the San Gabriel and San Bernardino mountains and the high desert.
 - **South Florida and Honolulu:** POWER cells that are partly ocean.
 
-These are representativeness differences between a 4 km and a 100 km product. They are not errors in HEDW-US.
+These looked like representativeness differences between a 4 km and a 100 km product. Ground data later refined this (see [Near the flagged cities](#near-the-flagged-cities-fawn-and-midc-lmu)):
+- **South Florida:** the low correlation is mainly POWER's.
+- **Coastal Southern California:** the summer gap is split. NSRDB, and so HEDW-US, is about 10 % too high in the marine-layer months, and POWER is about 6 % too low.
 
 ### Anomalous days and a real NSRDB artefact: 2020-02-14
 
@@ -170,7 +172,7 @@ Both products were fetched for the exact station coordinates. The ground value i
      | Bondville | | 14.1 % | 7.3 % |
      | Salt Lake City | Lake and mountains | 13.2 % | 9.0 % |
 
-   The Seattle result is the nearest available analogue of the coastal flagged cities. It supports reading the 17 flagged cities as POWER representativeness (1° cells), not an HEDW-US defect, though it is not proof for those cities.
+   The Seattle result is the nearest research-grade analogue of the coastal flagged cities and points at POWER. Regional ground data near the cities refines this: in coastal Los Angeles, NSRDB also over-reads in summer. See the next section.
 
 2. **Routine NSRDB gap filling is harmless.**
    - Filled hours outside the episodes (18,615 station-hours): NSRDB RMSE 38.2 W/m² against POWER 45.0 on the same hours, with a median NSRDB MBE of -2.9 %.
@@ -191,9 +193,57 @@ Both products were fetched for the exact station coordinates. The ground value i
 
    ![episode days](../agent/results/ground_20261120/figures/episode_days.png)
 
+### Near the flagged cities: FAWN and MIDC LMU
+
+Run: `agent/results/ground_local_20261120/` (`agent/ground/validate_local.py`). Sources: [source-fawn-midc-cimis.md](source-fawn-midc-cimis.md).
+
+**South Florida (Fort Lauderdale, Pembroke Pines, Hialeah, Miami): FAWN, 9 stations, 2019–2023.**
+- **Absolute level:** FAWN reads low, by station-specific amounts that drift (see the source page), so it cannot say which product's level is right.
+- **Relative level:** NSRDB sits a consistent 3–7 % above POWER at every station and in every month and year. For Fort Lauderdale, NSRDB is +8.86 % and POWER +4.83 % against FAWN. This matches the +2 to +6 % NSRDB/POWER bias that flagged these cities.
+- **Day-to-day agreement** (daily r, insensitive to calibration): NSRDB beats POWER at all 9 stations, 0.936–0.974 against 0.900–0.960.
+  - The largest gap is at coastal FAWN Fort Lauderdale: **0.9615 against 0.8997**.
+  - Against that station, using each flagged city's own HEDW-US-request series:
+
+    | Flagged city | Distance to station | Daily r NSRDB | Daily r POWER |
+    |---|---|---|---|
+    | Pembroke Pines | 10 km | 0.9516 | 0.8997 |
+    | Fort Lauderdale | 11 km | 0.9296 | 0.8997 |
+    | Hialeah | 26 km | 0.9184 | 0.9023 |
+    | Miami | 36 km | 0.883 | 0.9023 |
+
+  - At Miami, 36 km from the station, convective clouds have decorrelated, so the comparison no longer separates the two products.
+- **Verdict for South Florida:** the low NSRDB-vs-POWER correlation that flagged these cities comes mainly from POWER. Its half-ocean 1° cell misses the local convective weather that NSRDB resolves. The constant NSRDB-above-POWER offset remains unresolved, because FAWN cannot fix the absolute level. The nearest research-grade site, Goodwin Creek MS, has NSRDB at +3.14 % and POWER at +0.98 %, which hints that NSRDB reads a few percent high in the humid Southeast.
+
+**Coastal Los Angeles: MIDC LMU, 2011–2014.** This is outside the HEDW-US period, but the geography is the same; the instrument is an RSR with roughly ±5 % uncertainty.
+- **Overall:** NSRDB **+5.65 %**, POWER **-3.11 %**.
+- **Daily r:** NSRDB 0.978, POWER 0.9551.
+- **Daily RMSE:** NSRDB 10.1 %, POWER 11.2 %.
+- **Monthly bias against the ground:**
+
+  | Month | NSRDB | POWER |
+  |---|---|---|
+  | Jun | +10.5 % | -6.8 % |
+  | Jul | +9.3 % | -5.5 % |
+  | Aug | +8.8 % | -5.6 % |
+  | Nov | +2.3 % | +0.3 % |
+  | Dec | +2.5 % | +2.3 % |
+
+- **Verdict for coastal Southern California:** the summer NSRDB-above-POWER gap that flagged these cities (+9.1 % in July) **is split between the two products**.
+  - NSRDB is too sunny in the marine-layer season, roughly +9 to +10 %, probably under-detecting thin coastal stratus.
+  - POWER is too cloudy, roughly −6 %, consistent with its 1° cell including the offshore stratus deck.
+  - So this part of the flag is **partly a genuine error in HEDW-US's `solar_GHI`**: a summer over-estimate of about 10 % at coastal Southern California sites. It is not only POWER's representativeness.
+  - On day-to-day weather NSRDB is still the better product.
+
+![monthly bias vs ground](../agent/results/ground_local_20261120/figures/monthly_bias_vs_ground.png)
+
+**Not covered:**
+- **Inland Empire (5 cities) and Oakland:** need CIMIS, which needs a user-registered app key.
+- **Honolulu:** no public ground series found on Oahu.
+
 **Recommendation for HEDW-US users:**
 - Mask 2019-11-17 to 2019-11-20 and 2020-02-13 to 2020-02-14 in `solar_*` and derived columns for all cities east of about −113°.
 - Otherwise the solar stream is better than the POWER alternative.
+- At coastal Southern California sites, expect summer (June to September) GHI about 10 % high.
 
 ## LLM steps and their reliability
 
@@ -225,6 +275,6 @@ It did surface the Birmingham 2020-02-14 day. Takeaway: number checking catches 
 ## Limitations
 
 - This compares NSRDB with POWER, not the released HEDW-US files. The 141-city membership is inferred: 7 targets lack a county mapping, Anchorage has no data, and one more is unknown. Processing that HEDW-US applied after the download is not covered.
-- POWER is not ground truth. At all 14 SURFRAD and SOLRAD sites NSRDB beats it, but no ground station is within 238 km of a flagged city. Settling those cities needs CIMIS (California), FAWN (Florida) or Hawaii pyranometers.
+- POWER is not ground truth. At all 14 SURFRAD and SOLRAD sites NSRDB beats it, no SURFRAD or SOLRAD station is within 238 km of a flagged city. FAWN, 10–36 km from the South Florida cities, has a low absolute calibration. MIDC LMU, on the LA coast, is from 2011–2014. CIMIS, for the Inland Empire and Oakland, needs a key, and Honolulu has no ground series.
 - The anomalous-day test is per city and relative, so the threshold (|z| > 4 and > 1 kWh/m²/day) sets the count.
 - Reading the hourly Fill Flag as a percentage is an inference from its values, not from documentation.

@@ -1,0 +1,2768 @@
+{
+ "fawn": {
+  "FAWN_Arcadia": {
+   "lat": 27.22621,
+   "lon": -81.83838,
+   "time_scan_r": {
+    "old": {
+     "best": "local/start",
+     "scan": {
+      "EST/start": {
+       "winter": {
+        "-1": 0.878,
+        "0": 0.9758,
+        "1": 0.9463
+       },
+       "summer": {
+        "-1": 0.7834,
+        "0": 0.9014,
+        "1": 0.9292
+       }
+      },
+      "EST/end": {
+       "winter": {
+        "-1": 0.9758,
+        "0": 0.9463,
+        "1": 0.802
+       },
+       "summer": {
+        "-1": 0.9014,
+        "0": 0.9293,
+        "1": 0.86
+       }
+      },
+      "local/start": {
+       "winter": {
+        "-1": 0.878,
+        "0": 0.9758,
+        "1": 0.9463
+       },
+       "summer": {
+        "-1": 0.9014,
+        "0": 0.9293,
+        "1": 0.86
+       }
+      },
+      "local/end": {
+       "winter": {
+        "-1": 0.9758,
+        "0": 0.9463,
+        "1": 0.802
+       },
+       "summer": {
+        "-1": 0.9293,
+        "0": 0.86,
+        "1": 0.7111
+       }
+      }
+     }
+    },
+    "new": {
+     "best": "local/start",
+     "scan": {
+      "EST/start": {
+       "winter": {
+        "-1": 0.8558,
+        "0": 0.951,
+        "1": 0.9226
+       },
+       "summer": {
+        "-1": 0.7041,
+        "0": 0.8562,
+        "1": 0.9283
+       }
+      },
+      "EST/end": {
+       "winter": {
+        "-1": 0.951,
+        "0": 0.9226,
+        "1": 0.7817
+       },
+       "summer": {
+        "-1": 0.8564,
+        "0": 0.9285,
+        "1": 0.9015
+       }
+      },
+      "local/start": {
+       "winter": {
+        "-1": 0.8558,
+        "0": 0.951,
+        "1": 0.9226
+       },
+       "summer": {
+        "-1": 0.8564,
+        "0": 0.9285,
+        "1": 0.9015
+       }
+      },
+      "local/end": {
+       "winter": {
+        "-1": 0.951,
+        "0": 0.9226,
+        "1": 0.7817
+       },
+       "summer": {
+        "-1": 0.9286,
+        "0": 0.9017,
+        "1": 0.7848
+       }
+      }
+     }
+    }
+   },
+   "label": "FAWN_Arcadia",
+   "daylight_hours": 20499,
+   "days": 1801,
+   "days_dropped_ground_outage": 22,
+   "hourly": {
+    "nsrdb": {
+     "n": 20499,
+     "r": 0.8941,
+     "mbe_pct": 16.21,
+     "rmse_wm2": 140.2,
+     "rmse_pct": 35.0
+    },
+    "power": {
+     "n": 20499,
+     "r": 0.8806,
+     "mbe_pct": 11.32,
+     "rmse_wm2": 131.6,
+     "rmse_pct": 32.9
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1801,
+     "r": 0.9361,
+     "mbe_pct": 14.77,
+     "rmse_wm2": 891.1,
+     "rmse_pct": 19.6
+    },
+    "power": {
+     "n": 1801,
+     "r": 0.9186,
+     "mbe_pct": 9.92,
+     "rmse_wm2": 752.5,
+     "rmse_pct": 16.5
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.312,
+   "monthly_bias_vs_ground": {
+    "1": {
+     "nsrdb_mbe_pct": 13.2,
+     "power_mbe_pct": 9.1
+    },
+    "2": {
+     "nsrdb_mbe_pct": 15.7,
+     "power_mbe_pct": 8.2
+    },
+    "3": {
+     "nsrdb_mbe_pct": 20.6,
+     "power_mbe_pct": 14.8
+    },
+    "4": {
+     "nsrdb_mbe_pct": 19.4,
+     "power_mbe_pct": 15.3
+    },
+    "5": {
+     "nsrdb_mbe_pct": 21.7,
+     "power_mbe_pct": 16.2
+    },
+    "6": {
+     "nsrdb_mbe_pct": 15.7,
+     "power_mbe_pct": 12.5
+    },
+    "7": {
+     "nsrdb_mbe_pct": 12.5,
+     "power_mbe_pct": 5.7
+    },
+    "8": {
+     "nsrdb_mbe_pct": 9.9,
+     "power_mbe_pct": 6.3
+    },
+    "9": {
+     "nsrdb_mbe_pct": 9.8,
+     "power_mbe_pct": 6.1
+    },
+    "10": {
+     "nsrdb_mbe_pct": 11.0,
+     "power_mbe_pct": 7.2
+    },
+    "11": {
+     "nsrdb_mbe_pct": 12.1,
+     "power_mbe_pct": 7.0
+    },
+    "12": {
+     "nsrdb_mbe_pct": 12.6,
+     "power_mbe_pct": 7.0
+    }
+   },
+   "episode_days": [
+    {
+     "date": "2019-11-17",
+     "ground": 856,
+     "nsrdb": 3796,
+     "power": 1723
+    },
+    {
+     "date": "2019-11-18",
+     "ground": 3619,
+     "nsrdb": 2111,
+     "power": 4138
+    },
+    {
+     "date": "2019-11-19",
+     "ground": 3890,
+     "nsrdb": 1932,
+     "power": 4200
+    },
+    {
+     "date": "2019-11-20",
+     "ground": 4492,
+     "nsrdb": 4688,
+     "power": 4662
+    },
+    {
+     "date": "2020-02-13",
+     "ground": 4124,
+     "nsrdb": 5162,
+     "power": 3989
+    },
+    {
+     "date": "2020-02-14",
+     "ground": 2796,
+     "nsrdb": 5163,
+     "power": 3065
+    }
+   ]
+  },
+  "FAWN_BelleGlade": {
+   "lat": 26.65678,
+   "lon": -80.63001,
+   "time_scan_r": {
+    "old": {
+     "best": "local/start",
+     "scan": {
+      "EST/start": {
+       "winter": {
+        "-1": 0.8811,
+        "0": 0.9755,
+        "1": 0.9444
+       },
+       "summer": {
+        "-1": 0.8032,
+        "0": 0.9108,
+        "1": 0.9196
+       }
+      },
+      "EST/end": {
+       "winter": {
+        "-1": 0.9755,
+        "0": 0.9444,
+        "1": 0.8009
+       },
+       "summer": {
+        "-1": 0.9108,
+        "0": 0.9196,
+        "1": 0.8311
+       }
+      },
+      "local/start": {
+       "winter": {
+        "-1": 0.8811,
+        "0": 0.9755,
+        "1": 0.9444
+       },
+       "summer": {
+        "-1": 0.9108,
+        "0": 0.9196,
+        "1": 0.8311
+       }
+      },
+      "local/end": {
+       "winter": {
+        "-1": 0.9755,
+        "0": 0.9444,
+        "1": 0.8009
+       },
+       "summer": {
+        "-1": 0.9196,
+        "0": 0.8311,
+        "1": 0.6694
+       }
+      }
+     }
+    },
+    "new": {
+     "best": "local/start",
+     "scan": {
+      "EST/start": {
+       "winter": {
+        "-1": 0.888,
+        "0": 0.9764,
+        "1": 0.9417
+       },
+       "summer": {
+        "-1": 0.7458,
+        "0": 0.8901,
+        "1": 0.9507
+       }
+      },
+      "EST/end": {
+       "winter": {
+        "-1": 0.9764,
+        "0": 0.9417,
+        "1": 0.7967
+       },
+       "summer": {
+        "-1": 0.8901,
+        "0": 0.9507,
+        "1": 0.9055
+       }
+      },
+      "local/start": {
+       "winter": {
+        "-1": 0.888,
+        "0": 0.9764,
+        "1": 0.9417
+       },
+       "summer": {
+        "-1": 0.8901,
+        "0": 0.9507,
+        "1": 0.9055
+       }
+      },
+      "local/end": {
+       "winter": {
+        "-1": 0.9764,
+        "0": 0.9417,
+        "1": 0.7967
+       },
+       "summer": {
+        "-1": 0.9507,
+        "0": 0.9055,
+        "1": 0.7682
+       }
+      }
+     }
+    }
+   },
+   "label": "FAWN_BelleGlade",
+   "daylight_hours": 20409,
+   "days": 1806,
+   "days_dropped_ground_outage": 6,
+   "hourly": {
+    "nsrdb": {
+     "n": 20409,
+     "r": 0.912,
+     "mbe_pct": 16.02,
+     "rmse_wm2": 129.9,
+     "rmse_pct": 33.0
+    },
+    "power": {
+     "n": 20409,
+     "r": 0.8898,
+     "mbe_pct": 11.29,
+     "rmse_wm2": 124.4,
+     "rmse_pct": 31.6
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1806,
+     "r": 0.9458,
+     "mbe_pct": 15.65,
+     "rmse_wm2": 883.4,
+     "rmse_pct": 19.9
+    },
+    "power": {
+     "n": 1806,
+     "r": 0.9237,
+     "mbe_pct": 10.95,
+     "rmse_wm2": 748.5,
+     "rmse_pct": 16.9
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.331,
+   "monthly_bias_vs_ground": {
+    "1": {
+     "nsrdb_mbe_pct": 12.1,
+     "power_mbe_pct": 10.4
+    },
+    "2": {
+     "nsrdb_mbe_pct": 17.5,
+     "power_mbe_pct": 14.7
+    },
+    "3": {
+     "nsrdb_mbe_pct": 18.4,
+     "power_mbe_pct": 15.4
+    },
+    "4": {
+     "nsrdb_mbe_pct": 18.3,
+     "power_mbe_pct": 13.7
+    },
+    "5": {
+     "nsrdb_mbe_pct": 14.1,
+     "power_mbe_pct": 7.2
+    },
+    "6": {
+     "nsrdb_mbe_pct": 17.8,
+     "power_mbe_pct": 10.1
+    },
+    "7": {
+     "nsrdb_mbe_pct": 16.1,
+     "power_mbe_pct": 11.0
+    },
+    "8": {
+     "nsrdb_mbe_pct": 14.2,
+     "power_mbe_pct": 8.3
+    },
+    "9": {
+     "nsrdb_mbe_pct": 13.0,
+     "power_mbe_pct": 7.6
+    },
+    "10": {
+     "nsrdb_mbe_pct": 16.1,
+     "power_mbe_pct": 11.0
+    },
+    "11": {
+     "nsrdb_mbe_pct": 16.9,
+     "power_mbe_pct": 14.1
+    },
+    "12": {
+     "nsrdb_mbe_pct": 12.0,
+     "power_mbe_pct": 10.5
+    }
+   },
+   "episode_days": [
+    {
+     "date": "2019-11-17",
+     "ground": 1250,
+     "nsrdb": 4293,
+     "power": 1866
+    },
+    {
+     "date": "2019-11-18",
+     "ground": 3304,
+     "nsrdb": 3552,
+     "power": 3787
+    },
+    {
+     "date": "2019-11-19",
+     "ground": 4100,
+     "nsrdb": 1024,
+     "power": 4425
+    },
+    {
+     "date": "2019-11-20",
+     "ground": 4480,
+     "nsrdb": 4856,
+     "power": 4850
+    },
+    {
+     "date": "2020-02-13",
+     "ground": 3680,
+     "nsrdb": 5167,
+     "power": 4547
+    },
+    {
+     "date": "2020-02-14",
+     "ground": 3426,
+     "nsrdb": 5258,
+     "power": 4248
+    }
+   ]
+  },
+  "FAWN_Citra": {
+   "lat": 29.4101,
+   "lon": -82.1732,
+   "time_scan_r": {
+    "old": {
+     "best": "local/start",
+     "scan": {
+      "EST/start": {
+       "winter": {
+        "-1": 0.8837,
+        "0": 0.9723,
+        "1": 0.9332
+       },
+       "summer": {
+        "-1": 0.8151,
+        "0": 0.9204,
+        "1": 0.934
+       }
+      },
+      "EST/end": {
+       "winter": {
+        "-1": 0.9723,
+        "0": 0.9332,
+        "1": 0.7763
+       },
+       "summer": {
+        "-1": 0.9204,
+        "0": 0.934,
+        "1": 0.8515
+       }
+      },
+      "local/start": {
+       "winter": {
+        "-1": 0.8837,
+        "0": 0.9723,
+        "1": 0.9332
+       },
+       "summer": {
+        "-1": 0.9204,
+        "0": 0.934,
+        "1": 0.8515
+       }
+      },
+      "local/end": {
+       "winter": {
+        "-1": 0.9723,
+        "0": 0.9332,
+        "1": 0.7763
+       },
+       "summer": {
+        "-1": 0.934,
+        "0": 0.8515,
+        "1": 0.6931
+       }
+      }
+     }
+    },
+    "new": {
+     "best": "local/start",
+     "scan": {
+      "EST/start": {
+       "winter": {
+        "-1": 0.8836,
+        "0": 0.9779,
+        "1": 0.9456
+       },
+       "summer": {
+        "-1": 0.7399,
+        "0": 0.8858,
+        "1": 0.9502
+       }
+      },
+      "EST/end": {
+       "winter": {
+        "-1": 0.9778,
+        "0": 0.9456,
+        "1": 0.7968
+       },
+       "summer": {
+        "-1": 0.8858,
+        "0": 0.9502,
+        "1": 0.9132
+       }
+      },
+      "local/start": {
+       "winter": {
+        "-1": 0.8836,
+        "0": 0.9779,
+        "1": 0.9456
+       },
+       "summer": {
+        "-1": 0.8858,
+        "0": 0.9502,
+        "1": 0.9132
+       }
+      },
+      "local/end": {
+       "winter": {
+        "-1": 0.9778,
+        "0": 0.9456,
+        "1": 0.7968
+       },
+       "summer": {
+        "-1": 0.9502,
+        "0": 0.9132,
+        "1": 0.7833
+       }
+      }
+     }
+    }
+   },
+   "label": "FAWN_Citra",
+   "daylight_hours": 20435,
+   "days": 1821,
+   "days_dropped_ground_outage": 0,
+   "hourly": {
+    "nsrdb": {
+     "n": 20435,
+     "r": 0.9367,
+     "mbe_pct": 21.72,
+     "rmse_wm2": 126.5,
+     "rmse_pct": 34.7
+    },
+    "power": {
+     "n": 20435,
+     "r": 0.9178,
+     "mbe_pct": 17.47,
+     "rmse_wm2": 119.8,
+     "rmse_pct": 32.9
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1821,
+     "r": 0.9743,
+     "mbe_pct": 21.72,
+     "rmse_wm2": 993.6,
+     "rmse_pct": 24.3
+    },
+    "power": {
+     "n": 1821,
+     "r": 0.9604,
+     "mbe_pct": 17.47,
+     "rmse_wm2": 859.7,
+     "rmse_pct": 21.0
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.323,
+   "monthly_bias_vs_ground": {
+    "1": {
+     "nsrdb_mbe_pct": 23.7,
+     "power_mbe_pct": 21.5
+    },
+    "2": {
+     "nsrdb_mbe_pct": 24.6,
+     "power_mbe_pct": 18.1
+    },
+    "3": {
+     "nsrdb_mbe_pct": 18.8,
+     "power_mbe_pct": 15.6
+    },
+    "4": {
+     "nsrdb_mbe_pct": 19.1,
+     "power_mbe_pct": 16.0
+    },
+    "5": {
+     "nsrdb_mbe_pct": 18.4,
+     "power_mbe_pct": 14.9
+    },
+    "6": {
+     "nsrdb_mbe_pct": 20.7,
+     "power_mbe_pct": 15.5
+    },
+    "7": {
+     "nsrdb_mbe_pct": 22.5,
+     "power_mbe_pct": 16.5
+    },
+    "8": {
+     "nsrdb_mbe_pct": 20.9,
+     "power_mbe_pct": 14.5
+    },
+    "9": {
+     "nsrdb_mbe_pct": 22.7,
+     "power_mbe_pct": 19.8
+    },
+    "10": {
+     "nsrdb_mbe_pct": 23.8,
+     "power_mbe_pct": 19.3
+    },
+    "11": {
+     "nsrdb_mbe_pct": 26.8,
+     "power_mbe_pct": 24.5
+    },
+    "12": {
+     "nsrdb_mbe_pct": 26.5,
+     "power_mbe_pct": 22.3
+    }
+   },
+   "episode_days": [
+    {
+     "date": "2019-11-17",
+     "ground": 798,
+     "nsrdb": 2541,
+     "power": 1817
+    },
+    {
+     "date": "2019-11-18",
+     "ground": 3838,
+     "nsrdb": 3996,
+     "power": 4228
+    },
+    {
+     "date": "2019-11-19",
+     "ground": 3858,
+     "nsrdb": 4472,
+     "power": 4408
+    },
+    {
+     "date": "2019-11-20",
+     "ground": 3913,
+     "nsrdb": 4451,
+     "power": 4442
+    },
+    {
+     "date": "2020-02-13",
+     "ground": 3315,
+     "nsrdb": 4900,
+     "power": 3636
+    },
+    {
+     "date": "2020-02-14",
+     "ground": 1660,
+     "nsrdb": 4847,
+     "power": 2267
+    }
+   ]
+  },
+  "FAWN_FortLauderdale": {
+   "lat": 26.0853,
+   "lon": -80.2405,
+   "time_scan_r": {
+    "old": {
+     "best": "local/start",
+     "scan": {
+      "EST/start": {
+       "winter": {
+        "-1": 0.8837,
+        "0": 0.9683,
+        "1": 0.9276
+       },
+       "summer": {
+        "-1": 0.7727,
+        "0": 0.8835,
+        "1": 0.9024
+       }
+      },
+      "EST/end": {
+       "winter": {
+        "-1": 0.9683,
+        "0": 0.9276,
+        "1": 0.7766
+       },
+       "summer": {
+        "-1": 0.8835,
+        "0": 0.9025,
+        "1": 0.8308
+       }
+      },
+      "local/start": {
+       "winter": {
+        "-1": 0.8837,
+        "0": 0.9683,
+        "1": 0.9276
+       },
+       "summer": {
+        "-1": 0.8835,
+        "0": 0.9025,
+        "1": 0.8308
+       }
+      },
+      "local/end": {
+       "winter": {
+        "-1": 0.9683,
+        "0": 0.9276,
+        "1": 0.7766
+       },
+       "summer": {
+        "-1": 0.9025,
+        "0": 0.8308,
+        "1": 0.6821
+       }
+      }
+     }
+    },
+    "new": {
+     "best": "local/start",
+     "scan": {
+      "EST/start": {
+       "winter": {
+        "-1": 0.8822,
+        "0": 0.968,
+        "1": 0.9309
+       },
+       "summer": {
+        "-1": 0.7045,
+        "0": 0.8524,
+        "1": 0.9223
+       }
+      },
+      "EST/end": {
+       "winter": {
+        "-1": 0.968,
+        "0": 0.9308,
+        "1": 0.7832
+       },
+       "summer": {
+        "-1": 0.8523,
+        "0": 0.9223,
+        "1": 0.895
+       }
+      },
+      "local/start": {
+       "winter": {
+        "-1": 0.8822,
+        "0": 0.968,
+        "1": 0.9309
+       },
+       "summer": {
+        "-1": 0.8523,
+        "0": 0.9223,
+        "1": 0.895
+       }
+      },
+      "local/end": {
+       "winter": {
+        "-1": 0.968,
+        "0": 0.9308,
+        "1": 0.7832
+       },
+       "summer": {
+        "-1": 0.9223,
+        "0": 0.895,
+        "1": 0.7805
+       }
+      }
+     }
+    }
+   },
+   "label": "FAWN_FortLauderdale",
+   "daylight_hours": 20452,
+   "days": 1813,
+   "days_dropped_ground_outage": 1,
+   "hourly": {
+    "nsrdb": {
+     "n": 20452,
+     "r": 0.9193,
+     "mbe_pct": 8.91,
+     "rmse_wm2": 116.2,
+     "rmse_pct": 27.9
+    },
+    "power": {
+     "n": 20452,
+     "r": 0.8668,
+     "mbe_pct": 4.86,
+     "rmse_wm2": 138.5,
+     "rmse_pct": 33.2
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1813,
+     "r": 0.9615,
+     "mbe_pct": 8.86,
+     "rmse_wm2": 618.3,
+     "rmse_pct": 13.1
+    },
+    "power": {
+     "n": 1813,
+     "r": 0.8997,
+     "mbe_pct": 4.83,
+     "rmse_wm2": 745.2,
+     "rmse_pct": 15.8
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.54,
+   "monthly_bias_vs_ground": {
+    "1": {
+     "nsrdb_mbe_pct": 5.3,
+     "power_mbe_pct": 2.3
+    },
+    "2": {
+     "nsrdb_mbe_pct": 9.4,
+     "power_mbe_pct": 5.6
+    },
+    "3": {
+     "nsrdb_mbe_pct": 5.8,
+     "power_mbe_pct": 2.3
+    },
+    "4": {
+     "nsrdb_mbe_pct": 6.2,
+     "power_mbe_pct": 0.6
+    },
+    "5": {
+     "nsrdb_mbe_pct": 4.8,
+     "power_mbe_pct": 0.4
+    },
+    "6": {
+     "nsrdb_mbe_pct": 10.3,
+     "power_mbe_pct": 6.6
+    },
+    "7": {
+     "nsrdb_mbe_pct": 13.0,
+     "power_mbe_pct": 6.3
+    },
+    "8": {
+     "nsrdb_mbe_pct": 12.2,
+     "power_mbe_pct": 5.7
+    },
+    "9": {
+     "nsrdb_mbe_pct": 11.2,
+     "power_mbe_pct": 8.4
+    },
+    "10": {
+     "nsrdb_mbe_pct": 10.2,
+     "power_mbe_pct": 8.6
+    },
+    "11": {
+     "nsrdb_mbe_pct": 10.7,
+     "power_mbe_pct": 10.8
+    },
+    "12": {
+     "nsrdb_mbe_pct": 8.5,
+     "power_mbe_pct": 4.8
+    }
+   },
+   "episode_days": [
+    {
+     "date": "2019-11-17",
+     "ground": 1525,
+     "nsrdb": 4460,
+     "power": 1866
+    },
+    {
+     "date": "2019-11-18",
+     "ground": 3822,
+     "nsrdb": 3959,
+     "power": 3787
+    },
+    {
+     "date": "2019-11-19",
+     "ground": 4524,
+     "nsrdb": 1258,
+     "power": 4425
+    },
+    {
+     "date": "2019-11-20",
+     "ground": 4944,
+     "nsrdb": 4923,
+     "power": 4850
+    },
+    {
+     "date": "2020-02-13",
+     "ground": 4307,
+     "nsrdb": 5185,
+     "power": 4547
+    },
+    {
+     "date": "2020-02-14",
+     "ground": 3960,
+     "nsrdb": 5310,
+     "power": 4248
+    }
+   ]
+  },
+  "FAWN_Homestead": {
+   "lat": 25.5126,
+   "lon": -80.5031,
+   "time_scan_r": {
+    "old": {
+     "best": "local/start",
+     "scan": {
+      "EST/start": {
+       "winter": {
+        "-1": 0.8812,
+        "0": 0.9727,
+        "1": 0.9397
+       },
+       "summer": {
+        "-1": 0.7389,
+        "0": 0.8429,
+        "1": 0.857
+       }
+      },
+      "EST/end": {
+       "winter": {
+        "-1": 0.9727,
+        "0": 0.9397,
+        "1": 0.7935
+       },
+       "summer": {
+        "-1": 0.8429,
+        "0": 0.857,
+        "1": 0.7803
+       }
+      },
+      "local/start": {
+       "winter": {
+        "-1": 0.8812,
+        "0": 0.9727,
+        "1": 0.9397
+       },
+       "summer": {
+        "-1": 0.8429,
+        "0": 0.857,
+        "1": 0.7803
+       }
+      },
+      "local/end": {
+       "winter": {
+        "-1": 0.9727,
+        "0": 0.9397,
+        "1": 0.7935
+       },
+       "summer": {
+        "-1": 0.857,
+        "0": 0.7803,
+        "1": 0.6341
+       }
+      }
+     }
+    },
+    "new": {
+     "best": "local/start",
+     "scan": {
+      "EST/start": {
+       "winter": {
+        "-1": 0.8833,
+        "0": 0.9715,
+        "1": 0.9365
+       },
+       "summer": {
+        "-1": 0.7291,
+        "0": 0.8733,
+        "1": 0.9345
+       }
+      },
+      "EST/end": {
+       "winter": {
+        "-1": 0.9715,
+        "0": 0.9365,
+        "1": 0.7911
+       },
+       "summer": {
+        "-1": 0.8733,
+        "0": 0.9346,
+        "1": 0.8944
+       }
+      },
+      "local/start": {
+       "winter": {
+        "-1": 0.8833,
+        "0": 0.9715,
+        "1": 0.9365
+       },
+       "summer": {
+        "-1": 0.8733,
+        "0": 0.9346,
+        "1": 0.8944
+       }
+      },
+      "local/end": {
+       "winter": {
+        "-1": 0.9715,
+        "0": 0.9365,
+        "1": 0.7911
+       },
+       "summer": {
+        "-1": 0.9346,
+        "0": 0.8945,
+        "1": 0.7682
+       }
+      }
+     }
+    }
+   },
+   "label": "FAWN_Homestead",
+   "daylight_hours": 20580,
+   "days": 1813,
+   "days_dropped_ground_outage": 12,
+   "hourly": {
+    "nsrdb": {
+     "n": 20580,
+     "r": 0.9009,
+     "mbe_pct": 18.96,
+     "rmse_wm2": 138.9,
+     "rmse_pct": 36.0
+    },
+    "power": {
+     "n": 20580,
+     "r": 0.8675,
+     "mbe_pct": 15.97,
+     "rmse_wm2": 142.3,
+     "rmse_pct": 36.8
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1813,
+     "r": 0.951,
+     "mbe_pct": 18.03,
+     "rmse_wm2": 948.7,
+     "rmse_pct": 21.6
+    },
+    "power": {
+     "n": 1813,
+     "r": 0.908,
+     "mbe_pct": 15.06,
+     "rmse_wm2": 895.9,
+     "rmse_pct": 20.4
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.335,
+   "monthly_bias_vs_ground": {
+    "1": {
+     "nsrdb_mbe_pct": 15.1,
+     "power_mbe_pct": 11.3
+    },
+    "2": {
+     "nsrdb_mbe_pct": 18.5,
+     "power_mbe_pct": 15.7
+    },
+    "3": {
+     "nsrdb_mbe_pct": 16.6,
+     "power_mbe_pct": 13.3
+    },
+    "4": {
+     "nsrdb_mbe_pct": 18.7,
+     "power_mbe_pct": 13.9
+    },
+    "5": {
+     "nsrdb_mbe_pct": 18.6,
+     "power_mbe_pct": 15.2
+    },
+    "6": {
+     "nsrdb_mbe_pct": 24.2,
+     "power_mbe_pct": 21.9
+    },
+    "7": {
+     "nsrdb_mbe_pct": 23.0,
+     "power_mbe_pct": 19.9
+    },
+    "8": {
+     "nsrdb_mbe_pct": 21.7,
+     "power_mbe_pct": 20.4
+    },
+    "9": {
+     "nsrdb_mbe_pct": 15.2,
+     "power_mbe_pct": 14.3
+    },
+    "10": {
+     "nsrdb_mbe_pct": 13.1,
+     "power_mbe_pct": 10.0
+    },
+    "11": {
+     "nsrdb_mbe_pct": 13.6,
+     "power_mbe_pct": 9.3
+    },
+    "12": {
+     "nsrdb_mbe_pct": 13.8,
+     "power_mbe_pct": 11.1
+    }
+   },
+   "episode_days": [
+    {
+     "date": "2019-11-17",
+     "ground": 3076,
+     "nsrdb": 4742,
+     "power": 3107
+    },
+    {
+     "date": "2019-11-18",
+     "ground": 3947,
+     "nsrdb": 4036,
+     "power": 4337
+    },
+    {
+     "date": "2019-11-19",
+     "ground": 4132,
+     "nsrdb": 1070,
+     "power": 4458
+    },
+    {
+     "date": "2019-11-20",
+     "ground": 4539,
+     "nsrdb": 5031,
+     "power": 4857
+    },
+    {
+     "date": "2020-02-13",
+     "ground": 4069,
+     "nsrdb": 5226,
+     "power": 4613
+    },
+    {
+     "date": "2020-02-14",
+     "ground": 3409,
+     "nsrdb": 5339,
+     "power": 4528
+    }
+   ]
+  },
+  "FAWN_Immokalee": {
+   "lat": 26.46207,
+   "lon": -81.44052,
+   "time_scan_r": {
+    "old": {
+     "best": "EST/start",
+     "scan": {
+      "EST/start": {
+       "winter": {
+        "-1": 0.8878,
+        "0": 0.9807,
+        "1": 0.9479
+       },
+       "summer": {
+        "-1": 0.8261,
+        "0": 0.9231,
+        "1": 0.918
+       }
+      },
+      "EST/end": {
+       "winter": {
+        "-1": 0.9807,
+        "0": 0.9479,
+        "1": 0.8013
+       },
+       "summer": {
+        "-1": 0.9231,
+        "0": 0.918,
+        "1": 0.8158
+       }
+      },
+      "local/start": {
+       "winter": {
+        "-1": 0.8878,
+        "0": 0.9807,
+        "1": 0.9479
+       },
+       "summer": {
+        "-1": 0.9231,
+        "0": 0.918,
+        "1": 0.8158
+       }
+      },
+      "local/end": {
+       "winter": {
+        "-1": 0.9807,
+        "0": 0.9479,
+        "1": 0.8013
+       },
+       "summer": {
+        "-1": 0.918,
+        "0": 0.8159,
+        "1": 0.6433
+       }
+      }
+     }
+    },
+    "new": {
+     "best": "local/start",
+     "scan": {
+      "EST/start": {
+       "winter": {
+        "-1": 0.8779,
+        "0": 0.9773,
+        "1": 0.9537
+       },
+       "summer": {
+        "-1": 0.7185,
+        "0": 0.8764,
+        "1": 0.9516
+       }
+      },
+      "EST/end": {
+       "winter": {
+        "-1": 0.9773,
+        "0": 0.9537,
+        "1": 0.8159
+       },
+       "summer": {
+        "-1": 0.8764,
+        "0": 0.9516,
+        "1": 0.9207
+       }
+      },
+      "local/start": {
+       "winter": {
+        "-1": 0.8779,
+        "0": 0.9773,
+        "1": 0.9537
+       },
+       "summer": {
+        "-1": 0.8764,
+        "0": 0.9516,
+        "1": 0.9207
+       }
+      },
+      "local/end": {
+       "winter": {
+        "-1": 0.9773,
+        "0": 0.9537,
+        "1": 0.8159
+       },
+       "summer": {
+        "-1": 0.9516,
+        "0": 0.9207,
+        "1": 0.795
+       }
+      }
+     }
+    }
+   },
+   "label": "FAWN_Immokalee",
+   "daylight_hours": 20508,
+   "days": 1823,
+   "days_dropped_ground_outage": 0,
+   "hourly": {
+    "nsrdb": {
+     "n": 20508,
+     "r": 0.9194,
+     "mbe_pct": 11.63,
+     "rmse_wm2": 120.2,
+     "rmse_pct": 28.9
+    },
+    "power": {
+     "n": 20508,
+     "r": 0.9033,
+     "mbe_pct": 8.03,
+     "rmse_wm2": 117.2,
+     "rmse_pct": 28.1
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1823,
+     "r": 0.9658,
+     "mbe_pct": 11.63,
+     "rmse_wm2": 689.2,
+     "rmse_pct": 14.7
+    },
+    "power": {
+     "n": 1823,
+     "r": 0.9497,
+     "mbe_pct": 8.03,
+     "rmse_wm2": 594.1,
+     "rmse_pct": 12.7
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.344,
+   "monthly_bias_vs_ground": {
+    "1": {
+     "nsrdb_mbe_pct": 8.6,
+     "power_mbe_pct": 5.6
+    },
+    "2": {
+     "nsrdb_mbe_pct": 10.4,
+     "power_mbe_pct": 5.6
+    },
+    "3": {
+     "nsrdb_mbe_pct": 12.0,
+     "power_mbe_pct": 9.3
+    },
+    "4": {
+     "nsrdb_mbe_pct": 12.3,
+     "power_mbe_pct": 8.1
+    },
+    "5": {
+     "nsrdb_mbe_pct": 14.0,
+     "power_mbe_pct": 9.8
+    },
+    "6": {
+     "nsrdb_mbe_pct": 12.7,
+     "power_mbe_pct": 9.1
+    },
+    "7": {
+     "nsrdb_mbe_pct": 11.9,
+     "power_mbe_pct": 10.4
+    },
+    "8": {
+     "nsrdb_mbe_pct": 11.8,
+     "power_mbe_pct": 8.2
+    },
+    "9": {
+     "nsrdb_mbe_pct": 10.8,
+     "power_mbe_pct": 6.3
+    },
+    "10": {
+     "nsrdb_mbe_pct": 11.9,
+     "power_mbe_pct": 7.3
+    },
+    "11": {
+     "nsrdb_mbe_pct": 10.9,
+     "power_mbe_pct": 8.6
+    },
+    "12": {
+     "nsrdb_mbe_pct": 9.4,
+     "power_mbe_pct": 5.2
+    }
+   },
+   "episode_days": [
+    {
+     "date": "2019-11-17",
+     "ground": 1205,
+     "nsrdb": 4331,
+     "power": 1671
+    },
+    {
+     "date": "2019-11-18",
+     "ground": 4334,
+     "nsrdb": 2584,
+     "power": 4341
+    },
+    {
+     "date": "2019-11-19",
+     "ground": 4704,
+     "nsrdb": 1102,
+     "power": 4260
+    },
+    {
+     "date": "2019-11-20",
+     "ground": 4863,
+     "nsrdb": 4885,
+     "power": 4805
+    },
+    {
+     "date": "2020-02-13",
+     "ground": 4356,
+     "nsrdb": 5224,
+     "power": 4610
+    },
+    {
+     "date": "2020-02-14",
+     "ground": 4218,
+     "nsrdb": 5279,
+     "power": 3976
+    }
+   ]
+  },
+  "FAWN_LakeAlfred": {
+   "lat": 28.10186,
+   "lon": -81.71128,
+   "time_scan_r": {
+    "old": {
+     "best": "EST/end",
+     "scan": {
+      "EST/start": {
+       "winter": {
+        "-1": 0.803,
+        "0": 0.9264,
+        "1": 0.9336
+       },
+       "summer": {
+        "-1": 0.7927,
+        "0": 0.9046,
+        "1": 0.9206
+       }
+      },
+      "EST/end": {
+       "winter": {
+        "-1": 0.9263,
+        "0": 0.9336,
+        "1": 0.8272
+       },
+       "summer": {
+        "-1": 0.9052,
+        "0": 0.9212,
+        "1": 0.8383
+       }
+      },
+      "local/start": {
+       "winter": {
+        "-1": 0.803,
+        "0": 0.9264,
+        "1": 0.9336
+       },
+       "summer": {
+        "-1": 0.9052,
+        "0": 0.9212,
+        "1": 0.8383
+       }
+      },
+      "local/end": {
+       "winter": {
+        "-1": 0.9263,
+        "0": 0.9336,
+        "1": 0.8272
+       },
+       "summer": {
+        "-1": 0.9217,
+        "0": 0.8388,
+        "1": 0.6808
+       }
+      }
+     }
+    },
+    "new": {
+     "best": "EST/end",
+     "scan": {
+      "EST/start": {
+       "winter": {
+        "-1": 0.7997,
+        "0": 0.9269,
+        "1": 0.9392
+       },
+       "summer": {
+        "-1": 0.7189,
+        "0": 0.8755,
+        "1": 0.9503
+       }
+      },
+      "EST/end": {
+       "winter": {
+        "-1": 0.9269,
+        "0": 0.9392,
+        "1": 0.837
+       },
+       "summer": {
+        "-1": 0.8755,
+        "0": 0.9503,
+        "1": 0.9227
+       }
+      },
+      "local/start": {
+       "winter": {
+        "-1": 0.7997,
+        "0": 0.9269,
+        "1": 0.9392
+       },
+       "summer": {
+        "-1": 0.8755,
+        "0": 0.9503,
+        "1": 0.9227
+       }
+      },
+      "local/end": {
+       "winter": {
+        "-1": 0.9269,
+        "0": 0.9392,
+        "1": 0.837
+       },
+       "summer": {
+        "-1": 0.9503,
+        "0": 0.9227,
+        "1": 0.8027
+       }
+      }
+     }
+    }
+   },
+   "label": "FAWN_LakeAlfred",
+   "daylight_hours": 20330,
+   "days": 1811,
+   "days_dropped_ground_outage": 0,
+   "hourly": {
+    "nsrdb": {
+     "n": 20330,
+     "r": 0.9108,
+     "mbe_pct": 14.02,
+     "rmse_wm2": 129.4,
+     "rmse_pct": 32.1
+    },
+    "power": {
+     "n": 20330,
+     "r": 0.8878,
+     "mbe_pct": 7.78,
+     "rmse_wm2": 129.1,
+     "rmse_pct": 32.0
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1811,
+     "r": 0.9672,
+     "mbe_pct": 14.02,
+     "rmse_wm2": 786.9,
+     "rmse_pct": 17.4
+    },
+    "power": {
+     "n": 1811,
+     "r": 0.952,
+     "mbe_pct": 7.78,
+     "rmse_wm2": 677.6,
+     "rmse_pct": 15.0
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.34,
+   "monthly_bias_vs_ground": {
+    "1": {
+     "nsrdb_mbe_pct": 36.8,
+     "power_mbe_pct": 30.4
+    },
+    "2": {
+     "nsrdb_mbe_pct": 18.4,
+     "power_mbe_pct": 9.5
+    },
+    "3": {
+     "nsrdb_mbe_pct": 12.0,
+     "power_mbe_pct": 6.4
+    },
+    "4": {
+     "nsrdb_mbe_pct": 9.9,
+     "power_mbe_pct": 4.1
+    },
+    "5": {
+     "nsrdb_mbe_pct": 5.3,
+     "power_mbe_pct": -0.4
+    },
+    "6": {
+     "nsrdb_mbe_pct": 7.0,
+     "power_mbe_pct": 3.2
+    },
+    "7": {
+     "nsrdb_mbe_pct": 8.9,
+     "power_mbe_pct": 0.0
+    },
+    "8": {
+     "nsrdb_mbe_pct": 9.3,
+     "power_mbe_pct": 4.3
+    },
+    "9": {
+     "nsrdb_mbe_pct": 12.0,
+     "power_mbe_pct": 5.1
+    },
+    "10": {
+     "nsrdb_mbe_pct": 15.1,
+     "power_mbe_pct": 9.7
+    },
+    "11": {
+     "nsrdb_mbe_pct": 28.3,
+     "power_mbe_pct": 21.7
+    },
+    "12": {
+     "nsrdb_mbe_pct": 47.7,
+     "power_mbe_pct": 40.1
+    }
+   },
+   "episode_days": [
+    {
+     "date": "2019-11-17",
+     "ground": 1166,
+     "nsrdb": 2640,
+     "power": 1314
+    },
+    {
+     "date": "2019-11-18",
+     "ground": 3660,
+     "nsrdb": 2845,
+     "power": 4385
+    },
+    {
+     "date": "2019-11-19",
+     "ground": 3732,
+     "nsrdb": 3393,
+     "power": 4319
+    },
+    {
+     "date": "2019-11-20",
+     "ground": 3917,
+     "nsrdb": 4538,
+     "power": 4584
+    },
+    {
+     "date": "2020-02-13",
+     "ground": 3445,
+     "nsrdb": 5047,
+     "power": 4037
+    },
+    {
+     "date": "2020-02-14",
+     "ground": 1507,
+     "nsrdb": 4921,
+     "power": 2276
+    }
+   ]
+  },
+  "FAWN_Okeechobee": {
+   "lat": 27.33059,
+   "lon": -80.85141,
+   "time_scan_r": {
+    "old": {
+     "best": "local/start",
+     "scan": {
+      "EST/start": {
+       "winter": {
+        "-1": 0.882,
+        "0": 0.9768,
+        "1": 0.9448
+       },
+       "summer": {
+        "-1": 0.8007,
+        "0": 0.9073,
+        "1": 0.9194
+       }
+      },
+      "EST/end": {
+       "winter": {
+        "-1": 0.9768,
+        "0": 0.9448,
+        "1": 0.799
+       },
+       "summer": {
+        "-1": 0.9073,
+        "0": 0.9194,
+        "1": 0.8344
+       }
+      },
+      "local/start": {
+       "winter": {
+        "-1": 0.882,
+        "0": 0.9768,
+        "1": 0.9448
+       },
+       "summer": {
+        "-1": 0.9073,
+        "0": 0.9194,
+        "1": 0.8344
+       }
+      },
+      "local/end": {
+       "winter": {
+        "-1": 0.9768,
+        "0": 0.9448,
+        "1": 0.799
+       },
+       "summer": {
+        "-1": 0.9194,
+        "0": 0.8344,
+        "1": 0.6751
+       }
+      }
+     }
+    },
+    "new": {
+     "best": "local/start",
+     "scan": {
+      "EST/start": {
+       "winter": {
+        "-1": 0.7271,
+        "0": 0.8074,
+        "1": 0.782
+       },
+       "summer": {
+        "-1": 0.7231,
+        "0": 0.8755,
+        "1": 0.9444
+       }
+      },
+      "EST/end": {
+       "winter": {
+        "-1": 0.8074,
+        "0": 0.782,
+        "1": 0.6622
+       },
+       "summer": {
+        "-1": 0.8755,
+        "0": 0.9444,
+        "1": 0.9087
+       }
+      },
+      "local/start": {
+       "winter": {
+        "-1": 0.7271,
+        "0": 0.8074,
+        "1": 0.782
+       },
+       "summer": {
+        "-1": 0.8755,
+        "0": 0.9444,
+        "1": 0.9087
+       }
+      },
+      "local/end": {
+       "winter": {
+        "-1": 0.8074,
+        "0": 0.782,
+        "1": 0.6622
+       },
+       "summer": {
+        "-1": 0.9444,
+        "0": 0.9087,
+        "1": 0.7802
+       }
+      }
+     }
+    }
+   },
+   "label": "FAWN_Okeechobee",
+   "daylight_hours": 20532,
+   "days": 1729,
+   "days_dropped_ground_outage": 96,
+   "hourly": {
+    "nsrdb": {
+     "n": 20532,
+     "r": 0.8531,
+     "mbe_pct": 16.89,
+     "rmse_wm2": 163.3,
+     "rmse_pct": 41.6
+    },
+    "power": {
+     "n": 20532,
+     "r": 0.8292,
+     "mbe_pct": 12.63,
+     "rmse_wm2": 163.1,
+     "rmse_pct": 41.6
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1729,
+     "r": 0.9484,
+     "mbe_pct": 11.27,
+     "rmse_wm2": 746.6,
+     "rmse_pct": 16.1
+    },
+    "power": {
+     "n": 1729,
+     "r": 0.9212,
+     "mbe_pct": 7.24,
+     "rmse_wm2": 715.6,
+     "rmse_pct": 15.4
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.371,
+   "monthly_bias_vs_ground": {
+    "1": {
+     "nsrdb_mbe_pct": 13.4,
+     "power_mbe_pct": 7.4
+    },
+    "2": {
+     "nsrdb_mbe_pct": 13.0,
+     "power_mbe_pct": 5.7
+    },
+    "3": {
+     "nsrdb_mbe_pct": 13.1,
+     "power_mbe_pct": 8.4
+    },
+    "4": {
+     "nsrdb_mbe_pct": 9.4,
+     "power_mbe_pct": 3.8
+    },
+    "5": {
+     "nsrdb_mbe_pct": 9.6,
+     "power_mbe_pct": 5.7
+    },
+    "6": {
+     "nsrdb_mbe_pct": 10.0,
+     "power_mbe_pct": 8.2
+    },
+    "7": {
+     "nsrdb_mbe_pct": 10.8,
+     "power_mbe_pct": 8.3
+    },
+    "8": {
+     "nsrdb_mbe_pct": 10.8,
+     "power_mbe_pct": 9.0
+    },
+    "9": {
+     "nsrdb_mbe_pct": 10.6,
+     "power_mbe_pct": 8.2
+    },
+    "10": {
+     "nsrdb_mbe_pct": 11.4,
+     "power_mbe_pct": 7.1
+    },
+    "11": {
+     "nsrdb_mbe_pct": 12.9,
+     "power_mbe_pct": 7.0
+    },
+    "12": {
+     "nsrdb_mbe_pct": 15.3,
+     "power_mbe_pct": 8.6
+    }
+   },
+   "episode_days": [
+    {
+     "date": "2019-11-17",
+     "ground": 1954,
+     "nsrdb": 3714,
+     "power": 1946
+    },
+    {
+     "date": "2019-11-18",
+     "ground": 3613,
+     "nsrdb": 3358,
+     "power": 3759
+    },
+    {
+     "date": "2019-11-19",
+     "ground": 3352,
+     "nsrdb": 1311,
+     "power": 3950
+    },
+    {
+     "date": "2019-11-20",
+     "ground": 4301,
+     "nsrdb": 4688,
+     "power": 4700
+    },
+    {
+     "date": "2020-02-13",
+     "ground": 3421,
+     "nsrdb": 5183,
+     "power": 4566
+    },
+    {
+     "date": "2020-02-14",
+     "ground": 3160,
+     "nsrdb": 5195,
+     "power": 3349
+    }
+   ]
+  },
+  "FAWN_Wellington": {
+   "lat": 26.68076,
+   "lon": -80.30058,
+   "time_scan_r": {
+    "old": {
+     "best": "local/start",
+     "scan": {
+      "EST/start": {
+       "winter": {
+        "-1": 0.8782,
+        "0": 0.9745,
+        "1": 0.9462
+       },
+       "summer": {
+        "-1": 0.7819,
+        "0": 0.9032,
+        "1": 0.9308
+       }
+      },
+      "EST/end": {
+       "winter": {
+        "-1": 0.9745,
+        "0": 0.9463,
+        "1": 0.8034
+       },
+       "summer": {
+        "-1": 0.9032,
+        "0": 0.9309,
+        "1": 0.8558
+       }
+      },
+      "local/start": {
+       "winter": {
+        "-1": 0.8782,
+        "0": 0.9745,
+        "1": 0.9462
+       },
+       "summer": {
+        "-1": 0.9032,
+        "0": 0.9309,
+        "1": 0.8558
+       }
+      },
+      "local/end": {
+       "winter": {
+        "-1": 0.9745,
+        "0": 0.9463,
+        "1": 0.8034
+       },
+       "summer": {
+        "-1": 0.9309,
+        "0": 0.8558,
+        "1": 0.7008
+       }
+      }
+     }
+    },
+    "new": {
+     "best": "local/start",
+     "scan": {
+      "EST/start": {
+       "winter": {
+        "-1": 0.8885,
+        "0": 0.9788,
+        "1": 0.9446
+       },
+       "summer": {
+        "-1": 0.719,
+        "0": 0.8698,
+        "1": 0.9408
+       }
+      },
+      "EST/end": {
+       "winter": {
+        "-1": 0.9788,
+        "0": 0.9446,
+        "1": 0.7984
+       },
+       "summer": {
+        "-1": 0.8698,
+        "0": 0.9408,
+        "1": 0.9094
+       }
+      },
+      "local/start": {
+       "winter": {
+        "-1": 0.8885,
+        "0": 0.9788,
+        "1": 0.9446
+       },
+       "summer": {
+        "-1": 0.8698,
+        "0": 0.9408,
+        "1": 0.9094
+       }
+      },
+      "local/end": {
+       "winter": {
+        "-1": 0.9788,
+        "0": 0.9446,
+        "1": 0.7984
+       },
+       "summer": {
+        "-1": 0.9408,
+        "0": 0.9094,
+        "1": 0.7843
+       }
+      }
+     }
+    }
+   },
+   "label": "FAWN_Wellington",
+   "daylight_hours": 20575,
+   "days": 1826,
+   "days_dropped_ground_outage": 0,
+   "hourly": {
+    "nsrdb": {
+     "n": 20575,
+     "r": 0.9201,
+     "mbe_pct": 16.2,
+     "rmse_wm2": 125.2,
+     "rmse_pct": 31.8
+    },
+    "power": {
+     "n": 20575,
+     "r": 0.8981,
+     "mbe_pct": 11.13,
+     "rmse_wm2": 120.3,
+     "rmse_pct": 30.6
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1826,
+     "r": 0.9539,
+     "mbe_pct": 16.2,
+     "rmse_wm2": 885.6,
+     "rmse_pct": 20.0
+    },
+    "power": {
+     "n": 1826,
+     "r": 0.9281,
+     "mbe_pct": 11.13,
+     "rmse_wm2": 733.3,
+     "rmse_pct": 16.5
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.33,
+   "monthly_bias_vs_ground": {
+    "1": {
+     "nsrdb_mbe_pct": 11.3,
+     "power_mbe_pct": 8.9
+    },
+    "2": {
+     "nsrdb_mbe_pct": 13.8,
+     "power_mbe_pct": 9.1
+    },
+    "3": {
+     "nsrdb_mbe_pct": 15.0,
+     "power_mbe_pct": 10.1
+    },
+    "4": {
+     "nsrdb_mbe_pct": 18.0,
+     "power_mbe_pct": 12.8
+    },
+    "5": {
+     "nsrdb_mbe_pct": 18.0,
+     "power_mbe_pct": 12.7
+    },
+    "6": {
+     "nsrdb_mbe_pct": 18.4,
+     "power_mbe_pct": 10.9
+    },
+    "7": {
+     "nsrdb_mbe_pct": 17.9,
+     "power_mbe_pct": 11.0
+    },
+    "8": {
+     "nsrdb_mbe_pct": 17.3,
+     "power_mbe_pct": 9.9
+    },
+    "9": {
+     "nsrdb_mbe_pct": 16.2,
+     "power_mbe_pct": 12.1
+    },
+    "10": {
+     "nsrdb_mbe_pct": 16.5,
+     "power_mbe_pct": 13.0
+    },
+    "11": {
+     "nsrdb_mbe_pct": 14.7,
+     "power_mbe_pct": 11.4
+    },
+    "12": {
+     "nsrdb_mbe_pct": 13.0,
+     "power_mbe_pct": 10.8
+    }
+   },
+   "episode_days": [
+    {
+     "date": "2019-11-17",
+     "ground": 1563,
+     "nsrdb": 4083,
+     "power": 1866
+    },
+    {
+     "date": "2019-11-18",
+     "ground": 3286,
+     "nsrdb": 3556,
+     "power": 3787
+    },
+    {
+     "date": "2019-11-19",
+     "ground": 4191,
+     "nsrdb": 1029,
+     "power": 4425
+    },
+    {
+     "date": "2019-11-20",
+     "ground": 4571,
+     "nsrdb": 4858,
+     "power": 4850
+    },
+    {
+     "date": "2020-02-13",
+     "ground": 4285,
+     "nsrdb": 5199,
+     "power": 4547
+    },
+    {
+     "date": "2020-02-14",
+     "ground": 3871,
+     "nsrdb": 5290,
+     "power": 4248
+    }
+   ]
+  }
+ },
+ "lmu": {
+  "label": "MIDC LMU (Loyola Marymount, Los Angeles) 2011-2014",
+  "daylight_hours": 16431,
+  "days": 1461,
+  "days_dropped_ground_outage": 0,
+  "hourly": {
+   "nsrdb": {
+    "n": 16431,
+    "r": 0.9718,
+    "mbe_pct": 5.65,
+    "rmse_wm2": 74.5,
+    "rmse_pct": 16.0
+   },
+   "power": {
+    "n": 16431,
+    "r": 0.9534,
+    "mbe_pct": -3.11,
+    "rmse_wm2": 87.6,
+    "rmse_pct": 18.8
+   }
+  },
+  "daily": {
+   "nsrdb": {
+    "n": 1461,
+    "r": 0.978,
+    "mbe_pct": 5.65,
+    "rmse_wm2": 530.0,
+    "rmse_pct": 10.1
+   },
+   "power": {
+    "n": 1461,
+    "r": 0.9551,
+    "mbe_pct": -3.11,
+    "rmse_wm2": 587.9,
+    "rmse_pct": 11.2
+   }
+  },
+  "daily_nsrdb_closer_frac": 0.475,
+  "monthly_bias_vs_ground": {
+   "1": {
+    "nsrdb_mbe_pct": 1.2,
+    "power_mbe_pct": 0.1
+   },
+   "2": {
+    "nsrdb_mbe_pct": 1.8,
+    "power_mbe_pct": -1.6
+   },
+   "3": {
+    "nsrdb_mbe_pct": 2.0,
+    "power_mbe_pct": -1.6
+   },
+   "4": {
+    "nsrdb_mbe_pct": 3.5,
+    "power_mbe_pct": -4.2
+   },
+   "5": {
+    "nsrdb_mbe_pct": 5.0,
+    "power_mbe_pct": -3.0
+   },
+   "6": {
+    "nsrdb_mbe_pct": 10.5,
+    "power_mbe_pct": -6.8
+   },
+   "7": {
+    "nsrdb_mbe_pct": 9.3,
+    "power_mbe_pct": -5.5
+   },
+   "8": {
+    "nsrdb_mbe_pct": 8.8,
+    "power_mbe_pct": -5.6
+   },
+   "9": {
+    "nsrdb_mbe_pct": 7.3,
+    "power_mbe_pct": -1.8
+   },
+   "10": {
+    "nsrdb_mbe_pct": 5.5,
+    "power_mbe_pct": -1.7
+   },
+   "11": {
+    "nsrdb_mbe_pct": 2.3,
+    "power_mbe_pct": 0.3
+   },
+   "12": {
+    "nsrdb_mbe_pct": 2.5,
+    "power_mbe_pct": 2.3
+   }
+  },
+  "episode_days": [],
+  "lag_scan_r_vs_power": {
+   "-1": 0.9338,
+   "0": 0.9806,
+   "1": 0.924
+  },
+  "note": "outside the HEDW-US period; tests the coastal-LA representativeness hypothesis"
+ },
+ "flagged_cities": {
+  "Florida_FortLauderdale": {
+   "label": "Florida_FortLauderdale products vs FAWN_FortLauderdale ground (11 km)",
+   "daylight_hours": 20456,
+   "days": 1813,
+   "days_dropped_ground_outage": 1,
+   "hourly": {
+    "nsrdb": {
+     "n": 20456,
+     "r": 0.8903,
+     "mbe_pct": 10.91,
+     "rmse_wm2": 137.4,
+     "rmse_pct": 33.0
+    },
+    "power": {
+     "n": 20456,
+     "r": 0.8669,
+     "mbe_pct": 4.86,
+     "rmse_wm2": 138.5,
+     "rmse_pct": 33.2
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1813,
+     "r": 0.9296,
+     "mbe_pct": 10.87,
+     "rmse_wm2": 817.2,
+     "rmse_pct": 17.4
+    },
+    "power": {
+     "n": 1813,
+     "r": 0.8997,
+     "mbe_pct": 4.83,
+     "rmse_wm2": 745.2,
+     "rmse_pct": 15.8
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.445,
+   "monthly_bias_vs_ground": {
+    "1": {
+     "nsrdb_mbe_pct": 6.1,
+     "power_mbe_pct": 2.3
+    },
+    "2": {
+     "nsrdb_mbe_pct": 11.3,
+     "power_mbe_pct": 5.7
+    },
+    "3": {
+     "nsrdb_mbe_pct": 7.2,
+     "power_mbe_pct": 2.3
+    },
+    "4": {
+     "nsrdb_mbe_pct": 7.9,
+     "power_mbe_pct": 0.6
+    },
+    "5": {
+     "nsrdb_mbe_pct": 7.5,
+     "power_mbe_pct": 0.4
+    },
+    "6": {
+     "nsrdb_mbe_pct": 12.0,
+     "power_mbe_pct": 6.6
+    },
+    "7": {
+     "nsrdb_mbe_pct": 15.9,
+     "power_mbe_pct": 6.3
+    },
+    "8": {
+     "nsrdb_mbe_pct": 15.4,
+     "power_mbe_pct": 5.7
+    },
+    "9": {
+     "nsrdb_mbe_pct": 13.3,
+     "power_mbe_pct": 8.4
+    },
+    "10": {
+     "nsrdb_mbe_pct": 13.3,
+     "power_mbe_pct": 8.6
+    },
+    "11": {
+     "nsrdb_mbe_pct": 11.0,
+     "power_mbe_pct": 10.8
+    },
+    "12": {
+     "nsrdb_mbe_pct": 9.1,
+     "power_mbe_pct": 4.9
+    }
+   },
+   "episode_days": [
+    {
+     "date": "2019-11-17",
+     "ground": 1525,
+     "nsrdb": 4433,
+     "power": 1866
+    },
+    {
+     "date": "2019-11-18",
+     "ground": 3822,
+     "nsrdb": 3992,
+     "power": 3787
+    },
+    {
+     "date": "2019-11-19",
+     "ground": 4524,
+     "nsrdb": 1377,
+     "power": 4425
+    },
+    {
+     "date": "2019-11-20",
+     "ground": 4944,
+     "nsrdb": 4910,
+     "power": 4850
+    },
+    {
+     "date": "2020-02-13",
+     "ground": 4307,
+     "nsrdb": 5183,
+     "power": 4547
+    },
+    {
+     "date": "2020-02-14",
+     "ground": 3960,
+     "nsrdb": 5304,
+     "power": 4248
+    }
+   ],
+   "station": "FAWN_FortLauderdale",
+   "distance_km": 11
+  },
+  "Florida_PembrokePines": {
+   "label": "Florida_PembrokePines products vs FAWN_FortLauderdale ground (10 km)",
+   "daylight_hours": 20455,
+   "days": 1813,
+   "days_dropped_ground_outage": 1,
+   "hourly": {
+    "nsrdb": {
+     "n": 20455,
+     "r": 0.8978,
+     "mbe_pct": 8.77,
+     "rmse_wm2": 129.0,
+     "rmse_pct": 30.9
+    },
+    "power": {
+     "n": 20455,
+     "r": 0.8669,
+     "mbe_pct": 4.86,
+     "rmse_wm2": 138.5,
+     "rmse_pct": 33.2
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1813,
+     "r": 0.9516,
+     "mbe_pct": 8.72,
+     "rmse_wm2": 653.3,
+     "rmse_pct": 13.9
+    },
+    "power": {
+     "n": 1813,
+     "r": 0.8997,
+     "mbe_pct": 4.83,
+     "rmse_wm2": 745.2,
+     "rmse_pct": 15.8
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.531,
+   "monthly_bias_vs_ground": {
+    "1": {
+     "nsrdb_mbe_pct": 6.1,
+     "power_mbe_pct": 2.3
+    },
+    "2": {
+     "nsrdb_mbe_pct": 9.5,
+     "power_mbe_pct": 5.6
+    },
+    "3": {
+     "nsrdb_mbe_pct": 5.9,
+     "power_mbe_pct": 2.3
+    },
+    "4": {
+     "nsrdb_mbe_pct": 6.4,
+     "power_mbe_pct": 0.6
+    },
+    "5": {
+     "nsrdb_mbe_pct": 4.5,
+     "power_mbe_pct": 0.4
+    },
+    "6": {
+     "nsrdb_mbe_pct": 10.1,
+     "power_mbe_pct": 6.6
+    },
+    "7": {
+     "nsrdb_mbe_pct": 12.3,
+     "power_mbe_pct": 6.3
+    },
+    "8": {
+     "nsrdb_mbe_pct": 10.6,
+     "power_mbe_pct": 5.7
+    },
+    "9": {
+     "nsrdb_mbe_pct": 10.3,
+     "power_mbe_pct": 8.4
+    },
+    "10": {
+     "nsrdb_mbe_pct": 10.9,
+     "power_mbe_pct": 8.6
+    },
+    "11": {
+     "nsrdb_mbe_pct": 11.6,
+     "power_mbe_pct": 10.8
+    },
+    "12": {
+     "nsrdb_mbe_pct": 8.7,
+     "power_mbe_pct": 4.8
+    }
+   },
+   "episode_days": [
+    {
+     "date": "2019-11-17",
+     "ground": 1525,
+     "nsrdb": 4507,
+     "power": 1866
+    },
+    {
+     "date": "2019-11-18",
+     "ground": 3822,
+     "nsrdb": 4009,
+     "power": 3787
+    },
+    {
+     "date": "2019-11-19",
+     "ground": 4524,
+     "nsrdb": 1242,
+     "power": 4425
+    },
+    {
+     "date": "2019-11-20",
+     "ground": 4944,
+     "nsrdb": 4939,
+     "power": 4850
+    },
+    {
+     "date": "2020-02-13",
+     "ground": 4307,
+     "nsrdb": 5189,
+     "power": 4547
+    },
+    {
+     "date": "2020-02-14",
+     "ground": 3960,
+     "nsrdb": 5317,
+     "power": 4248
+    }
+   ],
+   "station": "FAWN_FortLauderdale",
+   "distance_km": 10
+  },
+  "Florida_Hialeah": {
+   "label": "Florida_Hialeah products vs FAWN_FortLauderdale ground (26 km)",
+   "daylight_hours": 20457,
+   "days": 1813,
+   "days_dropped_ground_outage": 1,
+   "hourly": {
+    "nsrdb": {
+     "n": 20457,
+     "r": 0.8605,
+     "mbe_pct": 9.82,
+     "rmse_wm2": 150.2,
+     "rmse_pct": 36.0
+    },
+    "power": {
+     "n": 20457,
+     "r": 0.8665,
+     "mbe_pct": 7.51,
+     "rmse_wm2": 141.0,
+     "rmse_pct": 33.8
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1813,
+     "r": 0.9184,
+     "mbe_pct": 9.79,
+     "rmse_wm2": 811.6,
+     "rmse_pct": 17.3
+    },
+    "power": {
+     "n": 1813,
+     "r": 0.9023,
+     "mbe_pct": 7.48,
+     "rmse_wm2": 784.8,
+     "rmse_pct": 16.7
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.454,
+   "monthly_bias_vs_ground": {
+    "1": {
+     "nsrdb_mbe_pct": 7.5,
+     "power_mbe_pct": 5.7
+    },
+    "2": {
+     "nsrdb_mbe_pct": 9.9,
+     "power_mbe_pct": 8.2
+    },
+    "3": {
+     "nsrdb_mbe_pct": 6.5,
+     "power_mbe_pct": 5.2
+    },
+    "4": {
+     "nsrdb_mbe_pct": 7.4,
+     "power_mbe_pct": 4.8
+    },
+    "5": {
+     "nsrdb_mbe_pct": 5.8,
+     "power_mbe_pct": 2.0
+    },
+    "6": {
+     "nsrdb_mbe_pct": 10.9,
+     "power_mbe_pct": 8.1
+    },
+    "7": {
+     "nsrdb_mbe_pct": 14.6,
+     "power_mbe_pct": 9.1
+    },
+    "8": {
+     "nsrdb_mbe_pct": 13.5,
+     "power_mbe_pct": 9.9
+    },
+    "9": {
+     "nsrdb_mbe_pct": 10.7,
+     "power_mbe_pct": 8.4
+    },
+    "10": {
+     "nsrdb_mbe_pct": 11.2,
+     "power_mbe_pct": 11.4
+    },
+    "11": {
+     "nsrdb_mbe_pct": 12.0,
+     "power_mbe_pct": 13.6
+    },
+    "12": {
+     "nsrdb_mbe_pct": 8.7,
+     "power_mbe_pct": 8.1
+    }
+   },
+   "episode_days": [
+    {
+     "date": "2019-11-17",
+     "ground": 1525,
+     "nsrdb": 4595,
+     "power": 3107
+    },
+    {
+     "date": "2019-11-18",
+     "ground": 3822,
+     "nsrdb": 4125,
+     "power": 4337
+    },
+    {
+     "date": "2019-11-19",
+     "ground": 4524,
+     "nsrdb": 1247,
+     "power": 4458
+    },
+    {
+     "date": "2019-11-20",
+     "ground": 4944,
+     "nsrdb": 4960,
+     "power": 4857
+    },
+    {
+     "date": "2020-02-13",
+     "ground": 4307,
+     "nsrdb": 5219,
+     "power": 4613
+    },
+    {
+     "date": "2020-02-14",
+     "ground": 3960,
+     "nsrdb": 5341,
+     "power": 4528
+    }
+   ],
+   "station": "FAWN_FortLauderdale",
+   "distance_km": 26
+  },
+  "Florida_Miami": {
+   "label": "Florida_Miami products vs FAWN_FortLauderdale ground (36 km)",
+   "daylight_hours": 20463,
+   "days": 1813,
+   "days_dropped_ground_outage": 1,
+   "hourly": {
+    "nsrdb": {
+     "n": 20463,
+     "r": 0.8412,
+     "mbe_pct": 10.34,
+     "rmse_wm2": 161.3,
+     "rmse_pct": 38.7
+    },
+    "power": {
+     "n": 20463,
+     "r": 0.8665,
+     "mbe_pct": 7.51,
+     "rmse_wm2": 141.0,
+     "rmse_pct": 33.8
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1813,
+     "r": 0.883,
+     "mbe_pct": 10.3,
+     "rmse_wm2": 945.0,
+     "rmse_pct": 20.1
+    },
+    "power": {
+     "n": 1813,
+     "r": 0.9023,
+     "mbe_pct": 7.48,
+     "rmse_wm2": 784.8,
+     "rmse_pct": 16.7
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.379,
+   "monthly_bias_vs_ground": {
+    "1": {
+     "nsrdb_mbe_pct": 6.0,
+     "power_mbe_pct": 5.7
+    },
+    "2": {
+     "nsrdb_mbe_pct": 12.1,
+     "power_mbe_pct": 8.2
+    },
+    "3": {
+     "nsrdb_mbe_pct": 5.8,
+     "power_mbe_pct": 5.2
+    },
+    "4": {
+     "nsrdb_mbe_pct": 7.0,
+     "power_mbe_pct": 4.8
+    },
+    "5": {
+     "nsrdb_mbe_pct": 4.5,
+     "power_mbe_pct": 2.0
+    },
+    "6": {
+     "nsrdb_mbe_pct": 11.8,
+     "power_mbe_pct": 8.1
+    },
+    "7": {
+     "nsrdb_mbe_pct": 16.2,
+     "power_mbe_pct": 9.1
+    },
+    "8": {
+     "nsrdb_mbe_pct": 16.4,
+     "power_mbe_pct": 9.9
+    },
+    "9": {
+     "nsrdb_mbe_pct": 12.6,
+     "power_mbe_pct": 8.4
+    },
+    "10": {
+     "nsrdb_mbe_pct": 12.3,
+     "power_mbe_pct": 11.4
+    },
+    "11": {
+     "nsrdb_mbe_pct": 12.0,
+     "power_mbe_pct": 13.6
+    },
+    "12": {
+     "nsrdb_mbe_pct": 7.7,
+     "power_mbe_pct": 8.1
+    }
+   },
+   "episode_days": [
+    {
+     "date": "2019-11-17",
+     "ground": 1525,
+     "nsrdb": 4610,
+     "power": 3107
+    },
+    {
+     "date": "2019-11-18",
+     "ground": 3822,
+     "nsrdb": 4124,
+     "power": 4337
+    },
+    {
+     "date": "2019-11-19",
+     "ground": 4524,
+     "nsrdb": 1239,
+     "power": 4458
+    },
+    {
+     "date": "2019-11-20",
+     "ground": 4944,
+     "nsrdb": 4950,
+     "power": 4857
+    },
+    {
+     "date": "2020-02-13",
+     "ground": 4307,
+     "nsrdb": 5223,
+     "power": 4613
+    },
+    {
+     "date": "2020-02-14",
+     "ground": 3960,
+     "nsrdb": 5346,
+     "power": 4528
+    }
+   ],
+   "station": "FAWN_FortLauderdale",
+   "distance_km": 36
+  }
+ },
+ "fawn_time_convention": {
+  "chosen": {
+   "old": "local/start",
+   "new": "local/start"
+  },
+  "votes": {
+   "old": {
+    "local/start": 7,
+    "EST/start": 1,
+    "EST/end": 1
+   },
+   "new": {
+    "local/start": 8,
+    "EST/end": 1
+   }
+  }
+ }
+}

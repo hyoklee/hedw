@@ -1,0 +1,10 @@
+name,lat,lon,network,code,dir,elev_m
+FAWN_Arcadia,27.22621,-81.83838,fawn,490,Arcadia_490,19.5072
+FAWN_BelleGlade,26.65678,-80.63001,fawn,410,Belle%20Glade_410,3.3528
+FAWN_Citra,29.4101,-82.1732,fawn,250,Citra_250,18.288
+FAWN_FortLauderdale,26.0853,-80.2405,fawn,420,Fort%20Lauderdale_420,1.524
+FAWN_Homestead,25.5126,-80.5031,fawn,440,Homestead_440,2.4384
+FAWN_Immokalee,26.46207,-81.44052,fawn,450,Immokalee_450,10.668
+FAWN_LakeAlfred,28.10186,-81.71128,fawn,330,Lake%20Alfred_330,46.9392
+FAWN_Okeechobee,27.33059,-80.85141,fawn,455,Okeechobee_455,8.8392
+FAWN_Wellington,26.68076,-80.30058,fawn,425,Wellington_425,5.1816

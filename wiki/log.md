@@ -130,3 +130,21 @@
 - **Overall:** NSRDB beats POWER at 14/14 stations. Median daily RMSE is 9.0 % against 12.0 %, and hourly 62.05 against 82.05 W/m². POWER's worst site is Seattle (17.7 % against 10.5 %).
 - **Fill episodes:** NSRDB median absolute daily error 25.8 % against POWER 10.8 %. The filled stations run from −111.95° to −77.49°, and the western stations were not filled.
 - **Routine filled hours:** NSRDB 38.2 against POWER 45.0 W/m².
+
+## [2026-11-20] test | CIMIS and FAWN (and MIDC LMU) for the flagged cities
+- **CIMIS:** not used.
+  - The documented API needs an app key; without one it returns 404.
+  - Calling the website's internal `ApiWeb` endpoints was refused by the permission system as unauthorised. Getting CIMIS needs a user-registered key.
+- **FAWN:**
+  - 53 of 56 stations located through the DSSAT headers.
+  - FAWN Fort Lauderdale is 10–36 km from the 4 flagged South Florida cities.
+  - Hourly 2019–2023 data was downloaded for 9 stations; Jupiter was dropped because it starts 2023-12-19. NSRDB, flags and POWER were fetched at the station coordinates.
+  - Time convention: local clock time with DST, labelling the start of the averaged hour (lag-scan votes 7/9 for pre-2021 files and 8/9 for later ones).
+  - FAWN reads 8–25 % low against both products, by drifting, station-specific amounts, so its absolute level is unusable.
+  - Daily r: NSRDB beats POWER at 9/9 stations, and at Fort Lauderdale 0.9615 against 0.8997.
+- **MIDC LMU (Los Angeles coast, 2011–2014, documented API):**
+  - NSRDB +5.65 % and POWER −3.11 % overall.
+  - June to August: NSRDB +8.8 to +10.5 %, POWER −5.5 to −6.8 %.
+  - Daily r: NSRDB 0.978, POWER 0.9551.
+  - So in coastal Southern California the summer flag is partly a real NSRDB/HEDW-US over-estimate.
+- **Results:** `agent/results/ground_local_20261120/`. Pages: [source-fawn-midc-cimis.md](source-fawn-midc-cimis.md), [agent_solar_coherence.md](agent_solar_coherence.md#near-the-flagged-cities-fawn-and-midc-lmu).

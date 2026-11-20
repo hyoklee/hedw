@@ -1,0 +1,130 @@
+15:56:07 power FAWN_BelleGlade: 3211466
+15:56:07 power FAWN_Arcadia: 3211161
+15:56:08 power FAWN_FortLauderdale: 3211466
+15:56:08 power FAWN_Citra: 3209381
+15:56:09 power FAWN_Immokalee: 3211567
+15:56:09 power FAWN_Homestead: 3212169
+15:56:10 power FAWN_Jupiter: 3211467
+15:56:11 power FAWN_LakeAlfred: 3210521
+15:56:11 power FAWN_Okeechobee: 3210953
+15:56:11 power FAWN_Wellington: 3211466
+15:56:11 POWER done: 10/10 ok
+15:56:12   HTTP 429 FAWN_Arcadia_2019.csv try 1: Error Code,Error Message
+"OVER_RATE_LIMIT","You have exceeded your rate limit. Try again later or contact us for assistance: https://developer.nrel.gov/contact/"
+15:56:23 nsrdb FAWN_Citra 2019: 710471
+15:56:26 nsrdb FAWN_BelleGlade 2019: 723062
+15:56:26 nsrdb FAWN_Arcadia 2019: 718342
+15:56:27   HTTP 429 FAWN_Arcadia_2020.csv try 1: Error Code,Error Message
+"OVER_RATE_LIMIT","You have exceeded your rate limit. Try again later or contact us for assistance: https://developer.nrel.gov/contact/"
+15:56:33 nsrdb FAWN_BelleGlade 2020: 727623
+15:56:33 nsrdb FAWN_Citra 2020: 714601
+15:56:34   HTTP 429 FAWN_Citra_2021.csv try 1: Error Code,Error Message
+"OVER_RATE_LIMIT","You have exceeded your rate limit. Try again later or contact us for assistance: https://developer.nrel.gov/contact/"
+15:56:38 nsrdb FAWN_Arcadia 2020: 722273
+15:56:41 nsrdb FAWN_BelleGlade 2021: 723347
+15:56:45 nsrdb FAWN_Arcadia 2021: 720682
+15:56:45 nsrdb FAWN_Citra 2021: 712417
+15:56:47 nsrdb FAWN_BelleGlade 2022: 722845
+15:56:52 nsrdb FAWN_Arcadia 2022: 718463
+15:56:52 nsrdb FAWN_Citra 2022: 710789
+15:56:53 nsrdb FAWN_BelleGlade 2023: 721781
+15:56:59 nsrdb FAWN_Citra 2023: 711391
+15:56:59 nsrdb FAWN_FortLauderdale 2019: 727549
+15:57:00 nsrdb FAWN_Arcadia 2023: 718110
+15:57:05 nsrdb FAWN_Homestead 2019: 726921
+15:57:06 nsrdb FAWN_Immokalee 2019: 719580
+15:57:06 nsrdb FAWN_FortLauderdale 2020: 728662
+15:57:12 nsrdb FAWN_Immokalee 2020: 722903
+15:57:12 nsrdb FAWN_FortLauderdale 2021: 728754
+15:57:13 nsrdb FAWN_Homestead 2020: 726445
+15:57:20 nsrdb FAWN_FortLauderdale 2022: 728661
+15:57:21 nsrdb FAWN_Immokalee 2021: 721555
+15:57:21 nsrdb FAWN_Homestead 2021: 727757
+15:57:28 nsrdb FAWN_FortLauderdale 2023: 727829
+15:57:29 nsrdb FAWN_Immokalee 2022: 718642
+15:57:29 nsrdb FAWN_Homestead 2022: 725970
+15:57:34 nsrdb FAWN_Immokalee 2023: 720844
+15:57:34 nsrdb FAWN_Jupiter 2019: 726505
+15:57:35 nsrdb FAWN_Homestead 2023: 727318
+15:57:36   HTTP 429 FAWN_Okeechobee_2019.csv try 1: Error Code,Error Message
+"OVER_RATE_LIMIT","You have exceeded your rate limit. Try again later or contact us for assistance: https://developer.nrel.gov/contact/"
+15:57:40 nsrdb FAWN_Jupiter 2020: 729548
+15:57:41 nsrdb FAWN_LakeAlfred 2019: 716853
+15:57:46 nsrdb FAWN_Jupiter 2021: 727045
+15:57:47 nsrdb FAWN_LakeAlfred 2020: 721390
+15:57:48 nsrdb FAWN_Okeechobee 2019: 720865
+15:57:51 nsrdb FAWN_Jupiter 2022: 727215
+15:57:52 nsrdb FAWN_LakeAlfred 2021: 714626
+15:57:53 nsrdb FAWN_Okeechobee 2020: 725765
+15:57:57 nsrdb FAWN_Jupiter 2023: 729630
+15:57:58 nsrdb FAWN_LakeAlfred 2022: 714318
+15:57:59 nsrdb FAWN_Okeechobee 2021: 721873
+15:58:03 nsrdb FAWN_Wellington 2019: 726976
+15:58:04 nsrdb FAWN_LakeAlfred 2023: 713971
+15:58:05 nsrdb FAWN_Okeechobee 2022: 720369
+15:58:08 nsrdb FAWN_Wellington 2020: 729260
+15:58:10 nsrdb FAWN_Okeechobee 2023: 719170
+15:58:13 nsrdb FAWN_Wellington 2021: 727726
+15:58:20 nsrdb FAWN_Wellington 2022: 727293
+15:58:25 nsrdb FAWN_Wellington 2023: 727081
+15:58:26 NSRDB done: 50/50 ok; failed: []
+15:58:26 elapsed 141 s
+15:58:30 nsrdb FAWN_BelleGlade 2019: 224355
+15:58:30 nsrdb FAWN_Citra 2019: 224503
+15:58:30 nsrdb FAWN_Arcadia 2019: 224570
+15:58:31   HTTP 429 FAWN_Arcadia_2020_flags.csv try 1: Error Code,Error Message
+"OVER_RATE_LIMIT","You have exceeded your rate limit. Try again later or contact us for assistance: https://developer.nrel.gov/contact/"
+15:58:34 nsrdb FAWN_BelleGlade 2020: 224911
+15:58:34 nsrdb FAWN_Citra 2020: 225140
+15:58:37 nsrdb FAWN_BelleGlade 2021: 224177
+15:58:38 nsrdb FAWN_Citra 2021: 224242
+15:58:39   HTTP 429 FAWN_Citra_2022_flags.csv try 1: Error Code,Error Message
+"OVER_RATE_LIMIT","You have exceeded your rate limit. Try again later or contact us for assistance: https://developer.nrel.gov/contact/"
+15:58:40 nsrdb FAWN_Arcadia 2020: 225114
+15:58:42 nsrdb FAWN_BelleGlade 2022: 224148
+15:58:44 nsrdb FAWN_Arcadia 2021: 224281
+15:58:46 nsrdb FAWN_BelleGlade 2023: 224066
+15:58:48 nsrdb FAWN_Arcadia 2022: 224196
+15:58:49 nsrdb FAWN_Citra 2022: 224187
+15:58:50 nsrdb FAWN_FortLauderdale 2019: 224398
+15:58:52 nsrdb FAWN_Arcadia 2023: 224196
+15:58:53 nsrdb FAWN_Citra 2023: 224157
+15:58:54 nsrdb FAWN_FortLauderdale 2020: 224951
+15:58:56 nsrdb FAWN_Homestead 2019: 224391
+15:58:58 nsrdb FAWN_Immokalee 2019: 224457
+15:58:58 nsrdb FAWN_FortLauderdale 2021: 224285
+15:59:01 nsrdb FAWN_Homestead 2020: 224942
+15:59:01 nsrdb FAWN_Immokalee 2020: 225022
+15:59:05 nsrdb FAWN_Homestead 2021: 224270
+15:59:06 nsrdb FAWN_Immokalee 2021: 224223
+15:59:13 nsrdb FAWN_Immokalee 2022: 224195
+15:59:17   HTTP 400 FAWN_FortLauderdale_2022_flags.csv try 1: {"inputs":{"params":{},"query":{"names":"2022","interval":"60","utc":"true","leap_day":"true","email":"<redacted>","affiliation":"<redacted>","reason":"Academic Research","attributes":"ghi,clearsky_ghi,cloud_type,fill_flag","wkt":"POINT(-80.2405 26.0853)"}},"metadata":{"version":"2.0.0"
+15:59:17 nsrdb FAWN_FortLauderdale 2022: -400
+15:59:24 nsrdb FAWN_FortLauderdale 2023: 224083
+15:59:25 nsrdb FAWN_Immokalee 2023: 224093
+15:59:25 nsrdb FAWN_Homestead 2022: 224208
+15:59:26   HTTP 429 FAWN_LakeAlfred_2019_flags.csv try 1: Error Code,Error Message
+"OVER_RATE_LIMIT","You have exceeded your rate limit. Try again later or contact us for assistance: https://developer.nrel.gov/contact/"
+15:59:28 nsrdb FAWN_Jupiter 2019: 224379
+15:59:31 nsrdb FAWN_Homestead 2023: 224047
+15:59:33 nsrdb FAWN_Jupiter 2020: 224947
+15:59:34 nsrdb FAWN_Okeechobee 2019: 224452
+15:59:36 nsrdb FAWN_LakeAlfred 2019: 224514
+15:59:38 nsrdb FAWN_Jupiter 2021: 224058
+15:59:38 nsrdb FAWN_Okeechobee 2020: 225043
+15:59:42 nsrdb FAWN_LakeAlfred 2020: 225086
+15:59:42 nsrdb FAWN_Jupiter 2022: 224109
+15:59:42 nsrdb FAWN_Okeechobee 2021: 224191
+15:59:46 nsrdb FAWN_Jupiter 2023: 224090
+15:59:46 nsrdb FAWN_Okeechobee 2022: 224191
+15:59:47 nsrdb FAWN_LakeAlfred 2021: 224262
+15:59:50 nsrdb FAWN_Wellington 2019: 224366
+15:59:50 nsrdb FAWN_Okeechobee 2023: 224159
+15:59:51 nsrdb FAWN_LakeAlfred 2022: 224172
+15:59:54 nsrdb FAWN_Wellington 2020: 224962
+15:59:55 nsrdb FAWN_LakeAlfred 2023: 224164
+15:59:58 nsrdb FAWN_Wellington 2021: 224212
+16:00:05 nsrdb FAWN_Wellington 2022: 224205
+16:00:09 nsrdb FAWN_Wellington 2023: 224061
+16:00:10 flags done: 49/50 ok; failed: [('FAWN_FortLauderdale', 2022, -400)]
+16:00:10 elapsed 104 s
