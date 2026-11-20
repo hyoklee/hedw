@@ -1,0 +1,30 @@
+{
+ "question": "For California_ChulaVista in the latest run, give r_daily, bias_pct and the number of anomalous days.",
+ "agent": "hedw/solar-coherence",
+ "tools": [
+  {
+   "tool": "hedw_report",
+   "ok": true
+  }
+ ],
+ "permissions": [],
+ "session_id": "sess_00a90ed8f463",
+ "stop_reason": "end_turn",
+ "status": "completed",
+ "elapsed_s": 2.3,
+ "answer": "For **California_ChulaVista** in the latest HEDW-US run (from `hedw_report`):\n\n- **r_daily: 0.8987**\n- **bias_pct: +10.47%** (NSRDB GHI runs higher than NASA POWER on daily totals)\n- **Anomalous days: 144** total \u2014 26 low (NSRDB below POWER) and 118 high (NSRDB above POWER)\n\nContext from the same report: best lag is 0 h as expected, r_hourly is 0.9714, and the city is flagged anomalous with z(r_daily) = \u22127.2, z(bias_pct) = +5.1, z(anomalous_days) = +5.1. The worst days include marine-layer/fog-type low days (e.g. 2023-01-05, NSRDB 922 vs POWER 1971 Wh/m\u00b2) and high days like 2021-06-01 (NSRDB 7802 vs POWER 3717 Wh/m\u00b2) \u2014 consistent with the ~100 km POWER cell smoothing over coastal and mountain variability rather than an HEDW-US error.",
+ "tokens_input": 15953,
+ "tokens_output": 357,
+ "run": "run_20261120T143515Z_n1p50",
+ "expect": [
+  "0.8987",
+  "10.47",
+  "144"
+ ],
+ "hits": [
+  true,
+  true,
+  true
+ ],
+ "correct": true
+}

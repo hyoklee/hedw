@@ -6,6 +6,12 @@
 - **Access:** open, with no key. Reachable directly from Aurora login nodes (tested 2026-11-20). Compute nodes need the ALCF proxy (`http_proxy=http://proxy.alcf.anl.gov:3128`).
 - **Sample response:** [`raw/power/sample_hourly_stlouis_20190701.json`](../raw/power/sample_hourly_stlouis_20190701.json) (St. Louis, 38.63 N, −90.20 E, 2019-07-01)
 
+## Bulk download (2026-11-20)
+
+- **Script:** `../agent/fetch/fetch_all.py`. It makes one request per city for 2019-01-01 to 2023-12-31, with `ALLSKY_SFC_SW_DWN`, `CLRSKY_SFC_SW_DWN`, `ALLSKY_SFC_SW_DNI` and `ALLSKY_SFC_SW_DIFF` at the city coordinates in `target_cities.csv`.
+- **Result:** all 150 cities succeeded, with 43,824 hours each and no fill values in `ALLSKY_SFC_SW_DWN` for any city. Each file is about 3.2 MB of JSON, 594 MB in total, stored in `../raw/power/` (git-ignored).
+- **Speed:** two parallel workers fetched all 150 cities in under 2 minutes (log 14:09:23 to 14:11:09; 2 cities were already cached). No rate limiting was seen.
+
 ## What the sample response shows
 
 | Field | Value |

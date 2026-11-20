@@ -1,0 +1,26 @@
+{
+ "question": "What is the median daily correlation (r_daily) between NSRDB GHI and NASA POWER across cities in the latest run?",
+ "agent": "hedw/solar-coherence",
+ "tools": [
+  {
+   "tool": "hedw_report",
+   "ok": true
+  }
+ ],
+ "permissions": [],
+ "session_id": "sess_0036323ace7b",
+ "stop_reason": "end_turn",
+ "status": "completed",
+ "elapsed_s": 2.0,
+ "answer": "The latest run is `run_20261120T143515Z_n1p50` (149 cities, 2019-01-01 through 2023-12-31). Its headline metrics report:\n\n**Median r_daily = 0.9768** across the 149 cities, with a minimum of 0.8987 (California_ChulaVista, the only city below 0.90).\n\nFor context from the same summary: median hourly correlation r_hourly is 0.9785 (min 0.9604), median bias is +1.11% (p05 \u22122.09%, p95 +4.76%), and every city-year's best cross-correlation lag is 0 h, matching the expected alignment between the NSRDB value at HH:30 UTC and POWER's hour-mean.",
+ "tokens_input": 16088,
+ "tokens_output": 253,
+ "run": "run_20261120T143515Z_n1p50",
+ "expect": [
+  "0.9768"
+ ],
+ "hits": [
+  true
+ ],
+ "correct": true
+}

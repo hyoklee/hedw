@@ -1,0 +1,30 @@
+{
+ "question": "For California_ChulaVista in the latest run, give r_daily, bias_pct and the number of anomalous days.",
+ "agent": "hedw/solar-coherence",
+ "tools": [
+  {
+   "tool": "hedw_report",
+   "ok": true
+  }
+ ],
+ "permissions": [],
+ "session_id": "sess_fae35f7ff0da",
+ "stop_reason": "end_turn",
+ "status": "completed",
+ "elapsed_s": 2.7,
+ "answer": "From the latest run (`hedw_report`, city = `California_ChulaVista`):\n\n- **r_daily = 0.8987**\n- **bias_pct = +10.47 %** (NSRDB GHI runs high relative to NASA POWER on a daily basis)\n- **Anomalous days = 144** of the 2019\u20132023 period \u2014 118 high (NSRDB above POWER) and 26 low\n\nContext from the same report: r_hourly = 0.9714, best lag = 0 h (as expected), RMSE hourly = 111.3 W/m\u00b2. The city is flagged as anomalous overall with z(r_daily) = \u22127.2, z(bias_pct) = +5.1, z(anomalous_days) = +5.1 \u2014 consistent with the expected coastal-fog/marine-layer disagreement: a POWER 1\u00b0 cell (~100 km) averages over ocean and inland, so its all-sky GHI is often lower than the point-like NSRDB value on clear coastal days (e.g. 2021-06-01: NSRDB 7802 vs POWER 3717 Wh/m\u00b2) and higher on foggy days the satellite cell smooths out (e.g. 2023-01-05: 922 vs 1971 Wh/m\u00b2). That pattern points to spatial representativeness, not an HEDW-US processing error.",
+ "tokens_input": 15946,
+ "tokens_output": 454,
+ "run": "run_20261120T143515Z_n1p50",
+ "expect": [
+  "0.8987",
+  "10.47",
+  "144"
+ ],
+ "hits": [
+  true,
+  true,
+  true
+ ],
+ "correct": true
+}

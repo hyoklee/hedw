@@ -1,0 +1,118 @@
+{
+ "run": "run_20261120T143515Z_n1p50",
+ "agent": "hedw/solar-coherence",
+ "rows": [
+  {
+   "q": 0,
+   "rep": 0,
+   "correct": true,
+   "hits": 2,
+   "n": 2,
+   "elapsed_s": 3.5,
+   "tools": 1,
+   "tokens_in": 16091,
+   "status": "completed"
+  },
+  {
+   "q": 1,
+   "rep": 0,
+   "correct": true,
+   "hits": 1,
+   "n": 1,
+   "elapsed_s": 2.0,
+   "tools": 1,
+   "tokens_in": 16088,
+   "status": "completed"
+  },
+  {
+   "q": 2,
+   "rep": 0,
+   "correct": true,
+   "hits": 2,
+   "n": 2,
+   "elapsed_s": 2.2,
+   "tools": 1,
+   "tokens_in": 16064,
+   "status": "completed"
+  },
+  {
+   "q": 3,
+   "rep": 0,
+   "correct": true,
+   "hits": 3,
+   "n": 3,
+   "elapsed_s": 2.2,
+   "tools": 1,
+   "tokens_in": 15907,
+   "status": "completed"
+  },
+  {
+   "q": 4,
+   "rep": 0,
+   "correct": true,
+   "hits": 3,
+   "n": 3,
+   "elapsed_s": 2.3,
+   "tools": 1,
+   "tokens_in": 15953,
+   "status": "completed"
+  },
+  {
+   "q": 0,
+   "rep": 1,
+   "correct": true,
+   "hits": 2,
+   "n": 2,
+   "elapsed_s": 2.0,
+   "tools": 1,
+   "tokens_in": 16087,
+   "status": "completed"
+  },
+  {
+   "q": 1,
+   "rep": 1,
+   "correct": true,
+   "hits": 1,
+   "n": 1,
+   "elapsed_s": 2.0,
+   "tools": 1,
+   "tokens_in": 16079,
+   "status": "completed"
+  },
+  {
+   "q": 2,
+   "rep": 1,
+   "correct": true,
+   "hits": 2,
+   "n": 2,
+   "elapsed_s": 2.2,
+   "tools": 1,
+   "tokens_in": 16068,
+   "status": "completed"
+  },
+  {
+   "q": 3,
+   "rep": 1,
+   "correct": true,
+   "hits": 3,
+   "n": 3,
+   "elapsed_s": 2.2,
+   "tools": 1,
+   "tokens_in": 15892,
+   "status": "completed"
+  },
+  {
+   "q": 4,
+   "rep": 1,
+   "correct": true,
+   "hits": 3,
+   "n": 3,
+   "elapsed_s": 2.7,
+   "tools": 1,
+   "tokens_in": 15946,
+   "status": "completed"
+  }
+ ],
+ "correct": 10,
+ "total": 10
+}

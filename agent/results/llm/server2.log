@@ -1,0 +1,326 @@
+installed hedw (agent-plugins): 1 plugins, 1 agents
+trusted hedw: 1 plugins, 1 agents
+INFO:     Started server process [4138048]
+INFO:     Waiting for application startup.
+WARNING | ⚑ BOOT mark=lifespan_started at=5.313
+WARNING | codex fence unusable on this host reason=codex_linux_fence_unavailable detail=codex exited 1: bwrap: Creating new namespace failed: nesting depth or /proc/sys/user/max_*_namespaces exceeded (ENOSPC)
+WARNING | ⚑ BOOT mark=serving at=8.711
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8100 (Press CTRL+C to quit)
+WARNING | ⚑ BOOT step=marketplace seconds=0.133 start=8.718 thread=MainThread outcome=ok
+/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/fastapi/openapi/utils.py:295: UserWarning: Duplicate Operation ID h5grove_root_v1_workspaces__wid__h5grove__get for function h5grove_root at /home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/gact/routes/workspace_h5grove.py
+  warnings.warn(message, stacklevel=1)
+WARNING | ⚑ BOOT step=openapi_schema seconds=0.671 start=8.719 thread=MainThread outcome=ok
+WARNING | ⚑ BOOT step=protected_execution seconds=0.662 start=8.735 thread=MainThread outcome=ok
+WARNING | ⚑ BOOT step=orphans seconds=1.347 start=8.712 thread=MainThread outcome=ok
+INFO:     127.0.0.1:41932 - "PATCH /v1/session-defaults HTTP/1.1" 503 Service Unavailable
+WARNING | ⚑ BOOT step=task_history_restore seconds=0.002 start=10.815 thread=asyncio_4 outcome=ok
+WARNING | ⚑ BOOT step=interrupted_sessions seconds=0.030 start=10.840 thread=asyncio_4 outcome=ok
+WARNING | ⚑ BOOT step=interaction_times seconds=0.000 start=10.870 thread=asyncio_4 outcome=ok
+WARNING | ⚑ BOOT step=clio_core_and_store seconds=1.472 start=9.398 thread=MainThread outcome=ok
+INFO:     127.0.0.1:41942 - "PATCH /v1/session-defaults HTTP/1.1" 503 Service Unavailable
+WARNING | ⚑ BOOT step=obligations_held seconds=0.005 start=14.268 thread=MainThread outcome=ok
+WARNING | ⚑ BOOT mark=task_runtime_ready at=14.274
+WARNING | ⚑ BOOT step=obligations seconds=0.002 start=14.274 thread=MainThread outcome=ok
+WARNING | ⚑ BOOT step=agent_construct seconds=0.244 start=14.077 thread=MainThread outcome=ok
+WARNING | ⚑ BOOT step=artifact_registry seconds=0.013 start=14.321 thread=MainThread outcome=ok
+WARNING | ⚑ BOOT mark=agent_ready at=14.337
+[clio-agent-gact] agent ready.
+WARNING | ⚑ BOOT step=cas_gc seconds=0.000 start=14.342 thread=MainThread outcome=ok
+WARNING | ⚑ BOOT step=first_doctor_pass seconds=0.302 start=14.078 thread=MainThread outcome=ok
+INFO:     127.0.0.1:53726 - "PATCH /v1/session-defaults HTTP/1.1" 200 OK
+clio-agent 0.9.7.x on port 8100, default agent hedw/solar-coherence
+INFO:     127.0.0.1:53734 - "POST /v1/sessions HTTP/1.1" 200 OK
+WARNING | ⚑ RESIDENT-LEDGER rehydrate session=sess_85e0d0d92621 bytes=0
+INFO:     127.0.0.1:53734 - "POST /v1/sessions/sess_85e0d0d92621/messages HTTP/1.1" 202 Accepted
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+INFO:     127.0.0.1:53734 - "GET /v1/sessions/sess_85e0d0d92621/events HTTP/1.1" 200 OK
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+2026/11/20 14:39:05 WARNING dspy.primitives.module: Calling module.forward(...) on React directly is discouraged. Please use module(...) instead.
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | usage rollup degraded to an estimate because the LM fired but reported zero usage reason=usage_estimated strategy=price_table_estimate session=sess_85e0d0d92621
+WARNING | ⚑ REASONING captured 2 call(s): mistral-large-4-nvfp4=136c; mistral-large-4-nvfp4=130c
+INFO:     127.0.0.1:53746 - "GET /v1/sessions/sess_85e0d0d92621/messages HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53746 - "GET /v1/sessions/sess_85e0d0d92621 HTTP/1.1" 200 OK
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+INFO:     127.0.0.1:53746 - "POST /v1/sessions HTTP/1.1" 200 OK
+WARNING | ⚑ RESIDENT-LEDGER rehydrate session=sess_0036323ace7b bytes=0
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+INFO:     127.0.0.1:53746 - "POST /v1/sessions/sess_0036323ace7b/messages HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:53746 - "GET /v1/sessions/sess_0036323ace7b/events HTTP/1.1" 200 OK
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+2026/11/20 14:39:08 WARNING dspy.primitives.module: Calling module.forward(...) on React directly is discouraged. Please use module(...) instead.
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | usage rollup degraded to an estimate because the LM fired but reported zero usage reason=usage_estimated strategy=price_table_estimate session=sess_0036323ace7b
+WARNING | ⚑ REASONING captured 2 call(s): mistral-large-4-nvfp4=120c; mistral-large-4-nvfp4=100c
+INFO:     127.0.0.1:54612 - "GET /v1/sessions/sess_0036323ace7b/messages HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54612 - "GET /v1/sessions/sess_0036323ace7b HTTP/1.1" 200 OK
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+INFO:     127.0.0.1:54612 - "POST /v1/sessions HTTP/1.1" 200 OK
+WARNING | ⚑ RESIDENT-LEDGER rehydrate session=sess_66bc410ce114 bytes=0
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+INFO:     127.0.0.1:54612 - "POST /v1/sessions/sess_66bc410ce114/messages HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:54612 - "GET /v1/sessions/sess_66bc410ce114/events HTTP/1.1" 200 OK
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+2026/11/20 14:39:10 WARNING dspy.primitives.module: Calling module.forward(...) on React directly is discouraged. Please use module(...) instead.
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | usage rollup degraded to an estimate because the LM fired but reported zero usage reason=usage_estimated strategy=price_table_estimate session=sess_66bc410ce114
+WARNING | ⚑ REASONING captured 2 call(s): mistral-large-4-nvfp4=133c; mistral-large-4-nvfp4=461c
+INFO:     127.0.0.1:54614 - "GET /v1/sessions/sess_66bc410ce114/messages HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54614 - "GET /v1/sessions/sess_66bc410ce114 HTTP/1.1" 200 OK
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+INFO:     127.0.0.1:54614 - "POST /v1/sessions HTTP/1.1" 200 OK
+WARNING | ⚑ RESIDENT-LEDGER rehydrate session=sess_3d6d1091a91a bytes=0
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+INFO:     127.0.0.1:54614 - "POST /v1/sessions/sess_3d6d1091a91a/messages HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:54614 - "GET /v1/sessions/sess_3d6d1091a91a/events HTTP/1.1" 200 OK
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+2026/11/20 14:39:12 WARNING dspy.primitives.module: Calling module.forward(...) on React directly is discouraged. Please use module(...) instead.
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | usage rollup degraded to an estimate because the LM fired but reported zero usage reason=usage_estimated strategy=price_table_estimate session=sess_3d6d1091a91a
+WARNING | ⚑ REASONING captured 2 call(s): mistral-large-4-nvfp4=168c; mistral-large-4-nvfp4=30c
+INFO:     127.0.0.1:54624 - "GET /v1/sessions/sess_3d6d1091a91a/messages HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54624 - "GET /v1/sessions/sess_3d6d1091a91a HTTP/1.1" 200 OK
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+INFO:     127.0.0.1:54624 - "POST /v1/sessions HTTP/1.1" 200 OK
+WARNING | ⚑ RESIDENT-LEDGER rehydrate session=sess_00a90ed8f463 bytes=0
+INFO:     127.0.0.1:54624 - "POST /v1/sessions/sess_00a90ed8f463/messages HTTP/1.1" 202 Accepted
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+INFO:     127.0.0.1:54624 - "GET /v1/sessions/sess_00a90ed8f463/events HTTP/1.1" 200 OK
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+2026/11/20 14:39:14 WARNING dspy.primitives.module: Calling module.forward(...) on React directly is discouraged. Please use module(...) instead.
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | usage rollup degraded to an estimate because the LM fired but reported zero usage reason=usage_estimated strategy=price_table_estimate session=sess_00a90ed8f463
+WARNING | ⚑ REASONING captured 2 call(s): mistral-large-4-nvfp4=186c; mistral-large-4-nvfp4=165c
+INFO:     127.0.0.1:54628 - "GET /v1/sessions/sess_00a90ed8f463/messages HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54628 - "GET /v1/sessions/sess_00a90ed8f463 HTTP/1.1" 200 OK
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+INFO:     127.0.0.1:54628 - "POST /v1/sessions HTTP/1.1" 200 OK
+WARNING | ⚑ RESIDENT-LEDGER rehydrate session=sess_11a04c56eb6a bytes=0
+INFO:     127.0.0.1:54628 - "POST /v1/sessions/sess_11a04c56eb6a/messages HTTP/1.1" 202 Accepted
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+INFO:     127.0.0.1:54628 - "GET /v1/sessions/sess_11a04c56eb6a/events HTTP/1.1" 200 OK
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+2026/11/20 14:39:16 WARNING dspy.primitives.module: Calling module.forward(...) on React directly is discouraged. Please use module(...) instead.
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | usage rollup degraded to an estimate because the LM fired but reported zero usage reason=usage_estimated strategy=price_table_estimate session=sess_11a04c56eb6a
+WARNING | ⚑ REASONING captured 2 call(s): mistral-large-4-nvfp4=115c; mistral-large-4-nvfp4=82c
+INFO:     127.0.0.1:54638 - "GET /v1/sessions/sess_11a04c56eb6a/messages HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54638 - "GET /v1/sessions/sess_11a04c56eb6a HTTP/1.1" 200 OK
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+INFO:     127.0.0.1:54638 - "POST /v1/sessions HTTP/1.1" 200 OK
+WARNING | ⚑ RESIDENT-LEDGER rehydrate session=sess_668459185bf5 bytes=0
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+INFO:     127.0.0.1:54638 - "POST /v1/sessions/sess_668459185bf5/messages HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:54638 - "GET /v1/sessions/sess_668459185bf5/events HTTP/1.1" 200 OK
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+2026/11/20 14:39:18 WARNING dspy.primitives.module: Calling module.forward(...) on React directly is discouraged. Please use module(...) instead.
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | usage rollup degraded to an estimate because the LM fired but reported zero usage reason=usage_estimated strategy=price_table_estimate session=sess_668459185bf5
+WARNING | ⚑ REASONING captured 2 call(s): mistral-large-4-nvfp4=112c; mistral-large-4-nvfp4=100c
+INFO:     127.0.0.1:32836 - "GET /v1/sessions/sess_668459185bf5/messages HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32836 - "GET /v1/sessions/sess_668459185bf5 HTTP/1.1" 200 OK
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+INFO:     127.0.0.1:32836 - "POST /v1/sessions HTTP/1.1" 200 OK
+WARNING | ⚑ RESIDENT-LEDGER rehydrate session=sess_fbdf370126d1 bytes=0
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+INFO:     127.0.0.1:32836 - "POST /v1/sessions/sess_fbdf370126d1/messages HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:32836 - "GET /v1/sessions/sess_fbdf370126d1/events HTTP/1.1" 200 OK
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+2026/11/20 14:39:20 WARNING dspy.primitives.module: Calling module.forward(...) on React directly is discouraged. Please use module(...) instead.
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | usage rollup degraded to an estimate because the LM fired but reported zero usage reason=usage_estimated strategy=price_table_estimate session=sess_fbdf370126d1
+WARNING | ⚑ REASONING captured 2 call(s): mistral-large-4-nvfp4=125c; mistral-large-4-nvfp4=299c
+INFO:     127.0.0.1:32850 - "GET /v1/sessions/sess_fbdf370126d1/messages HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32850 - "GET /v1/sessions/sess_fbdf370126d1 HTTP/1.1" 200 OK
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+INFO:     127.0.0.1:32850 - "POST /v1/sessions HTTP/1.1" 200 OK
+WARNING | ⚑ RESIDENT-LEDGER rehydrate session=sess_66748fe2180e bytes=0
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+INFO:     127.0.0.1:32850 - "POST /v1/sessions/sess_66748fe2180e/messages HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:32850 - "GET /v1/sessions/sess_66748fe2180e/events HTTP/1.1" 200 OK
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+2026/11/20 14:39:23 WARNING dspy.primitives.module: Calling module.forward(...) on React directly is discouraged. Please use module(...) instead.
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | usage rollup degraded to an estimate because the LM fired but reported zero usage reason=usage_estimated strategy=price_table_estimate session=sess_66748fe2180e
+WARNING | ⚑ REASONING captured 2 call(s): mistral-large-4-nvfp4=169c; mistral-large-4-nvfp4=83c
+INFO:     127.0.0.1:32860 - "GET /v1/sessions/sess_66748fe2180e/messages HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32860 - "GET /v1/sessions/sess_66748fe2180e HTTP/1.1" 200 OK
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+INFO:     127.0.0.1:32860 - "POST /v1/sessions HTTP/1.1" 200 OK
+WARNING | ⚑ RESIDENT-LEDGER rehydrate session=sess_fae35f7ff0da bytes=0
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+INFO:     127.0.0.1:32860 - "POST /v1/sessions/sess_fae35f7ff0da/messages HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:32860 - "GET /v1/sessions/sess_fae35f7ff0da/events HTTP/1.1" 200 OK
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+2026/11/20 14:39:25 WARNING dspy.primitives.module: Calling module.forward(...) on React directly is discouraged. Please use module(...) instead.
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | usage rollup degraded to an estimate because the LM fired but reported zero usage reason=usage_estimated strategy=price_table_estimate session=sess_fae35f7ff0da
+WARNING | ⚑ REASONING captured 2 call(s): mistral-large-4-nvfp4=156c; mistral-large-4-nvfp4=297c
+INFO:     127.0.0.1:32868 - "GET /v1/sessions/sess_fae35f7ff0da/messages HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32868 - "GET /v1/sessions/sess_fae35f7ff0da HTTP/1.1" 200 OK
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+INFO:     127.0.0.1:51416 - "GET /v1/health HTTP/1.1" 200 OK
+WARNING | ⚑ RESIDENT-LEDGER idle_ttl session=sess_85e0d0d92621 bytes=175092
+WARNING | ⚑ RESIDENT-LEDGER idle_ttl session=sess_0036323ace7b bytes=177753
+WARNING | ⚑ RESIDENT-LEDGER idle_ttl session=sess_66bc410ce114 bytes=180608
+WARNING | ⚑ RESIDENT-LEDGER swept released=3
+WARNING | ⚑ RESIDENT-LEDGER model_clients_released session=sess_0036323ace7b
+WARNING | ⚑ RESIDENT-LEDGER model_clients_released session=sess_66bc410ce114
+WARNING | ⚑ RESIDENT-LEDGER arc_released session=sess_85e0d0d92621 segments=16 inflight_pending=0
+WARNING | ⚑ RESIDENT-LEDGER model_clients_released session=sess_85e0d0d92621
+WARNING | ⚑ RESIDENT-LEDGER arc_released session=sess_0036323ace7b segments=16 inflight_pending=0
+WARNING | ⚑ RESIDENT-LEDGER arc_released session=sess_66bc410ce114 segments=16 inflight_pending=0
+WARNING | ⚑ RESIDENT-LEDGER task_tree_released session=sess_0036323ace7b dropped=True
+WARNING | ⚑ RESIDENT-LEDGER task_tree_released session=sess_85e0d0d92621 dropped=True
+WARNING | ⚑ RESIDENT-LEDGER task_tree_released session=sess_66bc410ce114 dropped=True
+WARNING | ⚑ RESIDENT-LEDGER idle_ttl session=sess_3d6d1091a91a bytes=172517
+WARNING | ⚑ RESIDENT-LEDGER idle_ttl session=sess_00a90ed8f463 bytes=176099
+WARNING | ⚑ RESIDENT-LEDGER idle_ttl session=sess_11a04c56eb6a bytes=179283
+WARNING | ⚑ RESIDENT-LEDGER idle_ttl session=sess_668459185bf5 bytes=178099
+WARNING | ⚑ RESIDENT-LEDGER idle_ttl session=sess_fbdf370126d1 bytes=179902
+WARNING | ⚑ RESIDENT-LEDGER idle_ttl session=sess_66748fe2180e bytes=172124
+WARNING | ⚑ RESIDENT-LEDGER idle_ttl session=sess_fae35f7ff0da bytes=179434
+WARNING | ⚑ RESIDENT-LEDGER swept released=7
+WARNING | ⚑ RESIDENT-LEDGER model_clients_released session=sess_00a90ed8f463
+WARNING | ⚑ RESIDENT-LEDGER model_clients_released session=sess_3d6d1091a91a
+WARNING | ⚑ RESIDENT-LEDGER arc_released session=sess_00a90ed8f463 segments=16 inflight_pending=0
+WARNING | ⚑ RESIDENT-LEDGER arc_released session=sess_3d6d1091a91a segments=16 inflight_pending=0
+WARNING | ⚑ RESIDENT-LEDGER task_tree_released session=sess_00a90ed8f463 dropped=True
+WARNING | ⚑ RESIDENT-LEDGER task_tree_released session=sess_3d6d1091a91a dropped=True
+WARNING | ⚑ RESIDENT-LEDGER model_clients_released session=sess_11a04c56eb6a
+WARNING | ⚑ RESIDENT-LEDGER model_clients_released session=sess_668459185bf5
+WARNING | ⚑ RESIDENT-LEDGER arc_released session=sess_11a04c56eb6a segments=16 inflight_pending=0
+WARNING | ⚑ RESIDENT-LEDGER arc_released session=sess_668459185bf5 segments=16 inflight_pending=0
+WARNING | ⚑ RESIDENT-LEDGER model_clients_released session=sess_fbdf370126d1
+WARNING | ⚑ RESIDENT-LEDGER arc_released session=sess_fbdf370126d1 segments=16 inflight_pending=0
+WARNING | ⚑ RESIDENT-LEDGER model_clients_released session=sess_fae35f7ff0da
+WARNING | ⚑ RESIDENT-LEDGER model_clients_released session=sess_66748fe2180e
+WARNING | ⚑ RESIDENT-LEDGER task_tree_released session=sess_11a04c56eb6a dropped=True
+WARNING | ⚑ RESIDENT-LEDGER task_tree_released session=sess_668459185bf5 dropped=True
+WARNING | ⚑ RESIDENT-LEDGER arc_released session=sess_fae35f7ff0da segments=16 inflight_pending=0
+WARNING | ⚑ RESIDENT-LEDGER arc_released session=sess_66748fe2180e segments=16 inflight_pending=0
+WARNING | ⚑ RESIDENT-LEDGER task_tree_released session=sess_fbdf370126d1 dropped=True
+WARNING | ⚑ RESIDENT-LEDGER task_tree_released session=sess_fae35f7ff0da dropped=True
+WARNING | ⚑ RESIDENT-LEDGER task_tree_released session=sess_66748fe2180e dropped=True
+WARNING | ⚑ TOOLS workspace_fleet_reaped root=/home/hyoklee/.local/share/clio/clio-agent-097/cwd reason=idle_ttl resident=0

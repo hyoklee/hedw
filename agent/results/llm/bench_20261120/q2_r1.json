@@ -1,0 +1,28 @@
+{
+ "question": "Which city has the lowest daily correlation in the latest run, and what is its value?",
+ "agent": "hedw/solar-coherence",
+ "tools": [
+  {
+   "tool": "hedw_report",
+   "ok": true
+  }
+ ],
+ "permissions": [],
+ "session_id": "sess_fbdf370126d1",
+ "stop_reason": "end_turn",
+ "status": "completed",
+ "elapsed_s": 2.2,
+ "answer": "**California_ChulaVista** has the lowest daily correlation in the latest run (`run_20261120T143515Z_n1p50`, 149 cities, 2019\u20132023): **r_daily = 0.8987**.\n\nFor context from the same run: the r_daily median across all cities is 0.9768, so Chula Vista sits well below the pack (z = \u22127.2), and it is also flagged anomalous with a positive bias of +10.47% and 144 anomalous days. This is consistent with the known coastal-fog caveat \u2014 a ~100 km POWER cell averages marine-layer cloud over land and ocean, which genuinely disagrees with the point-scale NSRDB GHI there, rather than indicating an HEDW-US error.",
+ "tokens_input": 16068,
+ "tokens_output": 293,
+ "run": "run_20261120T143515Z_n1p50",
+ "expect": [
+  "California_ChulaVista",
+  "0.8987"
+ ],
+ "hits": [
+  true,
+  true
+ ],
+ "correct": true
+}

@@ -1,0 +1,150 @@
+New York_NewYork
+California_LosAngeles
+Illinois_Chicago
+Texas_Houston
+Pennsylvania_Philadelphia
+Arizona_Phoenix
+Texas_SanAntonio
+California_SanDiego
+Texas_Dallas
+California_SanJose
+Texas_Austin
+Indiana_Indianapolis
+Florida_Jacksonville
+California_SanFrancisco
+Ohio_Columbus
+North Carolina_Charlotte
+Texas_FortWorth
+Michigan_Detroit
+Texas_ElPaso
+Tennessee_Memphis
+Washington_Seattle
+Colorado_Denver
+District of Columbia_Washington
+Massachusetts_Boston
+Tennessee_Nashville
+Maryland_Baltimore
+Oklahoma_OklahomaCity
+Kentucky_Louisville
+Oregon_Portland
+Nevada_LasVegas
+Wisconsin_Milwaukee
+New Mexico_Albuquerque
+Arizona_Tucson
+California_Fresno
+California_Sacramento
+California_LongBeach
+Missouri_KansasCity
+Arizona_Mesa
+Virginia_VirginiaBeach
+Georgia_Atlanta
+Colorado_ColoradoSprings
+Nebraska_Omaha
+North Carolina_Raleigh
+Florida_Miami
+California_Oakland
+Minnesota_Minneapolis
+Oklahoma_Tulsa
+Ohio_Cleveland
+Kansas_Wichita
+Texas_Arlington
+Louisiana_NewOrleans
+California_Bakersfield
+Florida_Tampa
+Hawaii_Honolulu
+Colorado_Aurora
+California_Anaheim
+California_SantaAna
+Missouri_St.Louis
+California_Riverside
+Texas_CorpusChristi
+Kentucky_Lexington-Fayette
+Pennsylvania_Pittsburgh
+Alaska_Anchorage
+California_Stockton
+Ohio_Cincinnati
+Minnesota_St.Paul
+Ohio_Toledo
+North Carolina_Greensboro
+New Jersey_Newark
+Texas_Plano
+Nevada_Henderson
+Nebraska_Lincoln
+New York_Buffalo
+New Jersey_JerseyCity
+California_ChulaVista
+Indiana_FortWayne
+Florida_Orlando
+Florida_St.Petersburg
+Arizona_Chandler
+Texas_Laredo
+Virginia_Norfolk
+North Carolina_Durham
+Wisconsin_Madison
+Texas_Lubbock
+California_Irvine
+North Carolina_Winston-Salem
+Arizona_Glendale
+Texas_Garland
+Florida_Hialeah
+Nevada_Reno
+Virginia_Chesapeake
+Arizona_Gilbert
+Louisiana_BatonRouge
+Texas_Irving
+Arizona_Scottsdale
+Nevada_NorthLasVegas
+California_Fremont
+Idaho_BoiseCity
+Virginia_Richmond
+California_SanBernardino
+Alabama_Birmingham
+Washington_Spokane
+New York_Rochester
+Iowa_DesMoines
+California_Modesto
+North Carolina_Fayetteville
+Washington_Tacoma
+California_Oxnard
+California_Fontana
+Georgia_Columbus
+Alabama_Montgomery
+California_MorenoValley
+Louisiana_Shreveport
+Illinois_Aurora
+New York_Yonkers
+Ohio_Akron
+California_HuntingtonBeach
+Arkansas_LittleRock
+Georgia_Augusta-RichmondCounty
+Texas_Amarillo
+California_Glendale
+Alabama_Mobile
+Michigan_GrandRapids
+Utah_SaltLakeCity
+Florida_Tallahassee
+Alabama_Huntsville
+Texas_GrandPrairie
+Tennessee_Knoxville
+Massachusetts_Worcester
+Virginia_NewportNews
+Texas_Brownsville
+Kansas_OverlandPark
+California_SantaClarita
+Rhode Island_Providence
+California_GardenGrove
+Tennessee_Chattanooga
+California_Oceanside
+Mississippi_Jackson
+Florida_FortLauderdale
+California_SantaRosa
+California_RanchoCucamonga
+Florida_PortSt.Lucie
+Arizona_Tempe
+California_Ontario
+Washington_Vancouver
+Florida_CapeCoral
+South Dakota_SiouxFalls
+Missouri_Springfield
+Arizona_Peoria
+Florida_PembrokePines

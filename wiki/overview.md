@@ -12,9 +12,16 @@
 
 ## Status (2026-11-20)
 
-- Done:
-  - paper and dataset metadata ingested;
-  - NASA POWER hourly API verified from Aurora;
-  - coherence method drafted.
-- Paper ingested ([source-paper-hedw-us.md](source-paper-hedw-us.md)); authors' code inspected ([source-upstream-code.md](source-upstream-code.md)).
-- Blocked: `data.zip` needs a DataPort login; the NLR API key needs a browser signup (reCAPTCHA). See [concept-data-access.md](concept-data-access.md).
+- **Done:**
+  - Paper, metadata and the authors' code ingested ([source-paper-hedw-us.md](source-paper-hedw-us.md), [source-upstream-code.md](source-upstream-code.md)).
+  - NSRDB (745 city-years) and NASA POWER (150 cities) downloaded.
+  - CAE `csv::` assimilator built ([cae_csv_assimilator.md](cae_csv_assimilator.md), PR iowarp/clio-core#1393).
+  - Solar-coherence agent run on 149 cities ([agent_solar_coherence.md](agent_solar_coherence.md)).
+  - Aurora workflow measured ([workflow_aurora_clio.md](workflow_aurora_clio.md)).
+- **Headline:**
+  - HEDW-US's solar stream is coherent with POWER: lag 0 h everywhere, median daily r 0.977, median bias +1.1 %.
+  - Disagreement concentrates where POWER's 1° cells mix ocean, mountains and land (17 cities).
+  - NSRDB gap-filled at least one day regionally (2020-02-14, 31 cities). HEDW-US carries those values without a flag.
+- **Open:**
+  - `data.zip` needs a DataPort login, to check the released files and the quarantined cities ([concept-data-access.md](concept-data-access.md)).
+  - A ground-station check (SURFRAD) of the flagged cities.

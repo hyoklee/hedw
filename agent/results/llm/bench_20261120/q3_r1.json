@@ -1,0 +1,30 @@
+{
+ "question": "For Texas_Dallas in the latest run, give r_daily, bias_pct and the number of anomalous days.",
+ "agent": "hedw/solar-coherence",
+ "tools": [
+  {
+   "tool": "hedw_report",
+   "ok": true
+  }
+ ],
+ "permissions": [],
+ "session_id": "sess_66748fe2180e",
+ "stop_reason": "end_turn",
+ "status": "completed",
+ "elapsed_s": 2.2,
+ "answer": "For **Texas_Dallas** in the latest HEDW-US run (from `hedw_report`, authoritative summary):\n\n- **r_daily = 0.9812**\n- **bias_pct = +2.02 %** (NSRDB GHI runs about 2 % above NASA POWER on daily totals)\n- **Anomalous days = 37** (16 flagged low, 21 flagged high)\n\nFor context, the city's other headline metrics are r_hourly = 0.9836, best lag = 0 h (as expected), RMSE = 73.6 W/m\u00b2 and MAE = 46.0 W/m\u00b2 hourly. The most extreme anomalous day was 2021-02-17, where NSRDB recorded 2623 Wh/m\u00b2 against POWER's 719 Wh/m\u00b2 (z = +18.7) \u2014 a day POWER's ~100 km CERES cell clearly missed as cloudy while the 4 km NSRDB grid saw sun, i.e., representativeness rather than an HEDW-US error.",
+ "tokens_input": 15892,
+ "tokens_output": 302,
+ "run": "run_20261120T143515Z_n1p50",
+ "expect": [
+  "0.9812",
+  "2.02",
+  "37"
+ ],
+ "hits": [
+  true,
+  true,
+  true
+ ],
+ "correct": true
+}

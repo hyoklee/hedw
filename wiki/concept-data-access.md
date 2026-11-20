@@ -48,6 +48,19 @@ Rebuild only the irradiance stream from its upstream source, the NREL NSRDB API,
 - **API key signup:** the user authorised using their email for NLR data access. The signup form (`developer.nlr.gov/signup/`, embedded api.data.gov form) is protected by **reCAPTCHA** and also asks for first and last name. An agent must not solve or bypass a CAPTCHA, so the key has to be created by the user in a browser and saved locally as `~/.config/hedw/nlr.env` (not in the repo).
 - **`data.zip`:** still needs a DataPort login.
 
+## Bulk NSRDB download (2026-11-20)
+
+- **Script and request:** `../agent/fetch/fetch_all.py`, using the authors' exact request on `developer.nlr.gov` (`full_name` is not needed). 150 cities × 5 years = 750 requests. Each returns a 302 redirect to an S3 CSV of about 0.71 MB. The total is 601 MB in `../raw/nsrdb/` (git-ignored).
+- **Result:**
+  - 745 of 750 succeeded.
+  - The run took 1,419 s with 3 workers and a 1 s pause per worker; NSRDB took about 22 minutes of that.
+- **Rate limits:**
+  - The response headers say `x-ratelimit-limit: 10000`, and only about 760 of that budget was used.
+  - Short bursts still drew HTTP 429 `OVER_RATE_LIMIT`. The fetcher retries with backoff starting at 5 s, and every retry succeeded.
+- **Anchorage:** `Alaska_Anchorage` fails for all 5 years with HTTP 400 "No data available at the provided location". The GOES aggregated v4 product does not cover Alaska. The authors' request could not have returned solar data for Anchorage either, so it is very likely one of the 9 targets missing from the 141-city release.
+- **Privacy:** the 400 response echoes the request parameters, including the email. The fetch logs in `../agent/results/fetch/` are redacted before commit.
+- **Gap-fill flags:** a second pass (`--only flags`) fetches `ghi, clearsky_ghi, cloud_type, fill_flag` into `../raw/nsrdb/flags/`; see [concept-nsrdb.md](concept-nsrdb.md).
+
 ## What does work automatically
 
 - NASA POWER hourly API: open, no key; see [source-nasa-power.md](source-nasa-power.md).

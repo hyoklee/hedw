@@ -78,16 +78,19 @@ def check_power(body):
         raise ValueError(f"POWER returned {n} hours")
 
 
-def fetch_nsrdb(city, env, outdir):
+FLAG_ATTRS = "ghi,clearsky_ghi,cloud_type,fill_flag"
+
+
+def fetch_nsrdb(city, env, outdir, attrs=ATTRS, suffix=""):
     res = []
     for y in YEARS:
-        out = os.path.join(outdir, f"{city['name']}_{y}.csv")
+        out = os.path.join(outdir, f"{city['name']}_{y}{suffix}.csv")
         if os.path.exists(out) and os.path.getsize(out) > 0:
             res.append((y, "skip")); continue
         p = {"api_key": env["NLR_API_KEY"], "names": str(y), "interval": "60",
              "utc": "true", "leap_day": "true", "email": env["NLR_EMAIL"],
              "affiliation": env["NLR_AFFILIATION"], "reason": "Academic Research",
-             "attributes": ATTRS, "wkt": f"POINT({city['lon']} {city['lat']})"}
+             "attributes": attrs, "wkt": f"POINT({city['lon']} {city['lat']})"}
         n = get(NSRDB_URL, p, out, check_nsrdb)
         log(f"nsrdb {city['name']} {y}: {n}")
         res.append((y, n))
@@ -111,7 +114,8 @@ def fetch_power(city, outdir):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--cities", default=os.path.join(ROOT, "raw/upstream/hedw-code/target_cities.csv"))
-    ap.add_argument("--only", choices=["nsrdb", "power"])
+    ap.add_argument("--only", choices=["nsrdb", "power", "flags"],
+                    help="flags: NSRDB ghi, clearsky_ghi, cloud_type, fill_flag into raw/nsrdb/flags/")
     ap.add_argument("--workers", type=int, default=3)
     ap.add_argument("--limit", type=int)
     a = ap.parse_args()
@@ -120,6 +124,15 @@ def main():
     os.makedirs(nd, exist_ok=True); os.makedirs(pd_, exist_ok=True)
     env = load_env()
     t0 = time.time()
+    if a.only == "flags":
+        fd = os.path.join(nd, "flags"); os.makedirs(fd, exist_ok=True)
+        with ThreadPoolExecutor(a.workers) as ex:
+            res = list(ex.map(lambda c: fetch_nsrdb(c, env, fd, FLAG_ATTRS, "_flags"), cities))
+        bad = [(c["name"], y, n) for c, r in zip(cities, res) for y, n in r
+               if not (n == "skip" or (isinstance(n, int) and n > 0))]
+        log(f"flags done: {len(cities)*5 - len(bad)}/{len(cities)*5} ok; failed: {bad}")
+        log(f"elapsed {time.time()-t0:.0f} s")
+        return
     if a.only != "nsrdb":
         with ThreadPoolExecutor(2) as ex:
             pres = list(ex.map(lambda c: fetch_power(c, pd_), cities))

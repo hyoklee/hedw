@@ -268,3 +268,665 @@
 14:14:40 nsrdb Massachusetts_Boston 2022: 709874
 14:14:43 nsrdb Tennessee_Nashville 2021: 709860
 14:14:45 nsrdb Maryland_Baltimore 2021: 719370
+14:14:45 nsrdb Massachusetts_Boston 2023: 704465
+14:14:49 nsrdb Tennessee_Nashville 2022: 708596
+14:14:51 nsrdb Oklahoma_OklahomaCity 2019: 709051
+14:14:51 nsrdb Maryland_Baltimore 2022: 719947
+14:14:54 nsrdb Tennessee_Nashville 2023: 708202
+14:14:56 nsrdb Oklahoma_OklahomaCity 2020: 706110
+14:14:56 nsrdb Maryland_Baltimore 2023: 716298
+14:14:59 nsrdb Kentucky_Louisville 2019: 709871
+14:15:01 nsrdb Oklahoma_OklahomaCity 2021: 705462
+14:15:02 nsrdb Oregon_Portland 2019: 713505
+14:15:04 nsrdb Kentucky_Louisville 2020: 711681
+14:15:07 nsrdb Oklahoma_OklahomaCity 2022: 705546
+14:15:07 nsrdb Oregon_Portland 2020: 715923
+14:15:09 nsrdb Kentucky_Louisville 2021: 710718
+14:15:11 nsrdb Oklahoma_OklahomaCity 2023: 705511
+14:15:12 nsrdb Oregon_Portland 2021: 712193
+14:15:15 nsrdb Kentucky_Louisville 2022: 711246
+14:15:17 nsrdb Nevada_LasVegas 2019: 712213
+14:15:17 nsrdb Oregon_Portland 2022: 713691
+14:15:20 nsrdb Kentucky_Louisville 2023: 705637
+14:15:23 nsrdb Nevada_LasVegas 2020: 714183
+14:15:23 nsrdb Oregon_Portland 2023: 711253
+14:15:26 nsrdb Wisconsin_Milwaukee 2019: 708022
+14:15:28 nsrdb New Mexico_Albuquerque 2019: 712524
+14:15:28 nsrdb Nevada_LasVegas 2021: 711277
+14:15:31 nsrdb Wisconsin_Milwaukee 2020: 711683
+14:15:33 nsrdb New Mexico_Albuquerque 2020: 715120
+14:15:34 nsrdb Nevada_LasVegas 2022: 711813
+14:15:36 nsrdb Wisconsin_Milwaukee 2021: 710427
+14:15:38 nsrdb New Mexico_Albuquerque 2021: 714109
+14:15:39 nsrdb Nevada_LasVegas 2023: 714149
+14:15:41 nsrdb Wisconsin_Milwaukee 2022: 709122
+14:15:44 nsrdb New Mexico_Albuquerque 2022: 714850
+14:15:44 nsrdb Arizona_Tucson 2019: 706813
+14:15:46 nsrdb Wisconsin_Milwaukee 2023: 707385
+14:15:49 nsrdb New Mexico_Albuquerque 2023: 714354
+14:15:49 nsrdb Arizona_Tucson 2020: 711345
+14:15:50   HTTP 429 Arizona_Tucson_2021.csv try 1: Error Code,Error Message
+"OVER_RATE_LIMIT","You have exceeded your rate limit. Try again later or contact us for assistance: https://developer.nrel.gov/contact/"
+14:15:51 nsrdb California_Fresno 2019: 709362
+14:15:54 nsrdb California_Sacramento 2019: 716829
+14:15:56 nsrdb California_Fresno 2020: 709736
+14:15:59 nsrdb California_Sacramento 2020: 715913
+14:16:01 nsrdb Arizona_Tucson 2021: 708732
+14:16:01 nsrdb California_Fresno 2021: 708925
+14:16:04 nsrdb California_Sacramento 2021: 715185
+14:16:05 nsrdb Arizona_Tucson 2022: 709684
+14:16:06 nsrdb California_Fresno 2022: 707608
+14:16:10 nsrdb California_Sacramento 2022: 711715
+14:16:10 nsrdb Arizona_Tucson 2023: 706207
+14:16:11 nsrdb California_Fresno 2023: 707766
+14:16:15 nsrdb California_Sacramento 2023: 718756
+14:16:16 nsrdb Missouri_KansasCity 2019: 708254
+14:16:16 nsrdb California_LongBeach 2019: 719058
+14:16:20 nsrdb Arizona_Mesa 2019: 710549
+14:16:21 nsrdb California_LongBeach 2020: 721075
+14:16:21 nsrdb Missouri_KansasCity 2020: 709465
+14:16:25 nsrdb Arizona_Mesa 2020: 710929
+14:16:26 nsrdb Missouri_KansasCity 2021: 708834
+14:16:27 nsrdb California_LongBeach 2021: 719314
+14:16:30 nsrdb Arizona_Mesa 2021: 710127
+14:16:31 nsrdb Missouri_KansasCity 2022: 711656
+14:16:32 nsrdb California_LongBeach 2022: 718939
+14:16:35 nsrdb Arizona_Mesa 2022: 711906
+14:16:37 nsrdb Missouri_KansasCity 2023: 707048
+14:16:37 nsrdb California_LongBeach 2023: 714848
+14:16:40 nsrdb Arizona_Mesa 2023: 709993
+14:16:42 nsrdb Virginia_VirginiaBeach 2019: 713284
+14:16:42 nsrdb Georgia_Atlanta 2019: 706148
+14:16:45 nsrdb Colorado_ColoradoSprings 2019: 715353
+14:16:47 nsrdb Virginia_VirginiaBeach 2020: 714862
+14:16:48 nsrdb Georgia_Atlanta 2020: 704823
+14:16:51 nsrdb Colorado_ColoradoSprings 2020: 719041
+14:16:52 nsrdb Virginia_VirginiaBeach 2021: 714229
+14:16:53 nsrdb Georgia_Atlanta 2021: 704883
+14:16:56 nsrdb Colorado_ColoradoSprings 2021: 715805
+14:16:57 nsrdb Virginia_VirginiaBeach 2022: 715273
+14:16:58 nsrdb Georgia_Atlanta 2022: 705922
+14:17:01 nsrdb Colorado_ColoradoSprings 2022: 714052
+14:17:02 nsrdb Virginia_VirginiaBeach 2023: 713117
+14:17:04 nsrdb Georgia_Atlanta 2023: 705325
+14:17:07 nsrdb Nebraska_Omaha 2019: 710520
+14:17:08 nsrdb Colorado_ColoradoSprings 2023: 715342
+14:17:09 nsrdb North Carolina_Raleigh 2019: 712703
+14:17:13 nsrdb Nebraska_Omaha 2020: 711364
+14:17:13 nsrdb Florida_Miami 2019: 722400
+14:17:14 nsrdb North Carolina_Raleigh 2020: 717128
+14:17:18 nsrdb Nebraska_Omaha 2021: 712508
+14:17:19 nsrdb Florida_Miami 2020: 727008
+14:17:20 nsrdb North Carolina_Raleigh 2021: 717793
+14:17:23 nsrdb Nebraska_Omaha 2022: 709273
+14:17:24 nsrdb Florida_Miami 2021: 726506
+14:17:25 nsrdb North Carolina_Raleigh 2022: 717250
+14:17:28 nsrdb Nebraska_Omaha 2023: 710690
+14:17:29 nsrdb Florida_Miami 2022: 727865
+14:17:30 nsrdb North Carolina_Raleigh 2023: 711185
+14:17:33 nsrdb California_Oakland 2019: 718821
+14:17:35 nsrdb Florida_Miami 2023: 723836
+14:17:35 nsrdb Minnesota_Minneapolis 2019: 705638
+14:17:38 nsrdb California_Oakland 2020: 718923
+14:17:39 nsrdb Minnesota_Minneapolis 2020: 709568
+14:17:40 nsrdb Oklahoma_Tulsa 2019: 711139
+14:17:43 nsrdb California_Oakland 2021: 719407
+14:17:44 nsrdb Minnesota_Minneapolis 2021: 711374
+14:17:45 nsrdb Oklahoma_Tulsa 2020: 708925
+14:17:48 nsrdb California_Oakland 2022: 719244
+14:17:50 nsrdb Minnesota_Minneapolis 2022: 709109
+14:17:50 nsrdb Oklahoma_Tulsa 2021: 710181
+14:17:53 nsrdb California_Oakland 2023: 720411
+14:17:55 nsrdb Minnesota_Minneapolis 2023: 708590
+14:17:55 nsrdb Oklahoma_Tulsa 2022: 710685
+14:17:58 nsrdb Ohio_Cleveland 2019: 708461
+14:18:00 nsrdb Kansas_Wichita 2019: 709746
+14:18:00 nsrdb Oklahoma_Tulsa 2023: 708132
+14:18:03 nsrdb Ohio_Cleveland 2020: 708012
+14:18:05 nsrdb Texas_Arlington 2019: 710009
+14:18:05 nsrdb Kansas_Wichita 2020: 713510
+14:18:07   HTTP 429 Kansas_Wichita_2021.csv try 1: Error Code,Error Message
+"OVER_RATE_LIMIT","You have exceeded your rate limit. Try again later or contact us for assistance: https://developer.nrel.gov/contact/"
+14:18:08 nsrdb Ohio_Cleveland 2021: 709550
+14:18:11 nsrdb Texas_Arlington 2020: 712020
+14:18:13 nsrdb Ohio_Cleveland 2022: 711373
+14:18:16 nsrdb Texas_Arlington 2021: 709001
+14:18:16 nsrdb Kansas_Wichita 2021: 709313
+14:18:18 nsrdb Ohio_Cleveland 2023: 706668
+14:18:20 nsrdb Texas_Arlington 2022: 711572
+14:18:22 nsrdb Kansas_Wichita 2022: 709986
+14:18:23 nsrdb Louisiana_NewOrleans 2019: 719027
+14:18:25 nsrdb Texas_Arlington 2023: 707979
+14:18:27 nsrdb Kansas_Wichita 2023: 708788
+14:18:29 nsrdb Louisiana_NewOrleans 2020: 720047
+14:18:31 nsrdb California_Bakersfield 2019: 712136
+14:18:32 nsrdb Florida_Tampa 2019: 720781
+14:18:34 nsrdb Louisiana_NewOrleans 2021: 719247
+14:18:35 nsrdb California_Bakersfield 2020: 715519
+14:18:37 nsrdb Florida_Tampa 2020: 726115
+14:18:39 nsrdb Louisiana_NewOrleans 2022: 720669
+14:18:41 nsrdb California_Bakersfield 2021: 712723
+14:18:42 nsrdb Florida_Tampa 2021: 720357
+14:18:44 nsrdb Louisiana_NewOrleans 2023: 719704
+14:18:46 nsrdb California_Bakersfield 2022: 713009
+14:18:47 nsrdb Florida_Tampa 2022: 719797
+14:18:50 nsrdb Hawaii_Honolulu 2019: 724279
+14:18:51 nsrdb California_Bakersfield 2023: 712029
+14:18:52 nsrdb Florida_Tampa 2023: 718668
+14:18:55 nsrdb Hawaii_Honolulu 2020: 725970
+14:18:56 nsrdb Colorado_Aurora 2019: 714831
+14:18:57 nsrdb California_Anaheim 2019: 712178
+14:19:00 nsrdb Hawaii_Honolulu 2021: 720855
+14:19:01 nsrdb Colorado_Aurora 2020: 717288
+14:19:02 nsrdb California_Anaheim 2020: 712059
+14:19:06 nsrdb Colorado_Aurora 2021: 714411
+14:19:06 nsrdb Hawaii_Honolulu 2022: 723145
+14:19:08 nsrdb California_Anaheim 2021: 711507
+14:19:11 nsrdb Colorado_Aurora 2022: 712569
+14:19:11 nsrdb Hawaii_Honolulu 2023: 725315
+14:19:13 nsrdb California_Anaheim 2022: 713180
+14:19:16 nsrdb Colorado_Aurora 2023: 712971
+14:19:16 nsrdb California_SantaAna 2019: 721884
+14:19:18 nsrdb California_Anaheim 2023: 709212
+14:19:20 nsrdb Missouri_St.Louis 2019: 710212
+14:19:21 nsrdb California_SantaAna 2020: 721770
+14:19:23 nsrdb California_Riverside 2019: 711373
+14:19:26 nsrdb Missouri_St.Louis 2020: 713086
+14:19:27 nsrdb California_SantaAna 2021: 720191
+14:19:27 nsrdb California_Riverside 2020: 713079
+14:19:31 nsrdb Missouri_St.Louis 2021: 711548
+14:19:32 nsrdb California_SantaAna 2022: 719946
+14:19:33 nsrdb California_Riverside 2021: 709814
+14:19:36 nsrdb Missouri_St.Louis 2022: 709863
+14:19:37 nsrdb California_SantaAna 2023: 717513
+14:19:38 nsrdb California_Riverside 2022: 708589
+14:19:41 nsrdb Missouri_St.Louis 2023: 710128
+14:19:41 nsrdb Texas_CorpusChristi 2019: 716249
+14:19:43 nsrdb California_Riverside 2023: 709085
+14:19:46 nsrdb Texas_CorpusChristi 2020: 723230
+14:19:47 nsrdb Kentucky_Lexington-Fayette 2019: 700847
+14:19:48 nsrdb Pennsylvania_Pittsburgh 2019: 684549
+14:19:52 nsrdb Texas_CorpusChristi 2021: 721222
+14:19:52 nsrdb Kentucky_Lexington-Fayette 2020: 704172
+14:19:53 nsrdb Pennsylvania_Pittsburgh 2020: 686889
+14:19:57 nsrdb Texas_CorpusChristi 2022: 721935
+14:19:57 nsrdb Kentucky_Lexington-Fayette 2021: 701465
+14:19:58 nsrdb Pennsylvania_Pittsburgh 2021: 686218
+14:20:02 nsrdb Kentucky_Lexington-Fayette 2022: 705224
+14:20:03 nsrdb Texas_CorpusChristi 2023: 719113
+14:20:04 nsrdb Pennsylvania_Pittsburgh 2022: 685415
+14:20:04   HTTP 400 Alaska_Anchorage_2019.csv try 1: {"inputs":{"params":{},"query":{"names":"2019","interval":"60","utc":"true","leap_day":"true","email":"<redacted>","affiliation":"<redacted>","reason":"Academic Research","attributes":"ghi,dni,dhi,air_temperature,wind_speed,wind_direction,dew_point,relative_humidity,surface_pressure,sur
+14:20:04 nsrdb Alaska_Anchorage 2019: -400
+14:20:05   HTTP 400 Alaska_Anchorage_2020.csv try 1: {"inputs":{"params":{},"query":{"names":"2020","interval":"60","utc":"true","leap_day":"true","email":"<redacted>","affiliation":"<redacted>","reason":"Academic Research","attributes":"ghi,dni,dhi,air_temperature,wind_speed,wind_direction,dew_point,relative_humidity,surface_pressure,sur
+14:20:05 nsrdb Alaska_Anchorage 2020: -400
+14:20:07   HTTP 400 Alaska_Anchorage_2021.csv try 1: {"inputs":{"params":{},"query":{"names":"2021","interval":"60","utc":"true","leap_day":"true","email":"<redacted>","affiliation":"<redacted>","reason":"Academic Research","attributes":"ghi,dni,dhi,air_temperature,wind_speed,wind_direction,dew_point,relative_humidity,surface_pressure,sur
+14:20:07 nsrdb Alaska_Anchorage 2021: -400
+14:20:08 nsrdb Kentucky_Lexington-Fayette 2023: 701118
+14:20:08   HTTP 400 Alaska_Anchorage_2022.csv try 1: {"inputs":{"params":{},"query":{"names":"2022","interval":"60","utc":"true","leap_day":"true","email":"<redacted>","affiliation":"<redacted>","reason":"Academic Research","attributes":"ghi,dni,dhi,air_temperature,wind_speed,wind_direction,dew_point,relative_humidity,surface_pressure,sur
+14:20:08 nsrdb Alaska_Anchorage 2022: -400
+14:20:09 nsrdb Pennsylvania_Pittsburgh 2023: 681582
+14:20:09   HTTP 400 Alaska_Anchorage_2023.csv try 1: {"inputs":{"params":{},"query":{"names":"2023","interval":"60","utc":"true","leap_day":"true","email":"<redacted>","affiliation":"<redacted>","reason":"Academic Research","attributes":"ghi,dni,dhi,air_temperature,wind_speed,wind_direction,dew_point,relative_humidity,surface_pressure,sur
+14:20:09 nsrdb Alaska_Anchorage 2023: -400
+14:20:13 nsrdb California_Stockton 2019: 716263
+14:20:14 nsrdb Ohio_Cincinnati 2019: 706853
+14:20:14 nsrdb Minnesota_St.Paul 2019: 705638
+14:20:18 nsrdb California_Stockton 2020: 716372
+14:20:19 nsrdb Ohio_Cincinnati 2020: 706708
+14:20:19 nsrdb Minnesota_St.Paul 2020: 709880
+14:20:24 nsrdb California_Stockton 2021: 716285
+14:20:24 nsrdb Ohio_Cincinnati 2021: 708628
+14:20:25 nsrdb Minnesota_St.Paul 2021: 708582
+14:20:29 nsrdb Ohio_Cincinnati 2022: 708755
+14:20:29 nsrdb California_Stockton 2022: 715796
+14:20:30 nsrdb Minnesota_St.Paul 2022: 710092
+14:20:34 nsrdb Ohio_Cincinnati 2023: 705679
+14:20:34 nsrdb California_Stockton 2023: 716275
+14:20:35 nsrdb Minnesota_St.Paul 2023: 708304
+14:20:39 nsrdb Ohio_Toledo 2019: 708753
+14:20:39 nsrdb North Carolina_Greensboro 2019: 702512
+14:20:40 nsrdb New Jersey_Newark 2019: 715674
+14:20:45 nsrdb North Carolina_Greensboro 2020: 702504
+14:20:45 nsrdb Ohio_Toledo 2020: 715020
+14:20:45 nsrdb New Jersey_Newark 2020: 714772
+14:20:46   HTTP 429 Ohio_Toledo_2021.csv try 1: Error Code,Error Message
+"OVER_RATE_LIMIT","You have exceeded your rate limit. Try again later or contact us for assistance: https://developer.nrel.gov/contact/"
+14:20:50 nsrdb North Carolina_Greensboro 2021: 703818
+14:20:50 nsrdb New Jersey_Newark 2021: 712193
+14:20:55 nsrdb North Carolina_Greensboro 2022: 704834
+14:20:55 nsrdb New Jersey_Newark 2022: 713172
+14:20:57 nsrdb Ohio_Toledo 2021: 711170
+14:21:00 nsrdb North Carolina_Greensboro 2023: 703220
+14:21:00 nsrdb New Jersey_Newark 2023: 711944
+14:21:02 nsrdb Ohio_Toledo 2022: 714465
+14:21:04 nsrdb Texas_Plano 2019: 707588
+14:21:05 nsrdb Nevada_Henderson 2019: 710996
+14:21:07 nsrdb Ohio_Toledo 2023: 706400
+14:21:10 nsrdb Texas_Plano 2020: 708128
+14:21:10 nsrdb Nevada_Henderson 2020: 714964
+14:21:12 nsrdb Nebraska_Lincoln 2019: 709165
+14:21:15 nsrdb Texas_Plano 2021: 705557
+14:21:15 nsrdb Nevada_Henderson 2021: 711014
+14:21:17 nsrdb Nebraska_Lincoln 2020: 711891
+14:21:20 nsrdb Nevada_Henderson 2022: 711180
+14:21:20 nsrdb Texas_Plano 2022: 706643
+14:21:21   HTTP 429 Texas_Plano_2023.csv try 1: Error Code,Error Message
+"OVER_RATE_LIMIT","You have exceeded your rate limit. Try again later or contact us for assistance: https://developer.nrel.gov/contact/"
+14:21:22 nsrdb Nebraska_Lincoln 2021: 707992
+14:21:26 nsrdb Nevada_Henderson 2023: 712032
+14:21:27 nsrdb Nebraska_Lincoln 2022: 713949
+14:21:31 nsrdb New York_Buffalo 2019: 706685
+14:21:31 nsrdb Texas_Plano 2023: 706610
+14:21:32 nsrdb Nebraska_Lincoln 2023: 709791
+14:21:36 nsrdb New York_Buffalo 2020: 708320
+14:21:36 nsrdb California_ChulaVista 2019: 722519
+14:21:37 nsrdb New Jersey_JerseyCity 2019: 715134
+14:21:42 nsrdb New York_Buffalo 2021: 708091
+14:21:42 nsrdb New Jersey_JerseyCity 2020: 716005
+14:21:42 nsrdb California_ChulaVista 2020: 722310
+14:21:43   HTTP 429 California_ChulaVista_2021.csv try 1: Error Code,Error Message
+"OVER_RATE_LIMIT","You have exceeded your rate limit. Try again later or contact us for assistance: https://developer.nrel.gov/contact/"
+14:21:47 nsrdb New Jersey_JerseyCity 2021: 718736
+14:21:47 nsrdb New York_Buffalo 2022: 706071
+14:21:52 nsrdb New Jersey_JerseyCity 2022: 719008
+14:21:53 nsrdb New York_Buffalo 2023: 706253
+14:21:53 nsrdb California_ChulaVista 2021: 721456
+14:21:54   HTTP 429 Indiana_FortWayne_2019.csv try 1: Error Code,Error Message
+"OVER_RATE_LIMIT","You have exceeded your rate limit. Try again later or contact us for assistance: https://developer.nrel.gov/contact/"
+14:21:54   HTTP 429 California_ChulaVista_2022.csv try 1: Error Code,Error Message
+"OVER_RATE_LIMIT","You have exceeded your rate limit. Try again later or contact us for assistance: https://developer.nrel.gov/contact/"
+14:21:58 nsrdb New Jersey_JerseyCity 2023: 713711
+14:21:59   HTTP 429 California_ChulaVista_2022.csv try 2: Error Code,Error Message
+"OVER_RATE_LIMIT","You have exceeded your rate limit. Try again later or contact us for assistance: https://developer.nrel.gov/contact/"
+14:22:00   HTTP 429 Indiana_FortWayne_2019.csv try 2: Error Code,Error Message
+"OVER_RATE_LIMIT","You have exceeded your rate limit. Try again later or contact us for assistance: https://developer.nrel.gov/contact/"
+14:22:02 nsrdb Florida_Orlando 2019: 718143
+14:22:08 nsrdb Florida_Orlando 2020: 719199
+14:22:13 nsrdb Florida_Orlando 2021: 714744
+14:22:14 nsrdb California_ChulaVista 2022: 720500
+14:22:15 nsrdb Indiana_FortWayne 2019: 707012
+14:22:18 nsrdb Florida_Orlando 2022: 715772
+14:22:19 nsrdb California_ChulaVista 2023: 722636
+14:22:20 nsrdb Indiana_FortWayne 2020: 708538
+14:22:23 nsrdb Florida_Orlando 2023: 715758
+14:22:25 nsrdb Florida_St.Petersburg 2019: 721555
+14:22:25 nsrdb Indiana_FortWayne 2021: 708553
+14:22:28 nsrdb Arizona_Chandler 2019: 703983
+14:22:30 nsrdb Indiana_FortWayne 2022: 707753
+14:22:30 nsrdb Florida_St.Petersburg 2020: 723900
+14:22:33 nsrdb Arizona_Chandler 2020: 708087
+14:22:35 nsrdb Indiana_FortWayne 2023: 708156
+14:22:36 nsrdb Florida_St.Petersburg 2021: 723239
+14:22:38 nsrdb Arizona_Chandler 2021: 704766
+14:22:40 nsrdb Texas_Laredo 2019: 710389
+14:22:41 nsrdb Florida_St.Petersburg 2022: 722830
+14:22:43 nsrdb Arizona_Chandler 2022: 705236
+14:22:45 nsrdb Texas_Laredo 2020: 715864
+14:22:46 nsrdb Florida_St.Petersburg 2023: 723663
+14:22:49 nsrdb Arizona_Chandler 2023: 702015
+14:22:50 nsrdb Texas_Laredo 2021: 711711
+14:22:51 nsrdb Virginia_Norfolk 2019: 714143
+14:22:54 nsrdb North Carolina_Durham 2019: 705589
+14:22:55 nsrdb Texas_Laredo 2022: 713774
+14:22:56 nsrdb Virginia_Norfolk 2020: 716001
+14:22:59 nsrdb North Carolina_Durham 2020: 706713
+14:23:00 nsrdb Texas_Laredo 2023: 712978
+14:23:01 nsrdb Virginia_Norfolk 2021: 714336
+14:23:04 nsrdb North Carolina_Durham 2021: 707730
+14:23:05 nsrdb Wisconsin_Madison 2019: 707769
+14:23:06 nsrdb Virginia_Norfolk 2022: 716850
+14:23:09 nsrdb North Carolina_Durham 2022: 708384
+14:23:10 nsrdb Wisconsin_Madison 2020: 707039
+14:23:11 nsrdb Virginia_Norfolk 2023: 712256
+14:23:15 nsrdb North Carolina_Durham 2023: 707008
+14:23:15 nsrdb Wisconsin_Madison 2021: 708098
+14:23:16 nsrdb Texas_Lubbock 2019: 713908
+14:23:20 nsrdb California_Irvine 2019: 719450
+14:23:21 nsrdb Texas_Lubbock 2020: 714332
+14:23:21 nsrdb Wisconsin_Madison 2022: 711173
+14:23:25 nsrdb California_Irvine 2020: 723170
+14:23:25 nsrdb Wisconsin_Madison 2023: 709476
+14:23:26 nsrdb Texas_Lubbock 2021: 710102
+14:23:30 nsrdb California_Irvine 2021: 720903
+14:23:30 nsrdb North Carolina_Winston-Salem 2019: 703066
+14:23:32 nsrdb Texas_Lubbock 2022: 711805
+14:23:35 nsrdb California_Irvine 2022: 719889
+14:23:35 nsrdb North Carolina_Winston-Salem 2020: 706284
+14:23:37 nsrdb Texas_Lubbock 2023: 709883
+14:23:40 nsrdb California_Irvine 2023: 720252
+14:23:41 nsrdb North Carolina_Winston-Salem 2021: 704197
+14:23:42 nsrdb Arizona_Glendale 2019: 709082
+14:23:45 nsrdb Texas_Garland 2019: 711407
+14:23:46 nsrdb North Carolina_Winston-Salem 2022: 704459
+14:23:48 nsrdb Arizona_Glendale 2020: 712563
+14:23:50 nsrdb Texas_Garland 2020: 714333
+14:23:51 nsrdb North Carolina_Winston-Salem 2023: 703934
+14:23:53 nsrdb Arizona_Glendale 2021: 709757
+14:23:55 nsrdb Texas_Garland 2021: 709885
+14:23:56 nsrdb Florida_Hialeah 2019: 727584
+14:23:58 nsrdb Arizona_Glendale 2022: 711764
+14:24:00 nsrdb Texas_Garland 2022: 714070
+14:24:01 nsrdb Florida_Hialeah 2020: 726979
+14:24:03 nsrdb Arizona_Glendale 2023: 709958
+14:24:04 nsrdb Texas_Garland 2023: 711601
+14:24:06 nsrdb Florida_Hialeah 2021: 724565
+14:24:08 nsrdb Nevada_Reno 2019: 705614
+14:24:10 nsrdb Virginia_Chesapeake 2019: 718463
+14:24:11 nsrdb Florida_Hialeah 2022: 725374
+14:24:14 nsrdb Nevada_Reno 2020: 705654
+14:24:14 nsrdb Virginia_Chesapeake 2020: 716049
+14:24:16 nsrdb Florida_Hialeah 2023: 727297
+14:24:19 nsrdb Nevada_Reno 2021: 708070
+14:24:19 nsrdb Virginia_Chesapeake 2021: 717169
+14:24:21 nsrdb Arizona_Gilbert 2019: 709839
+14:24:24 nsrdb Virginia_Chesapeake 2022: 713456
+14:24:24 nsrdb Nevada_Reno 2022: 707256
+14:24:26 nsrdb Arizona_Gilbert 2020: 711989
+14:24:29 nsrdb Nevada_Reno 2023: 703062
+14:24:29 nsrdb Virginia_Chesapeake 2023: 714774
+14:24:31 nsrdb Arizona_Gilbert 2021: 708473
+14:24:34 nsrdb Texas_Irving 2019: 712013
+14:24:35 nsrdb Louisiana_BatonRouge 2019: 711567
+14:24:36 nsrdb Arizona_Gilbert 2022: 708925
+14:24:39 nsrdb Texas_Irving 2020: 713783
+14:24:41 nsrdb Louisiana_BatonRouge 2020: 709409
+14:24:41 nsrdb Arizona_Gilbert 2023: 709454
+14:24:45 nsrdb Texas_Irving 2021: 713999
+14:24:46 nsrdb Louisiana_BatonRouge 2021: 709537
+14:24:46 nsrdb Arizona_Scottsdale 2019: 708287
+14:24:49 nsrdb Texas_Irving 2022: 713734
+14:24:51 nsrdb Louisiana_BatonRouge 2022: 714181
+14:24:51 nsrdb Arizona_Scottsdale 2020: 706969
+14:24:54 nsrdb Texas_Irving 2023: 709556
+14:24:56 nsrdb Louisiana_BatonRouge 2023: 711957
+14:24:57 nsrdb Arizona_Scottsdale 2021: 707465
+14:25:00 nsrdb Nevada_NorthLasVegas 2019: 707819
+14:25:01 nsrdb California_Fremont 2019: 716396
+14:25:01 nsrdb Arizona_Scottsdale 2022: 707486
+14:25:05 nsrdb Nevada_NorthLasVegas 2020: 715000
+14:25:06 nsrdb California_Fremont 2020: 716156
+14:25:07 nsrdb Arizona_Scottsdale 2023: 705035
+14:25:10 nsrdb Nevada_NorthLasVegas 2021: 711411
+14:25:11 nsrdb California_Fremont 2021: 713006
+14:25:13 nsrdb Idaho_BoiseCity 2019: 710559
+14:25:15 nsrdb Nevada_NorthLasVegas 2022: 711993
+14:25:16 nsrdb California_Fremont 2022: 712966
+14:25:18 nsrdb Idaho_BoiseCity 2020: 714514
+14:25:21 nsrdb Nevada_NorthLasVegas 2023: 709317
+14:25:21 nsrdb California_Fremont 2023: 719212
+14:25:23 nsrdb Idaho_BoiseCity 2021: 712799
+14:25:26 nsrdb Virginia_Richmond 2019: 716849
+14:25:27 nsrdb California_SanBernardino 2019: 709558
+14:25:28 nsrdb Idaho_BoiseCity 2022: 712248
+14:25:31 nsrdb Virginia_Richmond 2020: 719081
+14:25:32 nsrdb California_SanBernardino 2020: 712459
+14:25:33 nsrdb Idaho_BoiseCity 2023: 710242
+14:25:36 nsrdb Virginia_Richmond 2021: 718253
+14:25:38 nsrdb California_SanBernardino 2021: 707774
+14:25:39 nsrdb Alabama_Birmingham 2019: 677546
+14:25:41 nsrdb Virginia_Richmond 2022: 722231
+14:25:44 nsrdb California_SanBernardino 2022: 709652
+14:25:44 nsrdb Alabama_Birmingham 2020: 676675
+14:25:46 nsrdb Virginia_Richmond 2023: 719868
+14:25:48 nsrdb California_SanBernardino 2023: 709613
+14:25:49 nsrdb Alabama_Birmingham 2021: 677025
+14:25:51 nsrdb Washington_Spokane 2019: 705701
+14:25:53 nsrdb New York_Rochester 2019: 712148
+14:25:54 nsrdb Alabama_Birmingham 2022: 680483
+14:25:56 nsrdb Washington_Spokane 2020: 707470
+14:25:58 nsrdb New York_Rochester 2020: 712581
+14:25:59 nsrdb Alabama_Birmingham 2023: 675558
+14:26:01 nsrdb Washington_Spokane 2021: 706862
+14:26:04 nsrdb New York_Rochester 2021: 712923
+14:26:04 nsrdb Iowa_DesMoines 2019: 708049
+14:26:05   HTTP 429 Iowa_DesMoines_2020.csv try 1: Error Code,Error Message
+"OVER_RATE_LIMIT","You have exceeded your rate limit. Try again later or contact us for assistance: https://developer.nrel.gov/contact/"
+14:26:07 nsrdb Washington_Spokane 2022: 705864
+14:26:09 nsrdb New York_Rochester 2022: 714420
+14:26:12 nsrdb Washington_Spokane 2023: 709170
+14:26:14 nsrdb New York_Rochester 2023: 709575
+14:26:15 nsrdb Iowa_DesMoines 2020: 712535
+14:26:17 nsrdb California_Modesto 2019: 717920
+14:26:19 nsrdb North Carolina_Fayetteville 2019: 711761
+14:26:20 nsrdb Iowa_DesMoines 2021: 708822
+14:26:22 nsrdb California_Modesto 2020: 717964
+14:26:24 nsrdb North Carolina_Fayetteville 2020: 715303
+14:26:26 nsrdb Iowa_DesMoines 2022: 711864
+14:26:27 nsrdb California_Modesto 2021: 716406
+14:26:29 nsrdb North Carolina_Fayetteville 2021: 714458
+14:26:31 nsrdb Iowa_DesMoines 2023: 711794
+14:26:32 nsrdb California_Modesto 2022: 716102
+14:26:34 nsrdb North Carolina_Fayetteville 2022: 715553
+14:26:36 nsrdb Washington_Tacoma 2019: 708957
+14:26:37 nsrdb California_Modesto 2023: 715152
+14:26:40 nsrdb North Carolina_Fayetteville 2023: 710944
+14:26:40 nsrdb Washington_Tacoma 2020: 712293
+14:26:42 nsrdb California_Oxnard 2019: 722639
+14:26:45 nsrdb California_Fontana 2019: 707433
+14:26:45 nsrdb Washington_Tacoma 2021: 710278
+14:26:47   HTTP 429 Washington_Tacoma_2022.csv try 1: Error Code,Error Message
+"OVER_RATE_LIMIT","You have exceeded your rate limit. Try again later or contact us for assistance: https://developer.nrel.gov/contact/"
+14:26:47 nsrdb California_Oxnard 2020: 723228
+14:26:49 nsrdb California_Fontana 2020: 710569
+14:26:51 nsrdb California_Oxnard 2021: 720238
+14:26:54 nsrdb California_Fontana 2021: 711959
+14:26:56 nsrdb California_Oxnard 2022: 722695
+14:26:57 nsrdb Washington_Tacoma 2022: 707927
+14:26:59 nsrdb California_Fontana 2022: 711521
+14:27:01 nsrdb California_Oxnard 2023: 720501
+14:27:02 nsrdb Washington_Tacoma 2023: 709430
+14:27:04 nsrdb California_Fontana 2023: 711310
+14:27:06 nsrdb Alabama_Montgomery 2019: 706404
+14:27:06 nsrdb Georgia_Columbus 2019: 695295
+14:27:09 nsrdb California_MorenoValley 2019: 706491
+14:27:11 nsrdb Alabama_Montgomery 2020: 709266
+14:27:12 nsrdb Georgia_Columbus 2020: 698245
+14:27:14 nsrdb California_MorenoValley 2020: 712407
+14:27:16 nsrdb Alabama_Montgomery 2021: 712226
+14:27:17 nsrdb Georgia_Columbus 2021: 694762
+14:27:19 nsrdb California_MorenoValley 2021: 709261
+14:27:21 nsrdb Alabama_Montgomery 2022: 708573
+14:27:22 nsrdb Georgia_Columbus 2022: 696402
+14:27:25 nsrdb California_MorenoValley 2022: 710021
+14:27:27 nsrdb Alabama_Montgomery 2023: 708553
+14:27:27 nsrdb Georgia_Columbus 2023: 693570
+14:27:30 nsrdb California_MorenoValley 2023: 709044
+14:27:32 nsrdb Louisiana_Shreveport 2019: 710157
+14:27:32 nsrdb Illinois_Aurora 2019: 707035
+14:27:35 nsrdb New York_Yonkers 2019: 712966
+14:27:37 nsrdb Louisiana_Shreveport 2020: 708131
+14:27:37 nsrdb Illinois_Aurora 2020: 711271
+14:27:40 nsrdb New York_Yonkers 2020: 713999
+14:27:42 nsrdb Illinois_Aurora 2021: 710775
+14:27:42 nsrdb Louisiana_Shreveport 2021: 707481
+14:27:45 nsrdb New York_Yonkers 2021: 714560
+14:27:47 nsrdb Louisiana_Shreveport 2022: 714920
+14:27:47 nsrdb Illinois_Aurora 2022: 708190
+14:27:50 nsrdb New York_Yonkers 2022: 713396
+14:27:52 nsrdb Louisiana_Shreveport 2023: 711325
+14:27:53 nsrdb Illinois_Aurora 2023: 709029
+14:27:55 nsrdb New York_Yonkers 2023: 710503
+14:27:57 nsrdb Ohio_Akron 2019: 707240
+14:27:59 nsrdb California_HuntingtonBeach 2019: 720139
+14:28:00 nsrdb Arkansas_LittleRock 2019: 716784
+14:28:02 nsrdb Ohio_Akron 2020: 710041
+14:28:04 nsrdb California_HuntingtonBeach 2020: 722764
+14:28:05 nsrdb Arkansas_LittleRock 2020: 716053
+14:28:08 nsrdb Ohio_Akron 2021: 707437
+14:28:09 nsrdb California_HuntingtonBeach 2021: 717802
+14:28:10 nsrdb Arkansas_LittleRock 2021: 719382
+14:28:13 nsrdb Ohio_Akron 2022: 707367
+14:28:14 nsrdb California_HuntingtonBeach 2022: 717885
+14:28:15 nsrdb Arkansas_LittleRock 2022: 718579
+14:28:18 nsrdb Ohio_Akron 2023: 708440
+14:28:19 nsrdb California_HuntingtonBeach 2023: 716733
+14:28:20 nsrdb Arkansas_LittleRock 2023: 716802
+14:28:23 nsrdb Georgia_Augusta-RichmondCounty 2019: 710481
+14:28:24 nsrdb Texas_Amarillo 2019: 709964
+14:28:25 nsrdb California_Glendale 2019: 710241
+14:28:28 nsrdb Georgia_Augusta-RichmondCounty 2020: 715563
+14:28:29 nsrdb Texas_Amarillo 2020: 714194
+14:28:30 nsrdb California_Glendale 2020: 709919
+14:28:33 nsrdb Georgia_Augusta-RichmondCounty 2021: 710624
+14:28:34 nsrdb Texas_Amarillo 2021: 711439
+14:28:34 nsrdb California_Glendale 2021: 711912
+14:28:38 nsrdb Georgia_Augusta-RichmondCounty 2022: 712245
+14:28:39 nsrdb Texas_Amarillo 2022: 710408
+14:28:39 nsrdb California_Glendale 2022: 710210
+14:28:43 nsrdb Georgia_Augusta-RichmondCounty 2023: 710403
+14:28:44 nsrdb Texas_Amarillo 2023: 710241
+14:28:45 nsrdb California_Glendale 2023: 705783
+14:28:46   HTTP 429 Utah_SaltLakeCity_2019.csv try 1: Error Code,Error Message
+"OVER_RATE_LIMIT","You have exceeded your rate limit. Try again later or contact us for assistance: https://developer.nrel.gov/contact/"
+14:28:48 nsrdb Alabama_Mobile 2019: 718520
+14:28:49 nsrdb Michigan_GrandRapids 2019: 708510
+14:28:53 nsrdb Alabama_Mobile 2020: 720937
+14:28:54 nsrdb Michigan_GrandRapids 2020: 711100
+14:28:56 nsrdb Utah_SaltLakeCity 2019: 708844
+14:28:58 nsrdb Alabama_Mobile 2021: 720115
+14:28:59 nsrdb Michigan_GrandRapids 2021: 712043
+14:29:01 nsrdb Utah_SaltLakeCity 2020: 713721
+14:29:03 nsrdb Alabama_Mobile 2022: 719469
+14:29:04 nsrdb Michigan_GrandRapids 2022: 708549
+14:29:06 nsrdb Utah_SaltLakeCity 2021: 712790
+14:29:08 nsrdb Alabama_Mobile 2023: 718029
+14:29:09 nsrdb Michigan_GrandRapids 2023: 707781
+14:29:11 nsrdb Utah_SaltLakeCity 2022: 710687
+14:29:13 nsrdb Florida_Tallahassee 2019: 691756
+14:29:14 nsrdb Alabama_Huntsville 2019: 713699
+14:29:16 nsrdb Utah_SaltLakeCity 2023: 708081
+14:29:18 nsrdb Florida_Tallahassee 2020: 695970
+14:29:19 nsrdb Alabama_Huntsville 2020: 713763
+14:29:21 nsrdb Texas_GrandPrairie 2019: 709672
+14:29:23 nsrdb Florida_Tallahassee 2021: 692329
+14:29:24 nsrdb Alabama_Huntsville 2021: 712646
+14:29:26 nsrdb Texas_GrandPrairie 2020: 713504
+14:29:28 nsrdb Florida_Tallahassee 2022: 693168
+14:29:29 nsrdb Alabama_Huntsville 2022: 713271
+14:29:31 nsrdb Texas_GrandPrairie 2021: 710453
+14:29:33 nsrdb Florida_Tallahassee 2023: 694071
+14:29:34 nsrdb Alabama_Huntsville 2023: 716506
+14:29:36 nsrdb Texas_GrandPrairie 2022: 713953
+14:29:37 nsrdb Tennessee_Knoxville 2019: 717339
+14:29:39 nsrdb Massachusetts_Worcester 2019: 676486
+14:29:41 nsrdb Texas_GrandPrairie 2023: 711868
+14:29:43 nsrdb Tennessee_Knoxville 2020: 711231
+14:29:43 nsrdb Massachusetts_Worcester 2020: 677119
+14:29:46 nsrdb Virginia_NewportNews 2019: 716059
+14:29:47 nsrdb Tennessee_Knoxville 2021: 713412
+14:29:48 nsrdb Massachusetts_Worcester 2021: 675416
+14:29:51 nsrdb Virginia_NewportNews 2020: 719822
+14:29:53 nsrdb Tennessee_Knoxville 2022: 713770
+14:29:53 nsrdb Massachusetts_Worcester 2022: 674704
+14:29:56 nsrdb Virginia_NewportNews 2021: 719577
+14:29:57 nsrdb Tennessee_Knoxville 2023: 711850
+14:29:58 nsrdb Massachusetts_Worcester 2023: 671488
+14:30:01 nsrdb Virginia_NewportNews 2022: 717336
+14:30:02 nsrdb Texas_Brownsville 2019: 719819
+14:30:03 nsrdb Kansas_OverlandPark 2019: 709132
+14:30:06 nsrdb Virginia_NewportNews 2023: 714339
+14:30:07 nsrdb Texas_Brownsville 2020: 723629
+14:30:08 nsrdb Kansas_OverlandPark 2020: 709877
+14:30:11 nsrdb California_SantaClarita 2019: 708224
+14:30:12 nsrdb Texas_Brownsville 2021: 723875
+14:30:13 nsrdb Kansas_OverlandPark 2021: 707537
+14:30:16 nsrdb California_SantaClarita 2020: 709472
+14:30:17 nsrdb Texas_Brownsville 2022: 721796
+14:30:18 nsrdb Kansas_OverlandPark 2022: 707625
+14:30:21 nsrdb California_SantaClarita 2021: 708128
+14:30:22 nsrdb Texas_Brownsville 2023: 719359
+14:30:23 nsrdb Kansas_OverlandPark 2023: 708378
+14:30:26 nsrdb California_SantaClarita 2022: 710728
+14:30:27 nsrdb Rhode Island_Providence 2019: 719200
+14:30:28 nsrdb California_GardenGrove 2019: 717132
+14:30:32 nsrdb Rhode Island_Providence 2020: 714785
+14:30:32 nsrdb California_SantaClarita 2023: 709368
+14:30:33 nsrdb California_GardenGrove 2020: 719111
+14:30:37 nsrdb Rhode Island_Providence 2021: 720456
+14:30:38 nsrdb Tennessee_Chattanooga 2019: 719659
+14:30:38 nsrdb California_GardenGrove 2021: 717001
+14:30:42 nsrdb Rhode Island_Providence 2022: 719879
+14:30:43 nsrdb Tennessee_Chattanooga 2020: 725568
+14:30:43 nsrdb California_GardenGrove 2022: 719860
+14:30:48 nsrdb Rhode Island_Providence 2023: 722157
+14:30:48 nsrdb California_GardenGrove 2023: 716002
+14:30:48 nsrdb Tennessee_Chattanooga 2021: 720632
+14:30:53 nsrdb Tennessee_Chattanooga 2022: 720943
+14:30:53 nsrdb Mississippi_Jackson 2019: 713138
+14:30:53 nsrdb California_Oceanside 2019: 718975
+14:30:58 nsrdb Tennessee_Chattanooga 2023: 720061
+14:30:58 nsrdb Mississippi_Jackson 2020: 714250
+14:30:59 nsrdb California_Oceanside 2020: 724703
+14:31:03 nsrdb Florida_FortLauderdale 2019: 728079
+14:31:03 nsrdb Mississippi_Jackson 2021: 714042
+14:31:04 nsrdb California_Oceanside 2021: 721633
+14:31:08 nsrdb Mississippi_Jackson 2022: 722834
+14:31:08 nsrdb Florida_FortLauderdale 2020: 729441
+14:31:09 nsrdb California_Oceanside 2022: 722515
+14:31:13 nsrdb Florida_FortLauderdale 2021: 729682
+14:31:13 nsrdb Mississippi_Jackson 2023: 717801
+14:31:14 nsrdb California_Oceanside 2023: 720243
+14:31:14   HTTP 429 California_SantaRosa_2019.csv try 1: Error Code,Error Message
+"OVER_RATE_LIMIT","You have exceeded your rate limit. Try again later or contact us for assistance: https://developer.nrel.gov/contact/"
+14:31:18 nsrdb Florida_FortLauderdale 2022: 727098
+14:31:18 nsrdb California_RanchoCucamonga 2019: 710488
+14:31:23 nsrdb California_RanchoCucamonga 2020: 712214
+14:31:24 nsrdb Florida_FortLauderdale 2023: 726756
+14:31:24 nsrdb California_SantaRosa 2019: 713290
+14:31:28 nsrdb California_RanchoCucamonga 2021: 711174
+14:31:28 nsrdb Florida_PortSt.Lucie 2019: 726682
+14:31:29 nsrdb California_SantaRosa 2020: 715466
+14:31:33 nsrdb California_RanchoCucamonga 2022: 709816
+14:31:34 nsrdb Florida_PortSt.Lucie 2020: 724628
+14:31:34 nsrdb California_SantaRosa 2021: 711034
+14:31:39 nsrdb California_RanchoCucamonga 2023: 709337
+14:31:39 nsrdb California_SantaRosa 2022: 712475
+14:31:39 nsrdb Florida_PortSt.Lucie 2021: 724125
+14:31:40   HTTP 429 Florida_PortSt.Lucie_2022.csv try 1: Error Code,Error Message
+"OVER_RATE_LIMIT","You have exceeded your rate limit. Try again later or contact us for assistance: https://developer.nrel.gov/contact/"
+14:31:43 nsrdb Arizona_Tempe 2019: 710970
+14:31:44 nsrdb California_SantaRosa 2023: 716434
+14:31:48 nsrdb Arizona_Tempe 2020: 713430
+14:31:50 nsrdb California_Ontario 2019: 710297
+14:31:50 nsrdb Florida_PortSt.Lucie 2022: 728387
+14:31:51   HTTP 429 Florida_PortSt.Lucie_2023.csv try 1: Error Code,Error Message
+"OVER_RATE_LIMIT","You have exceeded your rate limit. Try again later or contact us for assistance: https://developer.nrel.gov/contact/"
+14:31:54 nsrdb Arizona_Tempe 2021: 709545
+14:31:55 nsrdb California_Ontario 2020: 711358
+14:31:58 nsrdb Arizona_Tempe 2022: 712846
+14:32:00 nsrdb California_Ontario 2021: 709140
+14:32:01 nsrdb Florida_PortSt.Lucie 2023: 725679
+14:32:03 nsrdb Arizona_Tempe 2023: 710580
+14:32:05 nsrdb California_Ontario 2022: 709680
+14:32:06 nsrdb Washington_Vancouver 2019: 712995
+14:32:08 nsrdb Florida_CapeCoral 2019: 723335
+14:32:08 nsrdb California_Ontario 2023: 709787
+14:32:11 nsrdb Washington_Vancouver 2020: 716816
+14:32:13 nsrdb South Dakota_SiouxFalls 2019: 709390
+14:32:13 nsrdb Florida_CapeCoral 2020: 726642
+14:32:16 nsrdb Washington_Vancouver 2021: 713068
+14:32:18 nsrdb South Dakota_SiouxFalls 2020: 711966
+14:32:19 nsrdb Florida_CapeCoral 2021: 721438
+14:32:22 nsrdb Washington_Vancouver 2022: 716349
+14:32:23 nsrdb South Dakota_SiouxFalls 2021: 708374
+14:32:24 nsrdb Florida_CapeCoral 2022: 722480
+14:32:27 nsrdb Washington_Vancouver 2023: 712472
+14:32:28 nsrdb South Dakota_SiouxFalls 2022: 711166
+14:32:29 nsrdb Florida_CapeCoral 2023: 722849
+14:32:32 nsrdb Missouri_Springfield 2019: 702615
+14:32:33 nsrdb South Dakota_SiouxFalls 2023: 711461
+14:32:34 nsrdb Arizona_Peoria 2019: 706154
+14:32:37 nsrdb Missouri_Springfield 2020: 707900
+14:32:38 nsrdb Florida_PembrokePines 2019: 726131
+14:32:39 nsrdb Arizona_Peoria 2020: 709350
+14:32:42 nsrdb Missouri_Springfield 2021: 703733
+14:32:43 nsrdb Florida_PembrokePines 2020: 728551
+14:32:45 nsrdb Arizona_Peoria 2021: 709029
+14:32:47 nsrdb Missouri_Springfield 2022: 708088
+14:32:49 nsrdb Florida_PembrokePines 2021: 727013
+14:32:49 nsrdb Arizona_Peoria 2022: 710525
+14:32:53 nsrdb Missouri_Springfield 2023: 701250
+14:32:54 nsrdb Florida_PembrokePines 2022: 727321
+14:32:55 nsrdb Arizona_Peoria 2023: 708051
+14:33:00 nsrdb Florida_PembrokePines 2023: 726596
+14:33:01 NSRDB done: 745/750 ok; failed: [('Alaska_Anchorage', 2019, -400), ('Alaska_Anchorage', 2020, -400), ('Alaska_Anchorage', 2021, -400), ('Alaska_Anchorage', 2022, -400), ('Alaska_Anchorage', 2023, -400)]
+14:33:01 elapsed 1419 s

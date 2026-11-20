@@ -1,0 +1,30 @@
+{
+ "question": "For Texas_Dallas in the latest run, give r_daily, bias_pct and the number of anomalous days.",
+ "agent": "hedw/solar-coherence",
+ "tools": [
+  {
+   "tool": "hedw_report",
+   "ok": true
+  }
+ ],
+ "permissions": [],
+ "session_id": "sess_3d6d1091a91a",
+ "stop_reason": "end_turn",
+ "status": "completed",
+ "elapsed_s": 2.2,
+ "answer": "For **Texas_Dallas** in the latest run (from `hedw_report`, authoritative):\n\n- **r_daily = 0.9812**\n- **bias_pct = 2.02 %** (NSRDB vs NASA POWER daily GHI)\n- **Anomalous days = 37** total (16 low, 21 high)\n\nContext from the same report: r_hourly = 0.9836, best lag = 0 h (matching the expected zero lag), RMSE = 73.6 W/m\u00b2 hourly. The largest anomaly was 2021-02-17 (the Texas winter storm period), where NSRDB gave 2623 Wh/m\u00b2 against POWER's 719 Wh/m\u00b2 (z = +18.74); the biggest low-side outlier was 2021-11-02 with 462 vs 1629 Wh/m\u00b2 (z = \u221218.38). Given POWER's ~100 km CERES cell versus NSRDB's ~4 km GOES grid, these are mostly representativeness differences (cloud/storm heterogeneity within the POWER cell), not necessarily HEDW-US errors.",
+ "tokens_input": 15907,
+ "tokens_output": 304,
+ "run": "run_20261120T143515Z_n1p50",
+ "expect": [
+  "0.9812",
+  "2.02",
+  "37"
+ ],
+ "hits": [
+  true,
+  true,
+  true
+ ],
+ "correct": true
+}

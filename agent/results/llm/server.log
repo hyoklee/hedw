@@ -1,0 +1,306 @@
+installed hedw (agent-plugins): 1 plugins, 0 agents -- run the trust step: clio-agent plugin trust hedw
+  warning: hedw: agent classes are imported after the trust step [marketplace_untrusted]
+trusted hedw: 1 plugins, 1 agents
+INFO:     Started server process [3779636]
+INFO:     Waiting for application startup.
+WARNING | ⚑ BOOT mark=lifespan_started at=6.932
+WARNING | codex fence unusable on this host reason=codex_linux_fence_unavailable detail=codex exited 1: bwrap: Creating new namespace failed: nesting depth or /proc/sys/user/max_*_namespaces exceeded (ENOSPC)
+WARNING | ⚑ BOOT mark=serving at=11.163
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8100 (Press CTRL+C to quit)
+WARNING | ⚑ BOOT step=marketplace seconds=0.219 start=11.169 thread=MainThread outcome=ok
+/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/fastapi/openapi/utils.py:295: UserWarning: Duplicate Operation ID h5grove_root_v1_workspaces__wid__h5grove__head for function h5grove_root at /home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/gact/routes/workspace_h5grove.py
+  warnings.warn(message, stacklevel=1)
+WARNING | ⚑ BOOT step=openapi_schema seconds=0.618 start=11.170 thread=MainThread outcome=ok
+WARNING | ⚑ BOOT step=protected_execution seconds=0.622 start=11.182 thread=MainThread outcome=ok
+INFO:     127.0.0.1:40628 - "PATCH /v1/session-defaults HTTP/1.1" 503 Service Unavailable
+WARNING | ⚑ BOOT step=orphans seconds=1.225 start=11.163 thread=MainThread outcome=ok
+WARNING | ⚑ BOOT step=task_history_restore seconds=0.001 start=13.111 thread=asyncio_1 outcome=ok
+WARNING | ⚑ BOOT step=interrupted_sessions seconds=0.000 start=13.133 thread=asyncio_1 outcome=ok
+WARNING | ⚑ BOOT step=interaction_times seconds=0.000 start=13.133 thread=asyncio_1 outcome=ok
+WARNING | ⚑ BOOT step=clio_core_and_store seconds=1.329 start=11.804 thread=MainThread outcome=ok
+INFO:     127.0.0.1:51662 - "PATCH /v1/session-defaults HTTP/1.1" 503 Service Unavailable
+WARNING | ⚑ BOOT step=obligations_held seconds=0.011 start=17.807 thread=MainThread outcome=ok
+WARNING | ⚑ BOOT mark=task_runtime_ready at=17.819
+WARNING | ⚑ BOOT step=obligations seconds=0.004 start=17.819 thread=MainThread outcome=ok
+WARNING | ⚑ BOOT step=agent_construct seconds=0.587 start=17.292 thread=MainThread outcome=ok
+WARNING | ⚑ BOOT step=artifact_registry seconds=0.016 start=17.883 thread=MainThread outcome=ok
+WARNING | ⚑ BOOT mark=agent_ready at=17.902
+[clio-agent-gact] agent ready.
+WARNING | ⚑ BOOT step=cas_gc seconds=0.000 start=17.906 thread=MainThread outcome=ok
+WARNING | ⚑ BOOT step=first_doctor_pass seconds=0.654 start=17.293 thread=MainThread outcome=ok
+INFO:     127.0.0.1:51664 - "PATCH /v1/session-defaults HTTP/1.1" 200 OK
+clio-agent 0.9.7.x on port 8100, default agent hedw/solar-coherence
+INFO:     127.0.0.1:35066 - "POST /v1/sessions HTTP/1.1" 200 OK
+WARNING | ⚑ RESIDENT-LEDGER rehydrate session=sess_c487285f2ba3 bytes=0
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+INFO:     127.0.0.1:35066 - "POST /v1/sessions/sess_c487285f2ba3/messages HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:35066 - "GET /v1/sessions/sess_c487285f2ba3/events HTTP/1.1" 200 OK
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+2026/11/20 14:15:34 WARNING dspy.primitives.module: Calling module.forward(...) on React directly is discouraged. Please use module(...) instead.
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | usage rollup degraded to an estimate because the LM fired but reported zero usage reason=usage_estimated strategy=price_table_estimate session=sess_c487285f2ba3
+WARNING | ⚑ REASONING captured 3 call(s): mistral-large-4-nvfp4=360c; mistral-large-4-nvfp4=5015c; mistral-large-4-nvfp4=4046c
+INFO:     127.0.0.1:35796 - "GET /v1/sessions/sess_c487285f2ba3/messages HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35796 - "GET /v1/sessions/sess_c487285f2ba3 HTTP/1.1" 200 OK
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ TOOLS tool_result_window_unknown: one result is shown up to 25000 tokens (tools.unknown_window_result_tokens)
+WARNING | ⚑ RESIDENT-LEDGER idle_ttl session=sess_c487285f2ba3 bytes=352686
+WARNING | ⚑ RESIDENT-LEDGER swept released=1
+WARNING | ⚑ RESIDENT-LEDGER arc_released session=sess_c487285f2ba3 segments=17 inflight_pending=0
+WARNING | ⚑ RESIDENT-LEDGER model_clients_released session=sess_c487285f2ba3
+WARNING | ⚑ RESIDENT-LEDGER task_tree_released session=sess_c487285f2ba3 dropped=True
+WARNING | ⚑ TOOLS workspace_fleet_reaped root=/home/hyoklee/.local/share/clio/clio-agent-097/cwd reason=idle_ttl resident=0
+ERROR | clio-core runtime daemon crashed: pid=3782827 exit=-9 (0xFFFFFFF7); log: /home/hyoklee/.local/share/clio/clio-agent-097/runtime-state/clio-runtime.log
+INFO:     127.0.0.1:48338 - "GET /v1/health HTTP/1.1" 503 Service Unavailable
+WARNING | clio-core liveness: quarantining clio-core store (reason=clio_core_daemon_not_listening port=9413); ops raise ClioCoreRuntimeLostError until recovery
+WARNING | session records write failed reason=session_record_write_failed records=3 error=ClioCoreRuntimeLostError("clio-core runtime is not listening on 127.0.0.1:9413; the shared daemon appears to have died. The store is quarantined to avoid a native access violation (clio-core#722). the daemon (pid 3782827) CRASHED with exit status 0xFFFFFFF7 at 2026-11-20T14:20:55.589274+00:00; last log line: '[AIO-STUCK] token=577 misses=200000 in_flight=2 completed=0 cq_ready=0 sq_ready=0 cq_overflow=0 direct_fd=118 regular_fd=117'; full log: /home/hyoklee/.local/share/clio/clio-agent-097/runtime-state/clio-runtime.log"); retrying
+WARNING | session records write failed reason=session_record_write_failed records=3 error=ClioCoreRuntimeLostError("The original Core client cannot be recovered; restart the agent. the daemon (pid 3782827) CRASHED with exit status 0xFFFFFFF7 at 2026-11-20T14:20:55.589274+00:00; last log line: '[AIO-STUCK] token=577 misses=200000 in_flight=2 completed=0 cq_ready=0 sq_ready=0 cq_overflow=0 direct_fd=118 regular_fd=117'; full log: /home/hyoklee/.local/share/clio/clio-agent-097/runtime-state/clio-runtime.log"); retrying
+WARNING | session records write failed reason=session_record_write_failed records=3 error=ClioCoreRuntimeLostError("The original Core client cannot be recovered; restart the agent. the daemon (pid 3782827) CRASHED with exit status 0xFFFFFFF7 at 2026-11-20T14:20:55.589274+00:00; last log line: '[AIO-STUCK] token=577 misses=200000 in_flight=2 completed=0 cq_ready=0 sq_ready=0 cq_overflow=0 direct_fd=118 regular_fd=117'; full log: /home/hyoklee/.local/share/clio/clio-agent-097/runtime-state/clio-runtime.log"); retrying
+WARNING | session records write failed reason=session_record_write_failed records=3 error=ClioCoreRuntimeLostError("The original Core client cannot be recovered; restart the agent. the daemon (pid 3782827) CRASHED with exit status 0xFFFFFFF7 at 2026-11-20T14:20:55.589274+00:00; last log line: '[AIO-STUCK] token=577 misses=200000 in_flight=2 completed=0 cq_ready=0 sq_ready=0 cq_overflow=0 direct_fd=118 regular_fd=117'; full log: /home/hyoklee/.local/share/clio/clio-agent-097/runtime-state/clio-runtime.log"); retrying
+WARNING | session records write failed reason=session_record_write_failed records=3 error=ClioCoreRuntimeLostError("The original Core client cannot be recovered; restart the agent. the daemon (pid 3782827) CRASHED with exit status 0xFFFFFFF7 at 2026-11-20T14:20:55.589274+00:00; last log line: '[AIO-STUCK] token=577 misses=200000 in_flight=2 completed=0 cq_ready=0 sq_ready=0 cq_overflow=0 direct_fd=118 regular_fd=117'; full log: /home/hyoklee/.local/share/clio/clio-agent-097/runtime-state/clio-runtime.log"); retrying
+WARNING | session records write failed reason=session_record_write_failed records=3 error=ClioCoreRuntimeLostError("The original Core client cannot be recovered; restart the agent. the daemon (pid 3782827) CRASHED with exit status 0xFFFFFFF7 at 2026-11-20T14:20:55.589274+00:00; last log line: '[AIO-STUCK] token=577 misses=200000 in_flight=2 completed=0 cq_ready=0 sq_ready=0 cq_overflow=0 direct_fd=118 regular_fd=117'; full log: /home/hyoklee/.local/share/clio/clio-agent-097/runtime-state/clio-runtime.log"); retrying
+WARNING | session records write failed reason=session_record_write_failed records=3 error=ClioCoreRuntimeLostError("The original Core client cannot be recovered; restart the agent. the daemon (pid 3782827) CRASHED with exit status 0xFFFFFFF7 at 2026-11-20T14:20:55.589274+00:00; last log line: '[AIO-STUCK] token=577 misses=200000 in_flight=2 completed=0 cq_ready=0 sq_ready=0 cq_overflow=0 direct_fd=118 regular_fd=117'; full log: /home/hyoklee/.local/share/clio/clio-agent-097/runtime-state/clio-runtime.log"); retrying
+INFO:     127.0.0.1:35578 - "GET /v1/health HTTP/1.1" 503 Service Unavailable
+WARNING | session records write failed reason=session_record_write_failed records=3 error=ClioCoreRuntimeLostError("The original Core client cannot be recovered; restart the agent. the daemon (pid 3782827) CRASHED with exit status 0xFFFFFFF7 at 2026-11-20T14:20:55.589274+00:00; last log line: '[AIO-STUCK] token=577 misses=200000 in_flight=2 completed=0 cq_ready=0 sq_ready=0 cq_overflow=0 direct_fd=118 regular_fd=117'; full log: /home/hyoklee/.local/share/clio/clio-agent-097/runtime-state/clio-runtime.log"); retrying
+WARNING | session records write failed reason=session_record_write_failed records=3 error=ClioCoreRuntimeLostError("The original Core client cannot be recovered; restart the agent. the daemon (pid 3782827) CRASHED with exit status 0xFFFFFFF7 at 2026-11-20T14:20:55.589274+00:00; last log line: '[AIO-STUCK] token=577 misses=200000 in_flight=2 completed=0 cq_ready=0 sq_ready=0 cq_overflow=0 direct_fd=118 regular_fd=117'; full log: /home/hyoklee/.local/share/clio/clio-agent-097/runtime-state/clio-runtime.log"); retrying
+INFO:     Shutting down
+INFO:     Waiting for background tasks to complete. (CTRL+C to force quit)
+ERROR:    Cancel 1 running task(s), timeout graceful shutdown exceeded
+INFO:     Waiting for application shutdown.
+WARNING | session records write failed reason=session_record_write_failed records=3 error=ClioCoreRuntimeLostError("The original Core client cannot be recovered; restart the agent. the daemon (pid 3782827) CRASHED with exit status 0xFFFFFFF7 at 2026-11-20T14:20:55.589274+00:00; last log line: '[AIO-STUCK] token=577 misses=200000 in_flight=2 completed=0 cq_ready=0 sq_ready=0 cq_overflow=0 direct_fd=118 regular_fd=117'; full log: /home/hyoklee/.local/share/clio/clio-agent-097/runtime-state/clio-runtime.log"); retrying
+WARNING | session records write failed reason=session_record_write_failed records=3 error=ClioCoreRuntimeLostError('The original Core client cannot be recovered; restart the agent.'); retrying
+ERROR | shutdown did not finish within its budget reason=shutdown_budget_exceeded budget_s=20.0 running_turns=0; ending the process, the next start recovers unfinished work
+Current thread 0x00007f092bfff6c0 (most recent call first):
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/gact/shutdown_budget.py", line 106 in watch
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 995 in run
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1044 in _bootstrap_inner
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1015 in _bootstrap
+
+Thread 0x00007f0943fff6c0 (most recent call first):
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/gact/session_records.py", line 294 in _run
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 995 in run
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1044 in _bootstrap_inner
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1015 in _bootstrap
+
+Thread 0x00007f048bfff6c0 (most recent call first):
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 359 in wait
+  File "/home/hyoklee/miniconda3/lib/python3.13/queue.py", line 199 in get
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/anyio/_backends/_asyncio.py", line 1113 in run
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1044 in _bootstrap_inner
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1015 in _bootstrap
+
+Thread 0x00007f042bfff6c0 (most recent call first):
+  File "/home/hyoklee/miniconda3/lib/python3.13/concurrent/futures/thread.py", line 90 in _worker
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 995 in run
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1044 in _bootstrap_inner
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1015 in _bootstrap
+
+Thread 0x00007f0443fff6c0 (most recent call first):
+  File "/home/hyoklee/miniconda3/lib/python3.13/selectors.py", line 452 in select
+  File "/home/hyoklee/miniconda3/lib/python3.13/asyncio/base_events.py", line 2012 in _run_once
+  File "/home/hyoklee/miniconda3/lib/python3.13/asyncio/base_events.py", line 683 in run_forever
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 995 in run
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1044 in _bootstrap_inner
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1015 in _bootstrap
+
+Thread 0x00007f04bbfff6c0 (most recent call first):
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 359 in wait
+  File "/home/hyoklee/miniconda3/lib/python3.13/queue.py", line 199 in get
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/anyio/_backends/_asyncio.py", line 1113 in run
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1044 in _bootstrap_inner
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1015 in _bootstrap
+
+Thread 0x00007f04ebfff6c0 (most recent call first):
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 363 in wait
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 394 in wait_for
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/gact/session_records.py", line 251 in wait
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/gact/session_records.py", line 557 in _settle
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/gact/session_records.py", line 477 in put
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/gact/sessions.py", line 394 in _persist
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/gact/sessions.py", line 496 in create
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/gact/routes/session_creation.py", line 60 in prepare_and_create
+  File "/home/hyoklee/miniconda3/lib/python3.13/concurrent/futures/thread.py", line 59 in run
+  File "/home/hyoklee/miniconda3/lib/python3.13/concurrent/futures/thread.py", line 93 in _worker
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 995 in run
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1044 in _bootstrap_inner
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1015 in _bootstrap
+
+Thread 0x00007f0503fff6c0 (most recent call first):
+  File "/home/hyoklee/miniconda3/lib/python3.13/concurrent/futures/thread.py", line 90 in _worker
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 995 in run
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1044 in _bootstrap_inner
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1015 in _bootstrap
+
+Thread 0x00007f054bfff6c0 (most recent call first):
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 359 in wait
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/arc/native_threads.py", line 68 in _worker
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 995 in run
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1044 in _bootstrap_inner
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1015 in _bootstrap
+
+Thread 0x00007f051bfff6c0 (most recent call first):
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 363 in wait
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 660 in wait
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/tools/reaper.py", line 149 in _run
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 995 in run
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1044 in _bootstrap_inner
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1015 in _bootstrap
+
+Thread 0x00007f0533fff6c0 (most recent call first):
+  File "/home/hyoklee/miniconda3/lib/python3.13/selectors.py", line 452 in select
+  File "/home/hyoklee/miniconda3/lib/python3.13/asyncio/base_events.py", line 2012 in _run_once
+  File "/home/hyoklee/miniconda3/lib/python3.13/asyncio/base_events.py", line 683 in run_forever
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/tools/execution.py", line 540 in _run_loop
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 995 in run
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1044 in _bootstrap_inner
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1015 in _bootstrap
+
+Thread 0x00007f0565b066c0 (most recent call first):
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 363 in wait
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 660 in wait
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/tools/mcp_discovery.py", line 365 in _run
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 995 in run
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1044 in _bootstrap_inner
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1015 in _bootstrap
+
+Thread 0x00007f0577fff6c0 (most recent call first):
+  File "/home/hyoklee/miniconda3/lib/python3.13/concurrent/futures/thread.py", line 90 in _worker
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 995 in run
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1044 in _bootstrap_inner
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1015 in _bootstrap
+
+Thread 0x00007f0767fff6c0 (most recent call first):
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 363 in wait
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 660 in wait
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/arc/lsm.py", line 337 in _compact_background
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 995 in run
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1044 in _bootstrap_inner
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1015 in _bootstrap
+
+Thread 0x00007f077ffff6c0 (most recent call first):
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 359 in wait
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/arc/native_threads.py", line 68 in _worker
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 995 in run
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1044 in _bootstrap_inner
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1015 in _bootstrap
+
+Thread 0x00007f0798e026c0 (most recent call first):
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 359 in wait
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/arc/rpc_liveness.py", line 223 in get
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/arc/rpc_liveness.py", line 238 in _stall_watch_worker
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 995 in run
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1044 in _bootstrap_inner
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1015 in _bootstrap
+
+Thread 0x00007f095bfff6c0 (most recent call first):
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/arc/runtime_log_flood.py", line 182 in _monitor_loop
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 995 in run
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1044 in _bootstrap_inner
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1015 in _bootstrap
+
+Thread 0x00007f0973fff6c0 (most recent call first):
+  File "/home/hyoklee/miniconda3/lib/python3.13/concurrent/futures/thread.py", line 90 in _worker
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 995 in run
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1044 in _bootstrap_inner
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1015 in _bootstrap
+
+Thread 0x00007f098bfff6c0 (most recent call first):
+  File "/home/hyoklee/miniconda3/lib/python3.13/concurrent/futures/thread.py", line 90 in _worker
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 995 in run
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1044 in _bootstrap_inner
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1015 in _bootstrap
+
+Thread 0x00007f09a3fff6c0 (most recent call first):
+  File "/home/hyoklee/miniconda3/lib/python3.13/concurrent/futures/thread.py", line 90 in _worker
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 995 in run
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1044 in _bootstrap_inner
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1015 in _bootstrap
+
+Thread 0x00007f09bbfff6c0 (most recent call first):
+  File "/home/hyoklee/miniconda3/lib/python3.13/concurrent/futures/thread.py", line 90 in _worker
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 995 in run
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1044 in _bootstrap_inner
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1015 in _bootstrap
+
+Thread 0x00007f09d3fff6c0 (most recent call first):
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/gact/sessions.py", line 344 in _load_rows
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/gact/sessions.py", line 634 in select
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/gact/memory/tick_index.py", line 94 in tick_sessions
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/gact/memory/background.py", line 614 in memory_tick
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/gact/scheduler_runtime.py", line 169 in _scheduler_tick_once
+  File "/home/hyoklee/miniconda3/lib/python3.13/concurrent/futures/thread.py", line 59 in run
+  File "/home/hyoklee/miniconda3/lib/python3.13/concurrent/futures/thread.py", line 93 in _worker
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 995 in run
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1044 in _bootstrap_inner
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1015 in _bootstrap
+
+Thread 0x00007f09ebfff6c0 (most recent call first):
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 363 in wait
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 394 in wait_for
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/gact/session_records.py", line 251 in wait
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/gact/session_records.py", line 256 in flush
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/gact/session_records.py", line 427 in flush
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/gact/sessions.py", line 380 in flush
+  File "/home/hyoklee/miniconda3/lib/python3.13/concurrent/futures/thread.py", line 59 in run
+  File "/home/hyoklee/miniconda3/lib/python3.13/concurrent/futures/thread.py", line 93 in _worker
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 995 in run
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1044 in _bootstrap_inner
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1015 in _bootstrap
+
+Thread 0x00007f0a1bfff6c0 (most recent call first):
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 359 in wait
+  File "/home/hyoklee/miniconda3/lib/python3.13/queue.py", line 199 in get
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/gact/provenance/dispatcher.py", line 121 in _run
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 995 in run
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1044 in _bootstrap_inner
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1015 in _bootstrap
+
+Thread 0x00007f0a33fff6c0 (most recent call first):
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 359 in wait
+  File "/home/hyoklee/miniconda3/lib/python3.13/queue.py", line 199 in get
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/gact/provenance/dispatcher.py", line 121 in _run
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 995 in run
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1044 in _bootstrap_inner
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1015 in _bootstrap
+
+Thread 0x00007f0a4af326c0 (most recent call first):
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 359 in wait
+  File "/home/hyoklee/miniconda3/lib/python3.13/queue.py", line 199 in get
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/gact/semantic_trace_file.py", line 93 in _trace_writer_loop
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 995 in run
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1044 in _bootstrap_inner
+  File "/home/hyoklee/miniconda3/lib/python3.13/threading.py", line 1015 in _bootstrap
+
+Thread 0x00007f0f73588240 (most recent call first):
+  File "/home/hyoklee/miniconda3/lib/python3.13/selectors.py", line 452 in select
+  File "/home/hyoklee/miniconda3/lib/python3.13/asyncio/base_events.py", line 2012 in _run_once
+  File "/home/hyoklee/miniconda3/lib/python3.13/asyncio/base_events.py", line 683 in run_forever
+  File "/home/hyoklee/miniconda3/lib/python3.13/asyncio/base_events.py", line 712 in run_until_complete
+  File "/home/hyoklee/miniconda3/lib/python3.13/asyncio/runners.py", line 118 in run
+  File "/home/hyoklee/miniconda3/lib/python3.13/asyncio/runners.py", line 195 in run
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/uvicorn/server.py", line 86 in run
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/gact/desktop_lifecycle.py", line 209 in serve_foreground
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/gact/app.py", line 1714 in run_server
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/ui/cli.py", line 832 in run_serve
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/lib/python3.13/site-packages/clio_agent/ui/cli.py", line 988 in main
+  File "/home/hyoklee/.local/share/clio/clio-agent-097/.venv/bin/clio-agent", line 10 in <module>

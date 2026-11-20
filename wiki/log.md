@@ -75,3 +75,27 @@
   - Three were closing braces of functions that return a named local. GCC 13 marks these as exception-only blocks (`=====`) and lcov 2 counts them as misses. `EncodeCsvColumn` and `SelectColumns` now fill out-parameters instead.
 - **Verification:** GCC 13.4 with gcov shows `csv_table.cc` fully covered; `ctest -R '^cae_'` passes 47/47; lint is clean.
 - **Pushed:** commit `9ed157887`, waiting for CI. Details in [cae_csv_assimilator.md](cae_csv_assimilator.md#patch-coverage-codecov).
+
+## [2026-11-20] ingest | NSRDB and NASA POWER for all target cities
+- **POWER:** 150/150 cities, 2019–2023 hourly, with all-sky, clear-sky, DNI and diffuse. 594 MB in `raw/power/`.
+- **NSRDB:** 745/750 city-years, using the authors' request. Anchorage gets HTTP 400 "No data available": GOES v4 does not cover Alaska. 601 MB in `raw/nsrdb/`. The run took 1,419 s; burst HTTP 429s were all retried successfully.
+- **Script and logs:** `agent/fetch/fetch_all.py`; logs are in `agent/results/fetch/`, with the email redacted.
+- **Pages updated:** [concept-data-access.md](concept-data-access.md), [source-nasa-power.md](source-nasa-power.md).
+
+## [2026-11-20] test | Solar-coherence agent, first full run
+- **Runs:**
+  - `run_20261120T143434Z_local_p16` (reference, login node).
+  - PBS 9107657 (1 node × 50 ranks) and 9107666 (1 × 16) in `debug`. Their outputs are identical.
+- **Agreement:**
+  - The best lag is 0 h in all 745 city-years.
+  - Median hourly r is 0.9785 and median daily r 0.9768.
+  - Median bias is +1.11 %.
+  - No physics violations.
+- **Flagged:** 17 cities, all coastal Southern California, the Inland Empire, South Florida, Oakland or Honolulu. Monthly bias patterns suggest the cause is mixed ocean, mountain or land within POWER's 1° cells.
+- **NSRDB artefact:** 2020-02-14 was gap-filled across 31 eastern cities. In Birmingham, every daylight hour has Fill Flag 100 and the GHI is flat at 25–51 W/m² on a clear day. HEDW-US inherits these values unflagged.
+- **clio-agent `hedw/solar-coherence`:** benchmark 10/10 (median 2.2 s, 1 tool call per question). On the open Dallas 2021-02-17 question, all its numbers were verified.
+- **clio-coder interpretation:** all 71 of its numbers are supported, but its prose has 4 errors (see the reviewer note).
+- **Scaling:** see [workflow_aurora_clio.md](workflow_aurora_clio.md).
+- **CAE:** bulk `csv::` ingest of 746 NSRDB files in 7.86 s.
+- **Hazard:** clio-core's ctest cleanup killed the clio-agent runtime.
+- **Pages:** [agent_solar_coherence.md](agent_solar_coherence.md), [workflow_aurora_clio.md](workflow_aurora_clio.md).

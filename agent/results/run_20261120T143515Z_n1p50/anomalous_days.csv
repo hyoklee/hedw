@@ -1,0 +1,3509 @@
+city,date,nsrdb_whm2,power_whm2,power_clear_whm2,z
+Alabama_Birmingham,2020-02-14,390,4768,5062,-35.06
+Alabama_Birmingham,2023-04-03,4116,1493,6009,14.28
+Alabama_Birmingham,2021-02-13,2650,1136,4452,11.8
+Alabama_Birmingham,2023-10-13,3379,1501,5054,11.37
+Alabama_Birmingham,2021-02-14,2859,1463,4281,9.34
+Alabama_Birmingham,2023-02-25,2150,1134,4654,8.84
+Alabama_Birmingham,2023-09-16,4194,2343,5774,8.16
+Alabama_Birmingham,2021-12-26,3144,1790,3182,7.85
+Alabama_Birmingham,2022-03-18,2607,1511,5597,7.56
+Alabama_Birmingham,2020-04-13,2269,3696,7456,-7.18
+Alabama_Birmingham,2021-05-03,4915,3089,7075,6.49
+Alabama_Birmingham,2023-05-23,3661,2378,7142,5.99
+Alabama_Birmingham,2022-03-16,2325,3391,5982,-5.59
+Alabama_Birmingham,2021-10-21,4278,2895,4626,5.42
+Alabama_Birmingham,2023-02-12,4100,2833,4615,5.12
+Alabama_Birmingham,2021-08-05,4491,6212,7305,-4.87
+Alabama_Birmingham,2021-09-17,4194,2970,6044,4.77
+Alabama_Birmingham,2022-06-01,5321,7151,7988,-4.46
+Alabama_Birmingham,2021-09-20,5577,4044,5781,4.45
+Alabama_Birmingham,2022-07-14,4213,5564,7678,-4.2
+Alabama_Birmingham,2021-03-26,5559,4113,6094,4.15
+Alabama_Birmingham,2020-06-09,3284,4291,7816,-4.03
+Alabama_Huntsville,2023-10-13,4491,1982,5169,10.86
+Alabama_Huntsville,2019-09-14,1714,3871,5870,-10.67
+Alabama_Huntsville,2020-02-14,1758,3549,4785,-9.19
+Alabama_Huntsville,2022-02-23,4580,2480,4904,8.18
+Alabama_Huntsville,2021-09-16,5174,2930,5981,7.6
+Alabama_Huntsville,2022-01-05,3343,1983,3449,6.94
+Alabama_Huntsville,2022-01-19,1554,2576,3628,-6.56
+Alabama_Huntsville,2022-03-19,2360,3803,6507,-6.25
+Alabama_Huntsville,2022-04-17,2382,3830,6927,-6.22
+Alabama_Huntsville,2021-12-26,3080,1993,3123,5.79
+Alabama_Huntsville,2020-04-26,2506,3856,7688,-5.64
+Alabama_Huntsville,2022-10-26,2031,3084,4713,-5.44
+Alabama_Huntsville,2021-05-03,5986,4046,7266,5.26
+Alabama_Huntsville,2022-03-16,2044,3050,5996,-5.21
+Alabama_Huntsville,2020-05-12,3704,5414,7910,-4.99
+Alabama_Huntsville,2022-03-25,3154,4430,6691,-4.44
+Alabama_Huntsville,2021-08-15,3087,4215,6809,-4.07
+Alabama_Mobile,2023-06-19,692,3872,7795,-20.34
+Alabama_Mobile,2021-01-21,605,1730,3660,-12.23
+Alabama_Mobile,2021-02-01,1745,3588,4841,-8.66
+Alabama_Mobile,2019-06-29,2449,5012,7751,-8.65
+Alabama_Mobile,2021-04-09,1856,3798,6873,-8.61
+Alabama_Mobile,2022-12-28,1634,3265,3779,-8.3
+Alabama_Mobile,2020-07-26,5123,2626,7449,7.99
+Alabama_Mobile,2022-06-29,2345,4513,7512,-7.9
+Alabama_Mobile,2019-02-01,1155,2226,4403,-7.8
+Alabama_Mobile,2023-09-20,2576,4840,6221,-7.62
+Alabama_Mobile,2020-02-13,4716,2510,4756,7.53
+Alabama_Mobile,2021-08-27,4082,2253,6625,7.08
+Alabama_Mobile,2020-07-25,3446,1950,7600,6.76
+Alabama_Mobile,2020-06-22,2488,4281,7722,-6.56
+Alabama_Mobile,2023-07-11,3365,5731,7711,-6.46
+Alabama_Mobile,2023-10-05,2501,4162,5504,-6.16
+Alabama_Mobile,2023-02-23,1604,2641,4956,-5.98
+Alabama_Mobile,2023-05-17,3322,5432,7417,-5.97
+Alabama_Mobile,2019-06-18,2689,4275,7766,-5.61
+Alabama_Mobile,2020-08-20,2279,3626,6798,-5.61
+Alabama_Mobile,2023-10-13,1804,2866,5387,-5.56
+Alabama_Mobile,2019-05-11,2298,3634,6802,-5.54
+Alabama_Mobile,2022-06-25,3229,5094,7642,-5.53
+Alabama_Mobile,2019-07-14,2961,1857,7591,5.52
+Alabama_Mobile,2021-10-21,2312,3601,4937,-5.35
+Alabama_Montgomery,2020-02-14,1461,5183,5239,-17.18
+Alabama_Montgomery,2021-10-04,987,2749,5277,-13.78
+Alabama_Montgomery,2023-10-13,3350,1483,5156,10.58
+Alabama_Montgomery,2023-03-26,1727,3620,6175,-10.14
+Alabama_Montgomery,2023-01-30,3017,1557,3951,8.54
+Alabama_Montgomery,2022-08-25,1571,2745,6765,-7.68
+Alabama_Montgomery,2020-11-11,3338,1922,3812,7.1
+Alabama_Montgomery,2023-10-30,4119,2504,4454,6.41
+Alabama_Montgomery,2021-02-14,2654,1615,4354,6.33
+Alabama_Montgomery,2019-06-09,3421,5134,7876,-5.72
+Alabama_Montgomery,2019-11-18,2326,3483,4094,-5.67
+Alabama_Montgomery,2020-05-22,3017,4405,7682,-5.35
+Alabama_Montgomery,2023-06-19,3225,4674,7897,-5.25
+Alabama_Montgomery,2021-12-15,3347,2265,3505,4.96
+Alabama_Montgomery,2022-07-09,3832,5368,7479,-4.8
+Alabama_Montgomery,2023-03-27,4041,5623,6401,-4.72
+Alabama_Montgomery,2023-02-25,3721,2573,4711,4.68
+Alabama_Montgomery,2022-09-10,4411,3078,6263,4.57
+Alabama_Montgomery,2023-09-16,4007,2801,5825,4.54
+Alabama_Montgomery,2023-04-26,6631,4680,7061,4.44
+Alabama_Montgomery,2021-12-22,3709,2626,3417,4.36
+Alabama_Montgomery,2019-09-09,3826,5130,6467,-4.21
+Arizona_Chandler,2019-11-20,230,1434,3671,-59.44
+Arizona_Chandler,2021-03-13,4643,2896,6156,16.66
+Arizona_Chandler,2023-01-02,2806,1775,3491,16.04
+Arizona_Chandler,2019-09-23,5146,3314,5942,15.56
+Arizona_Chandler,2023-01-23,3114,2092,3824,13.97
+Arizona_Chandler,2019-03-13,5649,3917,6277,12.98
+Arizona_Chandler,2022-02-16,4427,3070,5060,12.93
+Arizona_Chandler,2023-01-03,3307,2295,3475,12.85
+Arizona_Chandler,2021-08-18,6586,4613,6943,12.64
+Arizona_Chandler,2019-04-29,2883,4055,8064,-11.94
+Arizona_Chandler,2023-01-17,3801,2787,3845,10.95
+Arizona_Chandler,2021-07-16,4219,5711,7872,-10.64
+Arizona_Chandler,2020-09-22,3290,4368,6089,-9.93
+Arizona_Chandler,2022-03-05,5605,4240,6038,9.91
+Arizona_Chandler,2019-05-22,7267,5526,8699,9.75
+Arizona_Chandler,2021-03-12,3290,4316,6326,-9.51
+Arizona_Chandler,2022-08-19,5755,4522,7069,8.57
+Arizona_Chandler,2019-05-20,7047,5543,8547,8.55
+Arizona_Chandler,2023-08-19,4174,5185,7327,-7.6
+Arizona_Chandler,2019-05-23,8466,6881,8718,7.4
+Arizona_Chandler,2020-04-13,6374,5272,7575,6.76
+Arizona_Chandler,2022-07-10,8331,6927,8011,6.59
+Arizona_Chandler,2023-08-23,6701,5577,6653,6.55
+Arizona_Chandler,2021-08-11,7277,6083,7335,6.4
+Arizona_Chandler,2020-04-12,7352,6190,7484,6.15
+Arizona_Gilbert,2019-11-20,227,1434,3671,-60.94
+Arizona_Gilbert,2019-09-23,5258,3314,5942,16.76
+Arizona_Gilbert,2021-03-13,4527,2896,6156,16.19
+Arizona_Gilbert,2021-08-18,6707,4613,6943,13.66
+Arizona_Gilbert,2021-07-16,4067,5711,7872,-12.07
+Arizona_Gilbert,2019-03-11,2747,3785,6217,-11.33
+Arizona_Gilbert,2022-02-16,4087,3070,5060,10.42
+Arizona_Gilbert,2020-09-22,3316,4368,6089,-9.74
+Arizona_Gilbert,2020-04-13,6716,5272,7575,8.89
+Arizona_Gilbert,2021-09-27,5122,4045,5536,8.66
+Arizona_Gilbert,2019-05-22,6802,5526,8699,7.66
+Arizona_Gilbert,2023-08-19,4177,5185,7327,-7.62
+Arizona_Gilbert,2019-05-23,8369,6881,8718,7.24
+Arizona_Gilbert,2023-05-19,4785,5831,8075,-6.97
+Arizona_Gilbert,2019-07-22,5087,6155,7984,-6.72
+Arizona_Gilbert,2022-07-10,8279,6927,8011,6.61
+Arizona_Gilbert,2023-08-23,6658,5577,6653,6.55
+Arizona_Gilbert,2021-08-11,7200,6083,7335,6.25
+Arizona_Gilbert,2020-04-12,7250,6190,7484,5.87
+Arizona_Gilbert,2020-07-24,7731,6622,7793,5.76
+Arizona_Gilbert,2022-06-26,7593,6575,8086,5.36
+Arizona_Gilbert,2022-06-30,7748,6713,8204,5.34
+Arizona_Glendale,2019-11-20,255,1770,3689,-63.6
+Arizona_Glendale,2019-12-27,367,1702,3497,-51.07
+Arizona_Glendale,2021-07-23,1002,2425,7698,-30.37
+Arizona_Glendale,2019-02-03,1321,2698,4402,-24.64
+Arizona_Glendale,2022-07-28,2574,4238,7521,-17.34
+Arizona_Glendale,2019-02-22,1903,3061,5411,-16.43
+Arizona_Glendale,2021-07-16,4757,7203,7822,-14.5
+Arizona_Glendale,2023-03-22,3224,4887,6829,-14.47
+Arizona_Glendale,2019-01-01,2441,3520,3725,-12.66
+Arizona_Glendale,2021-06-23,2879,4125,7790,-12.46
+Arizona_Glendale,2019-08-06,2754,3907,7619,-12.11
+Arizona_Glendale,2021-09-18,3803,5034,6156,-9.71
+Arizona_Glendale,2020-05-10,5105,6751,8160,-9.7
+Arizona_Glendale,2022-07-02,6092,7926,8543,-9.14
+Arizona_Glendale,2023-08-22,6622,5205,7108,8.72
+Arizona_Glendale,2021-08-11,7190,5680,7303,8.55
+Arizona_Glendale,2022-08-04,5774,4593,7505,8.29
+Arizona_Glendale,2020-04-08,4857,6140,7482,-8.1
+Arizona_Glendale,2021-04-26,4523,5676,8071,-7.83
+Arizona_Glendale,2021-07-19,6535,5271,7877,7.81
+Arizona_Glendale,2019-08-09,4561,5669,7606,-7.49
+Arizona_Glendale,2022-06-18,6442,5274,8284,7.28
+Arizona_Glendale,2019-04-23,5252,6459,7950,-7.13
+Arizona_Glendale,2019-07-24,7045,5902,7703,6.47
+Arizona_Glendale,2022-08-27,6952,5846,6891,6.34
+Arizona_Mesa,2019-11-20,235,1434,3671,-58.64
+Arizona_Mesa,2019-04-29,2758,4055,8064,-13.34
+Arizona_Mesa,2021-03-13,4057,2896,6156,12.05
+Arizona_Mesa,2021-08-18,6428,4613,6943,11.93
+Arizona_Mesa,2019-03-11,2712,3785,6217,-11.5
+Arizona_Mesa,2019-09-23,4369,3314,5942,9.94
+Arizona_Mesa,2021-07-16,4341,5711,7872,-9.48
+Arizona_Mesa,2019-07-22,4743,6155,7984,-9.01
+Arizona_Mesa,2023-08-19,4025,5185,7327,-8.73
+Arizona_Mesa,2023-05-19,4617,5831,8075,-8.04
+Arizona_Mesa,2019-05-22,6762,5526,8699,7.34
+Arizona_Mesa,2023-08-23,6703,5577,6653,6.71
+Arizona_Mesa,2022-08-09,5344,6495,7565,-6.7
+Arizona_Mesa,2019-05-23,8254,6881,8718,6.65
+Arizona_Mesa,2019-04-23,6424,5364,7856,6.58
+Arizona_Mesa,2022-07-10,8213,6927,8011,6.24
+Arizona_Mesa,2020-04-12,7250,6190,7484,5.8
+Arizona_Mesa,2020-07-24,7742,6622,7793,5.74
+Arizona_Mesa,2022-06-26,7611,6575,8086,5.39
+Arizona_Mesa,2023-05-16,8161,7143,7918,4.92
+Arizona_Peoria,2019-11-20,264,1770,3689,-62.74
+Arizona_Peoria,2019-12-27,369,1702,3497,-51.06
+Arizona_Peoria,2021-07-23,951,2425,7698,-32.26
+Arizona_Peoria,2019-02-03,1376,2698,4402,-23.33
+Arizona_Peoria,2019-02-22,1709,3061,5411,-20.26
+Arizona_Peoria,2022-07-28,2621,4238,7521,-16.8
+Arizona_Peoria,2022-09-22,2701,4052,5877,-14.16
+Arizona_Peoria,2020-07-20,2887,4315,8161,-14.04
+Arizona_Peoria,2021-07-16,5087,7203,7822,-12.21
+Arizona_Peoria,2019-08-06,2787,3907,7619,-11.77
+Arizona_Peoria,2022-07-02,5688,7926,8543,-11.65
+Arizona_Peoria,2023-03-22,3585,4887,6829,-10.82
+Arizona_Peoria,2019-09-23,5061,3880,5957,9.54
+Arizona_Peoria,2022-08-04,5898,4593,7505,9.01
+Arizona_Peoria,2020-05-10,5230,6751,8160,-8.92
+Arizona_Peoria,2022-06-18,6659,5274,8284,8.41
+Arizona_Peoria,2023-08-22,6535,5205,7108,8.22
+Arizona_Peoria,2022-09-09,5707,4613,6399,7.68
+Arizona_Peoria,2021-08-11,6992,5680,7303,7.52
+Arizona_Peoria,2020-08-21,5569,4530,6436,7.46
+Arizona_Peoria,2021-07-19,6463,5271,7877,7.37
+Arizona_Peoria,2022-08-12,5931,4924,7349,6.73
+Arizona_Peoria,2022-08-27,6998,5846,6891,6.53
+Arizona_Peoria,2022-07-26,7250,6113,7660,6.2
+Arizona_Peoria,2023-05-19,5210,6214,7978,-6.11
+Arizona_Phoenix,2019-11-20,240,1770,3689,-62.79
+Arizona_Phoenix,2019-12-27,574,1702,3497,-35.25
+Arizona_Phoenix,2023-03-22,2209,4887,6829,-26.66
+Arizona_Phoenix,2019-02-03,1348,2698,4402,-23.03
+Arizona_Phoenix,2021-07-23,1280,2425,7698,-21.16
+Arizona_Phoenix,2022-07-28,2304,4238,7521,-20.43
+Arizona_Phoenix,2020-03-11,1313,2393,5776,-19.87
+Arizona_Phoenix,2021-06-23,2465,4125,7790,-17.24
+Arizona_Phoenix,2021-07-16,4346,7203,7822,-17.04
+Arizona_Phoenix,2019-02-18,2655,4192,5260,-15.29
+Arizona_Phoenix,2019-02-22,2036,3061,5411,-13.57
+Arizona_Phoenix,2023-02-21,2661,3796,5146,-11.87
+Arizona_Phoenix,2022-02-16,3493,4846,5135,-10.96
+Arizona_Phoenix,2022-08-04,6203,4593,7505,10.31
+Arizona_Phoenix,2020-05-10,4980,6751,8160,-10.22
+Arizona_Phoenix,2019-03-08,3897,5258,6132,-10.03
+Arizona_Phoenix,2021-03-12,3262,4360,6226,-9.69
+Arizona_Phoenix,2023-08-22,6794,5205,7108,9.17
+Arizona_Phoenix,2023-03-30,4499,5844,7161,-8.76
+Arizona_Phoenix,2022-03-20,3873,5005,6490,-8.57
+Arizona_Phoenix,2023-08-18,4501,5776,7274,-8.35
+Arizona_Phoenix,2021-08-11,7224,5680,7303,8.29
+Arizona_Phoenix,2021-07-19,6692,5271,7877,8.22
+Arizona_Phoenix,2021-04-26,4539,5676,8071,-7.47
+Arizona_Phoenix,2022-07-02,6382,7926,8543,-7.26
+Arizona_Scottsdale,2019-11-20,239,1434,3671,-56.13
+Arizona_Scottsdale,2019-03-11,2528,3785,6217,-13.51
+Arizona_Scottsdale,2019-04-29,2713,4055,8064,-13.47
+Arizona_Scottsdale,2022-07-28,2472,3639,7731,-12.94
+Arizona_Scottsdale,2022-06-18,6167,4441,8114,11.34
+Arizona_Scottsdale,2019-03-13,5198,3917,6277,9.77
+Arizona_Scottsdale,2022-10-23,4563,3499,4924,9.17
+Arizona_Scottsdale,2021-07-16,4399,5711,7872,-8.74
+Arizona_Scottsdale,2020-07-21,7144,5569,8153,8.65
+Arizona_Scottsdale,2023-08-19,4009,5185,7327,-8.6
+Arizona_Scottsdale,2020-05-10,4906,6232,8135,-8.01
+Arizona_Scottsdale,2023-08-31,5297,6718,7028,-7.96
+Arizona_Scottsdale,2019-09-07,6282,5033,6566,7.71
+Arizona_Scottsdale,2020-07-23,6065,4873,7839,7.6
+Arizona_Scottsdale,2022-08-19,5608,4522,7069,7.48
+Arizona_Scottsdale,2022-08-09,5224,6495,7565,-7.28
+Arizona_Scottsdale,2023-08-23,6811,5577,6653,6.97
+Arizona_Scottsdale,2022-06-21,8318,6953,8455,6.27
+Arizona_Scottsdale,2021-08-11,7243,6083,7335,6.11
+Arizona_Scottsdale,2022-07-10,8239,6927,8011,6.08
+Arizona_Scottsdale,2022-06-26,7762,6575,8086,5.82
+Arizona_Scottsdale,2019-07-29,6228,7392,8111,-5.71
+Arizona_Scottsdale,2020-07-24,7758,6622,7793,5.56
+Arizona_Scottsdale,2020-04-12,7215,6190,7484,5.38
+Arizona_Scottsdale,2022-06-25,7866,6845,8236,4.9
+Arizona_Tempe,2019-11-20,236,1434,3671,-55.71
+Arizona_Tempe,2019-03-13,5815,3917,6277,13.52
+Arizona_Tempe,2021-03-13,4285,2896,6156,13.36
+Arizona_Tempe,2019-03-11,2556,3785,6217,-12.89
+Arizona_Tempe,2019-04-29,2749,4055,8064,-12.77
+Arizona_Tempe,2022-02-16,4227,3070,5060,10.95
+Arizona_Tempe,2021-07-16,4105,5711,7872,-10.87
+Arizona_Tempe,2023-08-19,3752,5185,7327,-10.63
+Arizona_Tempe,2021-03-12,3152,4316,6326,-10.3
+Arizona_Tempe,2023-05-19,4327,5831,8075,-9.8
+Arizona_Tempe,2020-05-10,4805,6232,8135,-8.52
+Arizona_Tempe,2021-08-18,5893,4613,6943,8.48
+Arizona_Tempe,2022-06-18,5655,4441,8114,8.37
+Arizona_Tempe,2022-08-09,5042,6495,7565,-8.3
+Arizona_Tempe,2022-08-19,5700,4522,7069,8.03
+Arizona_Tempe,2021-03-16,5943,4772,6607,7.62
+Arizona_Tempe,2019-09-07,6210,5033,6566,7.31
+Arizona_Tempe,2019-05-22,6815,5526,8699,7.3
+Arizona_Tempe,2020-07-21,6848,5569,8153,7.2
+Arizona_Tempe,2023-08-23,6747,5577,6653,6.65
+Arizona_Tempe,2022-06-21,8365,6953,8455,6.47
+Arizona_Tempe,2022-07-10,8322,6927,8011,6.43
+Arizona_Tempe,2019-07-22,5054,6155,7984,-6.4
+Arizona_Tempe,2019-09-10,6553,5524,6691,5.99
+Arizona_Tempe,2019-05-23,8115,6881,8718,5.8
+Arizona_Tucson,2019-11-20,170,1626,3848,-66.4
+Arizona_Tucson,2019-11-19,640,1863,3982,-33.4
+Arizona_Tucson,2022-03-28,1611,2723,7113,-16.85
+Arizona_Tucson,2019-01-01,3459,2215,3765,14.16
+Arizona_Tucson,2022-10-04,2765,4126,5753,-13.0
+Arizona_Tucson,2022-01-19,3660,2444,4092,12.84
+Arizona_Tucson,2020-07-02,3890,5742,8449,-12.7
+Arizona_Tucson,2020-08-30,3765,5452,7126,-12.08
+Arizona_Tucson,2020-08-26,4379,6205,6974,-11.39
+Arizona_Tucson,2019-09-14,5748,4037,6515,11.29
+Arizona_Tucson,2022-12-13,3439,2412,3777,11.25
+Arizona_Tucson,2019-09-16,3357,4671,6513,-10.77
+Arizona_Tucson,2022-06-17,3372,4607,8498,-10.19
+Arizona_Tucson,2021-07-16,3387,4605,7958,-10.03
+Arizona_Tucson,2020-04-11,3613,4841,7686,-9.57
+Arizona_Tucson,2019-04-17,7224,5383,7671,9.4
+Arizona_Tucson,2022-06-25,7275,5454,8257,9.2
+Arizona_Tucson,2023-08-23,6314,4750,6753,9.08
+Arizona_Tucson,2020-10-27,4268,3234,4966,8.81
+Arizona_Tucson,2023-09-08,5877,4551,6833,8.14
+Arizona_Tucson,2022-06-18,6909,5373,8098,8.01
+Arizona_Tucson,2023-08-26,4602,5867,7119,-7.98
+Arizona_Tucson,2023-08-18,5002,6305,7553,-7.61
+Arizona_Tucson,2022-03-20,3959,4992,6805,-7.61
+Arizona_Tucson,2021-08-17,4643,5839,7074,-7.53
+Arkansas_LittleRock,2021-02-17,2708,807,4801,15.5
+Arkansas_LittleRock,2022-11-29,2524,866,2964,13.69
+Arkansas_LittleRock,2022-03-15,685,1899,5663,-13.24
+Arkansas_LittleRock,2023-10-13,3138,1166,4814,12.75
+Arkansas_LittleRock,2022-04-17,3256,1356,6550,11.29
+Arkansas_LittleRock,2021-01-24,3191,1374,3498,10.86
+Arkansas_LittleRock,2021-12-26,1899,878,2934,9.79
+Arkansas_LittleRock,2023-01-30,2202,1087,3763,9.0
+Arkansas_LittleRock,2020-10-10,1197,2259,4972,-8.42
+Arkansas_LittleRock,2020-05-12,1222,2268,7500,-8.21
+Arkansas_LittleRock,2020-01-13,1323,2422,3429,-8.05
+Arkansas_LittleRock,2020-02-13,4893,2645,4855,7.97
+Arkansas_LittleRock,2020-02-25,1802,2898,5220,-6.4
+Arkansas_LittleRock,2021-03-02,2120,3383,5452,-6.31
+Arkansas_LittleRock,2022-03-23,2647,3941,6741,-5.42
+Arkansas_LittleRock,2021-09-05,2551,3738,6201,-5.2
+Arkansas_LittleRock,2019-10-27,4254,2855,4661,5.11
+Arkansas_LittleRock,2023-05-05,3526,2373,6888,5.05
+Arkansas_LittleRock,2021-08-20,6372,4369,6604,4.84
+Arkansas_LittleRock,2021-09-18,5550,3817,5852,4.8
+Arkansas_LittleRock,2022-04-08,2711,3846,7326,-4.78
+Arkansas_LittleRock,2023-07-26,4205,5923,7354,-4.71
+Arkansas_LittleRock,2021-09-19,5188,3616,5867,4.62
+California_Anaheim,2019-03-02,713,1936,5413,-18.3
+California_Anaheim,2020-04-18,1932,4640,7439,-16.49
+California_Anaheim,2023-06-14,2132,4951,8198,-15.89
+California_Anaheim,2020-01-26,909,2097,3965,-15.44
+California_Anaheim,2020-04-13,1851,3802,7435,-13.55
+California_Anaheim,2019-03-20,2073,4185,6420,-13.26
+California_Anaheim,2023-05-30,2448,4736,8369,-12.49
+California_Anaheim,2019-02-28,2287,4413,5457,-12.43
+California_Anaheim,2023-05-31,1937,3710,8044,-12.26
+California_Anaheim,2019-05-09,1819,3421,8002,-11.9
+California_Anaheim,2022-01-07,1486,2779,3591,-11.74
+California_Anaheim,2020-03-16,1883,3487,6189,-11.62
+California_Anaheim,2023-05-24,2708,4996,8485,-11.62
+California_Anaheim,2023-05-26,3148,5673,8442,-11.2
+California_Anaheim,2023-02-27,1700,3033,5463,-10.9
+California_Anaheim,2022-05-28,2895,5119,8267,-10.83
+California_Anaheim,2023-06-07,3343,5855,8214,-10.67
+California_Anaheim,2023-05-23,2231,3878,8241,-10.47
+California_Anaheim,2023-04-14,3034,5261,7391,-10.47
+California_Anaheim,2023-05-28,2251,3897,8422,-10.39
+California_Anaheim,2020-10-24,1389,2408,4719,-10.31
+California_Anaheim,2021-09-01,2957,5067,7054,-10.24
+California_Anaheim,2019-06-21,3651,6202,8622,-10.1
+California_Anaheim,2019-05-10,2139,3646,7974,-10.1
+California_Anaheim,2023-06-01,2142,3602,8124,-9.84
+California_Bakersfield,2021-11-07,885,2510,4117,-32.41
+California_Bakersfield,2022-02-01,1231,3402,4081,-31.9
+California_Bakersfield,2022-12-04,896,2230,3278,-28.31
+California_Bakersfield,2023-01-30,944,2271,3971,-27.29
+California_Bakersfield,2020-11-07,975,2201,4120,-25.32
+California_Bakersfield,2023-02-24,3082,1498,5027,22.62
+California_Bakersfield,2020-04-08,1299,2672,7020,-22.6
+California_Bakersfield,2021-01-28,2592,1374,3769,19.83
+California_Bakersfield,2019-12-22,2169,1148,2977,19.78
+California_Bakersfield,2019-01-31,1294,2417,3836,-19.55
+California_Bakersfield,2023-03-15,2093,3871,6027,-19.45
+California_Bakersfield,2023-01-01,1221,2256,3256,-19.19
+California_Bakersfield,2020-12-12,1230,2256,3095,-18.96
+California_Bakersfield,2019-12-08,1409,2482,3231,-17.75
+California_Bakersfield,2023-03-01,2414,4187,5570,-17.46
+California_Bakersfield,2022-12-20,2621,1575,3028,15.92
+California_Bakersfield,2021-02-03,1840,2931,4338,-14.68
+California_Bakersfield,2020-02-22,3483,2223,4749,14.14
+California_Bakersfield,2023-03-23,2375,3709,6391,-14.12
+California_Bakersfield,2023-08-10,4731,3080,7472,13.58
+California_Bakersfield,2020-03-16,3082,2066,6080,12.57
+California_Bakersfield,2023-02-05,2462,3631,4319,-12.32
+California_Bakersfield,2021-04-26,3861,5620,7972,-11.98
+California_Bakersfield,2021-10-08,2893,4216,5442,-11.97
+California_Bakersfield,2020-09-11,5470,3754,4912,11.93
+California_ChulaVista,2023-01-05,922,1971,3519,-9.74
+California_ChulaVista,2020-04-10,1860,3556,7190,-8.54
+California_ChulaVista,2021-06-01,7802,3717,8460,8.5
+California_ChulaVista,2023-01-01,1444,2741,3547,-8.41
+California_ChulaVista,2021-10-30,4482,2143,4650,8.4
+California_ChulaVista,2020-06-22,7973,3911,8574,8.15
+California_ChulaVista,2023-06-13,3297,6065,8177,-8.13
+California_ChulaVista,2023-07-01,8288,4144,8229,7.91
+California_ChulaVista,2023-01-28,3840,1907,4192,7.91
+California_ChulaVista,2021-12-29,1245,2274,3492,-7.91
+California_ChulaVista,2021-01-22,1777,3216,4049,-7.86
+California_ChulaVista,2021-03-03,1672,3014,5577,-7.8
+California_ChulaVista,2020-05-28,7910,3992,8444,7.8
+California_ChulaVista,2021-06-28,6694,3412,8291,7.66
+California_ChulaVista,2021-08-18,5217,2656,7336,7.65
+California_ChulaVista,2023-05-29,2283,4039,8375,-7.62
+California_ChulaVista,2019-09-27,2739,4785,6000,-7.48
+California_ChulaVista,2023-04-29,7364,3848,7756,7.36
+California_ChulaVista,2023-04-10,6821,3579,7301,7.31
+California_ChulaVista,2023-07-03,8230,4346,8544,7.24
+California_ChulaVista,2021-11-05,4527,2387,4473,7.21
+California_ChulaVista,2022-10-06,3381,1797,5344,7.07
+California_ChulaVista,2021-03-15,2179,3678,6221,-7.03
+California_ChulaVista,2021-05-17,3358,5608,8000,-6.94
+California_ChulaVista,2020-03-10,1485,2491,5860,-6.91
+California_Fontana,2021-10-18,692,3266,5279,-36.09
+California_Fontana,2019-02-02,419,1786,4223,-32.93
+California_Fontana,2019-03-02,890,3485,5499,-31.96
+California_Fontana,2023-02-14,1007,3846,5043,-31.48
+California_Fontana,2023-06-01,1853,6945,8372,-31.42
+California_Fontana,2019-04-16,1546,5795,7636,-31.33
+California_Fontana,2022-12-30,653,2480,3206,-30.91
+California_Fontana,2020-12-12,607,2302,3311,-30.79
+California_Fontana,2019-12-14,697,2602,3349,-30.58
+California_Fontana,2022-10-16,1214,4298,4912,-29.83
+California_Fontana,2019-02-03,859,2982,4314,-29.09
+California_Fontana,2019-03-06,721,2486,5597,-28.76
+California_Fontana,2020-03-13,796,2589,6044,-27.48
+California_Fontana,2019-03-03,1543,4793,5716,-26.87
+California_Fontana,2020-04-06,964,2974,7113,-26.41
+California_Fontana,2021-05-16,2427,6996,8389,-25.28
+California_Fontana,2022-05-20,2543,7240,8451,-25.0
+California_Fontana,2021-04-22,2478,6837,7930,-24.24
+California_Fontana,2022-05-28,2503,6862,8421,-24.09
+California_Fontana,2023-06-12,2363,6421,8148,-23.87
+California_Fontana,2021-04-23,2645,7160,8062,-23.81
+California_Fontana,2020-04-12,2241,6064,7281,-23.75
+California_Fontana,2022-04-11,2161,5809,7374,-23.58
+California_Fontana,2021-10-25,760,2082,4644,-23.42
+California_Fontana,2023-04-13,2253,5957,7401,-23.2
+California_Fremont,2020-08-05,2699,7112,8030,-23.82
+California_Fremont,2022-02-14,1700,3817,4420,-19.73
+California_Fremont,2020-03-14,1300,2921,5763,-19.63
+California_Fremont,2021-12-03,1051,2299,2973,-18.86
+California_Fremont,2020-03-23,1955,4015,6239,-17.59
+California_Fremont,2019-12-07,983,2031,2891,-17.43
+California_Fremont,2023-09-30,1886,3633,5472,-16.01
+California_Fremont,2022-10-16,2109,4008,4773,-15.71
+California_Fremont,2019-11-14,1494,2652,3340,-13.93
+California_Fremont,2019-12-09,1345,2386,2946,-13.88
+California_Fremont,2019-03-27,1930,3402,6358,-13.84
+California_Fremont,2020-03-15,1641,2897,5963,-13.83
+California_Fremont,2020-01-27,1795,3118,3616,-13.46
+California_Fremont,2020-11-14,1611,2741,3570,-12.92
+California_Fremont,2021-12-19,2855,1703,2889,12.52
+California_Fremont,2020-04-04,2071,3447,6685,-12.45
+California_Fremont,2019-03-03,1592,2612,4985,-12.04
+California_Fremont,2023-05-10,4371,7047,8142,-11.79
+California_Fremont,2020-03-24,2482,3997,6419,-11.68
+California_Fremont,2022-09-19,5671,3630,6051,10.94
+California_Fremont,2023-02-25,3531,2303,4910,10.4
+California_Fremont,2022-12-18,2955,1936,2831,10.27
+California_Fremont,2019-09-07,3612,5457,6875,-10.17
+California_Fremont,2022-03-04,2383,3425,5332,-8.88
+California_Fremont,2021-11-14,3505,2444,3523,8.77
+California_Fresno,2021-01-09,661,1957,3353,-27.5
+California_Fresno,2020-12-20,1180,2349,3123,-17.65
+California_Fresno,2020-12-18,1426,2701,3126,-16.45
+California_Fresno,2020-03-15,1833,3238,5950,-14.71
+California_Fresno,2020-04-20,2080,3494,7340,-13.42
+California_Fresno,2022-09-18,2844,4443,6370,-11.58
+California_Fresno,2022-09-19,2623,4042,6110,-11.21
+California_Fresno,2023-09-02,3049,4411,6502,-9.56
+California_Fresno,2022-03-05,2844,4095,5609,-9.43
+California_Fresno,2022-04-11,2667,3795,7241,-9.11
+California_Fresno,2023-05-04,3597,4832,7906,-7.63
+California_Fresno,2021-04-25,4597,3470,7675,7.53
+California_Fresno,2019-03-21,5331,4082,6137,7.17
+California_Fresno,2020-09-14,4734,3638,4182,7.06
+California_Fresno,2020-09-08,4801,6272,6617,-6.92
+California_Fresno,2021-10-02,3703,4830,5134,-6.86
+California_Fresno,2020-09-13,4827,3808,4599,6.38
+California_Fresno,2023-05-05,7297,5790,7900,6.25
+California_Fresno,2022-04-16,4025,5059,7431,-5.89
+California_Fresno,2020-06-05,7019,5889,8424,4.77
+California_Fresno,2022-07-31,6953,5896,7148,4.49
+California_Fresno,2020-04-21,6928,5890,7392,4.42
+California_GardenGrove,2023-05-30,1892,4736,8369,-18.23
+California_GardenGrove,2020-01-26,858,2097,3965,-17.4
+California_GardenGrove,2019-03-02,927,1936,5413,-14.38
+California_GardenGrove,2023-05-24,2451,4996,8485,-14.23
+California_GardenGrove,2022-01-07,1359,2779,3591,-14.13
+California_GardenGrove,2022-05-19,2843,5726,8265,-14.02
+California_GardenGrove,2023-04-30,2630,5139,7854,-13.41
+California_GardenGrove,2023-06-14,2557,4951,8198,-13.22
+California_GardenGrove,2023-05-19,2247,4337,8035,-13.13
+California_GardenGrove,2023-05-26,3068,5673,8442,-12.34
+California_GardenGrove,2020-04-13,2051,3802,7435,-12.32
+California_GardenGrove,2023-09-16,1427,2643,6207,-12.21
+California_GardenGrove,2020-10-23,2024,3649,4786,-11.77
+California_GardenGrove,2023-05-31,2132,3710,8044,-11.08
+California_GardenGrove,2023-05-23,2242,3878,8241,-10.97
+California_GardenGrove,2023-06-15,2912,4903,8165,-10.48
+California_GardenGrove,2019-06-20,3193,5301,8502,-10.21
+California_GardenGrove,2021-10-31,2125,3502,4549,-10.0
+California_GardenGrove,2023-06-09,3419,5530,8356,-9.7
+California_GardenGrove,2019-06-25,2779,4489,8703,-9.65
+California_GardenGrove,2023-06-11,5798,3552,8003,9.48
+California_GardenGrove,2021-09-01,3175,5067,7054,-9.43
+California_GardenGrove,2023-09-29,2560,4056,6021,-9.26
+California_GardenGrove,2023-05-25,3781,5944,8627,-9.15
+California_GardenGrove,2020-03-18,4431,2808,6422,8.78
+California_Glendale,2020-03-13,667,2510,5973,-29.37
+California_Glendale,2023-06-01,1446,5094,8287,-28.5
+California_Glendale,2021-04-22,1948,6587,7920,-27.71
+California_Glendale,2019-02-03,661,2205,4260,-26.65
+California_Glendale,2023-04-13,1470,4698,7347,-26.29
+California_Glendale,2021-04-13,1682,5254,7757,-25.84
+California_Glendale,2021-05-16,1826,5353,8311,-24.42
+California_Glendale,2021-04-23,2384,6727,8034,-23.65
+California_Glendale,2019-05-09,1582,4376,8042,-23.04
+California_Glendale,2023-06-14,2552,6666,8158,-21.9
+California_Glendale,2023-05-23,2460,6305,8278,-21.46
+California_Glendale,2021-05-10,2828,7078,8202,-20.95
+California_Glendale,2022-11-07,677,1723,4155,-20.6
+California_Glendale,2021-09-27,1664,4126,5122,-20.58
+California_Glendale,2023-10-25,1337,3318,4585,-20.49
+California_Glendale,2019-05-08,2392,5848,8166,-20.37
+California_Glendale,2021-08-18,2158,5255,7595,-20.25
+California_Glendale,2023-09-17,1850,4478,6328,-20.06
+California_Glendale,2023-06-11,1836,4428,7927,-19.98
+California_Glendale,2019-09-27,1742,4205,6043,-19.98
+California_Glendale,2023-05-28,2500,5973,8402,-19.86
+California_Glendale,2023-05-31,2383,5640,8075,-19.63
+California_Glendale,2022-05-20,2793,6492,8386,-19.26
+California_Glendale,2022-03-31,2114,4920,6896,-19.22
+California_Glendale,2020-10-24,1361,3134,4649,-18.81
+California_HuntingtonBeach,2022-01-07,903,2779,3591,-22.34
+California_HuntingtonBeach,2023-04-30,2440,5139,7854,-15.14
+California_HuntingtonBeach,2022-05-19,2786,5726,8265,-14.67
+California_HuntingtonBeach,2020-04-10,2086,3669,7230,-11.47
+California_HuntingtonBeach,2023-06-11,6153,3552,8003,10.9
+California_HuntingtonBeach,2020-01-16,1750,2976,3776,-10.76
+California_HuntingtonBeach,2023-05-30,2902,4736,8369,-10.02
+California_HuntingtonBeach,2020-10-23,2265,3649,4786,-9.73
+California_HuntingtonBeach,2021-12-02,1757,2825,3586,-9.64
+California_HuntingtonBeach,2019-05-07,7835,4854,7965,9.5
+California_HuntingtonBeach,2020-03-18,4507,2808,6422,9.33
+California_HuntingtonBeach,2019-05-23,5845,3702,8245,9.03
+California_HuntingtonBeach,2021-01-03,2092,3248,3378,-8.97
+California_HuntingtonBeach,2023-05-19,2822,4337,8035,-8.81
+California_HuntingtonBeach,2021-08-21,6337,4147,7514,8.37
+California_HuntingtonBeach,2021-04-21,7376,4872,7729,8.2
+California_HuntingtonBeach,2023-05-22,3696,5461,7924,-8.04
+California_HuntingtonBeach,2021-05-09,4108,6011,8240,-7.86
+California_HuntingtonBeach,2023-09-29,2768,4056,6021,-7.85
+California_HuntingtonBeach,2020-06-04,4198,6123,8535,-7.79
+California_HuntingtonBeach,2021-05-13,4819,6990,8574,-7.69
+California_HuntingtonBeach,2023-08-10,3614,5235,7540,-7.64
+California_HuntingtonBeach,2020-03-15,5591,3839,6288,7.4
+California_HuntingtonBeach,2023-09-05,2971,4221,6968,-7.23
+California_HuntingtonBeach,2023-04-11,4137,5864,7400,-7.21
+California_Irvine,2022-05-21,1995,4818,8279,-19.64
+California_Irvine,2019-06-20,2714,5301,8502,-15.03
+California_Irvine,2019-06-17,2280,4438,8524,-14.92
+California_Irvine,2021-04-22,1870,3638,7582,-14.86
+California_Irvine,2023-05-24,2631,4996,8485,-14.4
+California_Irvine,2023-05-19,2294,4337,8035,-14.28
+California_Irvine,2022-03-31,2193,4123,6843,-14.14
+California_Irvine,2023-05-25,3239,5944,8627,-13.68
+California_Irvine,2023-05-30,2590,4736,8369,-13.56
+California_Irvine,2023-06-09,3087,5530,8356,-13.14
+California_Irvine,2020-04-18,2672,4640,7439,-12.43
+California_Irvine,2021-09-01,2963,5067,7054,-12.1
+California_Irvine,2020-11-07,1654,2828,4309,-11.98
+California_Irvine,2023-05-31,2194,3710,8044,-11.8
+California_Irvine,2023-10-01,2587,4356,5854,-11.74
+California_Irvine,2023-05-23,2318,3878,8241,-11.58
+California_Irvine,2023-06-11,6073,3552,8003,11.56
+California_Irvine,2023-06-14,2973,4951,8198,-11.52
+California_Irvine,2023-04-13,2076,3409,7480,-11.14
+California_Irvine,2023-02-27,1865,3033,5463,-10.91
+California_Irvine,2023-06-06,3505,5641,8515,-10.79
+California_Irvine,2021-05-17,2619,4220,8067,-10.77
+California_Irvine,2020-06-05,2626,4193,8550,-10.57
+California_Irvine,2020-04-07,1991,3164,7268,-10.42
+California_Irvine,2020-03-16,2218,3487,6189,-10.2
+California_LongBeach,2021-04-22,1178,5498,7491,-21.98
+California_LongBeach,2020-04-13,1867,6029,7366,-16.93
+California_LongBeach,2022-12-30,540,1773,3237,-16.56
+California_LongBeach,2023-05-31,1966,5692,7945,-15.39
+California_LongBeach,2021-05-17,1940,5318,7979,-14.61
+California_LongBeach,2019-01-31,638,1755,3839,-14.21
+California_LongBeach,2023-05-26,2434,6347,8331,-13.95
+California_LongBeach,2020-03-24,2281,5827,6668,-13.65
+California_LongBeach,2020-01-21,1100,2788,3769,-13.34
+California_LongBeach,2019-03-02,1162,2783,5344,-12.57
+California_LongBeach,2022-10-16,1725,3986,4896,-12.17
+California_LongBeach,2020-03-12,1023,2305,5971,-11.66
+California_LongBeach,2019-12-14,1244,2711,3336,-11.26
+California_LongBeach,2020-03-10,1457,3127,5777,-11.09
+California_LongBeach,2023-05-30,2628,5445,8283,-10.7
+California_LongBeach,2022-10-13,4097,1854,5117,10.69
+California_LongBeach,2020-02-09,1235,2569,4457,-10.6
+California_LongBeach,2020-04-18,3207,6587,7383,-10.6
+California_LongBeach,2020-04-19,3411,6807,7445,-10.2
+California_LongBeach,2019-01-12,1449,2892,3561,-10.07
+California_LongBeach,2021-10-30,3729,1865,4505,9.28
+California_LongBeach,2021-09-27,3962,1989,5286,9.24
+California_LongBeach,2021-11-06,3941,1986,4354,9.18
+California_LongBeach,2019-04-16,3084,5726,7356,-9.17
+California_LongBeach,2019-02-03,1378,2579,4261,-9.15
+California_LosAngeles,2023-06-01,1357,5094,8287,-28.13
+California_LosAngeles,2021-04-22,1832,6587,7920,-27.34
+California_LosAngeles,2021-04-23,2003,6727,8034,-25.91
+California_LosAngeles,2020-03-13,788,2510,5973,-24.24
+California_LosAngeles,2023-05-23,2061,6305,8278,-23.92
+California_LosAngeles,2022-10-14,1430,4404,5126,-23.91
+California_LosAngeles,2023-06-14,2182,6666,8158,-23.91
+California_LosAngeles,2023-04-13,1600,4698,7347,-22.94
+California_LosAngeles,2021-05-10,2440,7078,8202,-22.83
+California_LosAngeles,2021-04-13,1838,5254,7757,-22.42
+California_LosAngeles,2021-09-27,1511,4126,5122,-21.36
+California_LosAngeles,2022-05-20,2409,6492,8386,-21.24
+California_LosAngeles,2023-09-16,1847,4897,6282,-20.81
+California_LosAngeles,2019-03-02,838,2252,5459,-20.68
+California_LosAngeles,2023-09-17,1757,4478,6328,-19.94
+California_LosAngeles,2019-09-28,1481,3726,6115,-19.6
+California_LosAngeles,2023-06-11,1789,4428,7927,-19.32
+California_LosAngeles,2023-05-28,2425,5973,8402,-19.31
+California_LosAngeles,2023-03-16,1815,4416,6204,-18.96
+California_LosAngeles,2019-05-09,1810,4376,8042,-18.82
+California_LosAngeles,2023-05-09,2546,5886,8214,-17.96
+California_LosAngeles,2021-05-16,2332,5353,8311,-17.79
+California_LosAngeles,2021-12-25,830,1946,3444,-17.79
+California_LosAngeles,2023-05-31,2490,5640,8075,-17.52
+California_LosAngeles,2023-02-24,827,1905,5177,-17.41
+California_Modesto,2021-12-19,555,1889,2941,-31.54
+California_Modesto,2022-12-18,600,1689,2923,-26.67
+California_Modesto,2021-12-08,910,1996,2824,-20.51
+California_Modesto,2021-02-02,997,2148,3756,-20.11
+California_Modesto,2019-02-25,1699,3469,4859,-18.95
+California_Modesto,2020-11-14,1273,2529,3604,-18.1
+California_Modesto,2019-02-26,1095,2131,4801,-17.47
+California_Modesto,2023-11-06,1210,2293,3796,-16.82
+California_Modesto,2019-03-03,1764,2805,5133,-12.3
+California_Modesto,2020-04-05,3033,2002,6853,10.98
+California_Modesto,2023-03-29,2431,3654,6605,-10.88
+California_Modesto,2021-03-15,2289,3332,6077,-10.01
+California_Modesto,2023-08-20,5325,3782,6997,9.12
+California_Modesto,2023-03-11,4845,3444,5397,9.08
+California_Modesto,2019-04-03,3457,4838,6807,-9.02
+California_Modesto,2020-09-14,5176,3697,4147,8.96
+California_Modesto,2020-09-17,4491,3235,4633,8.73
+California_Modesto,2022-03-04,3864,2791,5207,8.63
+California_Modesto,2019-04-02,3102,4262,6470,-8.52
+California_Modesto,2020-09-16,5506,4016,4143,8.41
+California_Modesto,2019-03-06,3896,2884,5236,7.98
+California_Modesto,2020-03-24,4555,3379,6326,7.94
+California_Modesto,2023-06-10,6396,4800,7860,7.66
+California_Modesto,2021-10-03,4723,3593,4371,7.27
+California_Modesto,2023-09-01,4894,3744,6810,7.13
+California_MorenoValley,2019-05-23,1365,3702,8245,-17.96
+California_MorenoValley,2019-02-03,1000,2345,4344,-15.28
+California_MorenoValley,2020-04-08,2376,5196,7263,-14.33
+California_MorenoValley,2019-03-02,897,1936,5413,-13.79
+California_MorenoValley,2019-03-07,2136,4534,5909,-13.78
+California_MorenoValley,2020-01-09,1251,2556,3576,-12.97
+California_MorenoValley,2023-05-05,2776,5563,8057,-12.82
+California_MorenoValley,2023-05-01,2564,5014,8054,-12.37
+California_MorenoValley,2022-03-28,1963,3722,6681,-11.78
+California_MorenoValley,2021-12-28,1128,2135,3380,-11.6
+California_MorenoValley,2022-10-14,4540,2289,5065,11.42
+California_MorenoValley,2023-11-30,1234,2304,3526,-11.39
+California_MorenoValley,2019-05-07,2631,4854,7965,-11.35
+California_MorenoValley,2023-11-24,1593,2948,3638,-11.31
+California_MorenoValley,2020-03-15,2086,3839,6288,-11.27
+California_MorenoValley,2020-04-06,1461,2684,7059,-11.16
+California_MorenoValley,2019-02-05,1526,2795,4534,-11.11
+California_MorenoValley,2023-04-13,1871,3409,7480,-11.07
+California_MorenoValley,2023-06-12,2398,4328,7948,-10.95
+California_MorenoValley,2023-02-23,1859,3357,5316,-10.91
+California_MorenoValley,2019-09-27,2023,3550,5971,-10.42
+California_MorenoValley,2019-05-06,3894,6703,8069,-10.17
+California_MorenoValley,2023-05-23,7119,3878,8241,10.12
+California_MorenoValley,2022-05-28,3010,5119,8267,-9.93
+California_MorenoValley,2023-05-04,3558,6037,7956,-9.91
+California_Oakland,2019-01-20,532,1811,3198,-13.01
+California_Oakland,2021-12-26,848,1915,2889,-8.87
+California_Oakland,2023-05-01,2515,5385,7891,-8.52
+California_Oakland,2023-11-18,855,1866,3289,-8.51
+California_Oakland,2023-01-10,951,1955,3041,-7.91
+California_Oakland,2023-01-29,1236,2287,3635,-6.84
+California_Oakland,2019-09-27,1925,3526,5672,-6.8
+California_Oakland,2019-04-02,2473,4271,6464,-6.2
+California_Oakland,2019-05-21,3766,6321,8292,-5.92
+California_Oakland,2020-03-14,1589,2663,5715,-5.82
+California_Oakland,2020-03-24,2038,3375,6333,-5.72
+California_Oakland,2021-12-19,2530,1453,2817,5.58
+California_Oakland,2021-02-19,1660,2679,4556,-5.43
+California_Oakland,2020-03-15,2393,3697,5948,-4.99
+California_Oakland,2020-09-12,5132,3150,4716,4.94
+California_Oakland,2020-04-11,2091,3197,6972,-4.87
+California_Oakland,2021-08-20,5530,3439,5822,4.81
+California_Oakland,2019-02-24,2187,3296,4653,-4.72
+California_Oakland,2019-05-08,6844,4311,7954,4.68
+California_Oakland,2020-03-16,3365,4976,6026,-4.54
+California_Oakland,2023-05-20,4075,6000,8304,-4.5
+California_Oakland,2020-10-04,5491,3519,5098,4.48
+California_Oakland,2023-06-06,5296,3396,7707,4.48
+California_Oakland,2019-06-01,8296,5375,8245,4.38
+California_Oakland,2019-06-13,8245,5344,8540,4.38
+California_Oceanside,2020-04-10,1309,3669,7230,-21.72
+California_Oceanside,2023-01-29,843,2018,4166,-18.16
+California_Oceanside,2019-10-27,1826,3493,4821,-13.8
+California_Oceanside,2020-06-24,3845,6655,8643,-11.82
+California_Oceanside,2020-05-29,3037,5240,8440,-11.72
+California_Oceanside,2021-09-27,4641,2665,5361,11.48
+California_Oceanside,2020-04-30,3477,5836,7896,-11.16
+California_Oceanside,2022-05-19,3428,5726,8265,-11.05
+California_Oceanside,2023-05-22,3306,5461,7924,-10.81
+California_Oceanside,2022-09-12,2645,4368,6150,-10.77
+California_Oceanside,2023-04-16,3540,5695,7460,-10.26
+California_Oceanside,2022-11-07,3785,2321,4245,10.07
+California_Oceanside,2023-06-12,7029,4328,7948,10.06
+California_Oceanside,2021-05-06,4477,7101,8273,-9.98
+California_Oceanside,2019-06-13,3957,6271,8680,-9.95
+California_Oceanside,2020-06-04,3867,6123,8535,-9.93
+California_Oceanside,2022-05-25,4489,7103,8350,-9.93
+California_Oceanside,2020-04-29,3615,5717,8057,-9.9
+California_Oceanside,2023-09-02,5571,3460,6783,9.85
+California_Oceanside,2020-04-13,6107,3802,7435,9.81
+California_Oceanside,2020-06-25,4104,6426,8570,-9.7
+California_Oceanside,2023-04-30,3279,5139,7854,-9.7
+California_Oceanside,2023-05-15,3544,5528,8114,-9.61
+California_Oceanside,2019-06-06,4145,6376,8488,-9.33
+California_Oceanside,2023-05-13,4096,6185,7941,-8.93
+California_Ontario,2019-02-02,355,1786,4223,-33.22
+California_Ontario,2023-05-31,1885,6879,8207,-28.05
+California_Ontario,2019-12-14,702,2602,3349,-27.72
+California_Ontario,2019-03-02,958,3485,5499,-27.59
+California_Ontario,2023-01-29,904,3226,4159,-27.13
+California_Ontario,2023-04-13,1727,5957,7401,-26.79
+California_Ontario,2021-04-22,1997,6837,7930,-26.69
+California_Ontario,2020-12-12,682,2302,3311,-25.68
+California_Ontario,2019-09-28,1571,5126,6104,-25.54
+California_Ontario,2021-04-21,2149,6843,7932,-25.14
+California_Ontario,2020-04-12,1926,6064,7281,-24.85
+California_Ontario,2022-12-30,797,2480,3206,-24.08
+California_Ontario,2020-04-13,2024,6010,7541,-23.6
+California_Ontario,2019-04-16,1965,5795,7636,-23.44
+California_Ontario,2022-04-11,1974,5809,7374,-23.39
+California_Ontario,2020-04-05,1669,4871,7262,-23.15
+California_Ontario,2019-09-27,1691,4933,6055,-23.14
+California_Ontario,2021-05-17,2470,7143,8231,-23.09
+California_Ontario,2021-05-16,2440,6996,8389,-22.89
+California_Ontario,2019-02-03,1022,2982,4314,-22.88
+California_Ontario,2023-06-12,2257,6421,8148,-22.7
+California_Ontario,2022-10-16,1506,4298,4912,-22.62
+California_Ontario,2023-06-01,2525,6945,8372,-22.0
+California_Ontario,2022-05-28,2497,6862,8421,-21.98
+California_Ontario,2023-06-11,2220,6095,7995,-21.92
+California_Oxnard,2023-05-18,1919,6623,8435,-17.22
+California_Oxnard,2020-03-13,858,2983,5998,-17.01
+California_Oxnard,2023-09-29,1537,4774,6029,-15.69
+California_Oxnard,2023-05-23,2271,6068,8513,-13.68
+California_Oxnard,2019-06-25,2334,5943,8759,-13.01
+California_Oxnard,2023-05-19,2596,6438,8316,-12.66
+California_Oxnard,2023-04-12,1998,4936,7551,-12.56
+California_Oxnard,2022-05-19,3071,7144,8548,-11.79
+California_Oxnard,2023-04-30,2781,6350,7841,-11.52
+California_Oxnard,2023-09-17,2165,4911,6367,-11.39
+California_Oxnard,2023-04-17,2781,6160,7662,-11.1
+California_Oxnard,2023-06-18,3198,6856,8686,-10.66
+California_Oxnard,2023-06-15,2877,6167,8433,-10.64
+California_Oxnard,2023-09-16,2146,4560,6271,-10.48
+California_Oxnard,2019-01-31,1010,2166,4032,-10.42
+California_Oxnard,2021-05-14,3201,6708,8482,-10.34
+California_Oxnard,2020-06-21,3501,7330,8890,-10.34
+California_Oxnard,2023-05-28,3044,6267,8483,-10.09
+California_Oxnard,2023-05-22,3217,6485,8140,-9.8
+California_Oxnard,2019-06-24,3474,6776,8841,-9.35
+California_Oxnard,2019-03-02,1233,2419,5504,-9.25
+California_Oxnard,2020-01-26,1524,2974,4020,-9.23
+California_Oxnard,2020-06-18,3869,7449,8789,-9.18
+California_Oxnard,2023-05-17,3602,6906,8390,-9.11
+California_Oxnard,2021-05-12,3651,6961,8392,-9.03
+California_RanchoCucamonga,2019-02-02,385,1786,4223,-35.27
+California_RanchoCucamonga,2019-03-02,944,3485,5499,-31.1
+California_RanchoCucamonga,2019-12-14,768,2602,3349,-28.85
+California_RanchoCucamonga,2019-09-27,1570,4933,6055,-27.57
+California_RanchoCucamonga,2022-10-16,1373,4298,4912,-27.41
+California_RanchoCucamonga,2023-01-29,1038,3226,4159,-27.05
+California_RanchoCucamonga,2019-04-16,1913,5795,7636,-26.78
+California_RanchoCucamonga,2021-05-16,2374,6996,8389,-26.2
+California_RanchoCucamonga,2023-04-13,2048,5957,7401,-25.83
+California_RanchoCucamonga,2023-05-31,2413,6879,8207,-25.4
+California_RanchoCucamonga,2022-04-11,2055,5809,7374,-25.15
+California_RanchoCucamonga,2023-02-24,1071,3001,5245,-24.6
+California_RanchoCucamonga,2019-03-06,888,2486,5597,-24.44
+California_RanchoCucamonga,2020-04-12,2225,6064,7281,-24.29
+California_RanchoCucamonga,2019-02-03,1082,2982,4314,-24.21
+California_RanchoCucamonga,2021-12-30,588,1649,3321,-24.07
+California_RanchoCucamonga,2019-09-28,1899,5126,6104,-24.0
+California_RanchoCucamonga,2020-04-06,1094,2974,7113,-23.89
+California_RanchoCucamonga,2023-06-01,2645,6945,8372,-23.45
+California_RanchoCucamonga,2023-06-12,2451,6421,8148,-23.37
+California_RanchoCucamonga,2023-05-10,2751,7028,8101,-22.8
+California_RanchoCucamonga,2023-02-14,1493,3846,5043,-22.78
+California_RanchoCucamonga,2020-12-12,912,2302,3311,-22.0
+California_RanchoCucamonga,2019-05-23,1506,3752,8356,-21.98
+California_RanchoCucamonga,2022-05-28,2797,6862,8421,-21.82
+California_Riverside,2021-12-28,932,2135,3380,-14.97
+California_Riverside,2023-04-13,1519,3409,7480,-14.8
+California_Riverside,2019-12-26,911,1950,3387,-13.76
+California_Riverside,2023-06-12,2332,4328,7948,-11.51
+California_Riverside,2019-04-16,2612,4780,7429,-11.28
+California_Riverside,2019-02-03,1271,2345,4344,-11.26
+California_Riverside,2023-05-04,3338,6037,7956,-11.1
+California_Riverside,2020-04-06,1483,2684,7059,-10.97
+California_Riverside,2020-03-15,2137,3839,6288,-10.91
+California_Riverside,2019-05-23,2099,3702,8245,-10.58
+California_Riverside,2022-03-04,2585,4325,5680,-9.67
+California_Riverside,2023-02-26,2396,3993,5552,-9.59
+California_Riverside,2023-02-27,1837,3033,5463,-9.38
+California_Riverside,2023-06-01,2189,3602,8124,-9.35
+California_Riverside,2019-05-22,4238,6867,8470,-9.15
+California_Riverside,2021-10-18,2092,3404,5161,-9.14
+California_Riverside,2022-10-16,1712,2771,4907,-9.02
+California_Riverside,2023-09-05,7083,4221,6968,8.78
+California_Riverside,2019-06-17,7167,4438,8524,8.1
+California_Riverside,2019-05-10,2394,3646,7974,-7.98
+California_Riverside,2022-03-28,2474,3722,6681,-7.77
+California_Riverside,2019-06-25,7105,4489,8703,7.74
+California_Riverside,2023-02-28,2811,4212,5561,-7.71
+California_Riverside,2023-11-16,2188,3282,3997,-7.7
+California_Riverside,2021-03-15,2546,3815,6239,-7.7
+California_Sacramento,2023-09-30,1836,2842,5339,-14.95
+California_Sacramento,2021-08-07,6206,4533,5653,10.47
+California_Sacramento,2020-08-19,4957,6516,7131,-9.57
+California_Sacramento,2020-08-20,4998,6517,7492,-9.29
+California_Sacramento,2020-09-12,4888,3726,4212,9.0
+California_Sacramento,2022-09-11,5289,4073,5202,8.66
+California_Sacramento,2021-08-12,6482,5059,5758,8.22
+California_Sacramento,2019-05-27,7851,6167,8285,8.01
+California_Sacramento,2020-09-13,5042,3963,4485,7.96
+California_Sacramento,2019-05-25,5286,6577,8361,-7.69
+California_Sacramento,2021-08-15,6322,5027,5534,7.58
+California_Sacramento,2020-05-13,5659,4598,7855,6.84
+California_Sacramento,2020-08-21,5436,6455,7135,-6.1
+California_Sacramento,2022-04-22,7093,5973,7494,5.63
+California_SanBernardino,2023-04-13,1047,5957,7401,-41.13
+California_SanBernardino,2019-02-02,355,1786,4223,-36.58
+California_SanBernardino,2019-03-02,740,3485,5499,-36.25
+California_SanBernardino,2019-02-03,678,2982,4314,-34.52
+California_SanBernardino,2020-12-12,588,2302,3311,-31.59
+California_SanBernardino,2022-12-30,693,2480,3206,-29.67
+California_SanBernardino,2020-04-12,1789,6064,7281,-29.09
+California_SanBernardino,2022-05-20,2151,7240,8451,-29.0
+California_SanBernardino,2022-10-16,1273,4298,4912,-28.81
+California_SanBernardino,2020-04-13,1824,6010,7541,-28.42
+California_SanBernardino,2019-09-27,1506,4933,6055,-28.19
+California_SanBernardino,2021-10-18,988,3266,5279,-28.13
+California_SanBernardino,2023-10-25,1234,4021,4640,-27.94
+California_SanBernardino,2022-05-28,2142,6862,8421,-27.81
+California_SanBernardino,2021-05-16,2256,6996,8389,-27.06
+California_SanBernardino,2019-02-10,1024,3221,4711,-26.97
+California_SanBernardino,2020-03-13,824,2589,6044,-26.77
+California_SanBernardino,2019-04-16,1968,5795,7636,-25.76
+California_SanBernardino,2023-06-11,2098,6095,7995,-25.47
+California_SanBernardino,2020-04-06,1047,2974,7113,-24.57
+California_SanBernardino,2019-05-23,1331,3752,8356,-24.54
+California_SanBernardino,2021-04-22,2452,6837,7930,-24.54
+California_SanBernardino,2020-01-09,957,2718,3557,-24.5
+California_SanBernardino,2023-02-27,1192,3334,5398,-24.29
+California_SanBernardino,2020-06-06,2701,7368,8698,-24.04
+California_SanDiego,2023-06-13,2620,6065,8177,-10.02
+California_SanDiego,2022-12-30,798,1882,3365,-9.97
+California_SanDiego,2020-04-10,1751,3556,7190,-8.47
+California_SanDiego,2023-05-29,2014,4039,8375,-8.35
+California_SanDiego,2022-10-13,3496,1603,5239,8.35
+California_SanDiego,2021-05-17,2879,5608,8000,-8.06
+California_SanDiego,2021-08-18,5609,2656,7336,8.05
+California_SanDiego,2022-10-06,3809,1797,5344,8.05
+California_SanDiego,2021-06-01,7641,3717,8460,7.78
+California_SanDiego,2023-09-17,1671,3150,6419,-7.62
+California_SanDiego,2021-04-22,2166,4065,7528,-7.6
+California_SanDiego,2021-10-30,4358,2143,4650,7.6
+California_SanDiego,2023-07-01,8170,4144,8229,7.31
+California_SanDiego,2021-04-23,2484,4529,7762,-7.29
+California_SanDiego,2021-03-03,1659,3014,5577,-7.2
+California_SanDiego,2020-03-13,1396,2515,6037,-7.07
+California_SanDiego,2021-01-22,1794,3216,4049,-7.06
+California_SanDiego,2021-11-05,4530,2387,4473,6.82
+California_SanDiego,2023-04-10,6756,3579,7301,6.8
+California_SanDiego,2020-06-22,7379,3911,8574,6.8
+California_SanDiego,2022-04-02,1629,2810,6953,-6.61
+California_SanDiego,2023-01-01,1592,2741,3547,-6.58
+California_SanDiego,2022-04-03,2171,3715,6688,-6.55
+California_SanDiego,2022-08-20,6859,3763,6981,6.4
+California_SanDiego,2020-05-28,7260,3992,8444,6.38
+California_SanFrancisco,2022-09-18,1239,2547,6036,-9.39
+California_SanFrancisco,2019-03-02,1287,2291,4979,-7.56
+California_SanFrancisco,2020-03-29,2379,4145,6197,-7.39
+California_SanFrancisco,2023-05-02,3330,5629,7821,-7.03
+California_SanFrancisco,2021-04-22,2336,3854,7723,-6.68
+California_SanFrancisco,2019-02-24,2041,3296,4653,-6.39
+California_SanFrancisco,2021-02-19,1664,2679,4556,-6.33
+California_SanFrancisco,2020-09-12,5200,3150,4716,6.17
+California_SanFrancisco,2020-08-26,2610,3985,6787,-5.7
+California_SanFrancisco,2019-04-02,2822,4271,6464,-5.59
+California_SanFrancisco,2022-10-13,4859,3078,4751,5.59
+California_SanFrancisco,2020-10-04,5414,3519,5098,5.26
+California_SanFrancisco,2022-10-30,4179,2734,4055,5.16
+California_SanFrancisco,2019-03-09,2426,3554,5472,-5.16
+California_SanFrancisco,2023-09-14,6269,4123,6189,5.12
+California_SanFrancisco,2022-10-08,5214,3484,5027,4.91
+California_SanFrancisco,2019-05-23,7557,5082,8173,4.84
+California_SanFrancisco,2023-10-22,3439,2326,4355,4.72
+California_SanFrancisco,2022-10-14,4202,2849,4817,4.71
+California_SanFrancisco,2023-07-06,8038,5487,8700,4.65
+California_SanFrancisco,2023-09-13,6500,4461,6407,4.58
+California_SanFrancisco,2022-09-25,5841,4044,5753,4.46
+California_SanFrancisco,2021-08-23,6438,4466,7197,4.44
+California_SanFrancisco,2023-07-07,7855,5487,8603,4.36
+California_SanFrancisco,2022-10-20,4605,3212,4497,4.35
+California_SanJose,2019-02-25,620,2185,4727,-32.53
+California_SanJose,2020-03-15,1564,2897,5963,-16.33
+California_SanJose,2019-02-08,1266,2348,4029,-16.27
+California_SanJose,2023-03-05,2304,3953,5462,-14.41
+California_SanJose,2023-09-30,2169,3633,5472,-13.76
+California_SanJose,2022-03-04,2048,3425,5332,-13.7
+California_SanJose,2021-12-19,2873,1703,2889,13.61
+California_SanJose,2022-01-18,1847,3027,3239,-13.14
+California_SanJose,2023-09-01,2884,4453,6776,-11.66
+California_SanJose,2022-06-05,3470,5330,8255,-11.55
+California_SanJose,2022-01-06,2937,1888,3006,11.5
+California_SanJose,2022-12-18,2985,1936,2831,11.27
+California_SanJose,2019-09-07,3595,5457,6875,-11.23
+California_SanJose,2020-03-18,1954,2973,5987,-11.2
+California_SanJose,2022-01-08,3101,2075,3143,10.45
+California_SanJose,2023-02-25,3411,2303,4910,10.23
+California_SanJose,2020-03-23,2748,4015,6239,-10.19
+California_SanJose,2021-11-14,3565,2444,3523,9.84
+California_SanJose,2023-05-10,5016,7047,8142,-9.2
+California_SanJose,2020-03-21,2691,3776,6105,-9.11
+California_SanJose,2023-03-06,2803,3932,5476,-9.11
+California_SanJose,2020-03-24,2862,3997,6419,-8.99
+California_SanJose,2019-05-21,3791,5284,8341,-8.97
+California_SanJose,2022-09-19,5096,3630,6051,8.88
+California_SanJose,2020-03-22,3476,4801,6167,-8.72
+California_SantaAna,2023-05-30,1876,4736,8369,-19.46
+California_SantaAna,2023-05-24,2045,4996,8485,-18.8
+California_SantaAna,2020-02-09,885,2012,4535,-16.94
+California_SantaAna,2023-05-25,2790,5944,8627,-16.01
+California_SantaAna,2023-05-19,2191,4337,8035,-14.42
+California_SantaAna,2020-01-26,1074,2097,3965,-13.9
+California_SantaAna,2019-06-20,2764,5301,8502,-13.81
+California_SantaAna,2023-06-09,3003,5530,8356,-12.97
+California_SantaAna,2022-01-07,1500,2779,3591,-12.94
+California_SantaAna,2023-05-23,2159,3878,8241,-12.39
+California_SantaAna,2023-06-14,2779,4951,8198,-12.27
+California_SantaAna,2021-09-01,2924,5067,7054,-11.69
+California_SantaAna,2023-05-31,2164,3710,8044,-11.42
+California_SantaAna,2023-02-27,1779,3033,5463,-11.26
+California_SantaAna,2020-06-28,3227,5435,8401,-11.11
+California_SantaAna,2019-06-25,2716,4489,8703,-10.69
+California_SantaAna,2020-04-13,2320,3802,7435,-10.49
+California_SantaAna,2023-06-11,5855,3552,8003,10.21
+California_SantaAna,2020-10-23,2268,3649,4786,-10.1
+California_SantaAna,2020-03-16,2172,3487,6189,-10.05
+California_SantaAna,2022-03-31,2580,4123,6843,-9.98
+California_SantaAna,2019-06-17,2779,4438,8524,-9.98
+California_SantaAna,2021-05-17,2648,4220,8067,-9.93
+California_SantaAna,2020-06-05,2633,4193,8550,-9.91
+California_SantaAna,2019-05-10,2314,3646,7974,-9.67
+California_SantaClarita,2023-06-01,1477,5094,8287,-35.04
+California_SantaClarita,2023-06-11,1515,4428,7927,-30.37
+California_SantaClarita,2021-04-13,1813,5254,7757,-30.23
+California_SantaClarita,2019-05-09,1515,4376,8042,-30.04
+California_SantaClarita,2021-04-21,2175,5682,7937,-27.37
+California_SantaClarita,2020-03-13,987,2510,5973,-26.15
+California_SantaClarita,2020-03-16,799,2036,6123,-26.02
+California_SantaClarita,2019-09-28,1507,3726,6115,-25.64
+California_SantaClarita,2021-05-16,2372,5353,8311,-23.25
+California_SantaClarita,2019-06-21,2685,6002,8872,-23.02
+California_SantaClarita,2023-05-28,2794,5973,8402,-21.77
+California_SantaClarita,2020-06-06,2825,5992,8673,-21.55
+California_SantaClarita,2020-04-12,1896,3981,7249,-21.13
+California_SantaClarita,2023-06-15,2655,5398,8212,-20.33
+California_SantaClarita,2020-04-06,1725,3451,7120,-19.74
+California_SantaClarita,2023-04-13,2360,4698,7347,-19.7
+California_SantaClarita,2023-09-20,2463,4832,6156,-19.3
+California_SantaClarita,2019-05-26,1908,3709,8502,-18.96
+California_SantaClarita,2019-05-07,2834,5452,8070,-18.78
+California_SantaClarita,2021-08-18,2755,5255,7595,-18.53
+California_SantaClarita,2023-05-31,2961,5640,8075,-18.51
+California_SantaClarita,2023-03-22,1745,3313,6477,-18.26
+California_SantaClarita,2023-02-27,3812,2038,5336,17.28
+California_SantaClarita,2023-06-12,2925,5260,8097,-16.87
+California_SantaClarita,2019-04-30,2869,5111,8164,-16.61
+California_SantaRosa,2022-10-15,1089,3520,4811,-28.16
+California_SantaRosa,2021-12-04,601,1807,2917,-25.86
+California_SantaRosa,2021-12-03,733,1910,2878,-22.64
+California_SantaRosa,2019-05-06,2183,5526,7908,-22.58
+California_SantaRosa,2023-03-14,945,2376,5518,-21.99
+California_SantaRosa,2020-03-13,1526,3713,5730,-21.47
+California_SantaRosa,2023-05-29,2229,5194,8115,-20.57
+California_SantaRosa,2020-04-11,2204,4951,7016,-19.67
+California_SantaRosa,2023-05-26,2702,5790,8262,-18.58
+California_SantaRosa,2023-06-07,2206,4597,8083,-17.85
+California_SantaRosa,2019-05-09,2660,5369,7951,-17.12
+California_SantaRosa,2022-10-16,1406,2836,4694,-16.9
+California_SantaRosa,2022-10-01,2378,4722,5485,-16.69
+California_SantaRosa,2020-03-05,2030,4019,5221,-16.58
+California_SantaRosa,2020-10-24,1828,3468,4289,-15.51
+California_SantaRosa,2023-05-30,3685,6897,8108,-15.34
+California_SantaRosa,2021-09-18,1991,3558,5960,-14.08
+California_SantaRosa,2019-04-08,2003,3562,6549,-13.97
+California_SantaRosa,2020-03-30,1853,3280,6173,-13.84
+California_SantaRosa,2023-05-25,3481,6084,8151,-13.66
+California_SantaRosa,2022-01-06,2330,1318,2922,13.54
+California_SantaRosa,2022-03-28,1822,3143,6454,-13.21
+California_SantaRosa,2019-03-28,1768,3039,6299,-13.11
+California_SantaRosa,2022-02-14,2003,3432,4313,-13.07
+California_SantaRosa,2019-05-08,3863,6278,7973,-11.9
+California_Stockton,2019-02-26,403,1440,4768,-35.2
+California_Stockton,2021-12-19,488,1703,2889,-34.93
+California_Stockton,2022-12-18,632,1936,2831,-31.6
+California_Stockton,2022-12-22,671,1721,2685,-26.59
+California_Stockton,2021-11-14,973,2444,3523,-26.36
+California_Stockton,2022-12-25,748,1875,2800,-26.05
+California_Stockton,2022-12-21,760,1889,2749,-25.81
+California_Stockton,2021-11-17,1334,3181,3464,-25.08
+California_Stockton,2020-12-21,1008,2151,2943,-21.67
+California_Stockton,2021-12-04,1104,2221,2937,-20.03
+California_Stockton,2020-01-07,1109,2209,3042,-19.75
+California_Stockton,2019-01-10,1299,2396,3092,-17.62
+California_Stockton,2021-11-13,1636,2907,3676,-16.63
+California_Stockton,2020-05-17,3186,5003,8217,-13.2
+California_Stockton,2022-09-19,2459,3630,6051,-11.35
+California_Stockton,2020-05-18,4183,6116,8417,-11.14
+California_Stockton,2020-03-23,5827,4015,6239,10.85
+California_Stockton,2019-04-15,3244,4530,7179,-9.77
+California_Stockton,2020-03-21,5210,3776,6105,9.37
+California_Stockton,2020-03-19,5904,4339,5973,8.98
+California_Stockton,2023-09-30,4842,3633,5472,8.35
+California_Stockton,2019-05-19,3256,4327,8290,-8.33
+California_Stockton,2020-05-31,6796,5171,8120,7.97
+California_Stockton,2023-06-10,6600,5120,8026,7.41
+California_Stockton,2019-05-09,7830,6152,7847,7.04
+Colorado_Aurora,2022-02-02,2948,954,4006,16.02
+Colorado_Aurora,2023-05-10,1497,3912,8240,-14.19
+Colorado_Aurora,2023-01-05,878,2151,3005,-13.05
+Colorado_Aurora,2019-10-29,3301,1331,4325,12.94
+Colorado_Aurora,2021-11-01,759,1774,3944,-12.29
+Colorado_Aurora,2023-08-25,1021,2306,6884,-11.93
+Colorado_Aurora,2019-03-14,4992,2353,6070,10.78
+Colorado_Aurora,2023-05-11,970,2023,8291,-10.76
+Colorado_Aurora,2022-01-27,2613,1230,3624,10.64
+Colorado_Aurora,2021-03-15,5804,2841,6098,10.25
+Colorado_Aurora,2019-04-30,1869,3661,8024,-10.02
+Colorado_Aurora,2019-03-29,1580,3089,6632,-9.96
+Colorado_Aurora,2020-12-23,1151,2193,2991,-9.5
+Colorado_Aurora,2023-05-19,1406,2641,7624,-9.35
+Colorado_Aurora,2022-02-16,1322,2482,4345,-9.33
+Colorado_Aurora,2023-03-27,4330,2254,6913,9.31
+Colorado_Aurora,2022-02-11,1670,3070,4316,-9.07
+Colorado_Aurora,2020-02-04,3294,1761,4081,8.88
+Colorado_Aurora,2020-10-26,3669,1966,4411,8.87
+Colorado_Aurora,2020-03-21,5816,3188,6335,8.6
+Colorado_Aurora,2020-10-20,1603,2840,4648,-8.52
+Colorado_Aurora,2019-02-16,1968,3440,4636,-8.36
+Colorado_Aurora,2019-11-27,2635,1459,3129,8.33
+Colorado_Aurora,2021-04-17,6667,3736,7688,8.29
+Colorado_Aurora,2021-02-14,4460,2525,4623,8.09
+Colorado_ColoradoSprings,2023-02-15,2254,544,4724,18.13
+Colorado_ColoradoSprings,2020-04-02,1619,4497,6971,-13.32
+Colorado_ColoradoSprings,2019-10-29,3365,1219,4430,13.25
+Colorado_ColoradoSprings,2021-03-04,1053,2571,5263,-11.5
+Colorado_ColoradoSprings,2021-01-26,2053,850,3764,11.37
+Colorado_ColoradoSprings,2021-04-15,1092,2617,7449,-11.27
+Colorado_ColoradoSprings,2020-10-18,961,2257,4859,-10.95
+Colorado_ColoradoSprings,2020-10-26,3453,1517,4543,10.78
+Colorado_ColoradoSprings,2020-02-07,2143,938,4198,10.69
+Colorado_ColoradoSprings,2023-05-11,2456,5475,8411,-10.5
+Colorado_ColoradoSprings,2023-02-22,2401,1075,4972,10.44
+Colorado_ColoradoSprings,2021-03-12,1040,2292,5960,-10.15
+Colorado_ColoradoSprings,2023-05-20,2546,5489,8099,-10.06
+Colorado_ColoradoSprings,2020-05-24,2609,5581,8662,-9.96
+Colorado_ColoradoSprings,2023-08-06,2265,4808,7914,-9.84
+Colorado_ColoradoSprings,2021-06-21,2140,4407,8732,-9.43
+Colorado_ColoradoSprings,2020-10-23,1131,2351,4509,-9.42
+Colorado_ColoradoSprings,2019-03-04,5204,2617,5584,9.09
+Colorado_ColoradoSprings,2020-02-19,3971,2022,4617,8.9
+Colorado_ColoradoSprings,2021-02-16,3812,1946,4701,8.85
+Colorado_ColoradoSprings,2020-12-14,2071,1048,2954,8.83
+Colorado_ColoradoSprings,2021-02-14,3106,1602,4736,8.68
+Colorado_ColoradoSprings,2023-10-06,1864,3615,5366,-8.62
+Colorado_ColoradoSprings,2021-07-24,2453,4698,7654,-8.49
+Colorado_ColoradoSprings,2023-01-18,2610,1363,3448,8.49
+Colorado_Denver,2021-11-01,670,1774,3944,-12.93
+Colorado_Denver,2023-01-05,858,2151,3005,-12.32
+Colorado_Denver,2019-03-29,1264,3089,6632,-12.12
+Colorado_Denver,2022-03-05,770,1897,5311,-12.04
+Colorado_Denver,2022-02-16,1017,2482,4345,-12.03
+Colorado_Denver,2023-10-26,1374,3167,4332,-11.35
+Colorado_Denver,2019-10-29,3114,1331,4325,11.35
+Colorado_Denver,2022-02-11,1334,3070,4316,-11.32
+Colorado_Denver,2023-05-19,1178,2641,7624,-10.93
+Colorado_Denver,2023-05-11,901,2023,8291,-10.86
+Colorado_Denver,2021-04-19,1243,2697,7658,-10.5
+Colorado_Denver,2019-03-14,5030,2353,6070,10.24
+Colorado_Denver,2019-11-29,1105,2350,3048,-10.2
+Colorado_Denver,2023-05-10,1864,3912,8240,-10.14
+Colorado_Denver,2022-09-09,2310,4738,6410,-9.86
+Colorado_Denver,2022-01-27,2578,1230,3624,9.83
+Colorado_Denver,2021-03-15,5776,2841,6098,9.57
+Colorado_Denver,2022-12-22,2950,1449,3004,9.48
+Colorado_Denver,2019-02-16,1732,3440,4636,-9.38
+Colorado_Denver,2019-05-01,1912,3787,8148,-9.36
+Colorado_Denver,2021-01-21,1204,2398,3348,-9.33
+Colorado_Denver,2019-04-30,1885,3661,8024,-9.09
+Colorado_Denver,2023-01-29,1396,2702,3844,-8.98
+Colorado_Denver,2021-03-12,1194,2289,5796,-8.81
+Colorado_Denver,2019-10-01,1597,3041,5461,-8.79
+District of Columbia_Washington,2020-02-14,186,3916,4372,-30.9
+District of Columbia_Washington,2022-10-01,2970,804,5084,13.79
+District of Columbia_Washington,2019-11-20,512,1924,3000,-13.77
+District of Columbia_Washington,2019-11-17,577,1898,3263,-12.43
+District of Columbia_Washington,2021-02-01,2968,967,3514,11.88
+District of Columbia_Washington,2023-04-28,716,1894,7463,-10.22
+District of Columbia_Washington,2019-09-06,1722,4244,6291,-9.71
+District of Columbia_Washington,2019-05-05,1070,2514,6973,-9.09
+District of Columbia_Washington,2020-09-10,1418,3221,5674,-8.79
+District of Columbia_Washington,2021-12-03,1050,2284,2894,-8.26
+District of Columbia_Washington,2021-12-06,1056,2122,2605,-7.41
+District of Columbia_Washington,2023-11-07,1191,2290,3430,-6.96
+District of Columbia_Washington,2021-04-01,2407,4565,6677,-6.92
+District of Columbia_Washington,2022-05-07,1239,2345,7832,-6.8
+District of Columbia_Washington,2019-10-03,2204,4126,4667,-6.77
+District of Columbia_Washington,2021-08-29,5502,2991,6257,6.56
+District of Columbia_Washington,2019-05-04,2671,4755,7116,-6.25
+District of Columbia_Washington,2022-06-11,1983,3535,7319,-6.23
+District of Columbia_Washington,2022-03-24,1308,2345,5682,-6.23
+District of Columbia_Washington,2023-03-13,1360,2397,5400,-6.06
+District of Columbia_Washington,2020-04-04,2509,4384,6699,-6.04
+District of Columbia_Washington,2022-05-12,4851,2802,7707,5.9
+District of Columbia_Washington,2020-01-27,1472,2528,3378,-5.79
+District of Columbia_Washington,2020-05-28,2569,4248,7689,-5.45
+District of Columbia_Washington,2022-10-03,1533,2543,5087,-5.42
+Florida_CapeCoral,2023-06-18,977,3292,7486,-16.83
+Florida_CapeCoral,2019-11-19,1327,4272,4634,-16.33
+Florida_CapeCoral,2019-11-18,1648,4352,4797,-13.71
+Florida_CapeCoral,2019-11-17,3743,1678,4847,10.19
+Florida_CapeCoral,2021-08-28,2306,4232,6792,-8.83
+Florida_CapeCoral,2019-08-11,1981,3604,7215,-8.69
+Florida_CapeCoral,2019-07-23,3248,5135,7643,-6.84
+Florida_CapeCoral,2020-06-13,3318,5176,7861,-6.65
+Florida_CapeCoral,2021-09-16,2129,3234,6369,-6.25
+Florida_CapeCoral,2022-09-08,2516,3571,6627,-5.35
+Florida_CapeCoral,2019-08-12,2573,3611,7008,-5.2
+Florida_CapeCoral,2022-04-01,2623,3679,6901,-5.19
+Florida_CapeCoral,2019-04-19,3223,4507,7337,-5.16
+Florida_CapeCoral,2020-05-15,4579,3046,7570,4.91
+Florida_CapeCoral,2023-07-28,4607,3124,7464,4.65
+Florida_CapeCoral,2022-06-11,3036,4086,7679,-4.64
+Florida_CapeCoral,2022-09-01,4252,5662,6879,-4.51
+Florida_CapeCoral,2020-07-06,5022,3482,7501,4.36
+Florida_CapeCoral,2023-09-20,3615,4741,6397,-4.3
+Florida_CapeCoral,2022-08-29,3867,5059,6992,-4.27
+Florida_CapeCoral,2022-06-19,4128,5392,7493,-4.25
+Florida_CapeCoral,2021-08-05,4266,5541,7355,-4.17
+Florida_CapeCoral,2019-06-09,6503,4592,7579,4.12
+Florida_FortLauderdale,2019-11-19,1378,4434,4635,-11.37
+Florida_FortLauderdale,2020-10-21,543,1752,5273,-11.06
+Florida_FortLauderdale,2023-04-12,568,1570,7175,-9.67
+Florida_FortLauderdale,2021-07-12,1881,4740,7556,-9.15
+Florida_FortLauderdale,2022-03-14,2257,5210,6509,-8.36
+Florida_FortLauderdale,2020-11-02,1596,3597,4974,-8.09
+Florida_FortLauderdale,2022-03-02,2098,4385,6193,-7.42
+Florida_FortLauderdale,2019-11-17,4439,1870,4852,7.39
+Florida_FortLauderdale,2021-10-22,1541,3191,5277,-7.3
+Florida_FortLauderdale,2020-10-31,1285,2591,4967,-7.02
+Florida_FortLauderdale,2021-06-30,1522,3049,7743,-6.99
+Florida_FortLauderdale,2019-04-04,1516,3034,6868,-6.98
+Florida_FortLauderdale,2023-04-10,2381,4654,7121,-6.81
+Florida_FortLauderdale,2022-10-09,1768,3424,5679,-6.7
+Florida_FortLauderdale,2020-11-22,1846,3539,4480,-6.61
+Florida_FortLauderdale,2021-10-01,2293,3925,6071,-5.58
+Florida_FortLauderdale,2021-03-08,2391,4063,6592,-5.51
+Florida_FortLauderdale,2019-06-16,1577,2625,7637,-5.28
+Florida_FortLauderdale,2021-02-24,2724,4488,5736,-5.23
+Florida_FortLauderdale,2020-11-28,2390,3929,4260,-5.2
+Florida_FortLauderdale,2020-02-15,2291,3757,5185,-5.18
+Florida_FortLauderdale,2023-10-02,2501,4069,5771,-5.11
+Florida_FortLauderdale,2020-11-05,2109,3435,4894,-5.11
+Florida_FortLauderdale,2022-12-27,2021,3278,3981,-5.07
+Florida_FortLauderdale,2019-05-15,2314,3748,7219,-5.06
+Florida_Hialeah,2019-11-19,1249,4468,4728,-14.72
+Florida_Hialeah,2022-11-20,638,2259,4371,-14.31
+Florida_Hialeah,2021-10-01,1392,2970,6181,-8.91
+Florida_Hialeah,2019-04-04,1766,3614,6864,-8.48
+Florida_Hialeah,2020-09-12,2033,921,6293,8.29
+Florida_Hialeah,2023-04-12,1051,2134,7180,-8.29
+Florida_Hialeah,2020-09-21,1307,2522,6296,-7.77
+Florida_Hialeah,2022-09-15,2548,4450,6488,-6.74
+Florida_Hialeah,2021-11-19,1734,3018,4487,-6.66
+Florida_Hialeah,2020-11-27,2160,3593,4490,-6.17
+Florida_Hialeah,2020-10-19,1990,3228,5504,-5.88
+Florida_Hialeah,2023-02-04,1656,2678,5040,-5.82
+Florida_Hialeah,2021-02-24,2798,4485,5847,-5.77
+Florida_Hialeah,2020-05-25,1830,2926,7338,-5.71
+Florida_Hialeah,2019-03-28,3825,6065,7234,-5.67
+Florida_Hialeah,2021-03-08,2813,4458,6659,-5.65
+Florida_Hialeah,2022-10-09,2191,3451,5743,-5.56
+Florida_Hialeah,2023-03-30,3017,4733,6739,-5.54
+Florida_Hialeah,2019-02-02,2810,4395,4944,-5.5
+Florida_Hialeah,2020-11-22,2045,3206,4602,-5.5
+Florida_Hialeah,2020-10-31,2824,4409,5099,-5.48
+Florida_Hialeah,2020-08-19,3238,5021,7232,-5.41
+Florida_Hialeah,2019-11-03,2415,3729,4975,-5.34
+Florida_Hialeah,2023-04-11,2485,3806,7151,-5.25
+Florida_Hialeah,2021-06-28,2835,4330,7802,-5.23
+Florida_Jacksonville,2022-10-28,1013,2023,4616,-9.69
+Florida_Jacksonville,2020-02-13,1905,3635,4659,-9.2
+Florida_Jacksonville,2021-07-27,2705,4881,7487,-8.48
+Florida_Jacksonville,2020-01-30,1538,2607,4388,-7.53
+Florida_Jacksonville,2019-07-05,2201,3606,7494,-7.11
+Florida_Jacksonville,2019-01-14,3542,2121,3956,6.81
+Florida_Jacksonville,2021-06-14,3061,4718,7814,-6.29
+Florida_Jacksonville,2020-07-23,4311,6596,7861,-6.21
+Florida_Jacksonville,2020-11-05,2154,3299,4489,-6.17
+Florida_Jacksonville,2023-05-06,2043,3071,7292,-5.91
+Florida_Jacksonville,2020-07-30,3076,4574,7261,-5.79
+Florida_Jacksonville,2020-09-01,3877,5759,6655,-5.79
+Florida_Jacksonville,2021-01-23,2180,3232,4158,-5.72
+Florida_Jacksonville,2022-07-03,4026,5920,7837,-5.65
+Florida_Jacksonville,2021-10-31,2362,3405,4843,-5.34
+Florida_Jacksonville,2020-09-21,2812,3939,6332,-4.95
+Florida_Jacksonville,2022-08-13,3375,4722,7308,-4.95
+Florida_Jacksonville,2021-11-03,4563,3148,4430,4.88
+Florida_Jacksonville,2021-07-26,3127,4316,7575,-4.75
+Florida_Jacksonville,2021-07-10,4326,5893,7702,-4.59
+Florida_Jacksonville,2022-11-24,3453,2448,3768,4.48
+Florida_Jacksonville,2019-08-20,3452,4667,7118,-4.47
+Florida_Jacksonville,2023-10-13,5027,3574,5208,4.47
+Florida_Jacksonville,2022-02-02,4021,2865,4544,4.43
+Florida_Jacksonville,2020-06-01,4746,6352,8126,-4.35
+Florida_Miami,2019-11-19,1240,4468,4728,-14.83
+Florida_Miami,2022-11-20,654,2259,4371,-14.08
+Florida_Miami,2020-11-02,1367,3018,4982,-9.32
+Florida_Miami,2020-09-21,1145,2522,6296,-9.25
+Florida_Miami,2023-10-20,1836,3923,5547,-9.01
+Florida_Miami,2021-11-25,1577,3272,4634,-8.65
+Florida_Miami,2019-04-04,1756,3614,6864,-8.58
+Florida_Miami,2021-10-01,1460,2970,6181,-8.41
+Florida_Miami,2019-01-31,1847,3644,4733,-8.1
+Florida_Miami,2023-02-04,1357,2678,5040,-8.06
+Florida_Miami,2020-05-25,1512,2926,7338,-7.85
+Florida_Miami,2021-11-02,1422,2678,5052,-7.54
+Florida_Miami,2020-11-12,1716,3113,4512,-7.15
+Florida_Miami,2023-03-30,2680,4733,6739,-6.9
+Florida_Miami,2020-08-19,2844,5021,7232,-6.9
+Florida_Miami,2023-01-27,1517,2696,4642,-6.89
+Florida_Miami,2023-02-05,2215,3883,5085,-6.79
+Florida_Miami,2022-10-09,1968,3451,5743,-6.78
+Florida_Miami,2023-11-02,1758,3050,5073,-6.65
+Florida_Miami,2022-03-14,1928,3337,6513,-6.63
+Florida_Miami,2019-08-01,2101,3630,7387,-6.62
+Florida_Miami,2023-01-28,1846,3168,4693,-6.53
+Florida_Miami,2019-11-03,2186,3729,4975,-6.48
+Florida_Miami,2021-06-28,2571,4330,7802,-6.35
+Florida_Miami,2023-06-19,2994,5033,7393,-6.34
+Florida_Orlando,2020-02-13,1642,4066,5019,-12.5
+Florida_Orlando,2019-03-18,1263,3125,6116,-12.42
+Florida_Orlando,2022-02-06,4036,1594,4842,12.31
+Florida_Orlando,2021-03-21,5615,2529,6844,10.6
+Florida_Orlando,2019-10-08,1617,3160,5561,-9.28
+Florida_Orlando,2020-11-09,1157,2158,4387,-8.57
+Florida_Orlando,2022-01-27,4039,2240,4542,7.74
+Florida_Orlando,2021-03-22,4989,2817,6866,7.53
+Florida_Orlando,2021-11-06,4392,2540,4810,7.19
+Florida_Orlando,2023-11-17,3168,1841,4315,7.08
+Florida_Orlando,2022-10-28,1937,3068,4999,-6.46
+Florida_Orlando,2022-11-26,3356,2157,3875,5.73
+Florida_Orlando,2022-08-08,2972,4386,7547,-5.54
+Florida_Orlando,2022-11-24,3922,2563,4061,5.52
+Florida_Orlando,2021-06-26,2941,4326,7909,-5.49
+Florida_Orlando,2023-12-17,3227,2121,3882,5.43
+Florida_Orlando,2022-06-26,3861,5594,7918,-5.3
+Florida_Orlando,2022-08-09,3022,4327,7021,-5.13
+Florida_Orlando,2020-06-14,4708,6614,7978,-4.89
+Florida_Orlando,2023-09-08,2549,3567,6640,-4.8
+Florida_Orlando,2019-07-13,3246,4492,7354,-4.67
+Florida_Orlando,2023-04-10,3368,4648,7325,-4.63
+Florida_Orlando,2023-06-03,4086,5531,7872,-4.38
+Florida_Orlando,2021-08-11,4634,6205,7515,-4.23
+Florida_Orlando,2019-05-05,3965,2851,7297,4.23
+Florida_PembrokePines,2019-11-19,1244,4434,4635,-11.28
+Florida_PembrokePines,2021-10-01,1461,3925,6071,-8.86
+Florida_PembrokePines,2019-05-02,2027,4913,7437,-8.02
+Florida_PembrokePines,2019-04-04,1279,3034,6868,-7.76
+Florida_PembrokePines,2019-11-17,4513,1870,4852,7.23
+Florida_PembrokePines,2022-10-09,1617,3424,5679,-6.81
+Florida_PembrokePines,2019-06-16,1303,2625,7637,-6.35
+Florida_PembrokePines,2022-02-09,994,2007,5065,-6.32
+Florida_PembrokePines,2020-09-21,1581,2986,6255,-5.82
+Florida_PembrokePines,2020-07-23,1956,3674,7575,-5.8
+Florida_PembrokePines,2020-11-02,2030,3597,4974,-5.3
+Florida_PembrokePines,2022-09-18,3125,5415,6347,-5.14
+Florida_PembrokePines,2020-09-24,2196,3797,6247,-5.09
+Florida_PembrokePines,2020-11-22,2073,3539,4480,-4.98
+Florida_PembrokePines,2023-07-28,1857,3129,7476,-4.85
+Florida_PembrokePines,2020-10-19,2255,1224,5407,4.83
+Florida_PembrokePines,2021-10-22,1910,3191,5277,-4.78
+Florida_PembrokePines,2022-09-19,2874,4771,6245,-4.76
+Florida_PembrokePines,2022-10-02,2784,4574,6084,-4.67
+Florida_PembrokePines,2021-09-13,3028,4952,6559,-4.63
+Florida_PembrokePines,2019-11-03,3976,2235,4848,4.6
+Florida_PembrokePines,2021-07-12,2955,4740,7556,-4.46
+Florida_PembrokePines,2019-12-11,1965,3157,4072,-4.45
+Florida_PembrokePines,2023-01-23,4069,2340,4470,4.41
+Florida_PembrokePines,2020-06-17,3918,6143,7795,-4.28
+Florida_PortSt.Lucie,2019-11-19,981,3958,4535,-16.29
+Florida_PortSt.Lucie,2023-02-04,894,2943,5016,-13.9
+Florida_PortSt.Lucie,2021-11-21,631,1790,4322,-12.02
+Florida_PortSt.Lucie,2019-12-19,877,2360,3932,-11.57
+Florida_PortSt.Lucie,2022-09-24,1717,3945,6278,-9.93
+Florida_PortSt.Lucie,2020-04-06,1386,3079,7066,-9.5
+Florida_PortSt.Lucie,2023-02-18,1760,3549,5350,-8.43
+Florida_PortSt.Lucie,2021-11-25,1297,2492,4346,-7.81
+Florida_PortSt.Lucie,2021-02-13,1749,3299,5066,-7.65
+Florida_PortSt.Lucie,2022-09-15,1950,3573,6395,-7.33
+Florida_PortSt.Lucie,2020-04-24,3240,1749,6327,6.71
+Florida_PortSt.Lucie,2019-10-26,1674,2849,5021,-6.46
+Florida_PortSt.Lucie,2020-10-01,1750,2960,5898,-6.39
+Florida_PortSt.Lucie,2022-06-01,3392,5547,7941,-6.07
+Florida_PortSt.Lucie,2022-12-17,1640,2691,3818,-6.04
+Florida_PortSt.Lucie,2022-11-23,3707,2177,4092,5.77
+Florida_PortSt.Lucie,2022-02-09,2097,3303,5046,-5.59
+Florida_PortSt.Lucie,2022-04-29,3330,5164,7444,-5.45
+Florida_PortSt.Lucie,2021-11-19,1900,2909,4268,-5.26
+Florida_PortSt.Lucie,2023-08-07,4492,6688,7516,-4.99
+Florida_PortSt.Lucie,2020-08-09,4216,6275,7439,-4.98
+Florida_PortSt.Lucie,2020-07-12,3391,5048,7340,-4.98
+Florida_PortSt.Lucie,2019-07-18,3191,4740,7638,-4.95
+Florida_PortSt.Lucie,2023-09-30,2267,3367,5932,-4.92
+Florida_PortSt.Lucie,2019-10-08,2743,4039,5633,-4.84
+Florida_St.Petersburg,2022-12-31,308,1973,3884,-31.72
+Florida_St.Petersburg,2019-11-18,1469,4071,4639,-18.52
+Florida_St.Petersburg,2019-02-26,618,1690,5490,-17.78
+Florida_St.Petersburg,2022-11-11,1484,3104,4547,-13.53
+Florida_St.Petersburg,2022-03-24,1155,2256,6219,-12.24
+Florida_St.Petersburg,2019-11-17,2328,1164,4714,11.55
+Florida_St.Petersburg,2021-02-19,1514,2712,5210,-10.79
+Florida_St.Petersburg,2020-01-29,2475,3688,4704,-7.62
+Florida_St.Petersburg,2019-11-19,2982,4394,4506,-7.43
+Florida_St.Petersburg,2019-08-11,3432,5038,7082,-7.38
+Florida_St.Petersburg,2020-07-23,2434,3558,7534,-7.27
+Florida_St.Petersburg,2020-02-14,5067,3438,4894,6.35
+Florida_St.Petersburg,2021-04-19,2826,3902,6801,-6.27
+Florida_St.Petersburg,2023-07-08,3497,4768,7597,-6.07
+Florida_St.Petersburg,2022-11-24,3691,2545,4147,6.03
+Florida_St.Petersburg,2020-02-27,4024,5469,6202,-6.02
+Florida_St.Petersburg,2019-07-03,4327,5858,7538,-5.95
+Florida_St.Petersburg,2023-08-17,3680,4981,7052,-5.94
+Florida_St.Petersburg,2023-06-02,4154,5605,7825,-5.89
+Florida_St.Petersburg,2023-07-13,4917,6567,7569,-5.72
+Florida_St.Petersburg,2021-07-03,3776,5023,7577,-5.63
+Florida_St.Petersburg,2022-06-09,4183,5527,7589,-5.52
+Florida_St.Petersburg,2023-07-05,4388,5778,7590,-5.46
+Florida_St.Petersburg,2022-06-03,4726,3394,7744,5.34
+Florida_St.Petersburg,2020-08-17,3465,4529,7164,-5.31
+Florida_Tallahassee,2021-02-10,4410,1659,4561,12.48
+Florida_Tallahassee,2020-05-20,912,2295,7654,-11.74
+Florida_Tallahassee,2021-12-13,3438,1563,3616,10.02
+Florida_Tallahassee,2023-05-22,2071,3794,7452,-7.86
+Florida_Tallahassee,2021-01-24,3705,2030,4099,7.65
+Florida_Tallahassee,2019-01-19,1508,2708,3993,-7.55
+Florida_Tallahassee,2023-10-13,4221,2339,5404,7.53
+Florida_Tallahassee,2020-02-13,2619,1449,4598,7.48
+Florida_Tallahassee,2019-04-01,1566,2693,6986,-7.0
+Florida_Tallahassee,2020-06-07,1919,3242,7774,-6.8
+Florida_Tallahassee,2023-03-18,1960,3301,6235,-6.76
+Florida_Tallahassee,2021-12-10,3557,2131,3538,6.51
+Florida_Tallahassee,2022-01-02,3177,1909,3474,6.45
+Florida_Tallahassee,2021-02-15,2542,1526,4829,6.44
+Florida_Tallahassee,2020-08-24,3840,2450,6694,5.71
+Florida_Tallahassee,2019-08-18,2212,3374,7095,-5.5
+Florida_Tallahassee,2020-06-09,2331,3554,7804,-5.5
+Florida_Tallahassee,2021-08-15,2681,4066,7107,-5.44
+Florida_Tallahassee,2020-04-15,2881,4313,7201,-5.28
+Florida_Tallahassee,2023-11-17,3716,2460,4055,5.23
+Florida_Tallahassee,2022-11-24,3609,2419,3777,5.07
+Florida_Tallahassee,2022-05-25,5353,3740,7602,4.56
+Florida_Tallahassee,2022-02-17,4310,3021,4980,4.51
+Florida_Tallahassee,2023-10-12,4256,2990,5362,4.48
+Florida_Tallahassee,2023-04-24,3104,4353,7313,-4.44
+Florida_Tampa,2022-12-31,335,1973,3884,-24.3
+Florida_Tampa,2021-07-03,1605,5023,7577,-16.43
+Florida_Tampa,2019-11-18,1352,4071,4639,-15.82
+Florida_Tampa,2019-08-07,1588,4630,7340,-15.41
+Florida_Tampa,2020-02-13,2005,4664,5130,-12.2
+Florida_Tampa,2019-11-17,2361,1164,4714,9.92
+Florida_Tampa,2021-02-01,1505,2949,5061,-9.67
+Florida_Tampa,2022-11-11,1639,3104,4547,-9.2
+Florida_Tampa,2021-08-02,3685,6840,7438,-9.02
+Florida_Tampa,2022-03-24,1242,2256,6219,-8.54
+Florida_Tampa,2020-08-30,1810,3247,6809,-8.44
+Florida_Tampa,2020-02-14,1967,3438,4894,-8.08
+Florida_Tampa,2020-01-29,2137,3688,4704,-7.91
+Florida_Tampa,2020-08-17,2650,4529,7164,-7.8
+Florida_Tampa,2020-10-21,1835,2969,5192,-6.96
+Florida_Tampa,2021-01-23,2096,3324,4419,-6.69
+Florida_Tampa,2022-08-15,5301,3315,7124,6.68
+Florida_Tampa,2020-11-12,1955,3086,4331,-6.62
+Florida_Tampa,2022-07-11,3531,5549,7743,-6.61
+Florida_Tampa,2023-08-14,6159,3908,7203,6.48
+Florida_Tampa,2020-07-23,2283,3558,7534,-6.45
+Florida_Tampa,2020-08-18,3310,5045,7242,-6.16
+Florida_Tampa,2020-08-31,2526,3849,6715,-6.14
+Florida_Tampa,2020-08-09,4486,6768,7400,-6.03
+Florida_Tampa,2022-06-09,3664,5527,7589,-6.02
+Georgia_Atlanta,2019-02-22,975,2349,4855,-11.59
+Georgia_Atlanta,2023-01-18,2371,1122,3549,9.57
+Georgia_Atlanta,2020-02-14,2666,5060,5061,-8.65
+Georgia_Atlanta,2021-05-03,1373,2525,7267,-8.13
+Georgia_Atlanta,2023-10-13,2762,1630,4839,6.75
+Georgia_Atlanta,2019-03-08,1963,3062,5607,-6.02
+Georgia_Atlanta,2023-01-30,3130,1965,3891,5.96
+Georgia_Atlanta,2023-09-09,3240,4944,6403,-5.77
+Georgia_Atlanta,2021-08-11,3169,4575,6826,-5.03
+Georgia_Atlanta,2023-06-04,3444,4872,7949,-4.77
+Georgia_Atlanta,2023-08-15,3550,5013,7044,-4.75
+Georgia_Atlanta,2022-05-07,3161,4402,7692,-4.55
+Georgia_Atlanta,2022-08-01,3005,4156,7487,-4.46
+Georgia_Atlanta,2022-07-11,4797,3413,7918,4.35
+Georgia_Augusta-RichmondCounty,2023-03-27,1046,3044,6130,-14.02
+Georgia_Augusta-RichmondCounty,2021-03-26,640,1740,6072,-12.89
+Georgia_Augusta-RichmondCounty,2022-09-29,1668,4076,5858,-11.87
+Georgia_Augusta-RichmondCounty,2020-11-28,994,2443,3323,-11.79
+Georgia_Augusta-RichmondCounty,2023-02-25,2796,1201,4859,10.66
+Georgia_Augusta-RichmondCounty,2019-11-18,1127,2470,3775,-10.34
+Georgia_Augusta-RichmondCounty,2023-05-19,5330,2538,7741,9.47
+Georgia_Augusta-RichmondCounty,2022-10-30,2028,962,4357,9.3
+Georgia_Augusta-RichmondCounty,2023-01-01,2596,1251,3276,9.17
+Georgia_Augusta-RichmondCounty,2019-11-16,1390,2621,3744,-8.44
+Georgia_Augusta-RichmondCounty,2022-07-13,2403,4494,7567,-8.42
+Georgia_Augusta-RichmondCounty,2021-02-15,2453,1292,4530,8.03
+Georgia_Augusta-RichmondCounty,2022-11-16,1332,2366,3846,-7.66
+Georgia_Augusta-RichmondCounty,2019-01-15,1355,2356,3703,-7.38
+Georgia_Augusta-RichmondCounty,2019-09-18,2166,3626,5799,-6.96
+Georgia_Augusta-RichmondCounty,2019-07-04,3609,5994,7809,-6.9
+Georgia_Augusta-RichmondCounty,2023-02-17,1709,2795,4753,-6.62
+Georgia_Augusta-RichmondCounty,2021-12-27,2797,1675,3233,6.4
+Georgia_Augusta-RichmondCounty,2019-04-02,3460,5514,6997,-6.36
+Georgia_Augusta-RichmondCounty,2022-05-25,7550,4715,7785,5.95
+Georgia_Augusta-RichmondCounty,2022-10-03,2527,3875,5776,-5.83
+Georgia_Augusta-RichmondCounty,2019-03-26,2082,3194,6301,-5.81
+Georgia_Augusta-RichmondCounty,2019-07-05,4201,6417,7628,-5.81
+Georgia_Augusta-RichmondCounty,2021-05-30,3928,5967,8502,-5.74
+Georgia_Augusta-RichmondCounty,2020-02-14,3143,4766,4971,-5.7
+Georgia_Columbus,2019-01-19,659,1699,3530,-12.38
+Georgia_Columbus,2020-02-14,2203,5076,5156,-11.29
+Georgia_Columbus,2022-11-11,2766,1188,3958,10.91
+Georgia_Columbus,2022-10-30,2466,1121,4494,10.13
+Georgia_Columbus,2023-10-13,4113,1894,4920,10.09
+Georgia_Columbus,2023-05-12,1343,2712,7175,-9.43
+Georgia_Columbus,2021-12-10,2051,998,3187,9.21
+Georgia_Columbus,2021-02-18,1987,968,4273,9.17
+Georgia_Columbus,2020-10-24,1224,2308,4512,-8.5
+Georgia_Columbus,2023-03-26,1304,2386,6037,-8.12
+Georgia_Columbus,2019-06-08,1629,2899,7602,-7.79
+Georgia_Columbus,2023-10-12,4264,2447,5209,7.19
+Georgia_Columbus,2020-12-12,1614,2705,3383,-7.0
+Georgia_Columbus,2019-08-26,2172,3498,6622,-6.51
+Georgia_Columbus,2020-05-26,2124,3325,7485,-6.13
+Georgia_Columbus,2020-06-16,8078,5274,8427,5.52
+Georgia_Columbus,2021-03-19,2377,3470,6371,-5.21
+Georgia_Columbus,2021-10-28,3385,2271,4591,5.1
+Georgia_Columbus,2021-09-20,4956,3420,5717,4.76
+Georgia_Columbus,2020-03-16,3711,2579,5724,4.64
+Georgia_Columbus,2020-05-18,2564,3567,7754,-4.58
+Georgia_Columbus,2019-06-12,5336,3844,7950,4.19
+Hawaii_Honolulu,2022-01-02,626,2437,4689,-21.42
+Hawaii_Honolulu,2019-09-23,2653,4739,6814,-9.86
+Hawaii_Honolulu,2019-05-06,4494,6953,8112,-7.66
+Hawaii_Honolulu,2020-01-03,2511,3728,4894,-6.96
+Hawaii_Honolulu,2023-01-30,2984,1821,5252,6.84
+Hawaii_Honolulu,2023-05-13,4128,6051,8013,-6.8
+Hawaii_Honolulu,2023-02-22,2624,3814,5952,-6.63
+Hawaii_Honolulu,2023-05-11,4785,6924,7923,-6.61
+Hawaii_Honolulu,2022-05-15,5275,7477,8049,-6.29
+Hawaii_Honolulu,2023-03-07,3386,4789,6652,-6.23
+Hawaii_Honolulu,2019-08-09,4938,6959,7810,-6.19
+Hawaii_Honolulu,2023-12-13,2724,3807,4808,-6.03
+Hawaii_Honolulu,2023-12-15,2966,4133,4895,-5.99
+Hawaii_Honolulu,2023-12-25,3186,4423,4870,-5.93
+Hawaii_Honolulu,2021-04-11,4873,6739,7591,-5.9
+Hawaii_Honolulu,2019-02-15,3664,4972,5995,-5.59
+Hawaii_Honolulu,2019-10-20,3859,5234,5978,-5.58
+Hawaii_Honolulu,2019-06-27,3878,5153,7696,-5.26
+Hawaii_Honolulu,2023-03-28,4135,5493,7123,-5.26
+Hawaii_Honolulu,2020-03-25,4366,5796,7216,-5.25
+Hawaii_Honolulu,2021-03-15,4605,6047,6905,-5.08
+Hawaii_Honolulu,2019-03-11,4141,5423,6667,-5.03
+Hawaii_Honolulu,2020-04-29,5370,6976,7913,-4.92
+Hawaii_Honolulu,2019-10-08,3425,4434,6470,-4.84
+Hawaii_Honolulu,2019-06-09,6083,7838,8158,-4.79
+Idaho_BoiseCity,2021-02-13,2482,915,3749,16.52
+Idaho_BoiseCity,2023-04-07,4808,1859,6291,15.98
+Idaho_BoiseCity,2022-01-05,1677,669,2275,14.97
+Idaho_BoiseCity,2023-03-02,2591,1089,4662,14.36
+Idaho_BoiseCity,2023-03-29,3211,1578,6281,11.83
+Idaho_BoiseCity,2023-02-03,2026,1020,3150,11.26
+Idaho_BoiseCity,2023-01-20,2698,1433,2740,10.47
+Idaho_BoiseCity,2022-05-30,1839,3297,8812,-10.19
+Idaho_BoiseCity,2023-02-06,1531,2617,3367,-9.34
+Idaho_BoiseCity,2022-03-01,1469,2475,4395,-9.08
+Idaho_BoiseCity,2023-04-17,4434,2582,6786,9.01
+Idaho_BoiseCity,2023-03-11,2753,4266,5387,-7.75
+Idaho_BoiseCity,2020-06-29,4316,2756,8556,7.43
+Idaho_BoiseCity,2023-03-15,2723,4115,5529,-7.32
+Idaho_BoiseCity,2022-09-13,4073,2677,3846,6.93
+Idaho_BoiseCity,2019-03-01,2498,3663,4636,-6.8
+Idaho_BoiseCity,2021-09-28,2830,4091,5374,-6.56
+Idaho_BoiseCity,2023-03-09,4616,3125,5191,6.44
+Idaho_BoiseCity,2023-03-13,3410,2340,5305,6.18
+Idaho_BoiseCity,2020-09-15,4697,3299,4091,5.81
+Idaho_BoiseCity,2023-06-09,4088,2909,8237,5.58
+Idaho_BoiseCity,2021-08-16,6229,4447,4776,5.55
+Idaho_BoiseCity,2023-03-26,5108,3654,6255,5.5
+Idaho_BoiseCity,2023-04-21,5456,3928,7407,5.4
+Idaho_BoiseCity,2023-09-02,4380,3183,6151,5.22
+Illinois_Aurora,2020-02-09,1633,461,3283,12.06
+Illinois_Aurora,2022-02-02,1665,498,3393,11.55
+Illinois_Aurora,2022-01-08,1684,602,2476,9.87
+Illinois_Aurora,2023-10-27,2782,1047,3363,9.56
+Illinois_Aurora,2023-03-02,965,2007,4710,-7.45
+Illinois_Aurora,2023-05-08,1007,2047,7211,-7.23
+Illinois_Aurora,2020-03-29,1138,2254,6280,-6.99
+Illinois_Aurora,2022-01-02,2260,1163,2618,6.44
+Illinois_Aurora,2021-10-12,1430,2654,4387,-6.38
+Illinois_Aurora,2020-04-30,3537,6254,7899,-5.98
+Illinois_Aurora,2020-02-13,2574,1394,4076,5.96
+Illinois_Aurora,2022-04-07,1565,2716,6841,-5.72
+Illinois_Aurora,2022-02-13,4096,2338,4157,5.49
+Illinois_Aurora,2020-06-26,2668,4481,7857,-5.44
+Illinois_Aurora,2022-01-28,2957,1745,3394,5.12
+Illinois_Aurora,2022-03-26,1802,2938,6523,-5.1
+Illinois_Aurora,2020-02-07,3354,2026,3582,4.9
+Illinois_Aurora,2022-04-24,1803,2811,6562,-4.65
+Illinois_Aurora,2022-02-04,3124,1947,3664,4.58
+Illinois_Aurora,2022-01-30,3127,1951,3116,4.57
+Illinois_Aurora,2022-01-29,3229,2023,3216,4.53
+Illinois_Aurora,2023-03-17,2605,3988,5979,-4.5
+Illinois_Aurora,2019-01-26,2855,1795,3273,4.48
+Illinois_Aurora,2019-02-24,2176,3257,4686,-4.26
+Illinois_Aurora,2022-03-06,2114,3163,5064,-4.25
+Illinois_Chicago,2021-01-27,340,1443,3235,-10.32
+Illinois_Chicago,2022-03-22,633,1882,5164,-7.97
+Illinois_Chicago,2020-02-14,1394,3949,4314,-7.8
+Illinois_Chicago,2021-02-11,938,2415,3945,-6.99
+Illinois_Chicago,2023-07-02,1142,2608,7862,-6.12
+Illinois_Chicago,2022-03-24,877,1985,5791,-6.0
+Illinois_Chicago,2020-06-26,1713,3807,7816,-5.97
+Illinois_Chicago,2023-05-08,910,1951,7160,-5.59
+Illinois_Chicago,2021-03-17,1290,2574,5166,-5.11
+Illinois_Chicago,2020-05-10,1438,2764,7933,-4.83
+Illinois_Chicago,2023-09-08,1153,2165,5955,-4.63
+Illinois_Chicago,2023-04-23,1384,2542,7545,-4.48
+Illinois_Chicago,2022-01-29,3220,1920,3206,4.06
+Illinois_Chicago,2023-05-13,1961,3367,6849,-4.0
+Indiana_FortWayne,2022-02-11,2444,616,3609,9.01
+Indiana_FortWayne,2019-03-29,922,3209,5534,-8.63
+Indiana_FortWayne,2020-09-07,1321,4166,5154,-8.03
+Indiana_FortWayne,2019-04-20,995,2905,7315,-7.44
+Indiana_FortWayne,2019-02-05,619,1826,3585,-7.38
+Indiana_FortWayne,2023-03-27,1223,3363,5924,-7.07
+Indiana_FortWayne,2020-03-14,619,1627,5466,-6.6
+Indiana_FortWayne,2023-04-28,798,2009,7175,-6.38
+Indiana_FortWayne,2023-03-23,765,1910,5284,-6.31
+Indiana_FortWayne,2022-12-24,2017,779,2501,6.17
+Indiana_FortWayne,2021-06-02,1450,3434,7600,-6.07
+Indiana_FortWayne,2022-01-24,1701,668,2956,6.01
+Indiana_FortWayne,2023-08-06,4337,1853,6763,5.62
+Indiana_FortWayne,2020-02-27,3511,1520,4811,5.51
+Indiana_FortWayne,2020-10-20,1420,3060,3745,-5.42
+Indiana_FortWayne,2022-02-19,4418,1954,4549,5.39
+Indiana_FortWayne,2020-03-27,1178,2490,5748,-5.26
+Indiana_FortWayne,2021-05-09,1298,2733,7860,-5.25
+Indiana_FortWayne,2020-07-12,2888,5901,7984,-5.12
+Indiana_FortWayne,2020-08-01,1067,2098,6983,-4.76
+Indiana_FortWayne,2023-04-21,1884,3580,7148,-4.59
+Indiana_FortWayne,2021-02-16,3990,2008,4269,4.5
+Indiana_FortWayne,2020-02-28,4783,2470,4913,4.34
+Indiana_FortWayne,2023-10-27,3061,1631,3348,4.09
+Indiana_FortWayne,2023-02-23,4383,2360,4337,4.05
+Indiana_Indianapolis,2022-03-26,933,3083,6466,-10.94
+Indiana_Indianapolis,2020-02-09,1626,501,3619,10.52
+Indiana_Indianapolis,2019-01-09,478,1520,2983,-10.28
+Indiana_Indianapolis,2020-02-13,2467,816,4171,10.09
+Indiana_Indianapolis,2021-01-01,1533,520,2442,9.66
+Indiana_Indianapolis,2019-01-23,1657,651,3095,8.41
+Indiana_Indianapolis,2023-04-17,1233,2917,7350,-7.91
+Indiana_Indianapolis,2023-01-06,767,1788,2765,-7.65
+Indiana_Indianapolis,2019-03-29,826,1882,5426,-7.46
+Indiana_Indianapolis,2019-01-10,838,1904,2967,-7.44
+Indiana_Indianapolis,2021-04-20,1433,3081,7070,-7.05
+Indiana_Indianapolis,2020-03-27,1347,2896,5551,-7.03
+Indiana_Indianapolis,2021-02-10,2610,1236,3730,6.87
+Indiana_Indianapolis,2019-02-11,2022,988,3557,6.54
+Indiana_Indianapolis,2022-07-08,1084,2212,7049,-6.51
+Indiana_Indianapolis,2021-03-28,1424,2727,6513,-5.97
+Indiana_Indianapolis,2022-05-06,1321,2499,7104,-5.85
+Indiana_Indianapolis,2022-03-03,1710,3066,4921,-5.38
+Indiana_Indianapolis,2019-03-07,4072,2304,5228,5.3
+Indiana_Indianapolis,2023-10-08,1495,2625,4922,-5.17
+Indiana_Indianapolis,2022-02-11,2425,1384,3860,5.16
+Indiana_Indianapolis,2022-02-04,3729,2145,3823,5.14
+Indiana_Indianapolis,2021-02-11,3171,1907,3914,4.72
+Indiana_Indianapolis,2023-04-23,2222,3683,7617,-4.68
+Indiana_Indianapolis,2019-06-20,2101,3479,7737,-4.66
+Iowa_DesMoines,2019-11-18,510,2140,2848,-18.23
+Iowa_DesMoines,2019-10-11,1561,3981,4997,-12.32
+Iowa_DesMoines,2019-03-13,2435,1055,4875,10.57
+Iowa_DesMoines,2019-04-10,1020,2243,6152,-10.27
+Iowa_DesMoines,2019-02-13,2834,1317,3885,9.73
+Iowa_DesMoines,2020-01-28,1230,2398,3415,-8.76
+Iowa_DesMoines,2019-01-16,1139,2203,2853,-8.63
+Iowa_DesMoines,2022-01-27,1403,2565,3326,-7.95
+Iowa_DesMoines,2019-10-06,1726,3122,4969,-7.85
+Iowa_DesMoines,2020-01-31,1342,2382,3323,-7.56
+Iowa_DesMoines,2020-02-13,2202,3871,4357,-7.51
+Iowa_DesMoines,2019-03-07,2629,4599,5180,-7.47
+Iowa_DesMoines,2022-01-15,2799,1552,2885,7.46
+Iowa_DesMoines,2020-02-12,1684,2957,3947,-7.46
+Iowa_DesMoines,2019-03-09,2574,4500,5129,-7.46
+Iowa_DesMoines,2023-02-27,2266,1257,4415,7.41
+Iowa_DesMoines,2023-04-04,5285,3027,5895,7.13
+Iowa_DesMoines,2019-03-12,2414,4021,5159,-6.82
+Iowa_DesMoines,2023-04-20,4338,2553,7004,6.75
+Iowa_DesMoines,2019-02-20,1974,3227,4448,-6.55
+Iowa_DesMoines,2022-04-25,2404,3814,7858,-6.18
+Iowa_DesMoines,2019-04-12,2009,3095,7267,-5.78
+Iowa_DesMoines,2020-05-31,2982,4578,8131,-5.77
+Iowa_DesMoines,2020-03-12,1952,2952,5022,-5.54
+Iowa_DesMoines,2019-02-23,2020,3053,4173,-5.53
+Kansas_OverlandPark,2023-10-27,3755,860,3928,17.39
+Kansas_OverlandPark,2019-01-21,371,1403,3170,-15.2
+Kansas_OverlandPark,2019-03-07,1204,4154,5102,-14.84
+Kansas_OverlandPark,2021-02-10,2631,841,4063,13.38
+Kansas_OverlandPark,2021-02-08,2234,731,3964,13.03
+Kansas_OverlandPark,2021-03-18,1371,3838,6022,-12.36
+Kansas_OverlandPark,2019-02-11,1779,627,3665,12.05
+Kansas_OverlandPark,2022-12-15,812,2132,2862,-11.41
+Kansas_OverlandPark,2021-01-02,1972,780,2903,10.79
+Kansas_OverlandPark,2022-02-24,2319,929,4715,10.72
+Kansas_OverlandPark,2019-10-04,1253,2872,4945,-9.93
+Kansas_OverlandPark,2019-11-18,892,2014,3204,-9.65
+Kansas_OverlandPark,2021-10-23,3251,1475,3879,9.36
+Kansas_OverlandPark,2023-01-29,3304,1519,3483,9.2
+Kansas_OverlandPark,2021-02-06,949,2028,3948,-9.01
+Kansas_OverlandPark,2020-11-09,984,2058,3312,-8.77
+Kansas_OverlandPark,2021-02-11,2492,1232,4114,8.28
+Kansas_OverlandPark,2021-03-24,1094,2183,6273,-8.24
+Kansas_OverlandPark,2022-12-05,2475,1287,2685,7.69
+Kansas_OverlandPark,2022-07-25,1898,3528,7337,-7.5
+Kansas_OverlandPark,2022-01-16,2270,1199,3135,7.48
+Kansas_OverlandPark,2019-03-09,1399,2596,5164,-7.43
+Kansas_OverlandPark,2021-05-16,1357,2402,7166,-6.85
+Kansas_OverlandPark,2021-02-14,2694,1513,4400,6.79
+Kansas_OverlandPark,2019-07-05,2541,1436,7722,6.71
+Kansas_Wichita,2021-02-08,2101,625,4068,20.56
+Kansas_Wichita,2021-02-09,2696,1053,4130,16.17
+Kansas_Wichita,2020-10-28,2051,808,3732,15.87
+Kansas_Wichita,2023-10-28,2050,818,3869,15.66
+Kansas_Wichita,2021-02-14,2932,1193,4504,15.5
+Kansas_Wichita,2023-01-29,3197,1385,3759,14.46
+Kansas_Wichita,2022-12-08,2401,1054,2812,14.11
+Kansas_Wichita,2021-12-10,1007,2066,2908,-12.46
+Kansas_Wichita,2023-03-08,1038,2061,5351,-11.9
+Kansas_Wichita,2020-10-27,2217,1111,3894,11.83
+Kansas_Wichita,2021-02-15,4104,2241,4769,10.51
+Kansas_Wichita,2021-05-27,1357,2417,7724,-10.1
+Kansas_Wichita,2022-07-30,2051,3632,7230,-10.09
+Kansas_Wichita,2020-09-02,1941,3424,6286,-10.01
+Kansas_Wichita,2023-11-04,1512,2646,3721,-9.81
+Kansas_Wichita,2022-03-23,1474,2573,6619,-9.76
+Kansas_Wichita,2021-02-10,2426,1387,4023,9.6
+Kansas_Wichita,2023-04-15,1659,2848,7181,-9.5
+Kansas_Wichita,2021-01-31,1519,2594,3719,-9.39
+Kansas_Wichita,2022-03-14,2325,3815,5896,-8.77
+Kansas_Wichita,2021-05-09,2792,4573,8234,-8.76
+Kansas_Wichita,2019-02-20,3856,2370,4885,8.44
+Kansas_Wichita,2021-10-26,3079,1909,4040,8.26
+Kansas_Wichita,2021-05-14,3814,6028,7758,-8.16
+Kansas_Wichita,2021-04-06,1998,3142,6523,-8.0
+Kentucky_Lexington-Fayette,2022-03-06,392,1724,4828,-12.41
+Kentucky_Lexington-Fayette,2023-01-30,1788,494,3285,10.54
+Kentucky_Lexington-Fayette,2022-02-25,535,1634,4957,-9.48
+Kentucky_Lexington-Fayette,2019-01-04,498,1513,2723,-9.4
+Kentucky_Lexington-Fayette,2021-02-11,636,1769,3846,-8.76
+Kentucky_Lexington-Fayette,2019-03-01,573,1598,4683,-8.74
+Kentucky_Lexington-Fayette,2021-02-14,616,1619,4186,-8.26
+Kentucky_Lexington-Fayette,2019-02-22,815,1944,4648,-7.53
+Kentucky_Lexington-Fayette,2023-02-20,1185,2750,3907,-7.38
+Kentucky_Lexington-Fayette,2020-10-24,1072,2489,4071,-7.36
+Kentucky_Lexington-Fayette,2023-11-22,823,1916,3132,-7.32
+Kentucky_Lexington-Fayette,2019-11-19,820,1895,3091,-7.26
+Kentucky_Lexington-Fayette,2019-10-09,1504,3383,4994,-7.15
+Kentucky_Lexington-Fayette,2021-02-26,1010,2213,4874,-6.85
+Kentucky_Lexington-Fayette,2023-02-08,1141,2486,3638,-6.83
+Kentucky_Lexington-Fayette,2021-02-12,1165,2428,4123,-6.45
+Kentucky_Lexington-Fayette,2023-12-26,2156,993,2473,6.41
+Kentucky_Lexington-Fayette,2019-08-23,1501,3064,6685,-6.31
+Kentucky_Lexington-Fayette,2021-09-15,1350,2749,5440,-6.28
+Kentucky_Lexington-Fayette,2021-02-18,3472,1645,4541,6.26
+Kentucky_Lexington-Fayette,2022-10-16,1755,3527,4548,-6.2
+Kentucky_Lexington-Fayette,2019-12-22,1051,2100,2754,-6.07
+Kentucky_Lexington-Fayette,2022-12-29,2457,1243,2671,5.65
+Kentucky_Lexington-Fayette,2021-02-27,1800,3341,4836,-5.51
+Kentucky_Lexington-Fayette,2019-01-03,1168,2181,2997,-5.51
+Kentucky_Louisville,2023-01-30,2321,449,3372,16.66
+Kentucky_Louisville,2020-02-14,1380,4374,4664,-12.4
+Kentucky_Louisville,2023-02-17,671,2032,4622,-11.66
+Kentucky_Louisville,2022-03-06,799,2175,4804,-10.61
+Kentucky_Louisville,2019-02-22,799,1867,4606,-9.0
+Kentucky_Louisville,2019-10-09,1616,3542,5094,-8.5
+Kentucky_Louisville,2020-05-13,1110,2263,7465,-7.65
+Kentucky_Louisville,2021-01-01,2165,1043,2531,7.45
+Kentucky_Louisville,2021-02-18,3421,1732,4468,7.02
+Kentucky_Louisville,2020-08-13,2379,4216,6832,-6.28
+Kentucky_Louisville,2021-04-14,1969,3205,6958,-5.35
+Kentucky_Louisville,2021-02-22,3273,1941,4771,5.35
+Kentucky_Louisville,2022-07-31,2822,4460,7403,-5.07
+Kentucky_Louisville,2019-08-23,1886,2978,6694,-5.02
+Kentucky_Louisville,2020-12-01,2914,1785,3115,4.99
+Kentucky_Louisville,2021-07-08,6893,4286,7511,4.9
+Kentucky_Louisville,2021-01-28,3367,2085,3768,4.9
+Kentucky_Louisville,2019-05-15,3295,4987,7772,-4.62
+Kentucky_Louisville,2022-03-08,2268,3419,5584,-4.55
+Kentucky_Louisville,2019-05-10,2517,3727,7818,-4.37
+Kentucky_Louisville,2019-06-15,5196,3418,7482,4.29
+Louisiana_BatonRouge,2021-03-23,300,1605,6121,-19.01
+Louisiana_BatonRouge,2021-02-17,3100,671,4922,17.61
+Louisiana_BatonRouge,2021-02-18,4426,1398,5168,13.42
+Louisiana_BatonRouge,2023-11-15,3616,1336,4224,11.54
+Louisiana_BatonRouge,2023-05-06,1165,2751,7178,-10.32
+Louisiana_BatonRouge,2021-02-06,2454,1174,4532,8.43
+Louisiana_BatonRouge,2022-11-29,3003,1468,3514,8.23
+Louisiana_BatonRouge,2023-01-01,2684,1326,3467,8.08
+Louisiana_BatonRouge,2022-02-25,3995,1993,5302,8.04
+Louisiana_BatonRouge,2023-11-16,2619,1356,4132,7.52
+Louisiana_BatonRouge,2021-11-06,4671,2462,4729,7.41
+Louisiana_BatonRouge,2019-02-21,2720,1424,4743,7.41
+Louisiana_BatonRouge,2019-02-17,4358,2323,4378,7.26
+Louisiana_BatonRouge,2023-03-18,1387,2495,6500,-7.14
+Louisiana_BatonRouge,2019-05-09,3203,1740,6847,7.0
+Louisiana_BatonRouge,2020-11-25,1421,2512,3735,-6.94
+Louisiana_BatonRouge,2022-02-26,4288,2376,5231,6.81
+Louisiana_BatonRouge,2020-02-13,3325,1857,5088,6.68
+Louisiana_BatonRouge,2021-02-16,2345,3928,5292,-6.36
+Louisiana_BatonRouge,2019-09-16,2667,4457,6258,-6.34
+Louisiana_BatonRouge,2019-02-08,1544,2562,4734,-6.19
+Louisiana_BatonRouge,2019-02-18,1661,2735,5165,-6.11
+Louisiana_BatonRouge,2022-07-06,3065,4998,7672,-6.06
+Louisiana_BatonRouge,2020-07-06,2229,3632,7236,-6.03
+Louisiana_BatonRouge,2023-10-05,3493,2123,5187,5.69
+Louisiana_NewOrleans,2021-02-11,544,2362,4671,-13.73
+Louisiana_NewOrleans,2023-02-11,534,1557,4778,-9.95
+Louisiana_NewOrleans,2023-12-02,643,1789,3379,-9.6
+Louisiana_NewOrleans,2023-05-06,639,1708,6333,-9.22
+Louisiana_NewOrleans,2019-10-18,863,2265,4935,-9.16
+Louisiana_NewOrleans,2020-08-30,4041,1525,6792,9.15
+Louisiana_NewOrleans,2023-01-01,3669,1387,3547,9.11
+Louisiana_NewOrleans,2023-11-15,3181,1223,4109,8.92
+Louisiana_NewOrleans,2022-02-25,5510,2386,5258,7.89
+Louisiana_NewOrleans,2021-01-10,824,1887,3619,-7.85
+Louisiana_NewOrleans,2022-06-10,1589,3505,7669,-7.64
+Louisiana_NewOrleans,2020-08-20,2599,5687,7053,-7.63
+Louisiana_NewOrleans,2020-01-13,862,1879,3778,-7.4
+Louisiana_NewOrleans,2020-12-16,1360,2912,3824,-7.33
+Louisiana_NewOrleans,2019-01-13,1139,2441,4138,-7.31
+Louisiana_NewOrleans,2020-07-03,4839,2249,7269,7.21
+Louisiana_NewOrleans,2019-10-30,1438,3030,4558,-7.19
+Louisiana_NewOrleans,2023-09-04,2649,5382,6672,-6.92
+Louisiana_NewOrleans,2020-07-20,5507,2644,7648,6.91
+Louisiana_NewOrleans,2023-02-01,3945,1895,4248,6.87
+Louisiana_NewOrleans,2019-08-14,4727,2327,6522,6.66
+Louisiana_NewOrleans,2021-12-21,1177,2331,3556,-6.56
+Louisiana_NewOrleans,2022-02-26,5510,2770,5491,6.47
+Louisiana_NewOrleans,2021-02-14,3522,1786,4711,6.34
+Louisiana_NewOrleans,2021-09-28,2057,1038,5793,6.3
+Louisiana_Shreveport,2021-02-17,2818,599,4870,22.9
+Louisiana_Shreveport,2020-02-13,5124,2144,5091,13.08
+Louisiana_Shreveport,2021-02-18,4162,1924,5189,11.51
+Louisiana_Shreveport,2023-11-15,2221,1019,4049,11.43
+Louisiana_Shreveport,2022-11-08,3918,1858,4004,11.11
+Louisiana_Shreveport,2020-03-16,1382,2451,5393,-9.09
+Louisiana_Shreveport,2023-10-12,2632,1435,5393,8.9
+Louisiana_Shreveport,2020-08-27,1482,2583,6844,-8.84
+Louisiana_Shreveport,2023-01-30,2264,1264,3863,8.51
+Louisiana_Shreveport,2019-11-20,1890,3066,3913,-7.78
+Louisiana_Shreveport,2023-10-29,4274,2767,4275,6.35
+Louisiana_Shreveport,2022-08-30,3451,4918,6673,-5.84
+Louisiana_Shreveport,2021-02-21,3926,2658,4990,5.66
+Louisiana_Shreveport,2023-05-20,4823,3278,7850,5.61
+Louisiana_Shreveport,2021-05-10,3222,2218,7540,5.38
+Louisiana_Shreveport,2019-02-01,3513,2427,3944,5.33
+Louisiana_Shreveport,2019-08-03,3877,5276,7211,-5.13
+Louisiana_Shreveport,2020-09-25,4599,3258,6030,4.97
+Louisiana_Shreveport,2021-11-16,3592,2552,3983,4.91
+Louisiana_Shreveport,2023-04-03,6598,4740,6579,4.77
+Louisiana_Shreveport,2023-05-05,5538,4066,6910,4.43
+Louisiana_Shreveport,2020-04-20,3660,4729,7517,-4.32
+Louisiana_Shreveport,2022-08-10,3757,4790,7129,-4.12
+Louisiana_Shreveport,2023-06-20,6967,5250,7696,4.03
+Maryland_Baltimore,2020-02-14,624,3800,4288,-19.49
+Maryland_Baltimore,2021-02-22,2337,614,4423,14.21
+Maryland_Baltimore,2019-11-20,513,1860,2859,-13.68
+Maryland_Baltimore,2019-11-18,637,1942,2960,-11.93
+Maryland_Baltimore,2022-01-09,1651,621,2694,10.32
+Maryland_Baltimore,2021-02-07,2301,899,3716,10.06
+Maryland_Baltimore,2019-02-12,2025,835,3838,9.44
+Maryland_Baltimore,2021-02-01,2317,991,3381,9.11
+Maryland_Baltimore,2022-10-03,878,1965,4994,-8.71
+Maryland_Baltimore,2022-03-17,930,2073,5418,-8.68
+Maryland_Baltimore,2022-02-07,912,2010,3775,-8.55
+Maryland_Baltimore,2021-02-13,2455,1208,3985,7.62
+Maryland_Baltimore,2020-05-06,1068,2090,7747,-7.3
+Maryland_Baltimore,2021-04-01,2025,3540,6623,-6.17
+Maryland_Baltimore,2019-05-08,1471,2559,7053,-6.08
+Maryland_Baltimore,2022-05-08,2730,4451,7764,-5.43
+Maryland_Baltimore,2020-03-21,3137,4923,5903,-5.02
+Maryland_Baltimore,2019-06-09,3520,5473,8007,-4.92
+Maryland_Baltimore,2020-05-28,2009,3015,7689,-4.49
+Maryland_Baltimore,2019-02-02,3284,2201,3487,4.32
+Maryland_Baltimore,2020-05-18,2428,3531,7609,-4.17
+Maryland_Baltimore,2023-05-02,2222,3228,7859,-4.15
+Massachusetts_Boston,2020-02-14,275,3913,4034,-22.65
+Massachusetts_Boston,2019-10-11,561,2175,4344,-11.8
+Massachusetts_Boston,2021-02-16,3497,1046,3665,10.36
+Massachusetts_Boston,2019-03-22,782,1949,5812,-8.07
+Massachusetts_Boston,2022-10-04,1039,2484,4790,-7.78
+Massachusetts_Boston,2021-02-09,2178,889,3292,7.57
+Massachusetts_Boston,2021-02-15,1684,681,3541,7.57
+Massachusetts_Boston,2023-03-11,869,1959,5120,-7.22
+Massachusetts_Boston,2021-04-05,2304,4710,6623,-6.52
+Massachusetts_Boston,2022-02-08,3177,1576,3459,5.96
+Massachusetts_Boston,2019-10-08,1363,2609,4627,-5.87
+Massachusetts_Boston,2021-04-11,1689,3014,6412,-5.28
+Massachusetts_Boston,2020-06-07,2809,4951,8397,-5.21
+Massachusetts_Boston,2021-02-03,2252,1212,3259,5.2
+Massachusetts_Boston,2023-11-01,1297,2299,3362,-5.19
+Massachusetts_Boston,2021-05-04,1645,2891,7534,-5.14
+Massachusetts_Boston,2022-06-19,2770,4837,8594,-5.13
+Massachusetts_Boston,2022-10-25,2476,1350,3268,5.11
+Massachusetts_Boston,2022-06-22,7282,4058,8269,5.01
+Massachusetts_Boston,2023-02-13,1412,2423,3604,-4.91
+Massachusetts_Boston,2023-03-28,1582,2640,5824,-4.68
+Massachusetts_Boston,2020-09-03,2125,3511,5890,-4.62
+Massachusetts_Boston,2023-10-06,2757,1648,4528,4.32
+Massachusetts_Boston,2020-04-02,1997,3161,6415,-4.24
+Massachusetts_Boston,2022-09-07,5539,3374,5898,4.21
+Massachusetts_Worcester,2020-02-14,469,3913,4034,-19.69
+Massachusetts_Worcester,2023-02-23,4141,616,4237,17.18
+Massachusetts_Worcester,2021-02-07,1411,352,3371,11.95
+Massachusetts_Worcester,2021-02-16,3800,1046,3665,11.63
+Massachusetts_Worcester,2022-01-29,1717,461,3142,11.47
+Massachusetts_Worcester,2021-02-27,2538,794,4275,10.33
+Massachusetts_Worcester,2021-02-09,2358,889,3292,8.63
+Massachusetts_Worcester,2021-02-01,1769,664,3167,8.56
+Massachusetts_Worcester,2019-03-10,2091,792,4953,8.55
+Massachusetts_Worcester,2021-07-13,4597,1910,7738,7.89
+Massachusetts_Worcester,2023-03-02,3149,1317,4404,7.76
+Massachusetts_Worcester,2022-10-04,1151,2484,4790,-7.44
+Massachusetts_Worcester,2021-12-31,1962,855,2147,7.27
+Massachusetts_Worcester,2021-07-25,4422,1974,6358,7.21
+Massachusetts_Worcester,2021-04-15,933,1941,6527,-7.06
+Massachusetts_Worcester,2022-06-22,2188,4058,8269,-6.12
+Massachusetts_Worcester,2022-02-08,3117,1576,3459,6.01
+Massachusetts_Worcester,2023-11-22,2104,1084,2565,5.78
+Massachusetts_Worcester,2019-04-28,2267,3965,7470,-5.57
+Massachusetts_Worcester,2019-05-04,1666,2890,7143,-5.46
+Massachusetts_Worcester,2023-04-16,5271,2857,6540,5.42
+Massachusetts_Worcester,2022-10-25,2512,1350,3268,5.42
+Massachusetts_Worcester,2021-02-18,2477,1405,3838,4.92
+Massachusetts_Worcester,2020-03-04,2013,3181,4820,-4.6
+Massachusetts_Worcester,2021-08-29,3606,2175,5999,4.39
+Michigan_Detroit,2021-03-18,711,1843,5389,-6.52
+Michigan_Detroit,2021-08-16,2109,4248,6965,-4.96
+Michigan_Detroit,2021-02-13,2775,1328,3571,4.89
+Michigan_Detroit,2022-02-11,2197,1058,3571,4.82
+Michigan_Detroit,2020-08-28,1500,2943,5959,-4.74
+Michigan_Detroit,2019-02-27,2188,1095,4117,4.56
+Michigan_Detroit,2023-03-27,1406,2686,5817,-4.55
+Michigan_Detroit,2022-05-06,1606,2836,7016,-4.02
+Michigan_GrandRapids,2019-10-13,630,2829,4415,-9.86
+Michigan_GrandRapids,2022-02-22,2041,623,3744,7.65
+Michigan_GrandRapids,2023-02-23,2538,821,4130,7.35
+Michigan_GrandRapids,2019-02-17,2611,990,3950,6.33
+Michigan_GrandRapids,2021-02-28,3967,1648,4102,5.8
+Michigan_GrandRapids,2019-10-01,862,2046,4487,-5.71
+Michigan_GrandRapids,2022-09-24,827,1962,4932,-5.7
+Michigan_GrandRapids,2021-10-03,846,1892,4193,-5.31
+Michigan_GrandRapids,2022-02-03,1972,891,3400,5.14
+Michigan_GrandRapids,2023-09-28,2705,1279,4767,4.9
+Michigan_GrandRapids,2022-04-16,2121,4355,7375,-4.86
+Michigan_GrandRapids,2019-11-04,1090,2229,3080,-4.76
+Michigan_GrandRapids,2022-10-14,1653,3312,4434,-4.67
+Michigan_GrandRapids,2020-01-19,2312,1165,2773,4.47
+Michigan_GrandRapids,2020-03-26,1084,2095,5802,-4.38
+Michigan_GrandRapids,2019-03-03,3127,1625,4924,4.3
+Michigan_GrandRapids,2023-10-27,2195,1150,3290,4.21
+Michigan_GrandRapids,2019-02-14,2798,1478,3405,4.18
+Michigan_GrandRapids,2021-02-18,3183,1684,4059,4.18
+Michigan_GrandRapids,2022-04-08,1618,3008,6855,-4.17
+Michigan_GrandRapids,2019-11-05,1363,2493,3459,-4.05
+Michigan_GrandRapids,2019-10-28,1373,2498,3465,-4.01
+Michigan_GrandRapids,2021-02-13,2455,1329,3730,4.01
+Minnesota_Minneapolis,2023-04-04,4582,946,6068,13.14
+Minnesota_Minneapolis,2019-04-11,3577,937,6413,11.13
+Minnesota_Minneapolis,2023-03-11,632,2378,5024,-10.78
+Minnesota_Minneapolis,2023-01-19,555,1673,2558,-8.88
+Minnesota_Minneapolis,2023-09-25,616,1720,4782,-8.29
+Minnesota_Minneapolis,2020-02-13,1641,3928,4013,-7.25
+Minnesota_Minneapolis,2023-09-07,1773,4119,6149,-7.01
+Minnesota_Minneapolis,2020-10-21,2055,899,3682,6.83
+Minnesota_Minneapolis,2020-02-14,1952,3795,3907,-5.52
+Minnesota_Minneapolis,2019-08-10,1334,2599,6589,-5.49
+Minnesota_Minneapolis,2022-04-24,1676,3193,7426,-5.33
+Minnesota_Minneapolis,2020-08-12,1494,2822,6770,-5.25
+Minnesota_Minneapolis,2019-04-12,3781,2038,6956,5.21
+Minnesota_Minneapolis,2022-07-26,2256,4137,7512,-5.04
+Minnesota_Minneapolis,2021-05-02,1547,2839,7082,-5.01
+Minnesota_Minneapolis,2020-03-29,1368,2496,5963,-4.95
+Minnesota_Minneapolis,2020-04-14,6586,3748,7379,4.8
+Minnesota_Minneapolis,2022-03-25,1617,2867,6113,-4.73
+Minnesota_Minneapolis,2023-09-06,2576,1477,5843,4.66
+Minnesota_Minneapolis,2019-05-18,1536,2700,7482,-4.65
+Minnesota_Minneapolis,2021-10-14,1621,2746,4184,-4.35
+Minnesota_Minneapolis,2021-10-08,1670,2804,3937,-4.27
+Minnesota_Minneapolis,2023-03-22,2274,3771,5855,-4.2
+Minnesota_Minneapolis,2021-03-17,3725,2269,5377,4.19
+Minnesota_Minneapolis,2019-09-27,1855,3047,4803,-4.1
+Minnesota_St.Paul,2023-04-04,4769,946,6068,13.46
+Minnesota_St.Paul,2020-02-13,948,3928,4013,-11.72
+Minnesota_St.Paul,2019-04-11,3612,937,6413,11.2
+Minnesota_St.Paul,2023-03-11,634,2378,5024,-10.73
+Minnesota_St.Paul,2023-01-19,658,1673,2558,-7.52
+Minnesota_St.Paul,2020-02-14,1554,3795,3907,-7.39
+Minnesota_St.Paul,2020-10-21,2106,899,3682,7.03
+Minnesota_St.Paul,2022-03-25,1397,2867,6113,-5.92
+Minnesota_St.Paul,2021-05-02,1447,2839,7082,-5.55
+Minnesota_St.Paul,2021-04-19,2102,4077,7537,-5.49
+Minnesota_St.Paul,2022-02-09,1133,2216,3521,-5.48
+Minnesota_St.Paul,2023-03-31,3431,1805,5802,5.4
+Minnesota_St.Paul,2022-03-05,2390,1257,3816,5.36
+Minnesota_St.Paul,2021-04-09,1107,2119,6507,-5.3
+Minnesota_St.Paul,2023-09-07,2176,4119,6149,-5.29
+Minnesota_St.Paul,2019-04-12,3641,2038,6956,4.89
+Minnesota_St.Paul,2023-03-22,2119,3771,5855,-4.77
+Minnesota_St.Paul,2020-08-12,1593,2822,6770,-4.7
+Minnesota_St.Paul,2020-03-29,1410,2496,5963,-4.68
+Minnesota_St.Paul,2019-10-28,1664,2938,3505,-4.68
+Minnesota_St.Paul,2020-04-14,6475,3748,7379,4.65
+Minnesota_St.Paul,2019-05-18,1547,2700,7482,-4.57
+Minnesota_St.Paul,2022-02-11,1566,2717,3716,-4.53
+Minnesota_St.Paul,2021-10-08,1620,2804,3937,-4.51
+Minnesota_St.Paul,2023-09-06,2512,1477,5843,4.45
+Mississippi_Jackson,2019-03-11,441,1811,5429,-16.96
+Mississippi_Jackson,2022-02-23,3958,1370,5098,12.87
+Mississippi_Jackson,2022-01-06,2143,758,3455,12.38
+Mississippi_Jackson,2023-11-15,3597,1305,3801,12.27
+Mississippi_Jackson,2021-02-13,3083,1139,4425,12.0
+Mississippi_Jackson,2021-03-23,1045,2744,6014,-11.98
+Mississippi_Jackson,2022-11-29,3098,1197,3164,11.47
+Mississippi_Jackson,2021-02-17,3092,1218,4803,11.23
+Mississippi_Jackson,2020-08-25,1596,3551,6562,-10.04
+Mississippi_Jackson,2022-03-07,3265,1505,5488,9.33
+Mississippi_Jackson,2022-01-20,1175,2333,3950,-8.56
+Mississippi_Jackson,2021-06-10,2856,1406,7504,8.51
+Mississippi_Jackson,2020-09-25,1383,2615,6160,-8.0
+Mississippi_Jackson,2022-12-04,2278,1198,3298,7.65
+Mississippi_Jackson,2021-09-16,4933,2699,6157,7.29
+Mississippi_Jackson,2023-03-17,1690,2995,6259,-7.23
+Mississippi_Jackson,2021-11-18,2252,1251,3825,7.0
+Mississippi_Jackson,2022-06-29,3729,6315,7876,-6.75
+Mississippi_Jackson,2022-04-17,3572,2066,6250,6.57
+Mississippi_Jackson,2020-02-14,3187,5264,5276,-6.43
+Mississippi_Jackson,2021-02-09,4239,2485,4490,6.43
+Mississippi_Jackson,2020-10-25,2638,1545,4245,6.38
+Mississippi_Jackson,2022-04-06,5750,3421,6358,6.27
+Mississippi_Jackson,2021-03-31,2167,3537,6266,-6.25
+Mississippi_Jackson,2022-02-24,3937,2399,4998,5.94
+Missouri_KansasCity,2020-02-24,350,1433,4288,-15.47
+Missouri_KansasCity,2021-03-18,886,2644,5716,-12.53
+Missouri_KansasCity,2019-02-27,1038,3068,4900,-12.48
+Missouri_KansasCity,2021-02-10,2684,867,3884,12.47
+Missouri_KansasCity,2020-10-18,688,1731,4229,-10.48
+Missouri_KansasCity,2019-02-11,1752,677,3577,10.31
+Missouri_KansasCity,2021-02-15,2958,1214,4471,9.84
+Missouri_KansasCity,2019-11-18,827,1930,3076,-9.71
+Missouri_KansasCity,2021-02-06,798,1828,3855,-9.49
+Missouri_KansasCity,2021-02-08,2190,969,3847,8.91
+Missouri_KansasCity,2022-02-24,2683,1217,4612,8.7
+Missouri_KansasCity,2020-01-13,2467,1125,2863,8.62
+Missouri_KansasCity,2019-10-06,1046,2176,4952,-8.48
+Missouri_KansasCity,2020-04-22,1823,3717,7124,-8.36
+Missouri_KansasCity,2023-10-27,3783,1796,3836,8.25
+Missouri_KansasCity,2022-11-09,2334,1166,3298,7.58
+Missouri_KansasCity,2020-05-28,1378,2516,7840,-7.05
+Missouri_KansasCity,2020-02-09,1283,2293,3652,-6.79
+Missouri_KansasCity,2020-08-09,2725,4725,7145,-6.55
+Missouri_KansasCity,2020-05-15,2398,4157,7868,-6.53
+Missouri_KansasCity,2019-03-25,1627,2726,5919,-6.1
+Missouri_KansasCity,2020-07-30,2016,3357,7386,-6.05
+Missouri_KansasCity,2023-05-16,2845,4694,7640,-5.98
+Missouri_KansasCity,2019-07-04,2053,3392,7815,-5.97
+Missouri_KansasCity,2020-05-11,2718,4472,8133,-5.94
+Missouri_Springfield,2022-01-08,2862,624,2963,17.72
+Missouri_Springfield,2020-02-14,1134,4561,4664,-16.8
+Missouri_Springfield,2022-02-24,3870,982,4758,16.15
+Missouri_Springfield,2020-02-13,1399,4397,4653,-13.89
+Missouri_Springfield,2022-02-03,2090,643,3880,13.62
+Missouri_Springfield,2019-11-18,542,1648,3408,-13.06
+Missouri_Springfield,2019-03-10,1746,5074,6050,-12.99
+Missouri_Springfield,2019-10-26,528,1533,4030,-12.49
+Missouri_Springfield,2023-02-10,753,2142,4229,-12.45
+Missouri_Springfield,2023-03-08,3476,1280,5170,11.75
+Missouri_Springfield,2021-01-25,2036,772,3364,11.21
+Missouri_Springfield,2020-02-10,821,2013,4030,-10.72
+Missouri_Springfield,2021-02-28,715,1755,4840,-10.67
+Missouri_Springfield,2020-02-18,1071,2497,4508,-10.21
+Missouri_Springfield,2023-01-31,898,2086,3739,-10.11
+Missouri_Springfield,2022-04-17,2924,1239,6905,10.05
+Missouri_Springfield,2021-10-13,893,1976,4424,-9.53
+Missouri_Springfield,2019-02-17,1586,3371,4931,-9.19
+Missouri_Springfield,2022-03-31,2315,4854,7227,-9.09
+Missouri_Springfield,2023-12-28,935,1976,2881,-8.99
+Missouri_Springfield,2019-01-23,968,2011,3660,-8.8
+Missouri_Springfield,2019-03-13,1036,2147,5394,-8.79
+Missouri_Springfield,2019-04-18,1170,2355,7232,-8.47
+Missouri_Springfield,2022-03-06,3919,1995,5211,7.93
+Missouri_Springfield,2022-03-07,1329,2551,5735,-7.93
+Missouri_St.Louis,2020-02-14,1650,4547,4631,-11.82
+Missouri_St.Louis,2020-03-20,920,2067,6063,-9.3
+Missouri_St.Louis,2020-02-13,1621,3494,4547,-8.96
+Missouri_St.Louis,2021-02-15,2424,1107,4504,8.81
+Missouri_St.Louis,2019-02-18,967,2032,4727,-8.55
+Missouri_St.Louis,2021-02-17,3225,1534,4385,8.41
+Missouri_St.Louis,2020-06-30,1422,2736,7202,-7.63
+Missouri_St.Louis,2020-05-19,2049,3506,7929,-6.32
+Missouri_St.Louis,2019-04-19,1697,2837,7496,-6.03
+Missouri_St.Louis,2020-08-12,3488,5300,6653,-4.99
+Missouri_St.Louis,2023-07-18,4211,2817,6758,4.53
+Missouri_St.Louis,2023-08-27,3236,2171,6401,4.48
+Missouri_St.Louis,2021-05-08,2319,3326,7449,-4.29
+Missouri_St.Louis,2023-08-21,6174,4225,6320,4.29
+Missouri_St.Louis,2021-02-14,3548,2440,4121,4.2
+Missouri_St.Louis,2020-08-01,2440,3440,7258,-4.1
+Nebraska_Lincoln,2023-02-22,3146,812,4298,17.45
+Nebraska_Lincoln,2019-11-18,737,2271,3023,-14.44
+Nebraska_Lincoln,2020-01-23,2020,726,2883,13.07
+Nebraska_Lincoln,2021-01-26,2834,1034,3352,13.03
+Nebraska_Lincoln,2021-01-27,3218,1234,3408,12.43
+Nebraska_Lincoln,2020-04-24,839,1900,7041,-10.49
+Nebraska_Lincoln,2021-10-26,2821,1350,3709,9.56
+Nebraska_Lincoln,2019-02-23,2119,4362,4523,-9.49
+Nebraska_Lincoln,2019-01-25,2670,1293,3276,9.39
+Nebraska_Lincoln,2022-04-30,1313,2687,7797,-9.31
+Nebraska_Lincoln,2020-03-15,2184,1083,5673,9.04
+Nebraska_Lincoln,2020-01-28,1314,2561,3405,-8.68
+Nebraska_Lincoln,2022-12-22,2388,1242,2813,8.45
+Nebraska_Lincoln,2021-03-23,1296,2439,5853,-8.21
+Nebraska_Lincoln,2019-01-24,3186,1719,3426,8.04
+Nebraska_Lincoln,2020-03-19,1491,2750,5408,-7.98
+Nebraska_Lincoln,2020-01-30,1473,2699,3453,-7.89
+Nebraska_Lincoln,2021-02-01,2755,1523,3647,7.69
+Nebraska_Lincoln,2019-03-12,2205,3928,5216,-7.59
+Nebraska_Lincoln,2020-01-25,2289,1273,3258,7.58
+Nebraska_Lincoln,2019-07-28,1685,2953,7444,-7.33
+Nebraska_Lincoln,2021-01-29,2878,1669,3240,7.08
+Nebraska_Lincoln,2023-03-06,1816,3117,5141,-7.07
+Nebraska_Lincoln,2023-02-16,1788,3027,4300,-6.89
+Nebraska_Lincoln,2019-02-16,3033,1790,4295,6.87
+Nebraska_Omaha,2019-11-18,538,1854,2896,-12.81
+Nebraska_Omaha,2019-03-09,2217,776,4881,10.66
+Nebraska_Omaha,2023-02-22,2574,976,4141,9.9
+Nebraska_Omaha,2020-05-30,1119,2707,8075,-9.41
+Nebraska_Omaha,2020-02-19,798,1896,4046,-9.11
+Nebraska_Omaha,2020-02-12,746,1750,3779,-8.96
+Nebraska_Omaha,2019-02-13,3380,1483,3864,8.46
+Nebraska_Omaha,2019-03-19,1193,2613,5459,-8.38
+Nebraska_Omaha,2019-03-08,3478,1544,5130,8.34
+Nebraska_Omaha,2022-12-22,2570,1227,2670,7.53
+Nebraska_Omaha,2020-01-23,1977,953,2742,7.36
+Nebraska_Omaha,2022-05-04,1184,2285,7413,-7.04
+Nebraska_Omaha,2023-02-27,4593,2320,4453,7.03
+Nebraska_Omaha,2020-05-25,1888,3498,7655,-6.69
+Nebraska_Omaha,2019-01-24,3193,1664,3325,6.66
+Nebraska_Omaha,2021-09-12,1393,2517,5016,-6.38
+Nebraska_Omaha,2020-10-21,1379,2460,3764,-6.25
+Nebraska_Omaha,2022-04-07,1853,3124,6970,-5.69
+Nebraska_Omaha,2019-08-30,3464,5704,6505,-5.49
+Nebraska_Omaha,2022-01-16,2628,1539,2793,5.41
+Nebraska_Omaha,2020-05-20,4439,2630,8177,5.35
+Nebraska_Omaha,2023-10-11,4330,2573,4379,5.31
+Nebraska_Omaha,2020-05-05,7305,4364,8130,5.29
+Nebraska_Omaha,2019-08-31,4570,2732,6118,5.26
+Nebraska_Omaha,2019-03-13,3023,1848,5017,4.98
+Nevada_Henderson,2023-01-30,711,1816,3954,-27.45
+Nevada_Henderson,2019-02-05,1261,2420,4308,-19.54
+Nevada_Henderson,2020-02-22,2614,1490,4762,15.89
+Nevada_Henderson,2020-03-10,1802,2994,5696,-15.45
+Nevada_Henderson,2022-07-31,2921,4757,7680,-14.98
+Nevada_Henderson,2023-01-08,2683,1588,3323,14.82
+Nevada_Henderson,2021-10-08,3599,2175,5125,14.3
+Nevada_Henderson,2022-08-04,3430,5327,7494,-13.59
+Nevada_Henderson,2021-07-21,4067,6306,7949,-13.57
+Nevada_Henderson,2019-11-29,3280,2054,3364,13.23
+Nevada_Henderson,2021-02-17,2975,4480,5085,-12.66
+Nevada_Henderson,2019-03-02,3874,2478,5323,12.65
+Nevada_Henderson,2023-08-19,2752,4113,7104,-12.42
+Nevada_Henderson,2022-03-19,5501,3620,6128,11.87
+Nevada_Henderson,2023-09-02,3088,4462,6560,-11.43
+Nevada_Henderson,2022-09-10,4054,2746,5973,10.97
+Nevada_Henderson,2023-04-03,6177,4193,7062,10.97
+Nevada_Henderson,2019-03-20,2442,3444,6330,-10.68
+Nevada_Henderson,2019-06-06,5847,8041,8538,-10.03
+Nevada_Henderson,2021-08-31,4124,5646,6606,-9.87
+Nevada_Henderson,2021-06-17,7510,5322,8049,9.71
+Nevada_Henderson,2021-05-16,6070,8201,8684,-9.51
+Nevada_Henderson,2022-07-26,4865,6543,7663,-9.35
+Nevada_Henderson,2020-04-09,4059,5444,7447,-9.26
+Nevada_Henderson,2019-07-23,4776,6371,7860,-9.11
+Nevada_LasVegas,2020-03-10,1369,2742,5762,-17.35
+Nevada_LasVegas,2023-03-30,2678,4294,7012,-12.07
+Nevada_LasVegas,2019-03-21,5149,3159,6313,11.6
+Nevada_LasVegas,2022-08-05,6513,4381,6945,9.36
+Nevada_LasVegas,2021-05-29,7053,4852,8669,8.81
+Nevada_LasVegas,2021-07-22,6778,4670,7977,8.77
+Nevada_LasVegas,2022-03-19,5315,3714,6065,8.4
+Nevada_LasVegas,2020-04-12,4205,5793,7586,-8.37
+Nevada_LasVegas,2021-04-25,6408,4723,8008,7.1
+Nevada_LasVegas,2019-07-23,6133,4521,7867,7.09
+Nevada_LasVegas,2023-02-26,4705,3468,5365,7.07
+Nevada_LasVegas,2022-09-12,5645,4185,6274,6.95
+Nevada_LasVegas,2023-06-16,4863,6236,8201,-6.6
+Nevada_LasVegas,2023-04-03,4609,3468,7323,6.57
+Nevada_LasVegas,2020-09-07,6107,4605,6082,6.53
+Nevada_LasVegas,2019-05-24,7608,5745,8694,6.51
+Nevada_LasVegas,2019-03-05,4459,3363,5556,6.51
+Nevada_LasVegas,2019-05-16,5701,4314,8399,6.44
+Nevada_LasVegas,2023-06-14,7717,5864,8537,6.36
+Nevada_LasVegas,2023-02-27,4845,3708,5350,6.15
+Nevada_LasVegas,2019-06-14,5774,7222,8678,-6.0
+Nevada_LasVegas,2023-09-20,4448,5542,6107,-5.89
+Nevada_LasVegas,2022-08-10,4247,5256,7386,-5.72
+Nevada_LasVegas,2023-05-04,7056,5520,8124,5.63
+Nevada_LasVegas,2022-03-05,5420,4245,5815,5.59
+Nevada_NorthLasVegas,2019-01-17,901,1927,3425,-18.93
+Nevada_NorthLasVegas,2019-11-27,2346,1182,3385,16.39
+Nevada_NorthLasVegas,2022-12-30,1229,2266,3081,-15.44
+Nevada_NorthLasVegas,2019-11-29,3000,1739,3425,13.06
+Nevada_NorthLasVegas,2020-03-10,1703,2742,5762,-12.2
+Nevada_NorthLasVegas,2023-01-01,2515,1508,3250,12.19
+Nevada_NorthLasVegas,2020-01-29,2543,3697,4097,-9.74
+Nevada_NorthLasVegas,2021-05-29,7136,4852,8669,9.25
+Nevada_NorthLasVegas,2019-03-21,4633,3159,6313,9.13
+Nevada_NorthLasVegas,2021-07-22,6774,4670,7977,8.9
+Nevada_NorthLasVegas,2022-03-19,5303,3714,6065,8.48
+Nevada_NorthLasVegas,2023-06-16,4524,6236,8201,-8.47
+Nevada_NorthLasVegas,2023-02-26,4935,3468,5365,8.39
+Nevada_NorthLasVegas,2023-04-03,4933,3468,7323,8.38
+Nevada_NorthLasVegas,2019-03-05,4753,3363,5556,8.22
+Nevada_NorthLasVegas,2022-08-05,6106,4381,6945,7.89
+Nevada_NorthLasVegas,2022-09-12,5810,4185,6274,7.79
+Nevada_NorthLasVegas,2023-03-30,3218,4294,7012,-7.63
+Nevada_NorthLasVegas,2019-05-24,7908,5745,8694,7.6
+Nevada_NorthLasVegas,2023-06-14,7776,5864,8537,6.66
+Nevada_NorthLasVegas,2020-09-07,6105,4605,6082,6.64
+Nevada_NorthLasVegas,2021-04-25,6233,4723,8008,6.53
+Nevada_NorthLasVegas,2023-09-20,4355,5542,6107,-6.46
+Nevada_NorthLasVegas,2021-03-26,5004,6327,6969,-6.31
+Nevada_NorthLasVegas,2019-07-23,5882,4521,7867,6.17
+Nevada_Reno,2023-12-18,492,1698,2560,-25.94
+Nevada_Reno,2021-12-25,627,1742,2770,-21.61
+Nevada_Reno,2023-01-05,715,1836,2910,-20.05
+Nevada_Reno,2023-02-25,2478,1058,4958,17.8
+Nevada_Reno,2020-01-16,889,1889,3061,-16.17
+Nevada_Reno,2019-02-16,3918,2065,4500,13.51
+Nevada_Reno,2023-09-02,1778,3247,6530,-13.2
+Nevada_Reno,2019-02-17,2618,1428,4615,12.68
+Nevada_Reno,2021-12-27,2365,1290,2817,12.64
+Nevada_Reno,2023-02-23,4530,2497,5000,12.59
+Nevada_Reno,2019-04-30,2543,4460,8148,-12.4
+Nevada_Reno,2019-11-29,2595,1453,3008,12.12
+Nevada_Reno,2021-03-18,2815,4861,6081,-12.08
+Nevada_Reno,2019-03-26,2445,4189,6344,-11.89
+Nevada_Reno,2022-02-22,3814,2174,4928,11.83
+Nevada_Reno,2019-04-15,2506,4038,7399,-10.56
+Nevada_Reno,2019-03-09,2629,4190,5674,-10.33
+Nevada_Reno,2019-02-06,3470,2124,4109,10.28
+Nevada_Reno,2020-03-26,2991,4580,6644,-9.48
+Nevada_Reno,2022-02-20,4028,2586,4706,9.29
+Nevada_Reno,2019-05-14,4616,6842,8649,-8.82
+Nevada_Reno,2019-02-11,4305,2831,4211,8.78
+Nevada_Reno,2021-10-30,2108,3118,4024,-8.69
+Nevada_Reno,2019-02-12,3447,2275,4331,8.68
+Nevada_Reno,2020-09-16,4715,3167,3994,8.34
+New Jersey_JerseyCity,2020-02-14,623,3630,4191,-16.19
+New Jersey_JerseyCity,2020-02-18,563,1864,3622,-10.86
+New Jersey_JerseyCity,2023-10-20,568,1874,3722,-10.83
+New Jersey_JerseyCity,2021-02-09,1582,545,3369,9.54
+New Jersey_JerseyCity,2019-04-09,1654,3706,6244,-7.56
+New Jersey_JerseyCity,2019-04-18,1709,3701,6481,-7.24
+New Jersey_JerseyCity,2020-10-13,1056,2136,4226,-6.52
+New Jersey_JerseyCity,2019-09-02,1724,3333,5877,-6.18
+New Jersey_JerseyCity,2021-02-12,2699,1466,3928,5.61
+New Jersey_JerseyCity,2020-04-29,1862,3368,6658,-5.56
+New Jersey_JerseyCity,2023-07-09,4379,2463,7113,5.34
+New Jersey_JerseyCity,2021-07-03,1917,3381,7589,-5.33
+New Jersey_JerseyCity,2022-05-27,5564,3143,7447,5.32
+New Jersey_JerseyCity,2021-02-16,4210,2421,3433,5.13
+New Jersey_JerseyCity,2021-05-05,1484,2516,7011,-4.93
+New Jersey_JerseyCity,2021-06-12,2502,4031,7755,-4.51
+New Jersey_JerseyCity,2019-06-17,2434,3831,7581,-4.29
+New Jersey_JerseyCity,2023-04-16,4417,2801,6359,4.22
+New Jersey_JerseyCity,2020-06-27,2315,3562,7455,-4.07
+New Jersey_Newark,2020-02-18,462,1864,3622,-13.79
+New Jersey_Newark,2020-02-14,1005,3630,4191,-13.08
+New Jersey_Newark,2021-02-09,2006,545,3369,12.8
+New Jersey_Newark,2021-02-22,2444,755,4258,11.67
+New Jersey_Newark,2021-10-04,635,1804,4104,-10.44
+New Jersey_Newark,2021-02-28,2285,839,4159,9.95
+New Jersey_Newark,2021-02-18,2115,791,3692,9.75
+New Jersey_Newark,2019-04-09,1484,3706,6244,-9.4
+New Jersey_Newark,2023-10-20,736,1874,3722,-9.39
+New Jersey_Newark,2019-09-02,1648,3333,5877,-7.25
+New Jersey_Newark,2020-10-13,1055,2136,4226,-7.18
+New Jersey_Newark,2019-04-18,1920,3701,6481,-6.78
+New Jersey_Newark,2021-05-08,1715,3305,7611,-6.76
+New Jersey_Newark,2021-02-12,2603,1466,3928,5.73
+New Jersey_Newark,2023-10-18,1489,2589,4046,-5.69
+New Jersey_Newark,2021-02-16,4215,2421,3433,5.59
+New Jersey_Newark,2020-04-29,1977,3368,6658,-5.52
+New Jersey_Newark,2021-02-23,2808,1647,4326,5.34
+New Jersey_Newark,2019-03-02,3034,1788,4528,5.3
+New Jersey_Newark,2023-07-04,3131,5179,7709,-5.25
+New Jersey_Newark,2020-06-30,3452,5537,8045,-4.94
+New Jersey_Newark,2023-07-09,3968,2463,7113,4.79
+New Jersey_Newark,2019-05-14,1853,2904,7729,-4.66
+New Jersey_Newark,2020-06-27,2305,3562,7455,-4.53
+New Jersey_Newark,2020-04-09,2262,3470,6484,-4.45
+New Mexico_Albuquerque,2019-11-20,265,2326,3759,-39.83
+New Mexico_Albuquerque,2019-01-11,698,1734,3621,-17.31
+New Mexico_Albuquerque,2021-03-14,1284,3000,6467,-16.49
+New Mexico_Albuquerque,2019-02-14,1170,2470,4857,-14.5
+New Mexico_Albuquerque,2020-10-27,3348,1687,4680,12.8
+New Mexico_Albuquerque,2021-04-28,2426,4608,8174,-12.68
+New Mexico_Albuquerque,2023-03-16,1539,2848,6313,-12.07
+New Mexico_Albuquerque,2023-03-02,2043,3662,5735,-11.52
+New Mexico_Albuquerque,2023-11-09,4224,2339,4242,11.05
+New Mexico_Albuquerque,2020-03-26,1498,2584,6952,-10.72
+New Mexico_Albuquerque,2021-02-16,3761,2241,5056,9.63
+New Mexico_Albuquerque,2022-11-04,1900,3040,4607,-9.32
+New Mexico_Albuquerque,2021-01-20,1893,2986,3861,-9.05
+New Mexico_Albuquerque,2023-02-15,4219,2600,5188,9.0
+New Mexico_Albuquerque,2019-03-02,2037,3180,5685,-8.86
+New Mexico_Albuquerque,2020-02-23,2010,3065,5374,-8.41
+New Mexico_Albuquerque,2022-06-26,3664,2362,8385,8.12
+New Mexico_Albuquerque,2022-10-17,2931,1896,5067,8.02
+New Mexico_Albuquerque,2019-05-09,7519,4917,8549,7.91
+New Mexico_Albuquerque,2020-10-28,4687,3106,4762,7.62
+New Mexico_Albuquerque,2022-03-06,5935,3956,6139,7.53
+New Mexico_Albuquerque,2020-11-09,3680,2447,4321,7.52
+New Mexico_Albuquerque,2023-02-22,3153,2123,5349,7.26
+New Mexico_Albuquerque,2019-05-20,3306,4733,8770,-7.25
+New Mexico_Albuquerque,2022-04-19,4115,5868,7927,-7.19
+New York_Buffalo,2019-10-24,367,2099,3772,-9.43
+New York_Buffalo,2022-11-19,365,1819,2910,-8.66
+New York_Buffalo,2022-12-24,309,1357,2401,-7.86
+New York_Buffalo,2021-10-25,441,1629,3243,-7.09
+New York_Buffalo,2020-02-14,866,3072,4188,-7.07
+New York_Buffalo,2023-01-09,541,1768,2439,-6.49
+New York_Buffalo,2020-09-30,745,2348,4930,-6.37
+New York_Buffalo,2019-03-15,717,1948,5345,-5.54
+New York_Buffalo,2020-04-23,1345,3519,6963,-5.43
+New York_Buffalo,2022-09-26,994,2603,5102,-5.39
+New York_Buffalo,2023-11-02,854,2247,3385,-5.39
+New York_Buffalo,2021-10-21,979,2452,3786,-5.14
+New York_Buffalo,2021-02-22,1995,776,3998,5.09
+New York_Buffalo,2021-02-06,1296,3167,3713,-5.05
+New York_Buffalo,2020-04-19,1707,3989,6802,-4.82
+New York_Buffalo,2023-11-25,931,2184,2728,-4.77
+New York_Buffalo,2021-02-16,1815,752,3892,4.73
+New York_Buffalo,2019-03-02,3303,1413,4346,4.65
+New York_Buffalo,2021-01-23,2871,1238,3071,4.59
+New York_Buffalo,2019-02-27,2713,1225,4446,4.33
+New York_Buffalo,2020-03-14,1291,2732,5569,-4.24
+New York_Buffalo,2022-10-17,990,2098,4117,-4.21
+New York_Buffalo,2019-03-30,1026,2168,5575,-4.2
+New York_Buffalo,2020-03-30,952,1973,6043,-4.08
+New York_NewYork,2020-02-14,582,3630,4191,-16.46
+New York_NewYork,2020-02-18,566,1864,3622,-10.58
+New York_NewYork,2023-10-20,606,1874,3722,-10.04
+New York_NewYork,2019-04-09,1592,3706,6244,-7.71
+New York_NewYork,2019-04-18,1652,3701,6481,-7.37
+New York_NewYork,2020-10-13,1004,2136,4226,-6.8
+New York_NewYork,2019-09-02,1617,3333,5877,-6.59
+New York_NewYork,2023-04-29,935,1947,7209,-6.59
+New York_NewYork,2023-03-14,1090,2256,5533,-6.56
+New York_NewYork,2021-07-03,1808,3381,7589,-5.71
+New York_NewYork,2020-04-29,1837,3368,6658,-5.53
+New York_NewYork,2022-05-27,5554,3143,7447,5.29
+New York_NewYork,2021-05-05,1427,2516,7011,-5.14
+New York_NewYork,2023-07-09,4196,2463,7113,4.93
+New York_NewYork,2021-06-12,2383,4031,7755,-4.81
+New York_NewYork,2019-10-28,1596,2617,3805,-4.49
+New York_NewYork,2023-04-16,4491,2801,6359,4.38
+New York_NewYork,2019-06-17,2400,3831,7581,-4.28
+New York_NewYork,2020-06-27,2253,3562,7455,-4.18
+New York_Rochester,2020-10-20,485,2059,3262,-8.79
+New York_Rochester,2023-02-23,2871,695,3938,8.41
+New York_Rochester,2022-04-16,1365,4402,6685,-7.38
+New York_Rochester,2023-10-16,518,1553,4085,-6.69
+New York_Rochester,2022-09-28,980,2435,4890,-5.71
+New York_Rochester,2023-08-15,1996,4550,6751,-5.27
+New York_Rochester,2022-09-06,1302,2970,5703,-5.22
+New York_Rochester,2021-02-22,1713,704,3914,5.17
+New York_Rochester,2021-02-23,2411,1007,4055,5.14
+New York_Rochester,2019-03-31,1578,3401,6172,-4.9
+New York_Rochester,2020-04-04,1671,3510,6277,-4.74
+New York_Rochester,2023-06-24,2193,4590,7646,-4.74
+New York_Rochester,2019-02-03,2233,1002,2896,4.69
+New York_Rochester,2023-09-24,1217,2544,4988,-4.68
+New York_Rochester,2019-06-16,1567,3225,7893,-4.61
+New York_Rochester,2022-11-20,2733,1253,2732,4.59
+New York_Rochester,2022-03-12,1473,2958,5299,-4.45
+New York_Rochester,2019-03-22,1296,2601,5570,-4.43
+New York_Rochester,2020-02-05,1243,2478,3239,-4.39
+New York_Rochester,2021-02-11,1543,3055,3785,-4.37
+New York_Rochester,2019-02-27,2149,1046,4370,4.2
+New York_Rochester,2021-02-27,3617,1782,4171,4.19
+New York_Rochester,2022-02-23,1148,2196,4241,-4.12
+New York_Yonkers,2020-02-14,490,3829,4071,-17.02
+New York_Yonkers,2022-12-07,255,1279,1903,-12.7
+New York_Yonkers,2021-10-04,626,2013,4074,-9.63
+New York_Yonkers,2020-11-11,521,1530,2987,-8.79
+New York_Yonkers,2019-07-18,1474,3771,7097,-7.94
+New York_Yonkers,2023-10-06,1083,2780,4643,-7.9
+New York_Yonkers,2021-08-22,813,2065,6544,-7.74
+New York_Yonkers,2020-04-30,1237,3104,7039,-7.74
+New York_Yonkers,2019-04-09,1003,2478,6263,-7.56
+New York_Yonkers,2021-09-23,1929,4078,5279,-6.35
+New York_Yonkers,2019-10-07,1664,3512,4370,-6.32
+New York_Yonkers,2022-04-03,1004,2132,5893,-6.29
+New York_Yonkers,2019-09-14,1950,4041,5463,-6.18
+New York_Yonkers,2021-01-22,1188,2428,3027,-5.99
+New York_Yonkers,2023-08-15,2332,4697,6787,-5.96
+New York_Yonkers,2022-02-22,1159,2331,4082,-5.85
+New York_Yonkers,2021-10-28,3887,1952,3781,5.83
+New York_Yonkers,2021-02-27,2902,1457,4372,5.79
+New York_Yonkers,2022-03-20,1996,3812,5692,-5.49
+New York_Yonkers,2021-02-16,4126,2202,3538,5.32
+New York_Yonkers,2019-10-17,1281,2391,4165,-5.24
+New York_Yonkers,2019-09-02,1684,3106,5960,-5.17
+New York_Yonkers,2019-09-12,1815,3309,4990,-5.08
+New York_Yonkers,2021-06-12,2448,4428,8141,-5.04
+New York_Yonkers,2020-07-24,3017,1659,7146,5.04
+North Carolina_Charlotte,2020-02-14,646,4479,4765,-24.08
+North Carolina_Charlotte,2022-12-15,1914,641,2792,13.18
+North Carolina_Charlotte,2021-01-26,3074,1223,3518,11.31
+North Carolina_Charlotte,2023-02-26,816,1961,4706,-10.92
+North Carolina_Charlotte,2021-02-10,3684,1525,4208,10.87
+North Carolina_Charlotte,2022-09-10,3447,1434,6023,10.78
+North Carolina_Charlotte,2021-02-01,887,2013,3826,-10.24
+North Carolina_Charlotte,2023-04-26,1150,2392,7253,-9.24
+North Carolina_Charlotte,2022-09-25,1739,3218,5676,-7.86
+North Carolina_Charlotte,2022-07-01,3195,5497,7915,-7.01
+North Carolina_Charlotte,2020-02-07,1749,3008,4381,-6.94
+North Carolina_Charlotte,2022-10-26,2916,1711,4332,6.49
+North Carolina_Charlotte,2022-05-26,5789,3483,7688,6.26
+North Carolina_Charlotte,2019-09-30,4672,2900,5114,5.85
+North Carolina_Charlotte,2023-06-07,5470,3407,7151,5.81
+North Carolina_Charlotte,2021-04-10,2096,3123,6465,-5.16
+North Carolina_Charlotte,2019-07-13,4439,6527,7787,-5.04
+North Carolina_Charlotte,2019-03-26,2922,4288,6429,-4.99
+North Carolina_Charlotte,2019-01-14,3104,2097,3381,4.75
+North Carolina_Charlotte,2020-08-25,3089,4436,6583,-4.72
+North Carolina_Charlotte,2023-01-23,3632,2537,3749,4.35
+North Carolina_Charlotte,2019-05-10,2540,3541,7488,-4.33
+North Carolina_Charlotte,2019-07-31,3662,5089,7348,-4.31
+North Carolina_Charlotte,2023-05-19,2755,3813,7449,-4.25
+North Carolina_Charlotte,2021-10-09,3621,2558,4998,4.21
+North Carolina_Durham,2020-02-14,439,4217,4644,-20.7
+North Carolina_Durham,2020-02-06,221,1327,3733,-15.54
+North Carolina_Durham,2019-03-01,464,1688,4705,-11.64
+North Carolina_Durham,2023-09-09,1073,2864,6149,-9.11
+North Carolina_Durham,2022-02-24,598,1622,4461,-9.06
+North Carolina_Durham,2019-07-23,1540,3940,7497,-8.79
+North Carolina_Durham,2020-01-18,714,1770,3432,-8.3
+North Carolina_Durham,2022-03-23,910,2076,5860,-7.6
+North Carolina_Durham,2023-02-12,2222,989,4323,7.48
+North Carolina_Durham,2021-12-29,952,2040,2901,-7.02
+North Carolina_Durham,2023-02-20,1128,2373,4313,-6.89
+North Carolina_Durham,2021-03-31,1612,3360,6089,-6.87
+North Carolina_Durham,2019-02-27,1140,2374,4846,-6.8
+North Carolina_Durham,2019-12-10,955,1997,2915,-6.8
+North Carolina_Durham,2021-01-26,2845,1415,3358,6.51
+North Carolina_Durham,2019-01-29,1230,2471,3712,-6.48
+North Carolina_Durham,2019-11-17,1234,2477,3675,-6.47
+North Carolina_Durham,2021-10-10,4857,2482,4914,6.33
+North Carolina_Durham,2022-01-30,1863,3648,4083,-6.3
+North Carolina_Durham,2020-09-01,2196,4249,6287,-6.2
+North Carolina_Durham,2023-01-29,1425,2764,3758,-6.17
+North Carolina_Durham,2020-10-10,1123,2180,4576,-6.14
+North Carolina_Durham,2020-09-24,1413,2726,5643,-6.12
+North Carolina_Durham,2021-05-16,2621,4935,8048,-5.96
+North Carolina_Durham,2020-01-27,1384,2611,3642,-5.91
+North Carolina_Fayetteville,2023-04-07,2606,642,6360,16.93
+North Carolina_Fayetteville,2023-10-31,1638,486,3870,14.4
+North Carolina_Fayetteville,2020-02-14,1688,4217,4644,-11.83
+North Carolina_Fayetteville,2023-02-01,2059,790,3421,11.49
+North Carolina_Fayetteville,2021-03-26,1155,2659,6042,-10.71
+North Carolina_Fayetteville,2020-01-02,790,1824,3079,-10.6
+North Carolina_Fayetteville,2021-03-13,1570,3333,5584,-9.76
+North Carolina_Fayetteville,2021-02-15,3569,1664,4331,9.26
+North Carolina_Fayetteville,2021-10-08,1148,2342,4901,-9.19
+North Carolina_Fayetteville,2020-03-17,1400,2678,5523,-8.42
+North Carolina_Fayetteville,2020-09-26,5300,2761,5668,7.93
+North Carolina_Fayetteville,2023-05-14,2656,4738,7545,-7.64
+North Carolina_Fayetteville,2023-10-06,1361,2430,5088,-7.55
+North Carolina_Fayetteville,2020-08-16,2042,3532,6998,-7.21
+North Carolina_Fayetteville,2019-10-20,1456,2526,4651,-7.2
+North Carolina_Fayetteville,2022-01-25,1456,2511,3477,-7.12
+North Carolina_Fayetteville,2021-01-03,2617,1456,3065,7.01
+North Carolina_Fayetteville,2023-11-10,2308,1287,3308,6.96
+North Carolina_Fayetteville,2022-05-25,6144,3502,7857,6.81
+North Carolina_Fayetteville,2020-05-27,1689,2830,7749,-6.79
+North Carolina_Fayetteville,2023-06-07,6462,3717,7028,6.7
+North Carolina_Fayetteville,2021-07-08,2967,1700,7853,6.66
+North Carolina_Fayetteville,2021-02-06,1951,3229,4282,-6.65
+North Carolina_Fayetteville,2019-08-17,3075,5035,6894,-6.56
+North Carolina_Fayetteville,2020-06-11,1805,2964,7671,-6.54
+North Carolina_Greensboro,2020-02-14,355,4549,4624,-28.65
+North Carolina_Greensboro,2022-01-20,1927,612,3143,12.54
+North Carolina_Greensboro,2023-02-12,2004,836,4238,9.58
+North Carolina_Greensboro,2021-01-26,3191,1505,3530,8.33
+North Carolina_Greensboro,2023-05-30,5414,2649,7974,7.99
+North Carolina_Greensboro,2019-11-19,1247,2452,3412,-7.93
+North Carolina_Greensboro,2019-08-24,1092,2151,6748,-7.92
+North Carolina_Greensboro,2023-04-27,1282,2491,7264,-7.8
+North Carolina_Greensboro,2019-06-08,4471,2264,7549,7.58
+North Carolina_Greensboro,2023-11-11,1279,2379,3783,-7.3
+North Carolina_Greensboro,2022-04-07,3192,1719,6523,6.83
+North Carolina_Greensboro,2023-10-14,3355,1821,4577,6.75
+North Carolina_Greensboro,2019-09-05,1747,3062,6238,-6.67
+North Carolina_Greensboro,2020-03-13,1887,3233,5675,-6.42
+North Carolina_Greensboro,2019-11-17,1613,2705,3532,-6.15
+North Carolina_Greensboro,2022-09-24,2729,4520,5795,-6.06
+North Carolina_Greensboro,2019-07-20,3993,6554,7772,-5.99
+North Carolina_Greensboro,2022-02-26,1753,2892,4879,-5.97
+North Carolina_Greensboro,2023-05-19,2284,3728,7610,-5.88
+North Carolina_Greensboro,2021-10-10,4031,2421,4901,5.61
+North Carolina_Greensboro,2019-09-13,3209,1932,5678,5.56
+North Carolina_Greensboro,2019-04-09,2381,3770,6706,-5.53
+North Carolina_Greensboro,2022-03-10,1760,2783,5346,-5.48
+North Carolina_Greensboro,2020-02-25,1773,2787,4844,-5.42
+North Carolina_Greensboro,2021-06-20,3150,4902,7709,-5.35
+North Carolina_Raleigh,2019-03-01,486,1688,4705,-16.61
+North Carolina_Raleigh,2020-02-14,1500,4217,4644,-14.31
+North Carolina_Raleigh,2023-02-12,2115,989,4323,10.21
+North Carolina_Raleigh,2021-01-26,2884,1415,3358,9.65
+North Carolina_Raleigh,2019-04-12,1371,2584,6765,-8.76
+North Carolina_Raleigh,2019-10-20,1349,2526,4651,-8.66
+North Carolina_Raleigh,2019-11-17,1345,2477,3675,-8.44
+North Carolina_Raleigh,2023-06-07,2268,3717,7028,-6.91
+North Carolina_Raleigh,2021-08-14,3748,5844,6998,-6.27
+North Carolina_Raleigh,2020-08-16,2305,3532,6998,-5.98
+North Carolina_Raleigh,2020-05-18,2192,3265,7729,-5.59
+North Carolina_Raleigh,2019-07-23,2754,3940,7497,-5.05
+North Carolina_Raleigh,2021-05-24,3944,5401,7491,-4.46
+North Carolina_Raleigh,2019-08-05,3104,4222,7077,-4.36
+North Carolina_Raleigh,2023-05-15,4425,5981,7612,-4.29
+North Carolina_Raleigh,2022-09-24,3313,4455,5988,-4.2
+North Carolina_Raleigh,2021-05-16,3699,4935,8048,-4.1
+North Carolina_Raleigh,2020-07-30,7289,5404,7329,4.07
+North Carolina_Winston-Salem,2020-02-14,177,4701,4759,-29.64
+North Carolina_Winston-Salem,2020-02-13,183,1324,4193,-17.39
+North Carolina_Winston-Salem,2023-02-01,592,1974,3732,-11.33
+North Carolina_Winston-Salem,2022-12-14,447,1503,2557,-11.24
+North Carolina_Winston-Salem,2021-03-16,835,2486,5745,-10.41
+North Carolina_Winston-Salem,2019-02-11,672,1746,4060,-9.04
+North Carolina_Winston-Salem,2022-01-20,1969,760,3364,8.62
+North Carolina_Winston-Salem,2019-03-15,851,2022,5742,-8.28
+North Carolina_Winston-Salem,2019-02-27,1083,2528,4968,-8.17
+North Carolina_Winston-Salem,2019-11-14,881,2054,3814,-8.11
+North Carolina_Winston-Salem,2019-11-15,864,1896,3687,-7.53
+North Carolina_Winston-Salem,2023-11-11,1359,2882,3831,-7.31
+North Carolina_Winston-Salem,2019-11-19,1272,2698,3495,-7.3
+North Carolina_Winston-Salem,2020-12-20,983,2065,2940,-7.15
+North Carolina_Winston-Salem,2020-11-26,1221,2461,3266,-6.81
+North Carolina_Winston-Salem,2021-01-02,1271,2445,3085,-6.37
+North Carolina_Winston-Salem,2020-02-25,1692,3232,4959,-6.35
+North Carolina_Winston-Salem,2021-05-12,1796,3289,8181,-5.95
+North Carolina_Winston-Salem,2019-07-20,3345,6085,7834,-5.95
+North Carolina_Winston-Salem,2023-02-15,1934,3515,4366,-5.89
+North Carolina_Winston-Salem,2021-02-16,1885,3365,4725,-5.72
+North Carolina_Winston-Salem,2022-05-26,4125,2252,7634,5.54
+North Carolina_Winston-Salem,2022-08-15,5160,2832,6827,5.51
+North Carolina_Winston-Salem,2019-04-02,2578,4362,6945,-5.23
+North Carolina_Winston-Salem,2023-03-26,3211,5378,6463,-5.15
+Ohio_Akron,2019-03-29,412,1766,5660,-10.27
+Ohio_Akron,2023-01-02,356,1364,2203,-9.4
+Ohio_Akron,2021-05-29,1337,4574,8113,-9.08
+Ohio_Akron,2021-01-26,2013,557,2830,8.47
+Ohio_Akron,2021-09-21,1043,2396,4979,-6.2
+Ohio_Akron,2022-04-03,1323,2683,6515,-5.35
+Ohio_Akron,2019-03-22,1523,3074,5904,-5.33
+Ohio_Akron,2023-08-23,2625,1197,5769,5.14
+Ohio_Akron,2020-03-21,1294,2536,6130,-5.1
+Ohio_Akron,2021-04-12,2068,4002,6675,-5.06
+Ohio_Akron,2022-05-07,3733,7105,7950,-4.98
+Ohio_Akron,2023-11-11,1182,2245,3153,-4.87
+Ohio_Akron,2022-04-09,2185,4057,6773,-4.77
+Ohio_Akron,2021-09-15,1544,2869,5186,-4.75
+Ohio_Akron,2020-02-14,1452,2653,4211,-4.62
+Ohio_Akron,2021-02-10,2945,1465,3676,4.55
+Ohio_Akron,2019-09-12,4809,2466,5397,4.38
+Ohio_Akron,2022-08-09,2375,4160,6818,-4.36
+Ohio_Akron,2019-02-11,2615,1342,3541,4.32
+Ohio_Akron,2020-12-04,2613,1364,2417,4.2
+Ohio_Akron,2019-11-13,2650,1389,3187,4.17
+Ohio_Akron,2021-02-18,2591,1362,4102,4.15
+Ohio_Akron,2022-01-26,3228,1706,3350,4.13
+Ohio_Akron,2021-02-07,3999,2132,3881,4.09
+Ohio_Akron,2021-05-04,1980,3324,7114,-4.05
+Ohio_Cincinnati,2021-01-01,1929,550,2490,9.64
+Ohio_Cincinnati,2019-03-25,837,2362,5687,-8.22
+Ohio_Cincinnati,2021-02-10,2019,708,3637,8.09
+Ohio_Cincinnati,2020-05-03,1149,3084,7151,-7.9
+Ohio_Cincinnati,2021-05-29,1379,3033,8243,-6.34
+Ohio_Cincinnati,2021-01-31,1991,881,3357,6.31
+Ohio_Cincinnati,2020-08-18,1228,2521,6734,-5.77
+Ohio_Cincinnati,2022-07-09,2445,4814,7652,-5.51
+Ohio_Cincinnati,2021-08-30,1446,2794,6139,-5.31
+Ohio_Cincinnati,2022-05-07,1838,3499,7537,-5.21
+Ohio_Cincinnati,2019-05-04,1113,2119,6975,-5.15
+Ohio_Cincinnati,2021-03-26,1442,2712,6214,-5.09
+Ohio_Cincinnati,2019-02-11,2146,1115,3424,5.08
+Ohio_Cincinnati,2022-05-23,2591,4698,7661,-4.85
+Ohio_Cincinnati,2021-02-18,3114,1696,4436,4.76
+Ohio_Cincinnati,2020-05-13,2792,4809,7593,-4.44
+Ohio_Cincinnati,2019-11-13,3266,1899,3567,4.24
+Ohio_Cincinnati,2019-03-01,1716,2866,4596,-4.16
+Ohio_Cincinnati,2020-02-23,1748,2918,4579,-4.16
+Ohio_Cincinnati,2023-03-13,1612,2686,5656,-4.14
+Ohio_Cincinnati,2021-04-17,2195,3611,7016,-4.06
+Ohio_Cleveland,2022-11-13,330,1362,3178,-10.8
+Ohio_Cleveland,2019-01-20,505,1589,3129,-8.95
+Ohio_Cleveland,2021-01-27,565,1591,3261,-8.13
+Ohio_Cleveland,2022-10-07,731,1854,4689,-7.4
+Ohio_Cleveland,2021-10-22,698,1757,3959,-7.33
+Ohio_Cleveland,2023-09-10,1158,2572,5554,-6.46
+Ohio_Cleveland,2023-10-15,813,1813,4311,-6.42
+Ohio_Cleveland,2021-04-20,1076,2257,7166,-5.99
+Ohio_Cleveland,2021-02-03,1001,2085,3667,-5.93
+Ohio_Cleveland,2021-10-17,1186,2347,4342,-5.55
+Ohio_Cleveland,2023-09-24,3115,1604,5112,5.04
+Ohio_Cleveland,2020-03-21,1378,2536,6130,-5.0
+Ohio_Cleveland,2022-01-26,3067,1706,3350,4.43
+Ohio_Cleveland,2019-05-10,1553,2609,7529,-4.29
+Ohio_Cleveland,2021-02-10,2569,1465,3676,4.22
+Ohio_Columbus,2020-03-30,1277,4399,6636,-7.97
+Ohio_Columbus,2019-03-15,659,2184,5695,-7.56
+Ohio_Columbus,2020-10-15,692,2030,4216,-6.78
+Ohio_Columbus,2019-03-29,697,1916,5520,-6.36
+Ohio_Columbus,2020-02-08,2421,949,3719,6.12
+Ohio_Columbus,2022-03-19,660,1726,5725,-6.02
+Ohio_Columbus,2023-04-05,1095,2751,5686,-5.87
+Ohio_Columbus,2020-10-21,850,2026,3966,-5.48
+Ohio_Columbus,2021-02-15,1758,756,3951,5.47
+Ohio_Columbus,2023-09-28,917,2135,4669,-5.34
+Ohio_Columbus,2019-11-11,1168,2694,3246,-5.32
+Ohio_Columbus,2021-02-10,2338,1042,3581,5.31
+Ohio_Columbus,2020-12-04,1929,864,2546,5.24
+Ohio_Columbus,2022-03-22,1172,2658,5594,-5.21
+Ohio_Columbus,2023-06-13,1893,4224,8017,-5.16
+Ohio_Columbus,2022-03-26,905,2036,6380,-5.12
+Ohio_Columbus,2022-01-24,2399,1139,3235,4.91
+Ohio_Columbus,2021-03-28,1392,2845,6034,-4.56
+Ohio_Columbus,2019-02-27,1770,3584,4510,-4.52
+Ohio_Columbus,2020-09-30,1908,3852,5392,-4.51
+Ohio_Columbus,2021-08-17,1758,3527,6432,-4.46
+Ohio_Columbus,2020-04-05,1678,3366,6291,-4.45
+Ohio_Columbus,2021-02-16,4180,2155,4479,4.43
+Ohio_Columbus,2019-08-26,1170,2299,6220,-4.28
+Ohio_Columbus,2019-02-11,2599,1367,3497,4.26
+Ohio_Toledo,2022-03-07,628,1645,4984,-9.02
+Ohio_Toledo,2019-02-17,2489,994,3884,8.5
+Ohio_Toledo,2021-02-10,2880,1198,3706,8.17
+Ohio_Toledo,2021-02-13,2812,1269,3727,7.4
+Ohio_Toledo,2019-02-11,1859,847,3603,7.21
+Ohio_Toledo,2020-04-25,1432,2806,6725,-6.5
+Ohio_Toledo,2019-01-20,1598,3075,3275,-6.34
+Ohio_Toledo,2022-01-27,2024,1024,3159,6.27
+Ohio_Toledo,2019-03-24,1150,2190,5570,-6.19
+Ohio_Toledo,2022-04-26,1488,2769,7724,-6.01
+Ohio_Toledo,2022-02-11,2341,1244,3641,5.84
+Ohio_Toledo,2022-01-23,2323,1276,3092,5.52
+Ohio_Toledo,2021-02-03,3764,2172,3684,5.12
+Ohio_Toledo,2019-03-14,2528,1502,4861,4.81
+Ohio_Toledo,2019-01-21,1848,3014,3328,-4.78
+Ohio_Toledo,2020-02-14,2159,3470,4268,-4.65
+Ohio_Toledo,2021-02-02,3297,2052,3570,4.39
+Ohio_Toledo,2019-09-05,2962,4575,6512,-4.29
+Ohio_Toledo,2023-09-09,3748,2361,5892,4.29
+Ohio_Toledo,2022-02-16,1856,2869,3912,-4.26
+Ohio_Toledo,2019-03-22,2288,3507,6082,-4.2
+Oklahoma_OklahomaCity,2020-12-15,1784,583,3029,21.61
+Oklahoma_OklahomaCity,2022-02-24,2935,1308,5331,15.91
+Oklahoma_OklahomaCity,2022-04-16,5392,2448,7301,15.74
+Oklahoma_OklahomaCity,2022-02-03,2297,1048,4098,15.34
+Oklahoma_OklahomaCity,2021-02-14,2543,1173,4763,15.18
+Oklahoma_OklahomaCity,2022-10-07,1092,2129,5173,-13.62
+Oklahoma_OklahomaCity,2023-03-02,3308,1679,4932,13.37
+Oklahoma_OklahomaCity,2019-08-13,2008,3656,7226,-12.42
+Oklahoma_OklahomaCity,2019-01-19,1353,2460,3857,-12.29
+Oklahoma_OklahomaCity,2022-09-24,1550,2781,5732,-12.06
+Oklahoma_OklahomaCity,2019-06-23,2289,3928,7954,-11.24
+Oklahoma_OklahomaCity,2023-10-12,5034,3060,4983,9.82
+Oklahoma_OklahomaCity,2022-05-04,2653,1621,6879,9.6
+Oklahoma_OklahomaCity,2021-05-26,7258,4879,7836,7.81
+Oklahoma_OklahomaCity,2022-08-01,3345,4697,7543,-7.21
+Oklahoma_OklahomaCity,2020-07-15,4076,5674,7876,-7.05
+Oklahoma_OklahomaCity,2022-07-20,3004,4186,7635,-7.04
+Oklahoma_OklahomaCity,2023-10-27,4482,3138,4326,6.94
+Oklahoma_OklahomaCity,2021-10-14,3466,2432,5117,6.87
+Oklahoma_OklahomaCity,2020-04-13,3468,4684,7557,-6.42
+Oklahoma_OklahomaCity,2021-09-15,3547,4735,6206,-6.18
+Oklahoma_OklahomaCity,2019-03-24,3052,4056,6403,-6.08
+Oklahoma_OklahomaCity,2021-05-17,3496,4606,8035,-5.91
+Oklahoma_OklahomaCity,2022-02-25,4920,3780,5548,5.06
+Oklahoma_OklahomaCity,2021-08-18,3878,4887,6907,-5.02
+Oklahoma_Tulsa,2019-02-19,349,1568,4508,-18.78
+Oklahoma_Tulsa,2022-02-24,3904,1080,4921,16.31
+Oklahoma_Tulsa,2019-01-10,508,1553,3219,-14.22
+Oklahoma_Tulsa,2022-04-04,1021,2960,6290,-13.93
+Oklahoma_Tulsa,2019-04-13,670,1672,7184,-11.79
+Oklahoma_Tulsa,2020-03-16,744,1808,5557,-11.5
+Oklahoma_Tulsa,2022-09-24,1767,3712,5637,-9.89
+Oklahoma_Tulsa,2021-02-21,4060,1950,4758,9.27
+Oklahoma_Tulsa,2021-02-14,2389,1147,4643,9.16
+Oklahoma_Tulsa,2021-11-03,1158,2311,4086,-9.12
+Oklahoma_Tulsa,2020-07-28,1918,3722,7111,-8.87
+Oklahoma_Tulsa,2019-08-13,2070,3873,7249,-8.4
+Oklahoma_Tulsa,2023-10-27,2155,1101,4143,8.33
+Oklahoma_Tulsa,2020-01-13,1336,2491,3251,-8.28
+Oklahoma_Tulsa,2021-03-05,1203,2209,5078,-8.06
+Oklahoma_Tulsa,2023-04-25,1513,2745,7364,-7.95
+Oklahoma_Tulsa,2022-10-10,1515,2518,4768,-6.81
+Oklahoma_Tulsa,2020-11-25,2771,1609,3324,6.76
+Oklahoma_Tulsa,2022-09-01,2066,3408,6643,-6.76
+Oklahoma_Tulsa,2020-01-23,2418,1411,3518,6.67
+Oklahoma_Tulsa,2020-02-25,2639,1554,4830,6.58
+Oklahoma_Tulsa,2022-05-10,7600,4627,7458,6.25
+Oklahoma_Tulsa,2023-03-30,1715,2717,6127,-6.21
+Oklahoma_Tulsa,2020-07-09,4096,2540,7529,5.96
+Oklahoma_Tulsa,2019-09-13,2496,3845,6199,-5.89
+Oregon_Portland,2023-01-25,477,1623,2525,-10.01
+Oregon_Portland,2022-01-21,481,1550,2435,-9.56
+Oregon_Portland,2019-01-27,640,1774,2577,-8.42
+Oregon_Portland,2019-01-25,849,1895,2505,-6.69
+Oregon_Portland,2020-10-24,880,1941,3467,-6.6
+Oregon_Portland,2020-10-08,936,2041,4092,-6.52
+Oregon_Portland,2019-11-13,1024,2111,2569,-6.07
+Oregon_Portland,2022-03-29,1669,3400,5802,-6.04
+Oregon_Portland,2019-11-04,1472,2673,3000,-5.05
+Oregon_Portland,2020-03-14,1366,2461,5175,-4.97
+Oregon_Portland,2023-09-04,1663,2966,6139,-4.91
+Oregon_Portland,2019-05-20,2210,3858,8176,-4.76
+Oregon_Portland,2020-05-20,1526,2618,8074,-4.57
+Oregon_Portland,2019-05-24,2475,4214,8292,-4.55
+Oregon_Portland,2020-04-03,2297,3742,6503,-4.17
+Oregon_Portland,2020-06-12,1890,3058,8305,-4.1
+Pennsylvania_Philadelphia,2020-02-14,785,3633,4168,-14.2
+Pennsylvania_Philadelphia,2019-11-18,373,1413,2995,-11.87
+Pennsylvania_Philadelphia,2022-12-23,444,1657,2560,-11.86
+Pennsylvania_Philadelphia,2023-12-22,529,1739,2462,-10.79
+Pennsylvania_Philadelphia,2019-02-12,2265,799,3819,9.59
+Pennsylvania_Philadelphia,2021-02-22,2229,819,4468,9.22
+Pennsylvania_Philadelphia,2021-02-07,1788,660,3672,9.1
+Pennsylvania_Philadelphia,2022-01-09,1841,690,2698,8.97
+Pennsylvania_Philadelphia,2022-10-01,4735,1836,5029,8.91
+Pennsylvania_Philadelphia,2022-10-25,3509,1416,3822,8.48
+Pennsylvania_Philadelphia,2019-11-17,706,1776,3146,-8.44
+Pennsylvania_Philadelphia,2021-02-01,1914,764,3495,8.43
+Pennsylvania_Philadelphia,2020-03-30,1484,3540,6176,-8.14
+Pennsylvania_Philadelphia,2023-03-13,897,2035,5311,-7.55
+Pennsylvania_Philadelphia,2020-09-29,799,1809,4905,-7.5
+Pennsylvania_Philadelphia,2023-08-24,1041,2309,6454,-7.38
+Pennsylvania_Philadelphia,2021-04-11,1772,3839,6645,-7.26
+Pennsylvania_Philadelphia,2020-02-01,869,1899,3234,-7.2
+Pennsylvania_Philadelphia,2022-10-24,3192,1484,3847,7.15
+Pennsylvania_Philadelphia,2021-02-13,2212,1022,3973,7.14
+Pennsylvania_Philadelphia,2023-03-04,1664,3535,4984,-7.06
+Pennsylvania_Philadelphia,2023-09-28,3787,1901,5169,6.47
+Pennsylvania_Philadelphia,2023-03-23,1212,2386,5448,-6.29
+Pennsylvania_Philadelphia,2022-01-29,2415,1264,3521,6.02
+Pennsylvania_Philadelphia,2021-10-05,2510,1316,4427,6.0
+Pennsylvania_Pittsburgh,2020-02-14,432,2367,4299,-13.76
+Pennsylvania_Pittsburgh,2020-03-30,1122,2558,6258,-6.87
+Pennsylvania_Pittsburgh,2019-02-11,2660,1144,3628,6.87
+Pennsylvania_Pittsburgh,2022-02-18,1145,2426,4528,-6.26
+Pennsylvania_Pittsburgh,2021-04-16,1162,2326,7218,-5.8
+Pennsylvania_Pittsburgh,2020-05-05,1836,3628,8169,-5.75
+Pennsylvania_Pittsburgh,2022-01-24,2059,1015,3163,5.7
+Pennsylvania_Pittsburgh,2022-03-08,1663,3207,5475,-5.54
+Pennsylvania_Pittsburgh,2021-02-23,3187,1657,4529,5.34
+Pennsylvania_Pittsburgh,2021-02-13,2252,1169,3815,5.31
+Pennsylvania_Pittsburgh,2023-04-17,1363,2453,7159,-4.94
+Pennsylvania_Pittsburgh,2022-02-02,2289,1286,3323,4.66
+Pennsylvania_Pittsburgh,2023-08-16,2331,4023,7197,-4.64
+Pennsylvania_Pittsburgh,2019-03-03,2503,1463,4754,4.35
+Rhode Island_Providence,2021-02-07,1410,353,3347,12.65
+Rhode Island_Providence,2020-02-14,1166,3896,3974,-11.49
+Rhode Island_Providence,2021-02-09,2487,744,3387,11.42
+Rhode Island_Providence,2021-04-16,650,1922,7128,-10.1
+Rhode Island_Providence,2021-02-18,2339,899,3921,9.09
+Rhode Island_Providence,2021-10-25,761,1982,3439,-8.96
+Rhode Island_Providence,2021-02-16,3558,1428,3630,8.79
+Rhode Island_Providence,2019-02-24,1787,714,4004,8.63
+Rhode Island_Providence,2019-10-11,689,1716,4295,-8.49
+Rhode Island_Providence,2021-02-15,1813,794,3701,7.79
+Rhode Island_Providence,2019-05-10,1209,2444,7055,-6.65
+Rhode Island_Providence,2020-06-11,1485,2911,7985,-6.39
+Rhode Island_Providence,2019-06-16,1700,3298,7800,-6.31
+Rhode Island_Providence,2019-05-29,2028,3798,7748,-5.99
+Rhode Island_Providence,2021-04-29,1193,2208,6454,-5.81
+Rhode Island_Providence,2019-10-02,1545,2820,4531,-5.71
+Rhode Island_Providence,2023-08-16,1542,2772,6904,-5.56
+Rhode Island_Providence,2020-04-27,1354,2431,7499,-5.54
+Rhode Island_Providence,2023-04-22,2025,3556,7064,-5.37
+Rhode Island_Providence,2019-03-02,2872,1653,4587,5.33
+Rhode Island_Providence,2020-08-29,1336,2343,5885,-5.31
+Rhode Island_Providence,2023-09-10,1840,3173,5459,-5.19
+Rhode Island_Providence,2023-07-10,1828,3148,7774,-5.17
+Rhode Island_Providence,2023-05-03,3586,6139,7747,-5.17
+Rhode Island_Providence,2022-03-26,2121,3607,5901,-5.07
+South Dakota_SiouxFalls,2022-02-21,193,1354,3881,-21.48
+South Dakota_SiouxFalls,2019-04-11,4178,1013,6727,16.89
+South Dakota_SiouxFalls,2023-04-04,3680,949,6390,16.1
+South Dakota_SiouxFalls,2023-01-19,524,2080,2723,-16.07
+South Dakota_SiouxFalls,2023-01-28,681,2123,3093,-13.35
+South Dakota_SiouxFalls,2019-03-09,1905,751,4840,10.91
+South Dakota_SiouxFalls,2019-03-13,2296,912,4806,10.89
+South Dakota_SiouxFalls,2019-01-06,707,1780,2282,-10.82
+South Dakota_SiouxFalls,2023-03-31,4772,1944,6213,10.79
+South Dakota_SiouxFalls,2023-03-05,1938,4720,4881,-10.73
+South Dakota_SiouxFalls,2020-12-29,811,2002,2251,-10.64
+South Dakota_SiouxFalls,2023-01-16,696,1726,2469,-10.64
+South Dakota_SiouxFalls,2019-02-03,1034,2413,3185,-10.06
+South Dakota_SiouxFalls,2019-03-12,2267,4709,5182,-8.83
+South Dakota_SiouxFalls,2022-01-27,977,1998,3087,-8.47
+South Dakota_SiouxFalls,2021-09-30,981,1994,4318,-8.4
+South Dakota_SiouxFalls,2019-04-12,4557,2270,7140,8.38
+South Dakota_SiouxFalls,2021-03-17,3323,1655,5658,8.33
+South Dakota_SiouxFalls,2022-02-22,1723,3394,4390,-8.14
+South Dakota_SiouxFalls,2019-02-22,2215,4345,4325,-8.13
+South Dakota_SiouxFalls,2019-11-17,2373,1218,2859,7.91
+South Dakota_SiouxFalls,2020-02-13,2062,3883,4145,-7.63
+South Dakota_SiouxFalls,2019-02-25,1410,2651,4552,-7.55
+South Dakota_SiouxFalls,2023-10-14,1293,2371,4035,-7.23
+South Dakota_SiouxFalls,2019-03-24,2183,3943,5545,-7.13
+Tennessee_Chattanooga,2023-02-15,545,1972,4432,-11.68
+Tennessee_Chattanooga,2021-12-10,2078,658,2862,10.3
+Tennessee_Chattanooga,2021-01-31,2461,874,3771,9.35
+Tennessee_Chattanooga,2021-12-21,698,1866,3059,-9.01
+Tennessee_Chattanooga,2022-09-04,986,2508,6331,-8.66
+Tennessee_Chattanooga,2021-03-16,1096,2728,5612,-8.49
+Tennessee_Chattanooga,2021-02-07,3157,1293,4369,8.12
+Tennessee_Chattanooga,2021-01-01,759,1785,2963,-7.86
+Tennessee_Chattanooga,2023-11-10,955,2156,3748,-7.55
+Tennessee_Chattanooga,2021-05-04,809,1817,6949,-7.46
+Tennessee_Chattanooga,2020-04-23,1003,2212,7082,-7.34
+Tennessee_Chattanooga,2020-03-16,990,2166,5405,-7.27
+Tennessee_Chattanooga,2022-06-25,2972,6123,7933,-6.87
+Tennessee_Chattanooga,2021-02-09,3189,1558,4308,6.51
+Tennessee_Chattanooga,2020-03-21,4057,2007,6461,6.43
+Tennessee_Chattanooga,2020-01-20,3318,1647,3805,6.37
+Tennessee_Chattanooga,2022-06-07,2492,4793,7814,-6.21
+Tennessee_Chattanooga,2020-02-14,2570,4871,4925,-6.08
+Tennessee_Chattanooga,2020-09-29,1338,2541,5778,-6.02
+Tennessee_Chattanooga,2019-10-06,2038,3847,5131,-6.02
+Tennessee_Chattanooga,2023-10-17,3571,1897,5066,5.76
+Tennessee_Chattanooga,2023-11-11,1932,3465,3915,-5.53
+Tennessee_Chattanooga,2021-03-23,1618,2834,5883,-5.29
+Tennessee_Chattanooga,2020-10-27,1543,2663,4085,-5.15
+Tennessee_Chattanooga,2020-03-04,1689,2895,5541,-5.1
+Tennessee_Knoxville,2020-02-14,571,4371,4959,-15.52
+Tennessee_Knoxville,2021-02-27,774,2447,4775,-8.72
+Tennessee_Knoxville,2022-11-13,874,2634,4196,-8.39
+Tennessee_Knoxville,2022-02-24,497,1503,4568,-8.2
+Tennessee_Knoxville,2021-12-27,558,1643,2949,-8.05
+Tennessee_Knoxville,2022-02-18,1166,3197,5156,-7.72
+Tennessee_Knoxville,2023-02-26,776,2121,4570,-7.59
+Tennessee_Knoxville,2020-12-31,646,1653,2940,-7.02
+Tennessee_Knoxville,2019-01-16,1106,2721,3661,-6.86
+Tennessee_Knoxville,2019-01-24,958,2360,4023,-6.84
+Tennessee_Knoxville,2023-02-17,965,2376,4922,-6.84
+Tennessee_Knoxville,2020-02-13,685,1697,4362,-6.79
+Tennessee_Knoxville,2023-01-18,963,2271,3417,-6.5
+Tennessee_Knoxville,2021-03-27,820,1936,6094,-6.47
+Tennessee_Knoxville,2022-01-03,878,2067,3503,-6.46
+Tennessee_Knoxville,2020-12-14,787,1837,3211,-6.37
+Tennessee_Knoxville,2020-03-21,1697,3799,6370,-6.19
+Tennessee_Knoxville,2019-12-03,1106,2496,3453,-6.18
+Tennessee_Knoxville,2020-04-26,1402,3107,7798,-6.08
+Tennessee_Knoxville,2023-05-28,1701,3637,8147,-5.83
+Tennessee_Knoxville,2023-10-09,1504,3184,5437,-5.73
+Tennessee_Knoxville,2023-01-14,1081,2303,3745,-5.73
+Tennessee_Knoxville,2023-10-06,1092,2285,5093,-5.59
+Tennessee_Knoxville,2022-10-02,1375,2840,5607,-5.53
+Tennessee_Knoxville,2023-12-09,2224,1103,3014,5.5
+Tennessee_Memphis,2021-07-09,919,4015,7583,-14.79
+Tennessee_Memphis,2021-02-01,587,1870,4103,-11.4
+Tennessee_Memphis,2022-10-15,1397,3726,4733,-9.92
+Tennessee_Memphis,2019-10-11,705,1838,4758,-9.48
+Tennessee_Memphis,2022-03-23,1021,2537,6567,-9.13
+Tennessee_Memphis,2021-02-18,3124,1264,4884,8.95
+Tennessee_Memphis,2023-04-29,1405,3391,7212,-8.91
+Tennessee_Memphis,2019-04-08,1110,2573,6783,-8.45
+Tennessee_Memphis,2019-02-17,800,1823,4610,-8.19
+Tennessee_Memphis,2023-04-21,1387,3082,7113,-8.08
+Tennessee_Memphis,2022-03-15,836,1853,5582,-7.93
+Tennessee_Memphis,2021-02-17,2233,1010,4641,7.77
+Tennessee_Memphis,2023-08-09,2413,1094,6894,7.76
+Tennessee_Memphis,2022-02-25,1105,2392,5389,-7.76
+Tennessee_Memphis,2020-08-21,2208,4717,6972,-7.75
+Tennessee_Memphis,2020-01-26,930,1990,3469,-7.6
+Tennessee_Memphis,2022-11-12,1181,2512,4099,-7.6
+Tennessee_Memphis,2022-04-06,1308,2762,6681,-7.55
+Tennessee_Memphis,2021-03-01,1017,2110,5380,-7.32
+Tennessee_Memphis,2019-12-06,1288,2642,2852,-7.26
+Tennessee_Memphis,2023-11-17,950,1957,3440,-7.23
+Tennessee_Memphis,2020-11-30,1400,2851,3599,-7.2
+Tennessee_Memphis,2022-05-22,1660,3355,7202,-7.15
+Tennessee_Memphis,2022-04-08,1785,3468,7289,-6.76
+Tennessee_Memphis,2020-03-11,1619,3084,5320,-6.55
+Tennessee_Nashville,2021-12-04,351,1412,2958,-14.34
+Tennessee_Nashville,2023-01-30,3200,1042,3592,11.98
+Tennessee_Nashville,2021-02-18,3507,1277,4681,10.83
+Tennessee_Nashville,2022-12-09,2569,983,2785,10.21
+Tennessee_Nashville,2020-02-13,2655,1112,4496,9.27
+Tennessee_Nashville,2019-04-08,1173,2721,6307,-9.08
+Tennessee_Nashville,2019-10-27,1362,3103,4449,-8.92
+Tennessee_Nashville,2022-02-26,1360,2968,5048,-8.46
+Tennessee_Nashville,2020-02-20,907,1923,4641,-8.04
+Tennessee_Nashville,2021-03-27,972,2005,5919,-7.77
+Tennessee_Nashville,2019-01-20,983,1992,3692,-7.58
+Tennessee_Nashville,2023-08-28,2451,4700,6578,-7.14
+Tennessee_Nashville,2022-05-07,1259,2420,7750,-7.07
+Tennessee_Nashville,2019-11-19,1296,2425,3439,-6.78
+Tennessee_Nashville,2020-12-17,2950,1613,2940,6.45
+Tennessee_Nashville,2021-02-17,3057,1899,4593,5.09
+Tennessee_Nashville,2020-03-21,1808,2875,6392,-5.07
+Tennessee_Nashville,2020-06-28,6292,3961,7177,5.0
+Tennessee_Nashville,2019-10-19,2104,3215,4743,-4.65
+Tennessee_Nashville,2021-03-19,2675,4053,6168,-4.57
+Tennessee_Nashville,2023-06-07,3924,2611,6622,4.37
+Tennessee_Nashville,2021-04-23,2305,3420,7069,-4.34
+Tennessee_Nashville,2019-06-26,5278,7771,8264,-4.29
+Tennessee_Nashville,2019-05-05,2923,4305,7868,-4.27
+Tennessee_Nashville,2022-05-28,3183,4619,8420,-4.11
+Texas_Amarillo,2019-11-20,347,1563,3425,-35.27
+Texas_Amarillo,2023-10-28,3553,822,4291,34.96
+Texas_Amarillo,2023-10-29,4101,1237,4316,28.79
+Texas_Amarillo,2020-10-27,3360,1440,4541,20.24
+Texas_Amarillo,2021-02-16,2973,1360,4890,18.62
+Texas_Amarillo,2021-02-14,4162,1934,4955,18.38
+Texas_Amarillo,2022-02-03,3601,1703,4363,17.9
+Texas_Amarillo,2021-01-22,1246,2473,3837,-16.95
+Texas_Amarillo,2022-10-05,1170,2207,5221,-15.68
+Texas_Amarillo,2022-06-01,1448,2684,8029,-15.34
+Texas_Amarillo,2020-02-11,1247,2268,4522,-14.81
+Texas_Amarillo,2021-04-14,1648,2939,7198,-14.44
+Texas_Amarillo,2021-02-17,4838,2788,5128,13.17
+Texas_Amarillo,2022-10-23,1814,2989,4741,-12.53
+Texas_Amarillo,2020-10-28,2724,1633,4452,12.08
+Texas_Amarillo,2020-04-13,2100,3340,7643,-11.7
+Texas_Amarillo,2022-06-26,2784,4417,8224,-11.69
+Texas_Amarillo,2021-05-22,3427,5166,8122,-10.46
+Texas_Amarillo,2023-06-02,2175,3256,8174,-10.23
+Texas_Amarillo,2019-02-15,3712,2420,4885,10.11
+Texas_Amarillo,2019-05-20,3708,2427,7968,10.01
+Texas_Amarillo,2023-03-22,2693,3960,6634,-9.81
+Texas_Amarillo,2020-04-10,4019,5827,7407,-9.51
+Texas_Amarillo,2021-07-15,3224,4655,7955,-9.39
+Texas_Amarillo,2020-05-25,2423,3494,8192,-9.32
+Texas_Arlington,2019-11-20,498,1926,3651,-22.65
+Texas_Arlington,2021-05-10,5138,1674,7794,19.02
+Texas_Arlington,2022-02-24,4428,1454,5453,18.83
+Texas_Arlington,2022-01-08,2836,923,3608,18.78
+Texas_Arlington,2021-01-07,910,2703,3781,-18.65
+Texas_Arlington,2019-02-16,770,2143,5024,-17.43
+Texas_Arlington,2023-11-30,1924,707,3323,16.53
+Texas_Arlington,2022-05-03,6225,2666,7240,14.4
+Texas_Arlington,2020-02-13,5129,2221,5176,14.17
+Texas_Arlington,2021-01-22,2364,1056,3932,13.41
+Texas_Arlington,2020-02-09,1016,2200,4400,-13.29
+Texas_Arlington,2021-02-17,2494,1125,4826,13.27
+Texas_Arlington,2023-02-10,1632,3397,4762,-12.77
+Texas_Arlington,2020-02-12,1038,2059,4782,-11.8
+Texas_Arlington,2020-01-29,1444,2825,4438,-11.67
+Texas_Arlington,2022-01-19,1349,2601,3899,-11.41
+Texas_Arlington,2023-02-24,3278,1667,4959,11.34
+Texas_Arlington,2023-03-08,2598,1488,5061,9.27
+Texas_Arlington,2020-03-20,1990,3260,6464,-8.69
+Texas_Arlington,2023-03-21,1849,3002,6228,-8.53
+Texas_Arlington,2021-02-16,3827,2306,5235,8.47
+Texas_Arlington,2020-09-21,2027,3193,5997,-8.02
+Texas_Arlington,2019-09-19,2679,4209,6024,-8.01
+Texas_Arlington,2021-07-03,5883,3659,7763,7.98
+Texas_Arlington,2022-05-23,5059,3200,7548,7.67
+Texas_Austin,2021-02-10,3191,710,4381,22.5
+Texas_Austin,2021-02-17,3431,1020,5163,18.24
+Texas_Austin,2019-11-20,934,2652,3885,-16.27
+Texas_Austin,2020-12-05,785,1957,3813,-14.17
+Texas_Austin,2022-12-02,3574,1543,3670,12.6
+Texas_Austin,2022-12-04,2876,1250,3538,12.44
+Texas_Austin,2023-11-30,2908,1278,3711,12.27
+Texas_Austin,2021-02-12,2982,1350,4764,11.83
+Texas_Austin,2022-01-08,2550,1217,3775,10.98
+Texas_Austin,2021-12-28,1056,2118,3649,-10.95
+Texas_Austin,2022-12-03,3701,1831,3727,10.53
+Texas_Austin,2023-01-27,1656,3116,4589,-10.1
+Texas_Austin,2019-02-07,1142,2143,4819,-9.96
+Texas_Austin,2021-02-18,4417,2283,5360,9.89
+Texas_Austin,2019-10-12,2125,3882,5582,-9.68
+Texas_Austin,2022-01-23,1556,2627,4371,-8.4
+Texas_Austin,2021-05-11,3610,2087,7024,8.13
+Texas_Austin,2019-05-06,2053,3376,7637,-8.04
+Texas_Austin,2022-11-01,1975,3144,4619,-7.53
+Texas_Austin,2022-03-08,3785,2378,6026,6.85
+Texas_Austin,2021-11-02,4117,2598,4352,6.8
+Texas_Austin,2022-12-01,2910,1879,3864,6.4
+Texas_Austin,2019-06-11,2880,4246,7948,-6.38
+Texas_Austin,2022-11-04,3003,1956,4267,6.27
+Texas_Austin,2021-09-14,5626,3687,6238,6.24
+Texas_Brownsville,2023-01-31,4000,1411,4929,11.86
+Texas_Brownsville,2023-10-30,4677,1799,5297,10.87
+Texas_Brownsville,2021-09-21,1884,4169,6431,-10.14
+Texas_Brownsville,2019-11-29,1350,2881,4248,-9.64
+Texas_Brownsville,2020-02-09,1536,3084,4674,-8.94
+Texas_Brownsville,2023-03-28,1082,2144,5822,-8.7
+Texas_Brownsville,2019-02-19,1620,3184,5533,-8.69
+Texas_Brownsville,2022-08-26,2740,5167,7011,-8.26
+Texas_Brownsville,2022-02-25,2773,1360,5778,7.89
+Texas_Brownsville,2021-10-01,1824,3319,5866,-7.78
+Texas_Brownsville,2020-04-04,2349,4040,6236,-7.13
+Texas_Brownsville,2021-04-22,2637,4526,7136,-7.12
+Texas_Brownsville,2023-02-01,2331,1249,4817,6.8
+Texas_Brownsville,2021-01-10,3364,1816,4091,6.78
+Texas_Brownsville,2022-12-23,3203,1756,4405,6.59
+Texas_Brownsville,2019-03-26,2711,4423,6838,-6.5
+Texas_Brownsville,2021-03-07,2716,4423,6169,-6.48
+Texas_Brownsville,2019-02-25,1732,2827,5587,-6.46
+Texas_Brownsville,2019-03-23,3315,5259,6729,-6.18
+Texas_Brownsville,2019-11-14,4524,2582,4708,6.15
+Texas_Brownsville,2021-01-21,3836,2193,4394,6.12
+Texas_Brownsville,2020-02-14,5276,3046,5461,6.03
+Texas_Brownsville,2020-09-21,3138,4916,6475,-6.02
+Texas_Brownsville,2022-02-24,4776,2775,5845,5.95
+Texas_Brownsville,2020-06-19,3033,4708,7845,-5.91
+Texas_CorpusChristi,2022-11-21,423,1573,4038,-15.87
+Texas_CorpusChristi,2023-11-23,852,2273,4274,-12.28
+Texas_CorpusChristi,2023-10-02,1222,2679,5917,-10.0
+Texas_CorpusChristi,2019-11-14,972,2142,4501,-10.0
+Texas_CorpusChristi,2020-06-24,1796,3836,7734,-9.76
+Texas_CorpusChristi,2020-12-18,3144,1393,3953,9.47
+Texas_CorpusChristi,2021-11-28,1527,3024,4217,-8.8
+Texas_CorpusChristi,2022-11-22,1111,2152,4164,-8.46
+Texas_CorpusChristi,2023-03-21,1388,2495,6431,-7.59
+Texas_CorpusChristi,2023-03-02,1969,3495,5511,-7.5
+Texas_CorpusChristi,2019-03-01,1811,3207,5727,-7.46
+Texas_CorpusChristi,2019-11-20,2380,4081,4216,-7.09
+Texas_CorpusChristi,2019-06-24,2705,4544,7547,-6.85
+Texas_CorpusChristi,2020-06-18,3666,6087,7985,-6.73
+Texas_CorpusChristi,2022-04-11,2192,3480,6621,-6.13
+Texas_CorpusChristi,2021-10-14,1734,2734,5154,-6.02
+Texas_CorpusChristi,2023-03-13,1997,3098,5983,-5.84
+Texas_CorpusChristi,2021-07-07,1974,3030,7363,-5.71
+Texas_CorpusChristi,2019-04-17,2056,3068,6391,-5.36
+Texas_CorpusChristi,2019-03-25,2195,3225,6425,-5.18
+Texas_CorpusChristi,2021-04-27,2215,3241,6510,-5.13
+Texas_CorpusChristi,2022-02-16,2685,3840,5232,-4.86
+Texas_CorpusChristi,2022-01-08,3116,2039,3879,4.74
+Texas_CorpusChristi,2023-05-16,4055,5726,7727,-4.73
+Texas_CorpusChristi,2023-08-28,4145,5844,6898,-4.71
+Texas_Dallas,2021-02-17,2623,719,4703,18.74
+Texas_Dallas,2021-11-02,462,1629,4038,-18.38
+Texas_Dallas,2019-11-20,529,1666,3740,-16.84
+Texas_Dallas,2022-02-24,3561,1206,5340,15.84
+Texas_Dallas,2022-01-08,2669,906,3418,15.68
+Texas_Dallas,2019-03-23,1159,2987,6164,-14.31
+Texas_Dallas,2020-02-13,5125,1949,5170,14.25
+Texas_Dallas,2021-01-22,2744,1072,3888,13.66
+Texas_Dallas,2022-05-03,5835,2372,7207,13.28
+Texas_Dallas,2021-12-14,2733,1143,3345,12.66
+Texas_Dallas,2021-05-10,4804,2076,7685,12.33
+Texas_Dallas,2020-07-28,1490,2810,7295,-9.71
+Texas_Dallas,2021-02-12,2335,1240,4737,9.12
+Texas_Dallas,2019-09-19,1992,3592,5880,-9.09
+Texas_Dallas,2020-06-23,1912,3440,7680,-9.05
+Texas_Dallas,2021-02-18,3806,2166,5336,8.19
+Texas_Dallas,2021-03-10,1678,2830,5516,-8.06
+Texas_Dallas,2021-05-31,1766,2783,7579,-7.05
+Texas_Dallas,2021-12-13,3237,2075,3331,6.4
+Texas_Dallas,2022-04-23,2827,4172,7305,-6.11
+Texas_Dallas,2019-08-31,3751,2475,6366,5.98
+Texas_Dallas,2021-02-16,3920,2608,5268,5.86
+Texas_Dallas,2022-04-17,6240,4188,7065,5.76
+Texas_Dallas,2021-05-18,2597,3629,7495,-5.29
+Texas_Dallas,2021-04-04,2759,3787,6825,-5.02
+Texas_ElPaso,2019-11-20,1516,3730,4222,-28.18
+Texas_ElPaso,2022-10-17,1297,3027,5419,-26.45
+Texas_ElPaso,2022-11-19,1564,3522,4245,-25.45
+Texas_ElPaso,2019-03-08,1152,2367,6053,-22.44
+Texas_ElPaso,2020-08-30,2134,3744,6904,-17.84
+Texas_ElPaso,2020-03-17,1505,2626,6661,-17.54
+Texas_ElPaso,2023-08-23,2026,3512,7070,-17.45
+Texas_ElPaso,2021-09-05,2508,4274,6807,-16.98
+Texas_ElPaso,2021-04-29,3178,5083,8070,-15.06
+Texas_ElPaso,2019-06-10,1866,2921,8191,-14.26
+Texas_ElPaso,2020-03-12,2184,3206,6174,-12.32
+Texas_ElPaso,2021-06-28,2226,3267,7933,-12.32
+Texas_ElPaso,2021-08-13,3555,5155,7559,-12.03
+Texas_ElPaso,2021-04-30,4268,6175,8085,-11.98
+Texas_ElPaso,2022-09-25,2695,3869,6244,-11.67
+Texas_ElPaso,2022-08-13,3907,5287,7549,-9.88
+Texas_ElPaso,2023-12-21,3664,2633,3638,9.75
+Texas_ElPaso,2022-10-02,3161,4224,5940,-9.47
+Texas_ElPaso,2019-05-10,4761,6313,8259,-9.26
+Texas_ElPaso,2020-09-10,4043,5360,6576,-9.25
+Texas_ElPaso,2019-07-22,4170,5518,8028,-9.19
+Texas_ElPaso,2020-08-06,4040,5197,7877,-8.31
+Texas_ElPaso,2021-01-26,4319,3270,4637,8.16
+Texas_ElPaso,2019-11-17,4303,3260,4401,8.14
+Texas_ElPaso,2023-09-12,3717,4743,6555,-8.05
+Texas_FortWorth,2019-11-20,495,1926,3651,-25.37
+Texas_FortWorth,2022-01-08,2925,923,3608,21.63
+Texas_FortWorth,2021-05-10,4720,1674,7794,19.66
+Texas_FortWorth,2023-11-30,1938,707,3323,18.66
+Texas_FortWorth,2022-05-03,6602,2666,7240,17.29
+Texas_FortWorth,2019-02-16,868,2143,5024,-17.23
+Texas_FortWorth,2022-02-24,3576,1454,5453,16.97
+Texas_FortWorth,2021-02-17,2677,1125,4826,16.23
+Texas_FortWorth,2020-02-13,5127,2221,5176,15.89
+Texas_FortWorth,2023-02-24,3662,1667,4959,14.85
+Texas_FortWorth,2023-10-29,2831,1495,4502,11.96
+Texas_FortWorth,2020-06-23,2030,3583,7765,-11.11
+Texas_FortWorth,2020-10-15,1716,2760,5026,-9.29
+Texas_FortWorth,2021-02-16,3686,2306,5235,8.79
+Texas_FortWorth,2023-02-20,2107,3188,5052,-8.15
+Texas_FortWorth,2021-09-05,3006,4199,6283,-6.65
+Texas_FortWorth,2019-05-09,2867,3953,8004,-6.39
+Texas_FortWorth,2020-09-01,2758,3796,6152,-6.36
+Texas_FortWorth,2021-05-04,4280,5840,7977,-6.22
+Texas_FortWorth,2019-06-16,3170,4328,7835,-6.22
+Texas_FortWorth,2019-09-19,3141,4209,6024,-5.85
+Texas_FortWorth,2022-05-04,5075,3787,6892,5.44
+Texas_FortWorth,2021-07-03,4870,3659,7763,5.31
+Texas_FortWorth,2020-05-26,4646,6010,8327,-5.2
+Texas_FortWorth,2022-04-17,6954,5330,7291,4.94
+Texas_Garland,2021-02-17,2579,719,4703,16.67
+Texas_Garland,2019-11-20,542,1666,3740,-15.0
+Texas_Garland,2021-11-02,610,1629,4038,-13.2
+Texas_Garland,2020-02-13,5111,1949,5170,12.8
+Texas_Garland,2020-03-13,938,2028,5404,-10.57
+Texas_Garland,2021-05-31,1564,2783,7579,-8.07
+Texas_Garland,2021-05-04,3350,5749,7876,-7.68
+Texas_Garland,2021-02-18,3863,2166,5336,7.55
+Texas_Garland,2021-05-28,3356,1928,7831,7.2
+Texas_Garland,2019-09-19,2264,3592,5880,-6.56
+Texas_Garland,2020-07-28,1775,2810,7295,-6.51
+Texas_Garland,2019-03-23,1920,2987,6164,-6.28
+Texas_Garland,2021-12-13,3321,2075,3331,6.07
+Texas_Garland,2022-05-03,3750,2372,7207,5.92
+Texas_Garland,2019-01-24,2453,3709,4267,-5.92
+Texas_Garland,2019-07-29,3466,5212,7434,-5.87
+Texas_Garland,2022-08-18,2788,4154,6799,-5.73
+Texas_Garland,2020-05-26,3612,5370,8029,-5.72
+Texas_Garland,2021-02-16,4055,2608,5268,5.7
+Texas_Garland,2021-05-18,2503,3629,7495,-5.35
+Texas_Garland,2020-06-23,2389,3440,7680,-5.25
+Texas_Garland,2022-04-24,2598,3692,6987,-5.08
+Texas_Garland,2021-02-15,5307,3645,5300,4.83
+Texas_Garland,2023-07-01,4287,5885,8002,-4.63
+Texas_Garland,2019-07-14,3817,5175,7990,-4.46
+Texas_GrandPrairie,2019-11-20,501,1666,3740,-14.66
+Texas_GrandPrairie,2021-11-02,508,1629,4038,-14.22
+Texas_GrandPrairie,2020-02-13,5123,1949,5170,11.93
+Texas_GrandPrairie,2020-07-28,1235,2810,7295,-10.38
+Texas_GrandPrairie,2021-12-14,2607,1143,3345,10.01
+Texas_GrandPrairie,2021-01-06,2123,952,3196,9.67
+Texas_GrandPrairie,2021-04-29,1232,2515,6670,-9.02
+Texas_GrandPrairie,2020-12-29,1096,2226,3423,-8.93
+Texas_GrandPrairie,2019-03-23,1482,2987,6164,-8.9
+Texas_GrandPrairie,2020-03-13,1007,2028,5404,-8.8
+Texas_GrandPrairie,2019-08-31,4771,2475,6366,8.05
+Texas_GrandPrairie,2021-03-13,1786,3183,5649,-7.39
+Texas_GrandPrairie,2023-03-09,1353,2418,5003,-7.38
+Texas_GrandPrairie,2022-03-22,1713,2970,6604,-7.04
+Texas_GrandPrairie,2022-04-21,6147,3613,6866,6.52
+Texas_GrandPrairie,2020-09-16,2848,4705,6045,-6.5
+Texas_GrandPrairie,2022-03-05,3502,2099,5191,6.22
+Texas_GrandPrairie,2021-12-13,3444,2075,3331,6.15
+Texas_GrandPrairie,2022-05-03,3915,2372,7207,6.09
+Texas_GrandPrairie,2021-03-27,6053,3688,6056,6.06
+Texas_GrandPrairie,2021-05-31,1758,2783,7579,-5.91
+Texas_GrandPrairie,2022-04-23,2669,4172,7305,-5.79
+Texas_GrandPrairie,2023-04-19,6106,3856,7116,5.61
+Texas_GrandPrairie,2019-09-19,2332,3592,5880,-5.59
+Texas_GrandPrairie,2019-11-27,1965,3001,3885,-5.47
+Texas_Houston,2019-11-20,1079,2984,4094,-15.0
+Texas_Houston,2023-10-03,934,2433,5695,-14.07
+Texas_Houston,2020-03-20,1035,2371,5901,-12.25
+Texas_Houston,2023-01-30,2568,1116,4234,11.64
+Texas_Houston,2021-01-23,2880,1297,4037,11.17
+Texas_Houston,2022-01-07,2970,1358,3856,10.96
+Texas_Houston,2021-02-09,3860,1795,4608,10.78
+Texas_Houston,2021-02-06,4138,2225,4663,8.69
+Texas_Houston,2022-02-24,3365,1809,5458,8.66
+Texas_Houston,2023-01-01,3578,1943,3545,8.53
+Texas_Houston,2021-09-14,4314,2378,6177,8.34
+Texas_Houston,2022-04-13,4092,2264,6533,8.28
+Texas_Houston,2020-10-08,1528,2607,5511,-8.07
+Texas_Houston,2022-01-09,3243,1818,3520,8.05
+Texas_Houston,2019-09-27,2306,3890,5929,-7.97
+Texas_Houston,2020-09-23,2236,3744,6050,-7.86
+Texas_Houston,2019-06-16,3186,5295,7849,-7.79
+Texas_Houston,2021-03-15,5621,3312,6183,7.4
+Texas_Houston,2021-12-10,3509,2069,3600,7.34
+Texas_Houston,2021-04-29,4561,2738,6550,7.11
+Texas_Houston,2020-04-28,1763,2785,6893,-6.98
+Texas_Houston,2021-05-24,2973,4407,7621,-6.1
+Texas_Houston,2022-04-17,6197,4002,6713,6.06
+Texas_Houston,2023-02-21,4672,3201,5125,5.18
+Texas_Houston,2023-04-08,4741,3251,6867,5.17
+Texas_Irving,2021-02-17,2581,719,4703,16.75
+Texas_Irving,2019-11-20,502,1666,3740,-15.92
+Texas_Irving,2022-02-24,3516,1206,5340,14.17
+Texas_Irving,2021-11-02,583,1629,4038,-13.73
+Texas_Irving,2022-12-10,626,1704,3046,-13.42
+Texas_Irving,2020-02-13,5117,1949,5170,12.88
+Texas_Irving,2022-01-08,2410,906,3418,12.81
+Texas_Irving,2019-03-23,1271,2987,6164,-11.75
+Texas_Irving,2020-07-28,1239,2810,7295,-11.26
+Texas_Irving,2022-05-03,5489,2372,7207,11.19
+Texas_Irving,2021-01-06,2163,952,3196,10.7
+Texas_Irving,2021-12-14,2554,1143,3345,10.54
+Texas_Irving,2020-03-13,974,2028,5404,-10.02
+Texas_Irving,2021-05-10,4414,2076,7685,10.01
+Texas_Irving,2019-08-31,5054,2475,6366,9.48
+Texas_Irving,2020-12-29,1137,2226,3423,-9.24
+Texas_Irving,2020-03-22,1165,2198,6321,-8.75
+Texas_Irving,2021-04-29,1345,2515,6670,-8.66
+Texas_Irving,2020-09-16,2588,4705,6045,-8.39
+Texas_Irving,2023-02-24,2699,1448,4849,8.15
+Texas_Irving,2022-03-22,1673,2970,6604,-8.0
+Texas_Irving,2021-02-18,3929,2166,5336,7.84
+Texas_Irving,2021-05-31,1613,2783,7579,-7.61
+Texas_Irving,2021-03-13,1856,3183,5649,-7.55
+Texas_Irving,2023-03-09,1406,2418,5003,-7.54
+Texas_Laredo,2021-02-11,2806,804,4722,25.03
+Texas_Laredo,2023-01-31,2959,873,4636,24.48
+Texas_Laredo,2023-01-30,3177,947,4454,24.34
+Texas_Laredo,2022-12-04,2565,964,3943,19.51
+Texas_Laredo,2022-12-01,3718,1461,4062,18.8
+Texas_Laredo,2022-12-03,3108,1259,4043,18.09
+Texas_Laredo,2022-01-07,3001,1351,4126,15.91
+Texas_Laredo,2020-10-16,1409,2875,5455,-15.42
+Texas_Laredo,2022-11-02,4758,2384,4884,13.84
+Texas_Laredo,2022-01-09,2509,1381,3918,11.73
+Texas_Laredo,2022-12-06,3739,2155,3960,10.87
+Texas_Laredo,2022-12-05,2769,1593,3982,10.84
+Texas_Laredo,2023-01-07,2766,1601,3990,10.71
+Texas_Laredo,2023-03-15,2638,1606,6299,9.66
+Texas_Laredo,2023-01-21,4139,2554,4495,9.48
+Texas_Laredo,2020-09-05,2095,3189,6511,-9.39
+Texas_Laredo,2021-04-01,2701,4082,6981,-9.28
+Texas_Laredo,2019-09-05,2674,4028,6820,-9.21
+Texas_Laredo,2022-11-11,3899,2437,4348,9.2
+Texas_Laredo,2020-09-17,2261,3337,6013,-8.75
+Texas_Laredo,2023-03-29,3796,2441,6448,8.61
+Texas_Laredo,2020-05-31,2494,3580,7695,-8.19
+Texas_Laredo,2022-12-02,4179,2770,4084,7.99
+Texas_Laredo,2022-04-21,4755,3188,6529,7.76
+Texas_Laredo,2021-04-15,3976,2673,6266,7.68
+Texas_Lubbock,2019-11-20,342,2481,3665,-50.94
+Texas_Lubbock,2023-10-28,4560,1586,4478,27.8
+Texas_Lubbock,2021-02-16,3127,1116,5027,26.88
+Texas_Lubbock,2023-10-29,4683,2036,4452,21.92
+Texas_Lubbock,2020-02-14,5066,2212,5045,21.84
+Texas_Lubbock,2021-02-17,3471,1586,5290,20.49
+Texas_Lubbock,2022-03-06,5502,2760,6104,18.17
+Texas_Lubbock,2021-02-14,2930,1497,5092,17.48
+Texas_Lubbock,2019-10-29,1752,2926,4604,-13.94
+Texas_Lubbock,2019-05-24,2597,3897,7527,-11.16
+Texas_Lubbock,2021-01-11,3469,2289,3855,10.78
+Texas_Lubbock,2022-08-01,3143,4495,7886,-9.9
+Texas_Lubbock,2023-05-15,3171,4525,7836,-9.84
+Texas_Lubbock,2021-02-15,4309,3077,5354,8.7
+Texas_Lubbock,2021-09-05,4357,3197,6562,7.98
+Texas_Lubbock,2023-10-27,4207,3115,4482,7.73
+Texas_Lubbock,2021-04-13,6266,4662,6767,7.64
+Texas_Lubbock,2023-06-05,4849,6355,8066,-7.59
+Texas_Lubbock,2020-05-25,3867,4983,8294,-7.12
+Texas_Lubbock,2023-08-28,4330,5576,7138,-7.11
+Texas_Lubbock,2019-03-16,4047,5194,6475,-7.02
+Texas_Lubbock,2023-07-14,4500,5721,8030,-6.77
+Texas_Lubbock,2021-07-26,5524,7018,7905,-6.76
+Texas_Lubbock,2021-05-22,4578,5765,8162,-6.51
+Texas_Lubbock,2019-04-30,5018,3989,7639,5.84
+Texas_Plano,2022-01-08,2557,579,3315,19.09
+Texas_Plano,2022-02-26,641,2202,5037,-16.66
+Texas_Plano,2021-05-10,5128,1595,7730,15.3
+Texas_Plano,2022-02-24,4429,1452,5319,14.56
+Texas_Plano,2020-09-01,2894,949,6080,14.39
+Texas_Plano,2023-03-08,2199,775,5009,13.33
+Texas_Plano,2021-04-30,1635,4061,7242,-12.69
+Texas_Plano,2020-02-18,760,1921,4627,-12.65
+Texas_Plano,2021-02-12,3432,1329,4691,12.27
+Texas_Plano,2021-02-17,2284,1005,4642,10.46
+Texas_Plano,2022-05-03,5464,2531,7247,9.98
+Texas_Plano,2020-07-28,1433,2902,7301,-9.9
+Texas_Plano,2020-02-19,1405,2822,4726,-9.78
+Texas_Plano,2023-12-22,2140,1010,2960,9.52
+Texas_Plano,2022-03-04,1863,3592,5382,-9.28
+Texas_Plano,2023-09-14,1209,2332,5682,-9.2
+Texas_Plano,2019-04-07,1446,2775,6512,-9.17
+Texas_Plano,2019-09-20,5327,2712,5619,8.7
+Texas_Plano,2023-02-24,2737,1386,4784,8.66
+Texas_Plano,2021-10-13,2775,1435,4752,8.39
+Texas_Plano,2022-01-24,1529,2736,3834,-8.24
+Texas_Plano,2020-09-21,1976,3502,5788,-8.15
+Texas_Plano,2022-07-21,5609,2985,7430,8.11
+Texas_Plano,2019-02-08,1953,3380,4784,-7.83
+Texas_Plano,2022-04-16,4475,2495,6589,7.46
+Texas_SanAntonio,2021-02-10,3208,905,4213,21.16
+Texas_SanAntonio,2022-12-01,2980,944,3851,19.18
+Texas_SanAntonio,2022-12-19,2962,978,3687,18.47
+Texas_SanAntonio,2023-02-01,2594,1088,4351,14.39
+Texas_SanAntonio,2023-01-30,1848,779,4271,14.14
+Texas_SanAntonio,2019-11-20,1452,3203,3949,-14.08
+Texas_SanAntonio,2022-11-14,3601,1610,4408,13.42
+Texas_SanAntonio,2022-12-04,2007,895,3627,13.24
+Texas_SanAntonio,2022-12-02,3875,1862,3871,12.21
+Texas_SanAntonio,2021-02-17,3781,1825,5184,12.13
+Texas_SanAntonio,2021-01-23,2493,1215,4087,11.84
+Texas_SanAntonio,2021-04-29,3835,1883,7429,11.83
+Texas_SanAntonio,2022-12-05,3000,1579,3701,10.58
+Texas_SanAntonio,2021-03-24,5616,2981,6330,10.56
+Texas_SanAntonio,2022-01-07,2455,1338,4030,9.94
+Texas_SanAntonio,2023-11-30,2978,1711,3983,9.09
+Texas_SanAntonio,2022-12-06,2888,1703,3633,8.64
+Texas_SanAntonio,2023-02-25,4515,2690,5336,8.53
+Texas_SanAntonio,2021-02-18,2620,1591,5314,8.12
+Texas_SanAntonio,2021-02-16,4741,3071,5450,7.09
+Texas_SanAntonio,2021-05-11,4441,2910,7132,6.88
+Texas_SanAntonio,2021-03-16,5195,3495,6294,6.44
+Texas_SanAntonio,2023-05-16,3826,5156,7618,-5.66
+Texas_SanAntonio,2019-06-10,3998,5381,7804,-5.64
+Texas_SanAntonio,2022-01-25,4396,3121,4588,5.49
+Utah_SaltLakeCity,2019-01-18,350,1723,3211,-16.41
+Utah_SaltLakeCity,2019-04-09,636,2806,7016,-15.72
+Utah_SaltLakeCity,2019-01-20,317,1452,3181,-15.53
+Utah_SaltLakeCity,2021-02-13,399,1612,4314,-14.41
+Utah_SaltLakeCity,2019-04-10,693,2578,7458,-13.9
+Utah_SaltLakeCity,2023-12-08,358,1374,2865,-13.75
+Utah_SaltLakeCity,2021-03-20,661,2330,6143,-13.29
+Utah_SaltLakeCity,2023-03-30,1832,5308,6903,-11.49
+Utah_SaltLakeCity,2023-04-02,2061,5774,6886,-11.14
+Utah_SaltLakeCity,2021-10-09,732,2074,5002,-10.97
+Utah_SaltLakeCity,2020-03-01,675,1916,5157,-10.95
+Utah_SaltLakeCity,2021-04-26,956,2675,7971,-10.94
+Utah_SaltLakeCity,2023-03-23,1767,4824,6477,-10.83
+Utah_SaltLakeCity,2019-09-29,872,2423,5553,-10.82
+Utah_SaltLakeCity,2019-01-23,559,1561,3372,-10.67
+Utah_SaltLakeCity,2020-02-02,716,1974,3627,-10.66
+Utah_SaltLakeCity,2019-12-31,832,2240,2769,-10.46
+Utah_SaltLakeCity,2021-01-24,865,2260,3405,-10.15
+Utah_SaltLakeCity,2019-03-24,1296,3265,6388,-9.88
+Utah_SaltLakeCity,2019-09-28,1230,3079,5520,-9.79
+Utah_SaltLakeCity,2022-03-29,1456,3593,6452,-9.68
+Utah_SaltLakeCity,2023-03-22,2001,4775,6489,-9.37
+Utah_SaltLakeCity,2021-03-13,1032,2475,5761,-9.28
+Utah_SaltLakeCity,2023-03-31,2217,5240,7012,-9.28
+Utah_SaltLakeCity,2019-04-15,1668,3933,7381,-9.2
+Virginia_Chesapeake,2019-11-20,918,2897,3292,-16.48
+Virginia_Chesapeake,2021-10-11,737,2105,4810,-14.92
+Virginia_Chesapeake,2020-02-14,1475,3064,4509,-10.62
+Virginia_Chesapeake,2021-03-17,4147,2002,5888,10.34
+Virginia_Chesapeake,2021-02-15,4204,2049,4183,10.21
+Virginia_Chesapeake,2022-05-26,7580,3754,7888,10.06
+Virginia_Chesapeake,2020-03-16,1946,3556,5795,-8.83
+Virginia_Chesapeake,2021-02-03,1618,2785,4096,-7.93
+Virginia_Chesapeake,2020-06-20,2518,4192,7918,-7.51
+Virginia_Chesapeake,2022-05-12,5136,3038,7839,7.45
+Virginia_Chesapeake,2020-08-08,3063,5047,7148,-7.38
+Virginia_Chesapeake,2020-08-16,2181,3563,6730,-7.22
+Virginia_Chesapeake,2022-05-10,2114,3441,7739,-7.17
+Virginia_Chesapeake,2021-08-16,3400,5346,6935,-6.71
+Virginia_Chesapeake,2019-05-14,3370,5205,7970,-6.45
+Virginia_Chesapeake,2023-09-29,2961,1890,5370,6.3
+Virginia_Chesapeake,2020-10-31,1919,2936,4168,-6.26
+Virginia_Chesapeake,2023-09-24,2676,3964,5629,-5.83
+Virginia_Chesapeake,2023-06-08,6875,4663,6494,5.49
+Virginia_Chesapeake,2019-08-27,3110,4483,6476,-5.44
+Virginia_Chesapeake,2022-04-08,3741,5367,6882,-5.39
+Virginia_Chesapeake,2021-04-01,2353,3366,6617,-5.31
+Virginia_Chesapeake,2021-08-21,3042,4311,6745,-5.2
+Virginia_Chesapeake,2021-10-12,3981,2756,4766,5.16
+Virginia_Chesapeake,2019-08-28,5816,4116,6296,4.87
+Virginia_NewportNews,2022-12-07,326,1345,2536,-18.74
+Virginia_NewportNews,2019-11-17,453,1664,3337,-17.55
+Virginia_NewportNews,2021-02-05,667,2301,3777,-17.01
+Virginia_NewportNews,2019-11-20,757,2476,3158,-16.36
+Virginia_NewportNews,2020-06-16,1023,2407,7965,-12.0
+Virginia_NewportNews,2023-01-13,897,2107,2995,-11.93
+Virginia_NewportNews,2022-02-27,1106,2386,4758,-10.85
+Virginia_NewportNews,2022-03-10,1099,2318,5132,-10.54
+Virginia_NewportNews,2021-05-29,2136,1021,7489,9.5
+Virginia_NewportNews,2019-08-24,1980,3686,6561,-8.96
+Virginia_NewportNews,2023-08-31,2004,3664,6530,-8.71
+Virginia_NewportNews,2021-10-12,3659,1993,4652,7.87
+Virginia_NewportNews,2020-05-20,1684,2836,7798,-7.56
+Virginia_NewportNews,2023-05-27,3040,4981,8125,-7.25
+Virginia_NewportNews,2022-05-26,4991,2918,7877,6.94
+Virginia_NewportNews,2020-05-19,2080,3277,7475,-6.67
+Virginia_NewportNews,2019-12-16,2535,1510,2665,6.59
+Virginia_NewportNews,2021-03-19,2367,3700,5902,-6.58
+Virginia_NewportNews,2020-03-12,5129,3112,5372,6.43
+Virginia_NewportNews,2022-02-06,1915,2960,4148,-6.4
+Virginia_NewportNews,2022-01-25,2795,1703,3213,6.3
+Virginia_NewportNews,2019-06-08,2481,3762,7621,-6.16
+Virginia_NewportNews,2021-07-28,4281,6451,7207,-6.11
+Virginia_NewportNews,2019-06-09,5397,3364,7702,6.06
+Virginia_NewportNews,2021-08-21,3096,4626,6692,-5.98
+Virginia_Norfolk,2019-11-20,712,2897,3292,-18.25
+Virginia_Norfolk,2023-09-26,1306,2497,5460,-8.6
+Virginia_Norfolk,2020-03-16,1965,3556,5795,-7.95
+Virginia_Norfolk,2021-02-03,1536,2785,4096,-7.94
+Virginia_Norfolk,2020-06-20,2348,4192,7918,-7.8
+Virginia_Norfolk,2020-02-14,1723,3064,4509,-7.7
+Virginia_Norfolk,2021-05-30,1462,2476,8131,-7.03
+Virginia_Norfolk,2023-01-23,1717,2789,3527,-6.51
+Virginia_Norfolk,2021-02-27,2066,3312,4636,-6.36
+Virginia_Norfolk,2020-10-31,1832,2936,4168,-6.34
+Virginia_Norfolk,2022-02-02,1717,2730,3874,-6.23
+Virginia_Norfolk,2020-08-16,2274,3563,6730,-6.07
+Virginia_Norfolk,2022-05-26,5929,3754,7888,5.87
+Virginia_Norfolk,2023-08-28,2150,3216,6312,-5.46
+Virginia_Norfolk,2019-05-14,3530,5205,7970,-5.3
+Virginia_Norfolk,2022-07-08,6792,4526,7479,5.2
+Virginia_Norfolk,2021-08-16,3656,5346,6935,-5.2
+Virginia_Norfolk,2022-04-08,3692,5367,6882,-5.12
+Virginia_Norfolk,2020-04-27,2993,4348,7613,-5.1
+Virginia_Norfolk,2020-05-24,2698,3912,7948,-5.06
+Virginia_Norfolk,2020-08-08,3506,5047,7148,-4.98
+Virginia_Norfolk,2022-09-08,5251,3657,6187,4.61
+Virginia_Norfolk,2020-08-06,3640,5082,7230,-4.58
+Virginia_Norfolk,2019-08-27,3214,4483,6476,-4.56
+Virginia_Norfolk,2019-05-13,2756,3799,7773,-4.4
+Virginia_Richmond,2021-02-01,3518,994,3645,19.19
+Virginia_Richmond,2019-11-17,703,2130,3395,-16.87
+Virginia_Richmond,2020-02-14,1204,3559,4435,-16.78
+Virginia_Richmond,2019-11-18,1086,2424,3270,-12.39
+Virginia_Richmond,2022-05-12,5379,2844,7823,9.75
+Virginia_Richmond,2021-02-02,2872,1749,3771,7.48
+Virginia_Richmond,2022-05-26,5034,3343,7923,6.22
+Virginia_Richmond,2021-04-01,2808,4128,6623,-6.12
+Virginia_Richmond,2021-08-16,2898,4131,6901,-5.64
+Virginia_Richmond,2022-01-30,3717,2667,3813,4.99
+Virginia_Richmond,2019-06-10,3332,4437,7493,-4.59
+Virginia_Richmond,2022-08-10,4529,5834,7002,-4.09
+Virginia_Richmond,2023-07-07,4701,6041,7695,-4.05
+Virginia_VirginiaBeach,2019-11-20,467,2637,3207,-17.95
+Virginia_VirginiaBeach,2019-03-01,584,2232,4776,-14.01
+Virginia_VirginiaBeach,2023-11-21,418,1535,3246,-13.35
+Virginia_VirginiaBeach,2020-10-29,657,1870,3793,-10.99
+Virginia_VirginiaBeach,2023-01-04,650,1707,2706,-10.15
+Virginia_VirginiaBeach,2020-10-16,899,2307,4432,-10.03
+Virginia_VirginiaBeach,2020-05-18,752,1850,7457,-9.52
+Virginia_VirginiaBeach,2019-03-08,746,1756,5138,-9.06
+Virginia_VirginiaBeach,2023-09-09,1751,3990,6187,-8.94
+Virginia_VirginiaBeach,2020-02-26,907,2041,4710,-8.66
+Virginia_VirginiaBeach,2019-10-08,950,2079,4752,-8.38
+Virginia_VirginiaBeach,2019-10-10,3913,1730,4930,8.31
+Virginia_VirginiaBeach,2019-04-13,1264,2673,6476,-8.09
+Virginia_VirginiaBeach,2023-09-28,1377,2854,5363,-7.89
+Virginia_VirginiaBeach,2019-10-21,2119,992,4367,7.59
+Virginia_VirginiaBeach,2022-03-09,1120,2259,5151,-7.57
+Virginia_VirginiaBeach,2019-07-23,2210,4406,7456,-7.55
+Virginia_VirginiaBeach,2020-01-21,3634,1737,3539,7.48
+Virginia_VirginiaBeach,2020-12-15,3070,1476,2960,7.39
+Virginia_VirginiaBeach,2019-08-05,2309,4502,7233,-7.32
+Virginia_VirginiaBeach,2021-01-11,1088,2107,3130,-7.13
+Virginia_VirginiaBeach,2021-03-17,1467,2818,5888,-7.1
+Virginia_VirginiaBeach,2022-10-02,1424,2718,5347,-7.03
+Virginia_VirginiaBeach,2023-09-27,1523,2865,5344,-6.89
+Virginia_VirginiaBeach,2020-08-15,1881,3469,6734,-6.71
+Washington_Seattle,2020-10-18,474,1853,3427,-8.6
+Washington_Seattle,2023-11-07,498,1750,2660,-7.94
+Washington_Seattle,2020-02-11,523,1529,2922,-6.79
+Washington_Seattle,2020-03-02,535,1542,3787,-6.7
+Washington_Seattle,2023-10-23,713,2007,3355,-6.64
+Washington_Seattle,2020-10-17,775,2095,3547,-6.4
+Washington_Seattle,2021-02-05,673,1704,2745,-5.95
+Washington_Seattle,2020-06-27,1777,4320,8647,-5.86
+Washington_Seattle,2023-02-17,746,1853,3161,-5.85
+Washington_Seattle,2023-08-29,1030,2456,6049,-5.66
+Washington_Seattle,2022-02-07,734,1736,2849,-5.53
+Washington_Seattle,2019-10-25,860,2008,3179,-5.49
+Washington_Seattle,2020-08-06,1985,4389,7510,-5.25
+Washington_Seattle,2019-02-17,864,1925,3371,-5.19
+Washington_Seattle,2019-10-08,1244,2697,4177,-5.07
+Washington_Seattle,2019-10-22,922,1985,3429,-4.98
+Washington_Seattle,2020-10-21,1176,2515,3457,-4.97
+Washington_Seattle,2022-02-22,1100,2326,3734,-4.89
+Washington_Seattle,2023-09-28,1347,2742,4531,-4.67
+Washington_Seattle,2022-03-19,1604,3218,5277,-4.6
+Washington_Seattle,2020-10-07,1465,2876,3833,-4.45
+Washington_Seattle,2020-09-16,3400,1711,2309,4.31
+Washington_Seattle,2021-10-03,1181,2260,4448,-4.26
+Washington_Seattle,2019-06-23,2512,4624,8568,-4.07
+Washington_Spokane,2021-02-16,2195,757,3434,9.79
+Washington_Spokane,2019-01-26,832,2040,2337,-8.64
+Washington_Spokane,2020-09-17,4037,2015,2280,6.46
+Washington_Spokane,2023-03-13,2205,1094,4784,6.43
+Washington_Spokane,2019-09-16,1533,2803,5268,-5.97
+Washington_Spokane,2023-03-11,4391,2331,4700,5.88
+Washington_Spokane,2020-09-14,3318,1829,2745,5.49
+Washington_Spokane,2020-09-13,3534,1950,2780,5.49
+Washington_Spokane,2020-09-18,3215,1807,2724,5.3
+Washington_Spokane,2020-09-15,4267,2489,2970,4.98
+Washington_Spokane,2020-09-16,3975,2382,2795,4.71
+Washington_Spokane,2023-03-03,3640,2189,4266,4.67
+Washington_Spokane,2019-05-24,4665,2849,8096,4.54
+Washington_Spokane,2021-02-17,3041,1877,3510,4.41
+Washington_Spokane,2022-09-12,3981,2488,3252,4.31
+Washington_Spokane,2022-03-01,3260,2099,3880,4.01
+Washington_Tacoma,2019-10-25,821,2008,3179,-6.03
+Washington_Tacoma,2022-02-18,881,2024,3370,-5.63
+Washington_Tacoma,2019-03-08,945,2125,4453,-5.5
+Washington_Tacoma,2021-10-18,919,1987,3501,-5.24
+Washington_Tacoma,2022-02-21,1026,2165,3608,-5.1
+Washington_Tacoma,2023-08-29,1176,2456,6049,-5.05
+Washington_Tacoma,2022-10-05,1323,2715,4025,-4.95
+Washington_Tacoma,2022-02-11,1225,2504,3115,-4.91
+Washington_Tacoma,2020-09-16,3601,1711,2309,4.71
+Washington_Tacoma,2020-10-04,1014,2016,4128,-4.7
+Washington_Tacoma,2020-10-07,1510,2876,3833,-4.47
+Washington_Tacoma,2021-02-28,1401,2660,3776,-4.44
+Washington_Tacoma,2020-09-12,3560,1837,2836,4.17
+Washington_Tacoma,2023-10-17,2367,1231,3493,4.07
+Washington_Vancouver,2022-01-21,455,1550,2435,-10.0
+Washington_Vancouver,2023-01-25,491,1623,2525,-9.79
+Washington_Vancouver,2023-01-20,483,1570,2303,-9.64
+Washington_Vancouver,2019-01-27,714,1774,2577,-7.56
+Washington_Vancouver,2020-10-08,949,2041,4092,-6.42
+Washington_Vancouver,2019-11-13,990,2111,2569,-6.36
+Washington_Vancouver,2022-03-08,984,2054,4493,-6.18
+Washington_Vancouver,2019-03-08,1121,2142,4770,-5.46
+Washington_Vancouver,2019-05-20,2053,3858,8176,-5.4
+Washington_Vancouver,2020-03-07,1183,2240,4748,-5.39
+Washington_Vancouver,2023-02-14,1278,2389,3478,-5.29
+Washington_Vancouver,2020-05-20,1476,2618,8074,-4.87
+Washington_Vancouver,2022-03-29,1929,3400,5802,-4.85
+Washington_Vancouver,2023-09-04,1754,2966,6139,-4.48
+Washington_Vancouver,2020-04-24,1587,2600,7156,-4.2
+Wisconsin_Madison,2019-04-04,492,1920,5702,-9.63
+Wisconsin_Madison,2022-03-17,1143,3521,5114,-8.19
+Wisconsin_Madison,2019-04-14,1377,3773,7078,-7.36
+Wisconsin_Madison,2022-09-10,4137,1517,5377,7.29
+Wisconsin_Madison,2021-01-19,664,1766,2760,-6.98
+Wisconsin_Madison,2021-01-29,698,1839,2949,-6.92
+Wisconsin_Madison,2021-05-28,1341,3255,8303,-6.47
+Wisconsin_Madison,2021-02-06,1181,2870,3681,-6.46
+Wisconsin_Madison,2021-08-07,1824,742,5991,6.39
+Wisconsin_Madison,2023-03-02,1052,2425,4696,-6.05
+Wisconsin_Madison,2020-03-31,893,2062,6375,-6.03
+Wisconsin_Madison,2019-01-19,1191,2656,2823,-5.83
+Wisconsin_Madison,2023-12-30,2058,927,2086,5.7
+Wisconsin_Madison,2021-02-10,1490,3238,3738,-5.67
+Wisconsin_Madison,2021-02-11,1649,3561,3916,-5.64
+Wisconsin_Madison,2019-06-19,2155,4596,7839,-5.57
+Wisconsin_Madison,2021-02-28,3750,1853,4475,5.12
+Wisconsin_Madison,2023-02-04,1356,2675,3084,-4.95
+Wisconsin_Madison,2021-02-08,1419,2759,3717,-4.85
+Wisconsin_Madison,2023-10-23,1064,2078,3343,-4.84
+Wisconsin_Madison,2021-01-25,1180,2264,2992,-4.73
+Wisconsin_Madison,2023-04-03,1689,3153,5850,-4.57
+Wisconsin_Madison,2023-10-06,1529,2815,4670,-4.46
+Wisconsin_Madison,2020-10-21,3123,1708,3644,4.37
+Wisconsin_Madison,2021-01-28,1510,2728,3133,-4.32
+Wisconsin_Milwaukee,2023-10-12,494,1669,3883,-7.53
+Wisconsin_Milwaukee,2019-04-04,1041,3044,5560,-6.84
+Wisconsin_Milwaukee,2022-03-07,1000,2564,4926,-6.01
+Wisconsin_Milwaukee,2022-04-08,984,2388,6754,-5.66
+Wisconsin_Milwaukee,2021-03-15,858,2008,5401,-5.41
+Wisconsin_Milwaukee,2020-05-10,1425,3224,7995,-5.28
+Wisconsin_Milwaukee,2023-03-22,986,2110,5367,-4.88
+Wisconsin_Milwaukee,2021-05-28,1698,3541,8223,-4.79
+Wisconsin_Milwaukee,2020-02-14,1561,3147,4022,-4.57
+Wisconsin_Milwaukee,2022-04-28,1570,3115,6780,-4.47
+Wisconsin_Milwaukee,2022-02-24,1551,2976,4217,-4.26
+Wisconsin_Milwaukee,2021-04-08,1218,2325,5904,-4.2

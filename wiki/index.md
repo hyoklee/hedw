@@ -30,8 +30,12 @@
 
 ## Agent runs
 
-None yet.
+| Page | Summary |
+|---|---|
+| [agent_solar_coherence.md](agent_solar_coherence.md) | NSRDB (HEDW-US solar) vs NASA POWER, 149 cities, 2019–2023: lag 0 h in all 745 city-years, median daily r 0.977; 17 coastal or mountain-edge cities flagged; regional NSRDB gap-filled day 2020-02-14 (31 cities); clio-agent 10/10, clio-coder prose errors |
 
 ## Workflow studies
 
-None yet.
+| Page | Summary |
+|---|---|
+| [workflow_aurora_clio.md](workflow_aurora_clio.md) | Stage timings on Aurora: downloads ~25 min on the login node, detector 2.6 s (P=16) vs debug job 7 s plus ~3 min queue, CAE bulk ingest 95 files/s; clio-core ctest kills clio-agent's runtime |

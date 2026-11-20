@@ -1,0 +1,339 @@
+{
+ "run": "run_20261120T143515Z_n1p50",
+ "period_utc": "2019-01-01T00/2023-12-31T23",
+ "comparison": "NSRDB GOES aggregated v4.0.0 GHI (hourly, value at HH:30 UTC) vs NASA POWER hourly ALLSKY_SFC_SW_DWN (mean over HH:00-HH+1:00 UTC, CERES SYN1deg)",
+ "cities_analysed": 149,
+ "cities_failed": [
+  "Alaska_Anchorage: missing Alaska_Anchorage_2019.csv"
+ ],
+ "cities_likely_in_release": 142,
+ "cities_not_in_release": [
+  "California_GardenGrove",
+  "California_Oceanside",
+  "California_RanchoCucamonga",
+  "California_SantaRosa",
+  "Florida_PembrokePines",
+  "Mississippi_Jackson",
+  "Missouri_Springfield"
+ ],
+ "thresholds": {
+  "r_daily_min": 0.85,
+  "bias_pct_abs_max": 15.0,
+  "lag_ok": [
+   0
+  ],
+  "lag_tolerated": [
+   -1,
+   1
+  ],
+  "physics_viol_frac_max": 0.005,
+  "robust_z_abs_max": 3.0
+ },
+ "distribution_all_cities": {
+  "r_hourly": {
+   "min": 0.9604,
+   "p05": 0.967,
+   "median": 0.9785,
+   "p95": 0.993,
+   "max": 0.9944
+  },
+  "r_daily": {
+   "min": 0.8987,
+   "p05": 0.9321,
+   "median": 0.9768,
+   "p95": 0.9894,
+   "max": 0.9944
+  },
+  "bias_pct": {
+   "min": -4.1699,
+   "p05": -2.0919,
+   "median": 1.1083,
+   "p95": 4.7637,
+   "max": 10.4698
+  },
+  "rmse_hourly_wm2": {
+   "min": 45.7177,
+   "p05": 53.363,
+   "median": 79.5169,
+   "p95": 102.9896,
+   "max": 116.0222
+  },
+  "mae_hourly_wm2": {
+   "min": 24.9822,
+   "p05": 28.8236,
+   "median": 49.7321,
+   "p95": 63.6084,
+   "max": 76.2305
+  }
+ },
+ "best_lag_city_years": {
+  "0": 745
+ },
+ "physics": {
+  "cities_with_night_ghi": 0,
+  "max_night_ghi_wm2": 0.0,
+  "cities_with_negative_ghi": 0,
+  "cities_with_flat_runs": 26,
+  "missing_nsrdb_hours": 0,
+  "missing_power_hours": 0
+ },
+ "anomalous_cities": [
+  {
+   "city": "California_ChulaVista",
+   "in_release": "likely",
+   "r_daily": 0.8987,
+   "bias_pct": 10.47,
+   "anomalous_days": 144,
+   "flags_by_year": {},
+   "z_flags": [
+    "z(r_daily)=-7.2",
+    "z(bias_pct)=+5.1",
+    "z(anomalous_days)=+5.1"
+   ]
+  },
+  {
+   "city": "California_Fontana",
+   "in_release": "likely",
+   "r_daily": 0.9314,
+   "bias_pct": -3.22,
+   "anomalous_days": 226,
+   "flags_by_year": {},
+   "z_flags": [
+    "z(r_daily)=-4.2",
+    "z(anomalous_days)=+9.0"
+   ]
+  },
+  {
+   "city": "California_Glendale",
+   "in_release": "likely",
+   "r_daily": 0.9505,
+   "bias_pct": -2.67,
+   "anomalous_days": 144,
+   "flags_by_year": {},
+   "z_flags": [
+    "z(anomalous_days)=+5.1"
+   ]
+  },
+  {
+   "city": "California_LongBeach",
+   "in_release": "likely",
+   "r_daily": 0.9138,
+   "bias_pct": 6.42,
+   "anomalous_days": 162,
+   "flags_by_year": {},
+   "z_flags": [
+    "z(r_daily)=-5.8",
+    "z(anomalous_days)=+5.9"
+   ]
+  },
+  {
+   "city": "California_LosAngeles",
+   "in_release": "likely",
+   "r_daily": 0.9404,
+   "bias_pct": -3.09,
+   "anomalous_days": 175,
+   "flags_by_year": {},
+   "z_flags": [
+    "z(r_daily)=-3.3",
+    "z(anomalous_days)=+6.5"
+   ]
+  },
+  {
+   "city": "California_MorenoValley",
+   "in_release": "likely",
+   "r_daily": 0.9508,
+   "bias_pct": 5.1,
+   "anomalous_days": 137,
+   "flags_by_year": {},
+   "z_flags": [
+    "z(anomalous_days)=+4.7"
+   ]
+  },
+  {
+   "city": "California_Oakland",
+   "in_release": "likely",
+   "r_daily": 0.9549,
+   "bias_pct": 7.25,
+   "anomalous_days": 38,
+   "flags_by_year": {},
+   "z_flags": [
+    "z(bias_pct)=+3.3"
+   ]
+  },
+  {
+   "city": "California_Ontario",
+   "in_release": "likely",
+   "r_daily": 0.9184,
+   "bias_pct": -4.17,
+   "anomalous_days": 227,
+   "flags_by_year": {},
+   "z_flags": [
+    "z(r_daily)=-5.3",
+    "z(anomalous_days)=+9.1"
+   ]
+  },
+  {
+   "city": "California_Oxnard",
+   "in_release": "likely",
+   "r_daily": 0.93,
+   "bias_pct": -2.02,
+   "anomalous_days": 109,
+   "flags_by_year": {},
+   "z_flags": [
+    "z(r_daily)=-4.3",
+    "z(anomalous_days)=+3.4"
+   ]
+  },
+  {
+   "city": "California_RanchoCucamonga",
+   "in_release": "no",
+   "r_daily": 0.9338,
+   "bias_pct": -2.68,
+   "anomalous_days": 205,
+   "flags_by_year": {},
+   "z_flags": [
+    "z(r_daily)=-3.9",
+    "z(anomalous_days)=+8.0"
+   ]
+  },
+  {
+   "city": "California_SanBernardino",
+   "in_release": "likely",
+   "r_daily": 0.9331,
+   "bias_pct": -3.83,
+   "anomalous_days": 227,
+   "flags_by_year": {},
+   "z_flags": [
+    "z(r_daily)=-4.0",
+    "z(anomalous_days)=+9.1"
+   ]
+  },
+  {
+   "city": "California_SanDiego",
+   "in_release": "likely",
+   "r_daily": 0.9053,
+   "bias_pct": 8.26,
+   "anomalous_days": 121,
+   "flags_by_year": {},
+   "z_flags": [
+    "z(r_daily)=-6.5",
+    "z(bias_pct)=+3.9",
+    "z(anomalous_days)=+4.0"
+   ]
+  },
+  {
+   "city": "Florida_FortLauderdale",
+   "in_release": "likely",
+   "r_daily": 0.9181,
+   "bias_pct": 5.76,
+   "anomalous_days": 43,
+   "flags_by_year": {},
+   "z_flags": [
+    "z(r_daily)=-5.4",
+    "z(rmse_hourly_wm2)=+3.1"
+   ]
+  },
+  {
+   "city": "Florida_Hialeah",
+   "in_release": "likely",
+   "r_daily": 0.9389,
+   "bias_pct": 2.19,
+   "anomalous_days": 58,
+   "flags_by_year": {},
+   "z_flags": [
+    "z(r_daily)=-3.5"
+   ]
+  },
+  {
+   "city": "Florida_Miami",
+   "in_release": "likely",
+   "r_daily": 0.942,
+   "bias_pct": 2.67,
+   "anomalous_days": 60,
+   "flags_by_year": {},
+   "z_flags": [
+    "z(r_daily)=-3.2"
+   ]
+  },
+  {
+   "city": "Florida_PembrokePines",
+   "in_release": "no",
+   "r_daily": 0.9133,
+   "bias_pct": 3.73,
+   "anomalous_days": 29,
+   "flags_by_year": {},
+   "z_flags": [
+    "z(r_daily)=-5.8",
+    "z(rmse_hourly_wm2)=+3.4"
+   ]
+  },
+  {
+   "city": "Hawaii_Honolulu",
+   "in_release": "likely",
+   "r_daily": 0.935,
+   "bias_pct": 4.05,
+   "anomalous_days": 40,
+   "flags_by_year": {},
+   "z_flags": [
+    "z(r_daily)=-3.8"
+   ]
+  }
+ ],
+ "n_anomalous_cities": 17,
+ "n_anomalous_city_years": 0,
+ "lowest_r_daily": [
+  {
+   "city": "California_ChulaVista",
+   "r_daily": 0.8987,
+   "bias_pct": 10.47
+  },
+  {
+   "city": "California_SanDiego",
+   "r_daily": 0.9053,
+   "bias_pct": 8.26
+  },
+  {
+   "city": "Florida_PembrokePines",
+   "r_daily": 0.9133,
+   "bias_pct": 3.73
+  },
+  {
+   "city": "California_LongBeach",
+   "r_daily": 0.9138,
+   "bias_pct": 6.42
+  },
+  {
+   "city": "Florida_FortLauderdale",
+   "r_daily": 0.9181,
+   "bias_pct": 5.76
+  },
+  {
+   "city": "California_Ontario",
+   "r_daily": 0.9184,
+   "bias_pct": -4.17
+  },
+  {
+   "city": "California_Oxnard",
+   "r_daily": 0.93,
+   "bias_pct": -2.02
+  },
+  {
+   "city": "California_Fontana",
+   "r_daily": 0.9314,
+   "bias_pct": -3.22
+  },
+  {
+   "city": "California_SanBernardino",
+   "r_daily": 0.9331,
+   "bias_pct": -3.83
+  },
+  {
+   "city": "California_RanchoCucamonga",
+   "r_daily": 0.9338,
+   "bias_pct": -2.68
+  }
+ ],
+ "total_anomalous_days": 7528,
+ "correlation_bias_vs_lat": -0.216,
+ "detector_elapsed_ms_total": 44577.7
+}

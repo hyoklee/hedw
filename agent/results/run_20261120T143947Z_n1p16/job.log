@@ -1,0 +1,19 @@
+job 9107666.aurora-pbs-0001.hostmgmt.cm.aurora.alcf.anl.gov: 1 nodes x 16 ranks = 16 ranks; 150 cities; start 2026-11-20T14:42:39Z
+rank 14/16 on x4103c1s3b0n0: 9 cities
+rank 12/16 on x4103c1s3b0n0: 9 cities
+rank 7/16 on x4103c1s3b0n0: 9 cities
+rank 8/16 on x4103c1s3b0n0: 9 cities
+rank 9/16 on x4103c1s3b0n0: 9 cities
+rank 10/16 on x4103c1s3b0n0: 9 cities
+rank 6/16 on x4103c1s3b0n0: 9 cities
+rank 15/16 on x4103c1s3b0n0: 9 cities
+rank 13/16 on x4103c1s3b0n0: 9 cities
+rank 11/16 on x4103c1s3b0n0: 9 cities
+rank 5/16 on x4103c1s3b0n0: 10 cities
+rank 3/16 on x4103c1s3b0n0: 10 cities
+rank 2/16 on x4103c1s3b0n0: 10 cities
+rank 1/16 on x4103c1s3b0n0: 10 cities
+rank 0/16 on x4103c1s3b0n0: 10 cities
+rank 4/16 on x4103c1s3b0n0: 10 cities
+149 cities, 17 anomalous, 1 failed -> /home/hyoklee/hedw/agent/results/run_20261120T143947Z_n1p16/summary.json
+timing detect_s=7.43 aggregate_s=2.95

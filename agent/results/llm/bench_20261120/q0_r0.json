@@ -1,0 +1,28 @@
+{
+ "question": "How many cities were analysed in the latest solar-coherence run, and how many were flagged anomalous?",
+ "agent": "hedw/solar-coherence",
+ "tools": [
+  {
+   "tool": "hedw_report",
+   "ok": true
+  }
+ ],
+ "permissions": [],
+ "session_id": "sess_85e0d0d92621",
+ "stop_reason": "end_turn",
+ "status": "completed",
+ "elapsed_s": 3.5,
+ "answer": "From the latest run (`run_20261120T143515Z_n1p50`, 2019-01-01 through 2023-12-31):\n\n- **Cities analysed: 149** (142 of them likely in the HEDW-US release footprint)\n- **Flagged anomalous: 17 cities** (7,528 anomalous city-days in total; no anomalous city-years as a whole)\n\nContext from the same report: hourly correlation with NASA POWER is high overall (median r = 0.9785), best lag is **0 h for all 745 city-years** as expected, and no physics violations (no night-time GHI, no negative GHI, no missing hours). The 17 flagged cities are all in coastal Southern California (e.g. Chula Vista, Long Beach, San Diego, Los Angeles, Ontario), consistent with the ~100 km POWER grid cell smoothing over the coastline \u2014 marine-layer fog and coastal-mountain effects \u2014 rather than an HEDW-US error.",
+ "tokens_input": 16091,
+ "tokens_output": 292,
+ "run": "run_20261120T143515Z_n1p50",
+ "expect": [
+  "149",
+  "17"
+ ],
+ "hits": [
+  true,
+  true
+ ],
+ "correct": true
+}
