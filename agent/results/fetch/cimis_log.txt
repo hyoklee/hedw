@@ -1,0 +1,9 @@
+CIMIS_44_UCRiverside 43824 hourly records, 0 failed chunk(s), 76 s
+CIMIS_78_Pomona 43824 hourly records, 0 failed chunk(s), 59 s
+CIMIS_152_Camarillo 43824 hourly records, 0 failed chunk(s), 57 s
+CIMIS_174_LongBeach 43824 hourly records, 0 failed chunk(s), 57 s
+CIMIS_184_SanDiegoII 43824 hourly records, 0 failed chunk(s), 75 s
+CIMIS_223_NorthHollywood 43824 hourly records, 0 failed chunk(s), 50 s
+CIMIS_251_Highland 43824 hourly records, 0 failed chunk(s), 49 s
+CIMIS_254_OaklandMetro 43824 hourly records, 0 failed chunk(s), 50 s
+CIMIS_99_SantaMonica 43824 hourly records, 0 failed chunk(s), 51 s

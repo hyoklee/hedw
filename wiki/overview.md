@@ -22,8 +22,9 @@
   - HEDW-US's solar stream is coherent with POWER: lag 0 h everywhere, median daily r 0.977, median bias +1.1 %.
   - Disagreement concentrates where POWER's 1° cells mix ocean, mountains and land (17 cities).
     - **South Florida:** FAWN ground data blames POWER for the low correlation.
-    - **Coastal Los Angeles:** MIDC LMU ground data (2011–2014) shows the summer gap is split, with NSRDB/HEDW-US about 10 % high and POWER about 6 % low.
+    - **Coastal Los Angeles:** MIDC LMU (2011–2014) and CIMIS (2019–2023) both show NSRDB/HEDW-US about 5–15 % too high in summer.
+    - **Inland Empire, Oakland, San Diego:** CIMIS ground data puts the error on POWER.
   - NSRDB gap-filled every city east of about −113° (109 cities) on 6 days (2019-11-17 to 20, 2020-02-13 to 14), plus a median of 1.3 % of daylight hours elsewhere. HEDW-US carries these values without a flag.
 - **Open:**
   - `data.zip` needs a DataPort login, to check the released files and the quarantined cities ([concept-data-access.md](concept-data-access.md)).
-  - Ground truth for the Inland Empire and Oakland (CIMIS needs a user app key) and for Honolulu (no public Oahu series). SURFRAD and SOLRAD have no station within 238 km of any flagged city. At all 14 SURFRAD and SOLRAD sites NSRDB beats POWER, and the filled days are confirmed wrong ([source-noaa-surfrad-solrad.md](source-noaa-surfrad-solrad.md)).
+  - Ground truth for Honolulu: no public Oahu series. Every other flagged city now has a ground check (FAWN, CIMIS, MIDC LMU). At all 14 SURFRAD and SOLRAD sites NSRDB beats POWER, and the filled days are confirmed wrong ([source-noaa-surfrad-solrad.md](source-noaa-surfrad-solrad.md)).

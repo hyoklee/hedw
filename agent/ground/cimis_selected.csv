@@ -1,0 +1,10 @@
+name,lat,lon,network,code,dir,elev_m
+CIMIS_44_UCRiverside,33.964942,-117.33698,cimis,44,,310.9
+CIMIS_78_Pomona,34.056589,-117.81307,cimis,78,,222.5
+CIMIS_152_Camarillo,34.219386,-118.99244,cimis,152,,39.6
+CIMIS_174_LongBeach,33.798697,-118.09479,cimis,174,,5.2
+CIMIS_184_SanDiegoII,32.729578,-117.13934,cimis,184,,114.9
+CIMIS_223_NorthHollywood,34.142911,-118.36632,cimis,223,,173.7
+CIMIS_251_Highland,34.112042,-117.1857,cimis,251,,388.6
+CIMIS_254_OaklandMetro,37.718167,-122.197111,cimis,254,,4.3
+CIMIS_99_SantaMonica,34.044311,-118.47689,cimis,99,,103.6

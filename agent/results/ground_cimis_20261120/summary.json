@@ -1,0 +1,3102 @@
+{
+ "stations": {
+  "CIMIS_44_UCRiverside": {
+   "code": "44",
+   "lat": 33.964942,
+   "lon": -117.33698,
+   "time_best": "PST/end",
+   "time_scan_r": {
+    "PST/end": {
+     "winter": {
+      "-1": 0.9234,
+      "0": 0.9836,
+      "1": 0.9141
+     },
+     "summer": {
+      "-1": 0.945,
+      "0": 0.985,
+      "1": 0.9303
+     }
+    },
+    "PST/start": {
+     "winter": {
+      "-1": 0.7553,
+      "0": 0.9241,
+      "1": 0.9834
+     },
+     "summer": {
+      "-1": 0.8189,
+      "0": 0.9449,
+      "1": 0.9849
+     }
+    },
+    "local/end": {
+     "winter": {
+      "-1": 0.9234,
+      "0": 0.9836,
+      "1": 0.9141
+     },
+     "summer": {
+      "-1": 0.985,
+      "0": 0.9303,
+      "1": 0.792
+     }
+    }
+   },
+   "label": "CIMIS_44_UCRiverside",
+   "daylight_hours": 20560,
+   "days": 1826,
+   "days_dropped_ground_outage": 0,
+   "hourly": {
+    "nsrdb": {
+     "n": 20560,
+     "r": 0.9817,
+     "mbe_pct": 1.12,
+     "rmse_wm2": 56.1,
+     "rmse_pct": 11.4
+    },
+    "power": {
+     "n": 20560,
+     "r": 0.9571,
+     "mbe_pct": -3.03,
+     "rmse_wm2": 85.8,
+     "rmse_pct": 17.4
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1826,
+     "r": 0.9881,
+     "mbe_pct": 1.12,
+     "rmse_wm2": 336.2,
+     "rmse_pct": 6.1
+    },
+    "power": {
+     "n": 1826,
+     "r": 0.9612,
+     "mbe_pct": -3.03,
+     "rmse_wm2": 600.8,
+     "rmse_pct": 10.9
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.69,
+   "monthly_bias_vs_ground": {
+    "1": {
+     "nsrdb_mbe_pct": -0.3,
+     "power_mbe_pct": -1.7
+    },
+    "2": {
+     "nsrdb_mbe_pct": -2.5,
+     "power_mbe_pct": -1.3
+    },
+    "3": {
+     "nsrdb_mbe_pct": -1.4,
+     "power_mbe_pct": 0.2
+    },
+    "4": {
+     "nsrdb_mbe_pct": 0.2,
+     "power_mbe_pct": -2.0
+    },
+    "5": {
+     "nsrdb_mbe_pct": 1.8,
+     "power_mbe_pct": -3.3
+    },
+    "6": {
+     "nsrdb_mbe_pct": 6.0,
+     "power_mbe_pct": -4.9
+    },
+    "7": {
+     "nsrdb_mbe_pct": 1.8,
+     "power_mbe_pct": -5.9
+    },
+    "8": {
+     "nsrdb_mbe_pct": 1.7,
+     "power_mbe_pct": -3.3
+    },
+    "9": {
+     "nsrdb_mbe_pct": 1.6,
+     "power_mbe_pct": -3.1
+    },
+    "10": {
+     "nsrdb_mbe_pct": -0.6,
+     "power_mbe_pct": -3.9
+    },
+    "11": {
+     "nsrdb_mbe_pct": -0.5,
+     "power_mbe_pct": -2.7
+    },
+    "12": {
+     "nsrdb_mbe_pct": 1.0,
+     "power_mbe_pct": 0.5
+    }
+   },
+   "episode_days": [
+    {
+     "date": "2019-11-17",
+     "ground": 4069,
+     "nsrdb": 4064,
+     "power": 4041
+    },
+    {
+     "date": "2019-11-18",
+     "ground": 3970,
+     "nsrdb": 3962,
+     "power": 3884
+    },
+    {
+     "date": "2019-11-19",
+     "ground": 2598,
+     "nsrdb": 2723,
+     "power": 2620
+    },
+    {
+     "date": "2019-11-20",
+     "ground": 2216,
+     "nsrdb": 2257,
+     "power": 1851
+    },
+    {
+     "date": "2020-02-13",
+     "ground": 4821,
+     "nsrdb": 4747,
+     "power": 4812
+    },
+    {
+     "date": "2020-02-14",
+     "ground": 4900,
+     "nsrdb": 4888,
+     "power": 4958
+    }
+   ],
+   "qc_kept_frac": 0.9999
+  },
+  "CIMIS_78_Pomona": {
+   "code": "78",
+   "lat": 34.056589,
+   "lon": -117.81307,
+   "time_best": "PST/end",
+   "time_scan_r": {
+    "PST/end": {
+     "winter": {
+      "-1": 0.8984,
+      "0": 0.9717,
+      "1": 0.9171
+     },
+     "summer": {
+      "-1": 0.9006,
+      "0": 0.9682,
+      "1": 0.9446
+     }
+    },
+    "PST/start": {
+     "winter": {
+      "-1": 0.721,
+      "0": 0.8991,
+      "1": 0.9714
+     },
+     "summer": {
+      "-1": 0.7539,
+      "0": 0.9006,
+      "1": 0.9681
+     }
+    },
+    "local/end": {
+     "winter": {
+      "-1": 0.8984,
+      "0": 0.9717,
+      "1": 0.9171
+     },
+     "summer": {
+      "-1": 0.9682,
+      "0": 0.9447,
+      "1": 0.8354
+     }
+    }
+   },
+   "label": "CIMIS_78_Pomona",
+   "daylight_hours": 20603,
+   "days": 1826,
+   "days_dropped_ground_outage": 0,
+   "hourly": {
+    "nsrdb": {
+     "n": 20603,
+     "r": 0.9772,
+     "mbe_pct": 2.51,
+     "rmse_wm2": 64.0,
+     "rmse_pct": 13.6
+    },
+    "power": {
+     "n": 20603,
+     "r": 0.9037,
+     "mbe_pct": 8.06,
+     "rmse_wm2": 132.6,
+     "rmse_pct": 28.3
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1826,
+     "r": 0.9785,
+     "mbe_pct": 2.51,
+     "rmse_wm2": 469.3,
+     "rmse_pct": 8.9
+    },
+    "power": {
+     "n": 1826,
+     "r": 0.8711,
+     "mbe_pct": 8.06,
+     "rmse_wm2": 1146.0,
+     "rmse_pct": 21.7
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.717,
+   "monthly_bias_vs_ground": {
+    "1": {
+     "nsrdb_mbe_pct": 0.9,
+     "power_mbe_pct": 3.0
+    },
+    "2": {
+     "nsrdb_mbe_pct": -0.6,
+     "power_mbe_pct": 4.4
+    },
+    "3": {
+     "nsrdb_mbe_pct": -0.9,
+     "power_mbe_pct": 8.3
+    },
+    "4": {
+     "nsrdb_mbe_pct": 1.7,
+     "power_mbe_pct": 13.8
+    },
+    "5": {
+     "nsrdb_mbe_pct": 6.7,
+     "power_mbe_pct": 24.4
+    },
+    "6": {
+     "nsrdb_mbe_pct": 6.3,
+     "power_mbe_pct": 15.9
+    },
+    "7": {
+     "nsrdb_mbe_pct": 2.6,
+     "power_mbe_pct": 0.9
+    },
+    "8": {
+     "nsrdb_mbe_pct": 2.0,
+     "power_mbe_pct": 0.1
+    },
+    "9": {
+     "nsrdb_mbe_pct": 3.6,
+     "power_mbe_pct": 8.0
+    },
+    "10": {
+     "nsrdb_mbe_pct": 1.2,
+     "power_mbe_pct": 5.8
+    },
+    "11": {
+     "nsrdb_mbe_pct": 0.7,
+     "power_mbe_pct": 1.3
+    },
+    "12": {
+     "nsrdb_mbe_pct": 1.5,
+     "power_mbe_pct": 4.0
+    }
+   },
+   "episode_days": [
+    {
+     "date": "2019-11-17",
+     "ground": 4092,
+     "nsrdb": 4043,
+     "power": 3985
+    },
+    {
+     "date": "2019-11-18",
+     "ground": 3760,
+     "nsrdb": 3857,
+     "power": 3992
+    },
+    {
+     "date": "2019-11-19",
+     "ground": 2461,
+     "nsrdb": 2702,
+     "power": 2883
+    },
+    {
+     "date": "2019-11-20",
+     "ground": 1369,
+     "nsrdb": 1154,
+     "power": 2312
+    },
+    {
+     "date": "2020-02-13",
+     "ground": 4511,
+     "nsrdb": 4774,
+     "power": 4761
+    },
+    {
+     "date": "2020-02-14",
+     "ground": 4480,
+     "nsrdb": 4815,
+     "power": 4749
+    }
+   ],
+   "qc_kept_frac": 1.0
+  },
+  "CIMIS_152_Camarillo": {
+   "code": "152",
+   "lat": 34.219386,
+   "lon": -118.99244,
+   "time_best": "PST/end",
+   "time_scan_r": {
+    "PST/end": {
+     "winter": {
+      "-1": 0.9022,
+      "0": 0.9789,
+      "1": 0.9225
+     },
+     "summer": {
+      "-1": 0.9034,
+      "0": 0.9749,
+      "1": 0.9532
+     }
+    },
+    "PST/start": {
+     "winter": {
+      "-1": 0.717,
+      "0": 0.903,
+      "1": 0.9785
+     },
+     "summer": {
+      "-1": 0.7519,
+      "0": 0.9035,
+      "1": 0.9748
+     }
+    },
+    "local/end": {
+     "winter": {
+      "-1": 0.9022,
+      "0": 0.9789,
+      "1": 0.9225
+     },
+     "summer": {
+      "-1": 0.9749,
+      "0": 0.9532,
+      "1": 0.8423
+     }
+    }
+   },
+   "label": "CIMIS_152_Camarillo",
+   "daylight_hours": 20517,
+   "days": 1826,
+   "days_dropped_ground_outage": 0,
+   "hourly": {
+    "nsrdb": {
+     "n": 20517,
+     "r": 0.9795,
+     "mbe_pct": 3.3,
+     "rmse_wm2": 64.8,
+     "rmse_pct": 13.7
+    },
+    "power": {
+     "n": 20517,
+     "r": 0.9401,
+     "mbe_pct": 5.07,
+     "rmse_wm2": 107.1,
+     "rmse_pct": 22.7
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1826,
+     "r": 0.9907,
+     "mbe_pct": 3.3,
+     "rmse_wm2": 332.1,
+     "rmse_pct": 6.3
+    },
+    "power": {
+     "n": 1826,
+     "r": 0.9329,
+     "mbe_pct": 5.07,
+     "rmse_wm2": 795.0,
+     "rmse_pct": 15.0
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.709,
+   "monthly_bias_vs_ground": {
+    "1": {
+     "nsrdb_mbe_pct": 1.0,
+     "power_mbe_pct": 1.3
+    },
+    "2": {
+     "nsrdb_mbe_pct": 1.0,
+     "power_mbe_pct": -0.8
+    },
+    "3": {
+     "nsrdb_mbe_pct": 0.5,
+     "power_mbe_pct": -2.1
+    },
+    "4": {
+     "nsrdb_mbe_pct": 3.3,
+     "power_mbe_pct": 5.2
+    },
+    "5": {
+     "nsrdb_mbe_pct": 3.4,
+     "power_mbe_pct": 9.0
+    },
+    "6": {
+     "nsrdb_mbe_pct": 4.8,
+     "power_mbe_pct": 13.6
+    },
+    "7": {
+     "nsrdb_mbe_pct": 3.3,
+     "power_mbe_pct": 4.2
+    },
+    "8": {
+     "nsrdb_mbe_pct": 4.1,
+     "power_mbe_pct": 4.3
+    },
+    "9": {
+     "nsrdb_mbe_pct": 6.7,
+     "power_mbe_pct": 7.7
+    },
+    "10": {
+     "nsrdb_mbe_pct": 3.3,
+     "power_mbe_pct": 5.5
+    },
+    "11": {
+     "nsrdb_mbe_pct": 3.9,
+     "power_mbe_pct": 3.4
+    },
+    "12": {
+     "nsrdb_mbe_pct": 0.9,
+     "power_mbe_pct": 0.6
+    }
+   },
+   "episode_days": [
+    {
+     "date": "2019-11-17",
+     "ground": 3903,
+     "nsrdb": 3963,
+     "power": 3899
+    },
+    {
+     "date": "2019-11-18",
+     "ground": 3892,
+     "nsrdb": 3901,
+     "power": 4094
+    },
+    {
+     "date": "2019-11-19",
+     "ground": 2385,
+     "nsrdb": 2715,
+     "power": 2595
+    },
+    {
+     "date": "2019-11-20",
+     "ground": 2080,
+     "nsrdb": 1916,
+     "power": 2104
+    },
+    {
+     "date": "2020-02-13",
+     "ground": 4361,
+     "nsrdb": 4544,
+     "power": 4672
+    },
+    {
+     "date": "2020-02-14",
+     "ground": 4620,
+     "nsrdb": 4733,
+     "power": 4714
+    }
+   ],
+   "qc_kept_frac": 1.0
+  },
+  "CIMIS_174_LongBeach": {
+   "code": "174",
+   "lat": 33.798697,
+   "lon": -118.09479,
+   "time_best": "PST/end",
+   "time_scan_r": {
+    "PST/end": {
+     "winter": {
+      "-1": 0.9096,
+      "0": 0.977,
+      "1": 0.914
+     },
+     "summer": {
+      "-1": 0.9374,
+      "0": 0.9706,
+      "1": 0.9049
+     }
+    },
+    "PST/start": {
+     "winter": {
+      "-1": 0.7355,
+      "0": 0.9105,
+      "1": 0.9767
+     },
+     "summer": {
+      "-1": 0.8101,
+      "0": 0.9373,
+      "1": 0.9706
+     }
+    },
+    "local/end": {
+     "winter": {
+      "-1": 0.9096,
+      "0": 0.977,
+      "1": 0.914
+     },
+     "summer": {
+      "-1": 0.9706,
+      "0": 0.9049,
+      "1": 0.7533
+     }
+    }
+   },
+   "label": "CIMIS_174_LongBeach",
+   "daylight_hours": 20610,
+   "days": 1825,
+   "days_dropped_ground_outage": 0,
+   "hourly": {
+    "nsrdb": {
+     "n": 20610,
+     "r": 0.9734,
+     "mbe_pct": 11.76,
+     "rmse_wm2": 83.6,
+     "rmse_pct": 19.4
+    },
+    "power": {
+     "n": 20610,
+     "r": 0.9366,
+     "mbe_pct": 4.08,
+     "rmse_wm2": 101.5,
+     "rmse_pct": 23.5
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1825,
+     "r": 0.9804,
+     "mbe_pct": 11.76,
+     "rmse_wm2": 735.1,
+     "rmse_pct": 15.1
+    },
+    "power": {
+     "n": 1825,
+     "r": 0.9187,
+     "mbe_pct": 4.08,
+     "rmse_wm2": 748.6,
+     "rmse_pct": 15.4
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.339,
+   "monthly_bias_vs_ground": {
+    "1": {
+     "nsrdb_mbe_pct": 7.5,
+     "power_mbe_pct": 6.5
+    },
+    "2": {
+     "nsrdb_mbe_pct": 7.9,
+     "power_mbe_pct": 7.6
+    },
+    "3": {
+     "nsrdb_mbe_pct": 7.5,
+     "power_mbe_pct": 8.9
+    },
+    "4": {
+     "nsrdb_mbe_pct": 9.9,
+     "power_mbe_pct": 5.0
+    },
+    "5": {
+     "nsrdb_mbe_pct": 13.3,
+     "power_mbe_pct": 6.9
+    },
+    "6": {
+     "nsrdb_mbe_pct": 18.0,
+     "power_mbe_pct": 2.6
+    },
+    "7": {
+     "nsrdb_mbe_pct": 16.0,
+     "power_mbe_pct": -1.2
+    },
+    "8": {
+     "nsrdb_mbe_pct": 11.9,
+     "power_mbe_pct": -0.1
+    },
+    "9": {
+     "nsrdb_mbe_pct": 12.1,
+     "power_mbe_pct": 4.5
+    },
+    "10": {
+     "nsrdb_mbe_pct": 10.8,
+     "power_mbe_pct": 4.5
+    },
+    "11": {
+     "nsrdb_mbe_pct": 9.3,
+     "power_mbe_pct": 2.4
+    },
+    "12": {
+     "nsrdb_mbe_pct": 8.6,
+     "power_mbe_pct": 6.9
+    }
+   },
+   "episode_days": [
+    {
+     "date": "2019-11-17",
+     "ground": 3590,
+     "nsrdb": 4029,
+     "power": 3976
+    },
+    {
+     "date": "2019-11-18",
+     "ground": 3642,
+     "nsrdb": 3919,
+     "power": 3855
+    },
+    {
+     "date": "2019-11-19",
+     "ground": 2422,
+     "nsrdb": 2578,
+     "power": 2556
+    },
+    {
+     "date": "2019-11-20",
+     "ground": 1673,
+     "nsrdb": 1566,
+     "power": 2214
+    },
+    {
+     "date": "2020-02-13",
+     "ground": 4258,
+     "nsrdb": 4636,
+     "power": 4662
+    },
+    {
+     "date": "2020-02-14",
+     "ground": 4457,
+     "nsrdb": 4796,
+     "power": 4839
+    }
+   ],
+   "qc_kept_frac": 0.9998
+  },
+  "CIMIS_184_SanDiegoII": {
+   "code": "184",
+   "lat": 32.729578,
+   "lon": -117.13934,
+   "time_best": "PST/end",
+   "time_scan_r": {
+    "PST/end": {
+     "winter": {
+      "-1": 0.9288,
+      "0": 0.9766,
+      "1": 0.8923
+     },
+     "summer": {
+      "-1": 0.9296,
+      "0": 0.9625,
+      "1": 0.8977
+     }
+    },
+    "PST/start": {
+     "winter": {
+      "-1": 0.766,
+      "0": 0.929,
+      "1": 0.9763
+     },
+     "summer": {
+      "-1": 0.8053,
+      "0": 0.9295,
+      "1": 0.9625
+     }
+    },
+    "local/end": {
+     "winter": {
+      "-1": 0.9288,
+      "0": 0.9766,
+      "1": 0.8923
+     },
+     "summer": {
+      "-1": 0.9625,
+      "0": 0.8976,
+      "1": 0.7482
+     }
+    }
+   },
+   "label": "CIMIS_184_SanDiegoII",
+   "daylight_hours": 14671,
+   "days": 1310,
+   "days_dropped_ground_outage": 0,
+   "hourly": {
+    "nsrdb": {
+     "n": 14671,
+     "r": 0.9706,
+     "mbe_pct": 9.98,
+     "rmse_wm2": 82.5,
+     "rmse_pct": 18.8
+    },
+    "power": {
+     "n": 14671,
+     "r": 0.9189,
+     "mbe_pct": 0.26,
+     "rmse_wm2": 113.8,
+     "rmse_pct": 25.9
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1310,
+     "r": 0.985,
+     "mbe_pct": 9.98,
+     "rmse_wm2": 611.5,
+     "rmse_pct": 12.4
+    },
+    "power": {
+     "n": 1310,
+     "r": 0.8867,
+     "mbe_pct": 0.26,
+     "rmse_wm2": 849.1,
+     "rmse_pct": 17.3
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.432,
+   "monthly_bias_vs_ground": {
+    "1": {
+     "nsrdb_mbe_pct": 9.4,
+     "power_mbe_pct": 7.0
+    },
+    "2": {
+     "nsrdb_mbe_pct": 10.5,
+     "power_mbe_pct": 7.0
+    },
+    "3": {
+     "nsrdb_mbe_pct": 12.2,
+     "power_mbe_pct": 14.1
+    },
+    "4": {
+     "nsrdb_mbe_pct": 10.4,
+     "power_mbe_pct": 5.1
+    },
+    "5": {
+     "nsrdb_mbe_pct": 8.3,
+     "power_mbe_pct": 2.9
+    },
+    "6": {
+     "nsrdb_mbe_pct": 10.7,
+     "power_mbe_pct": -5.2
+    },
+    "7": {
+     "nsrdb_mbe_pct": 8.8,
+     "power_mbe_pct": -11.0
+    },
+    "8": {
+     "nsrdb_mbe_pct": 10.3,
+     "power_mbe_pct": -5.8
+    },
+    "9": {
+     "nsrdb_mbe_pct": 13.6,
+     "power_mbe_pct": 4.8
+    },
+    "10": {
+     "nsrdb_mbe_pct": 10.6,
+     "power_mbe_pct": 2.7
+    },
+    "11": {
+     "nsrdb_mbe_pct": 7.1,
+     "power_mbe_pct": -0.8
+    },
+    "12": {
+     "nsrdb_mbe_pct": 7.0,
+     "power_mbe_pct": 3.1
+    }
+   },
+   "episode_days": [
+    {
+     "date": "2019-11-17",
+     "ground": 3960,
+     "nsrdb": 4107,
+     "power": 4057
+    },
+    {
+     "date": "2019-11-18",
+     "ground": 3539,
+     "nsrdb": 3663,
+     "power": 3324
+    },
+    {
+     "date": "2019-11-19",
+     "ground": 1670,
+     "nsrdb": 2039,
+     "power": 2022
+    },
+    {
+     "date": "2019-11-20",
+     "ground": 1525,
+     "nsrdb": 1701,
+     "power": 2190
+    },
+    {
+     "date": "2020-02-13",
+     "ground": 4581,
+     "nsrdb": 4900,
+     "power": 4835
+    },
+    {
+     "date": "2020-02-14",
+     "ground": 4592,
+     "nsrdb": 4979,
+     "power": 4752
+    }
+   ],
+   "qc_kept_frac": 0.7166
+  },
+  "CIMIS_223_NorthHollywood": {
+   "code": "223",
+   "lat": 34.142911,
+   "lon": -118.36632,
+   "time_best": "PST/end",
+   "time_scan_r": {
+    "PST/end": {
+     "winter": {
+      "-1": 0.915,
+      "0": 0.9765,
+      "1": 0.9057
+     },
+     "summer": {
+      "-1": 0.9224,
+      "0": 0.9784,
+      "1": 0.9392
+     }
+    },
+    "PST/start": {
+     "winter": {
+      "-1": 0.7422,
+      "0": 0.9157,
+      "1": 0.9761
+     },
+     "summer": {
+      "-1": 0.7803,
+      "0": 0.9224,
+      "1": 0.9783
+     }
+    },
+    "local/end": {
+     "winter": {
+      "-1": 0.915,
+      "0": 0.9765,
+      "1": 0.9057
+     },
+     "summer": {
+      "-1": 0.9784,
+      "0": 0.9392,
+      "1": 0.813
+     }
+    }
+   },
+   "label": "CIMIS_223_NorthHollywood",
+   "daylight_hours": 20550,
+   "days": 1826,
+   "days_dropped_ground_outage": 0,
+   "hourly": {
+    "nsrdb": {
+     "n": 20550,
+     "r": 0.9812,
+     "mbe_pct": 7.57,
+     "rmse_wm2": 68.9,
+     "rmse_pct": 15.2
+    },
+    "power": {
+     "n": 20550,
+     "r": 0.9499,
+     "mbe_pct": 9.26,
+     "rmse_wm2": 105.3,
+     "rmse_pct": 23.3
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1826,
+     "r": 0.9887,
+     "mbe_pct": 7.57,
+     "rmse_wm2": 515.7,
+     "rmse_pct": 10.1
+    },
+    "power": {
+     "n": 1826,
+     "r": 0.9425,
+     "mbe_pct": 9.26,
+     "rmse_wm2": 836.1,
+     "rmse_pct": 16.4
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.52,
+   "monthly_bias_vs_ground": {
+    "1": {
+     "nsrdb_mbe_pct": 3.9,
+     "power_mbe_pct": 3.7
+    },
+    "2": {
+     "nsrdb_mbe_pct": 3.9,
+     "power_mbe_pct": 4.4
+    },
+    "3": {
+     "nsrdb_mbe_pct": 2.4,
+     "power_mbe_pct": 2.8
+    },
+    "4": {
+     "nsrdb_mbe_pct": 6.2,
+     "power_mbe_pct": 7.9
+    },
+    "5": {
+     "nsrdb_mbe_pct": 9.2,
+     "power_mbe_pct": 15.5
+    },
+    "6": {
+     "nsrdb_mbe_pct": 11.0,
+     "power_mbe_pct": 17.2
+    },
+    "7": {
+     "nsrdb_mbe_pct": 10.2,
+     "power_mbe_pct": 10.2
+    },
+    "8": {
+     "nsrdb_mbe_pct": 8.3,
+     "power_mbe_pct": 7.4
+    },
+    "9": {
+     "nsrdb_mbe_pct": 7.8,
+     "power_mbe_pct": 9.9
+    },
+    "10": {
+     "nsrdb_mbe_pct": 6.8,
+     "power_mbe_pct": 8.5
+    },
+    "11": {
+     "nsrdb_mbe_pct": 7.8,
+     "power_mbe_pct": 6.0
+    },
+    "12": {
+     "nsrdb_mbe_pct": 8.7,
+     "power_mbe_pct": 8.8
+    }
+   },
+   "episode_days": [
+    {
+     "date": "2019-11-17",
+     "ground": 4005,
+     "nsrdb": 4008,
+     "power": 3899
+    },
+    {
+     "date": "2019-11-18",
+     "ground": 3810,
+     "nsrdb": 3919,
+     "power": 4094
+    },
+    {
+     "date": "2019-11-19",
+     "ground": 2911,
+     "nsrdb": 2885,
+     "power": 3035
+    },
+    {
+     "date": "2019-11-20",
+     "ground": 1400,
+     "nsrdb": 2003,
+     "power": 2104
+    },
+    {
+     "date": "2020-02-13",
+     "ground": 4494,
+     "nsrdb": 4663,
+     "power": 4672
+    },
+    {
+     "date": "2020-02-14",
+     "ground": 4664,
+     "nsrdb": 4738,
+     "power": 4714
+    }
+   ],
+   "qc_kept_frac": 0.9999
+  },
+  "CIMIS_251_Highland": {
+   "code": "251",
+   "lat": 34.112042,
+   "lon": -117.1857,
+   "time_best": "PST/end",
+   "time_scan_r": {
+    "PST/end": {
+     "winter": {
+      "-1": 0.9085,
+      "0": 0.9725,
+      "1": 0.9091
+     },
+     "summer": {
+      "-1": 0.927,
+      "0": 0.9834,
+      "1": 0.947
+     }
+    },
+    "PST/start": {
+     "winter": {
+      "-1": 0.7386,
+      "0": 0.9092,
+      "1": 0.9722
+     },
+     "summer": {
+      "-1": 0.7877,
+      "0": 0.927,
+      "1": 0.9833
+     }
+    },
+    "local/end": {
+     "winter": {
+      "-1": 0.9085,
+      "0": 0.9725,
+      "1": 0.9091
+     },
+     "summer": {
+      "-1": 0.9834,
+      "0": 0.947,
+      "1": 0.8261
+     }
+    }
+   },
+   "label": "CIMIS_251_Highland",
+   "daylight_hours": 20556,
+   "days": 1826,
+   "days_dropped_ground_outage": 0,
+   "hourly": {
+    "nsrdb": {
+     "n": 20556,
+     "r": 0.9826,
+     "mbe_pct": 9.65,
+     "rmse_wm2": 70.9,
+     "rmse_pct": 15.9
+    },
+    "power": {
+     "n": 20556,
+     "r": 0.934,
+     "mbe_pct": 13.88,
+     "rmse_wm2": 118.5,
+     "rmse_pct": 26.6
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1826,
+     "r": 0.9889,
+     "mbe_pct": 9.65,
+     "rmse_wm2": 613.9,
+     "rmse_pct": 12.2
+    },
+    "power": {
+     "n": 1826,
+     "r": 0.9224,
+     "mbe_pct": 13.88,
+     "rmse_wm2": 1060.4,
+     "rmse_pct": 21.1
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.432,
+   "monthly_bias_vs_ground": {
+    "1": {
+     "nsrdb_mbe_pct": 9.7,
+     "power_mbe_pct": 12.2
+    },
+    "2": {
+     "nsrdb_mbe_pct": 8.2,
+     "power_mbe_pct": 16.7
+    },
+    "3": {
+     "nsrdb_mbe_pct": 6.2,
+     "power_mbe_pct": 18.9
+    },
+    "4": {
+     "nsrdb_mbe_pct": 10.2,
+     "power_mbe_pct": 21.0
+    },
+    "5": {
+     "nsrdb_mbe_pct": 10.7,
+     "power_mbe_pct": 21.8
+    },
+    "6": {
+     "nsrdb_mbe_pct": 11.0,
+     "power_mbe_pct": 13.7
+    },
+    "7": {
+     "nsrdb_mbe_pct": 9.1,
+     "power_mbe_pct": 7.8
+    },
+    "8": {
+     "nsrdb_mbe_pct": 9.0,
+     "power_mbe_pct": 7.6
+    },
+    "9": {
+     "nsrdb_mbe_pct": 10.9,
+     "power_mbe_pct": 13.5
+    },
+    "10": {
+     "nsrdb_mbe_pct": 10.4,
+     "power_mbe_pct": 12.1
+    },
+    "11": {
+     "nsrdb_mbe_pct": 9.6,
+     "power_mbe_pct": 9.3
+    },
+    "12": {
+     "nsrdb_mbe_pct": 9.8,
+     "power_mbe_pct": 12.1
+    }
+   },
+   "episode_days": [
+    {
+     "date": "2019-11-17",
+     "ground": 3623,
+     "nsrdb": 4053,
+     "power": 3985
+    },
+    {
+     "date": "2019-11-18",
+     "ground": 3529,
+     "nsrdb": 3929,
+     "power": 3992
+    },
+    {
+     "date": "2019-11-19",
+     "ground": 2087,
+     "nsrdb": 2401,
+     "power": 2883
+    },
+    {
+     "date": "2019-11-20",
+     "ground": 1309,
+     "nsrdb": 1448,
+     "power": 2312
+    },
+    {
+     "date": "2020-02-13",
+     "ground": 4177,
+     "nsrdb": 4841,
+     "power": 4761
+    },
+    {
+     "date": "2020-02-14",
+     "ground": 4324,
+     "nsrdb": 4854,
+     "power": 4749
+    }
+   ],
+   "qc_kept_frac": 1.0
+  },
+  "CIMIS_254_OaklandMetro": {
+   "code": "254",
+   "lat": 37.718167,
+   "lon": -122.197111,
+   "time_best": "PST/end",
+   "time_scan_r": {
+    "PST/end": {
+     "winter": {
+      "-1": 0.9089,
+      "0": 0.9776,
+      "1": 0.9162
+     },
+     "summer": {
+      "-1": 0.921,
+      "0": 0.9763,
+      "1": 0.9387
+     }
+    },
+    "PST/start": {
+     "winter": {
+      "-1": 0.7342,
+      "0": 0.9095,
+      "1": 0.9771
+     },
+     "summer": {
+      "-1": 0.7833,
+      "0": 0.921,
+      "1": 0.9762
+     }
+    },
+    "local/end": {
+     "winter": {
+      "-1": 0.9089,
+      "0": 0.9776,
+      "1": 0.9162
+     },
+     "summer": {
+      "-1": 0.9762,
+      "0": 0.9387,
+      "1": 0.8159
+     }
+    }
+   },
+   "label": "CIMIS_254_OaklandMetro",
+   "daylight_hours": 20372,
+   "days": 1825,
+   "days_dropped_ground_outage": 1,
+   "hourly": {
+    "nsrdb": {
+     "n": 20372,
+     "r": 0.9801,
+     "mbe_pct": 2.24,
+     "rmse_wm2": 57.9,
+     "rmse_pct": 12.7
+    },
+    "power": {
+     "n": 20372,
+     "r": 0.9484,
+     "mbe_pct": -5.56,
+     "rmse_wm2": 94.8,
+     "rmse_pct": 20.8
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1825,
+     "r": 0.9905,
+     "mbe_pct": 2.19,
+     "rmse_wm2": 341.0,
+     "rmse_pct": 6.7
+    },
+    "power": {
+     "n": 1825,
+     "r": 0.9563,
+     "mbe_pct": -5.6,
+     "rmse_wm2": 718.3,
+     "rmse_pct": 14.1
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.635,
+   "monthly_bias_vs_ground": {
+    "1": {
+     "nsrdb_mbe_pct": -0.2,
+     "power_mbe_pct": 0.3
+    },
+    "2": {
+     "nsrdb_mbe_pct": -1.8,
+     "power_mbe_pct": -1.1
+    },
+    "3": {
+     "nsrdb_mbe_pct": -2.4,
+     "power_mbe_pct": -1.2
+    },
+    "4": {
+     "nsrdb_mbe_pct": 0.1,
+     "power_mbe_pct": -4.1
+    },
+    "5": {
+     "nsrdb_mbe_pct": 0.5,
+     "power_mbe_pct": -6.4
+    },
+    "6": {
+     "nsrdb_mbe_pct": 2.7,
+     "power_mbe_pct": -6.9
+    },
+    "7": {
+     "nsrdb_mbe_pct": 5.0,
+     "power_mbe_pct": -10.8
+    },
+    "8": {
+     "nsrdb_mbe_pct": 5.1,
+     "power_mbe_pct": -10.2
+    },
+    "9": {
+     "nsrdb_mbe_pct": 5.1,
+     "power_mbe_pct": -6.2
+    },
+    "10": {
+     "nsrdb_mbe_pct": 3.7,
+     "power_mbe_pct": -4.8
+    },
+    "11": {
+     "nsrdb_mbe_pct": 2.4,
+     "power_mbe_pct": -1.9
+    },
+    "12": {
+     "nsrdb_mbe_pct": 1.9,
+     "power_mbe_pct": 1.8
+    }
+   },
+   "episode_days": [
+    {
+     "date": "2019-11-17",
+     "ground": 3368,
+     "nsrdb": 3427,
+     "power": 3365
+    },
+    {
+     "date": "2019-11-18",
+     "ground": 3333,
+     "nsrdb": 3414,
+     "power": 3217
+    },
+    {
+     "date": "2019-11-19",
+     "ground": 3166,
+     "nsrdb": 3367,
+     "power": 3164
+    },
+    {
+     "date": "2019-11-20",
+     "ground": 3146,
+     "nsrdb": 3319,
+     "power": 3210
+    },
+    {
+     "date": "2020-02-13",
+     "ground": 3006,
+     "nsrdb": 2521,
+     "power": 2358
+    },
+    {
+     "date": "2020-02-14",
+     "ground": 3841,
+     "nsrdb": 3977,
+     "power": 3487
+    }
+   ],
+   "qc_kept_frac": 0.9998
+  },
+  "CIMIS_99_SantaMonica": {
+   "code": "99",
+   "lat": 34.044311,
+   "lon": -118.47689,
+   "time_best": "PST/end",
+   "time_scan_r": {
+    "PST/end": {
+     "winter": {
+      "-1": 0.9015,
+      "0": 0.9773,
+      "1": 0.9237
+     },
+     "summer": {
+      "-1": 0.903,
+      "0": 0.971,
+      "1": 0.9465
+     }
+    },
+    "PST/start": {
+     "winter": {
+      "-1": 0.7217,
+      "0": 0.9022,
+      "1": 0.977
+     },
+     "summer": {
+      "-1": 0.7549,
+      "0": 0.903,
+      "1": 0.9706
+     }
+    },
+    "local/end": {
+     "winter": {
+      "-1": 0.9015,
+      "0": 0.9773,
+      "1": 0.9237
+     },
+     "summer": {
+      "-1": 0.9711,
+      "0": 0.9469,
+      "1": 0.8356
+     }
+    }
+   },
+   "label": "CIMIS_99_SantaMonica",
+   "daylight_hours": 20500,
+   "days": 1824,
+   "days_dropped_ground_outage": 0,
+   "hourly": {
+    "nsrdb": {
+     "n": 20500,
+     "r": 0.9741,
+     "mbe_pct": 3.63,
+     "rmse_wm2": 67.8,
+     "rmse_pct": 14.5
+    },
+    "power": {
+     "n": 20500,
+     "r": 0.9273,
+     "mbe_pct": 5.74,
+     "rmse_wm2": 111.6,
+     "rmse_pct": 23.9
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1824,
+     "r": 0.9765,
+     "mbe_pct": 3.63,
+     "rmse_wm2": 493.2,
+     "rmse_pct": 9.4
+    },
+    "power": {
+     "n": 1824,
+     "r": 0.9092,
+     "mbe_pct": 5.74,
+     "rmse_wm2": 908.9,
+     "rmse_pct": 17.3
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.715,
+   "monthly_bias_vs_ground": {
+    "1": {
+     "nsrdb_mbe_pct": -0.7,
+     "power_mbe_pct": -0.3
+    },
+    "2": {
+     "nsrdb_mbe_pct": -1.2,
+     "power_mbe_pct": -1.8
+    },
+    "3": {
+     "nsrdb_mbe_pct": -1.1,
+     "power_mbe_pct": -3.7
+    },
+    "4": {
+     "nsrdb_mbe_pct": 4.4,
+     "power_mbe_pct": 5.7
+    },
+    "5": {
+     "nsrdb_mbe_pct": 5.6,
+     "power_mbe_pct": 13.2
+    },
+    "6": {
+     "nsrdb_mbe_pct": 8.8,
+     "power_mbe_pct": 17.1
+    },
+    "7": {
+     "nsrdb_mbe_pct": 7.2,
+     "power_mbe_pct": 8.9
+    },
+    "8": {
+     "nsrdb_mbe_pct": 5.4,
+     "power_mbe_pct": 5.7
+    },
+    "9": {
+     "nsrdb_mbe_pct": 4.3,
+     "power_mbe_pct": 6.7
+    },
+    "10": {
+     "nsrdb_mbe_pct": 0.8,
+     "power_mbe_pct": 3.4
+    },
+    "11": {
+     "nsrdb_mbe_pct": 0.8,
+     "power_mbe_pct": -0.1
+    },
+    "12": {
+     "nsrdb_mbe_pct": -1.1,
+     "power_mbe_pct": -1.6
+    }
+   },
+   "episode_days": [
+    {
+     "date": "2019-11-17",
+     "ground": 4019,
+     "nsrdb": 3983,
+     "power": 3899
+    },
+    {
+     "date": "2019-11-18",
+     "ground": 3828,
+     "nsrdb": 3829,
+     "power": 4094
+    },
+    {
+     "date": "2019-11-19",
+     "ground": 2824,
+     "nsrdb": 2864,
+     "power": 3035
+    },
+    {
+     "date": "2019-11-20",
+     "ground": 1574,
+     "nsrdb": 1755,
+     "power": 2104
+    },
+    {
+     "date": "2020-02-13",
+     "ground": 4793,
+     "nsrdb": 4622,
+     "power": 4672
+    },
+    {
+     "date": "2020-02-14",
+     "ground": 4742,
+     "nsrdb": 4730,
+     "power": 4714
+    }
+   ],
+   "qc_kept_frac": 0.9977
+  }
+ },
+ "flagged_cities": {
+  "California_ChulaVista": {
+   "label": "California_ChulaVista products vs CIMIS #184 San Diego II (11.2 km)",
+   "daylight_hours": 14630,
+   "days": 1310,
+   "days_dropped_ground_outage": 0,
+   "hourly": {
+    "nsrdb": {
+     "n": 14630,
+     "r": 0.9639,
+     "mbe_pct": 10.92,
+     "rmse_wm2": 90.9,
+     "rmse_pct": 20.6
+    },
+    "power": {
+     "n": 14630,
+     "r": 0.9184,
+     "mbe_pct": 0.26,
+     "rmse_wm2": 113.9,
+     "rmse_pct": 25.9
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1310,
+     "r": 0.9738,
+     "mbe_pct": 10.92,
+     "rmse_wm2": 695.2,
+     "rmse_pct": 14.1
+    },
+    "power": {
+     "n": 1310,
+     "r": 0.8866,
+     "mbe_pct": 0.26,
+     "rmse_wm2": 848.9,
+     "rmse_pct": 17.3
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.398,
+   "monthly_bias_vs_ground": {
+    "1": {
+     "nsrdb_mbe_pct": 10.8,
+     "power_mbe_pct": 7.0
+    },
+    "2": {
+     "nsrdb_mbe_pct": 11.3,
+     "power_mbe_pct": 7.0
+    },
+    "3": {
+     "nsrdb_mbe_pct": 13.9,
+     "power_mbe_pct": 14.1
+    },
+    "4": {
+     "nsrdb_mbe_pct": 12.9,
+     "power_mbe_pct": 5.1
+    },
+    "5": {
+     "nsrdb_mbe_pct": 11.1,
+     "power_mbe_pct": 2.9
+    },
+    "6": {
+     "nsrdb_mbe_pct": 13.5,
+     "power_mbe_pct": -5.2
+    },
+    "7": {
+     "nsrdb_mbe_pct": 8.0,
+     "power_mbe_pct": -11.1
+    },
+    "8": {
+     "nsrdb_mbe_pct": 9.2,
+     "power_mbe_pct": -5.8
+    },
+    "9": {
+     "nsrdb_mbe_pct": 15.3,
+     "power_mbe_pct": 4.8
+    },
+    "10": {
+     "nsrdb_mbe_pct": 10.5,
+     "power_mbe_pct": 2.7
+    },
+    "11": {
+     "nsrdb_mbe_pct": 7.4,
+     "power_mbe_pct": -0.8
+    },
+    "12": {
+     "nsrdb_mbe_pct": 7.5,
+     "power_mbe_pct": 3.1
+    }
+   },
+   "episode_days": [
+    {
+     "date": "2019-11-17",
+     "ground": 3960,
+     "nsrdb": 4095,
+     "power": 4057
+    },
+    {
+     "date": "2019-11-18",
+     "ground": 3539,
+     "nsrdb": 3602,
+     "power": 3324
+    },
+    {
+     "date": "2019-11-19",
+     "ground": 1670,
+     "nsrdb": 2008,
+     "power": 2022
+    },
+    {
+     "date": "2019-11-20",
+     "ground": 1525,
+     "nsrdb": 1881,
+     "power": 2190
+    },
+    {
+     "date": "2020-02-13",
+     "ground": 4581,
+     "nsrdb": 4904,
+     "power": 4835
+    },
+    {
+     "date": "2020-02-14",
+     "ground": 4592,
+     "nsrdb": 4966,
+     "power": 4752
+    }
+   ],
+   "station": "184",
+   "station_name": "San Diego II",
+   "distance_km": 11.2
+  },
+  "California_Fontana": {
+   "label": "California_Fontana products vs CIMIS #44 U.C. Riverside (16.8 km)",
+   "daylight_hours": 20568,
+   "days": 1826,
+   "days_dropped_ground_outage": 0,
+   "hourly": {
+    "nsrdb": {
+     "n": 20568,
+     "r": 0.9629,
+     "mbe_pct": -0.16,
+     "rmse_wm2": 80.0,
+     "rmse_pct": 16.3
+    },
+    "power": {
+     "n": 20568,
+     "r": 0.939,
+     "mbe_pct": 3.2,
+     "rmse_wm2": 101.7,
+     "rmse_pct": 20.7
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1826,
+     "r": 0.9782,
+     "mbe_pct": -0.16,
+     "rmse_wm2": 465.4,
+     "rmse_pct": 8.4
+    },
+    "power": {
+     "n": 1826,
+     "r": 0.9349,
+     "mbe_pct": 3.2,
+     "rmse_wm2": 760.4,
+     "rmse_pct": 13.7
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.649,
+   "monthly_bias_vs_ground": {
+    "1": {
+     "nsrdb_mbe_pct": -2.5,
+     "power_mbe_pct": -1.5
+    },
+    "2": {
+     "nsrdb_mbe_pct": -5.1,
+     "power_mbe_pct": 0.4
+    },
+    "3": {
+     "nsrdb_mbe_pct": -5.0,
+     "power_mbe_pct": 3.3
+    },
+    "4": {
+     "nsrdb_mbe_pct": -3.1,
+     "power_mbe_pct": 6.3
+    },
+    "5": {
+     "nsrdb_mbe_pct": -0.0,
+     "power_mbe_pct": 10.4
+    },
+    "6": {
+     "nsrdb_mbe_pct": 5.8,
+     "power_mbe_pct": 9.0
+    },
+    "7": {
+     "nsrdb_mbe_pct": 2.1,
+     "power_mbe_pct": -0.3
+    },
+    "8": {
+     "nsrdb_mbe_pct": 2.0,
+     "power_mbe_pct": -0.5
+    },
+    "9": {
+     "nsrdb_mbe_pct": 0.4,
+     "power_mbe_pct": 3.6
+    },
+    "10": {
+     "nsrdb_mbe_pct": -0.7,
+     "power_mbe_pct": 1.3
+    },
+    "11": {
+     "nsrdb_mbe_pct": -1.2,
+     "power_mbe_pct": -1.7
+    },
+    "12": {
+     "nsrdb_mbe_pct": -1.5,
+     "power_mbe_pct": 1.1
+    }
+   },
+   "episode_days": [
+    {
+     "date": "2019-11-17",
+     "ground": 4069,
+     "nsrdb": 4059,
+     "power": 3985
+    },
+    {
+     "date": "2019-11-18",
+     "ground": 3970,
+     "nsrdb": 3938,
+     "power": 3992
+    },
+    {
+     "date": "2019-11-19",
+     "ground": 2598,
+     "nsrdb": 2758,
+     "power": 2883
+    },
+    {
+     "date": "2019-11-20",
+     "ground": 2216,
+     "nsrdb": 1187,
+     "power": 2312
+    },
+    {
+     "date": "2020-02-13",
+     "ground": 4821,
+     "nsrdb": 4817,
+     "power": 4761
+    },
+    {
+     "date": "2020-02-14",
+     "ground": 4900,
+     "nsrdb": 4885,
+     "power": 4749
+    }
+   ],
+   "station": "44",
+   "station_name": "U.C. Riverside",
+   "distance_km": 16.8
+  },
+  "California_Glendale": {
+   "label": "California_Glendale products vs CIMIS #223 North Hollywood (10.2 km)",
+   "daylight_hours": 20559,
+   "days": 1826,
+   "days_dropped_ground_outage": 0,
+   "hourly": {
+    "nsrdb": {
+     "n": 20559,
+     "r": 0.9724,
+     "mbe_pct": 6.32,
+     "rmse_wm2": 77.2,
+     "rmse_pct": 17.1
+    },
+    "power": {
+     "n": 20559,
+     "r": 0.9499,
+     "mbe_pct": 9.26,
+     "rmse_wm2": 105.3,
+     "rmse_pct": 23.3
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1826,
+     "r": 0.9838,
+     "mbe_pct": 6.32,
+     "rmse_wm2": 524.2,
+     "rmse_pct": 10.3
+    },
+    "power": {
+     "n": 1826,
+     "r": 0.9425,
+     "mbe_pct": 9.26,
+     "rmse_wm2": 836.1,
+     "rmse_pct": 16.4
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.509,
+   "monthly_bias_vs_ground": {
+    "1": {
+     "nsrdb_mbe_pct": 3.9,
+     "power_mbe_pct": 3.7
+    },
+    "2": {
+     "nsrdb_mbe_pct": 2.8,
+     "power_mbe_pct": 4.4
+    },
+    "3": {
+     "nsrdb_mbe_pct": 0.4,
+     "power_mbe_pct": 2.8
+    },
+    "4": {
+     "nsrdb_mbe_pct": 3.6,
+     "power_mbe_pct": 7.9
+    },
+    "5": {
+     "nsrdb_mbe_pct": 6.7,
+     "power_mbe_pct": 15.5
+    },
+    "6": {
+     "nsrdb_mbe_pct": 9.9,
+     "power_mbe_pct": 17.2
+    },
+    "7": {
+     "nsrdb_mbe_pct": 10.1,
+     "power_mbe_pct": 10.2
+    },
+    "8": {
+     "nsrdb_mbe_pct": 7.6,
+     "power_mbe_pct": 7.4
+    },
+    "9": {
+     "nsrdb_mbe_pct": 6.5,
+     "power_mbe_pct": 9.9
+    },
+    "10": {
+     "nsrdb_mbe_pct": 5.3,
+     "power_mbe_pct": 8.5
+    },
+    "11": {
+     "nsrdb_mbe_pct": 6.8,
+     "power_mbe_pct": 6.0
+    },
+    "12": {
+     "nsrdb_mbe_pct": 8.8,
+     "power_mbe_pct": 8.8
+    }
+   },
+   "episode_days": [
+    {
+     "date": "2019-11-17",
+     "ground": 4005,
+     "nsrdb": 3998,
+     "power": 3899
+    },
+    {
+     "date": "2019-11-18",
+     "ground": 3810,
+     "nsrdb": 3869,
+     "power": 4094
+    },
+    {
+     "date": "2019-11-19",
+     "ground": 2911,
+     "nsrdb": 2788,
+     "power": 3035
+    },
+    {
+     "date": "2019-11-20",
+     "ground": 1400,
+     "nsrdb": 1363,
+     "power": 2104
+    },
+    {
+     "date": "2020-02-13",
+     "ground": 4494,
+     "nsrdb": 4683,
+     "power": 4672
+    },
+    {
+     "date": "2020-02-14",
+     "ground": 4664,
+     "nsrdb": 4773,
+     "power": 4714
+    }
+   ],
+   "station": "223",
+   "station_name": "North Hollywood",
+   "distance_km": 10.2
+  },
+  "California_LongBeach": {
+   "label": "California_LongBeach products vs CIMIS #174 Long Beach (9.7 km)",
+   "daylight_hours": 20614,
+   "days": 1825,
+   "days_dropped_ground_outage": 0,
+   "hourly": {
+    "nsrdb": {
+     "n": 20614,
+     "r": 0.9651,
+     "mbe_pct": 10.71,
+     "rmse_wm2": 88.9,
+     "rmse_pct": 20.6
+    },
+    "power": {
+     "n": 20614,
+     "r": 0.9366,
+     "mbe_pct": 4.08,
+     "rmse_wm2": 101.5,
+     "rmse_pct": 23.5
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1825,
+     "r": 0.9748,
+     "mbe_pct": 10.71,
+     "rmse_wm2": 722.0,
+     "rmse_pct": 14.8
+    },
+    "power": {
+     "n": 1825,
+     "r": 0.9187,
+     "mbe_pct": 4.08,
+     "rmse_wm2": 748.5,
+     "rmse_pct": 15.4
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.374,
+   "monthly_bias_vs_ground": {
+    "1": {
+     "nsrdb_mbe_pct": 5.8,
+     "power_mbe_pct": 6.5
+    },
+    "2": {
+     "nsrdb_mbe_pct": 6.8,
+     "power_mbe_pct": 7.6
+    },
+    "3": {
+     "nsrdb_mbe_pct": 6.1,
+     "power_mbe_pct": 8.9
+    },
+    "4": {
+     "nsrdb_mbe_pct": 9.0,
+     "power_mbe_pct": 5.0
+    },
+    "5": {
+     "nsrdb_mbe_pct": 12.3,
+     "power_mbe_pct": 6.9
+    },
+    "6": {
+     "nsrdb_mbe_pct": 16.8,
+     "power_mbe_pct": 2.6
+    },
+    "7": {
+     "nsrdb_mbe_pct": 14.7,
+     "power_mbe_pct": -1.2
+    },
+    "8": {
+     "nsrdb_mbe_pct": 11.2,
+     "power_mbe_pct": -0.1
+    },
+    "9": {
+     "nsrdb_mbe_pct": 11.4,
+     "power_mbe_pct": 4.5
+    },
+    "10": {
+     "nsrdb_mbe_pct": 10.4,
+     "power_mbe_pct": 4.5
+    },
+    "11": {
+     "nsrdb_mbe_pct": 7.8,
+     "power_mbe_pct": 2.4
+    },
+    "12": {
+     "nsrdb_mbe_pct": 7.3,
+     "power_mbe_pct": 6.9
+    }
+   },
+   "episode_days": [
+    {
+     "date": "2019-11-17",
+     "ground": 3590,
+     "nsrdb": 4020,
+     "power": 3976
+    },
+    {
+     "date": "2019-11-18",
+     "ground": 3642,
+     "nsrdb": 3906,
+     "power": 3855
+    },
+    {
+     "date": "2019-11-19",
+     "ground": 2422,
+     "nsrdb": 2479,
+     "power": 2556
+    },
+    {
+     "date": "2019-11-20",
+     "ground": 1673,
+     "nsrdb": 1457,
+     "power": 2214
+    },
+    {
+     "date": "2020-02-13",
+     "ground": 4258,
+     "nsrdb": 4328,
+     "power": 4662
+    },
+    {
+     "date": "2020-02-14",
+     "ground": 4457,
+     "nsrdb": 4792,
+     "power": 4839
+    }
+   ],
+   "station": "174",
+   "station_name": "Long Beach",
+   "distance_km": 9.7
+  },
+  "California_LosAngeles": {
+   "label": "California_LosAngeles products vs CIMIS #223 North Hollywood (15.1 km)",
+   "daylight_hours": 20573,
+   "days": 1826,
+   "days_dropped_ground_outage": 0,
+   "hourly": {
+    "nsrdb": {
+     "n": 20573,
+     "r": 0.9669,
+     "mbe_pct": 5.86,
+     "rmse_wm2": 82.7,
+     "rmse_pct": 18.3
+    },
+    "power": {
+     "n": 20573,
+     "r": 0.95,
+     "mbe_pct": 9.27,
+     "rmse_wm2": 105.3,
+     "rmse_pct": 23.3
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1826,
+     "r": 0.9823,
+     "mbe_pct": 5.86,
+     "rmse_wm2": 514.0,
+     "rmse_pct": 10.1
+    },
+    "power": {
+     "n": 1826,
+     "r": 0.9424,
+     "mbe_pct": 9.27,
+     "rmse_wm2": 836.0,
+     "rmse_pct": 16.4
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.524,
+   "monthly_bias_vs_ground": {
+    "1": {
+     "nsrdb_mbe_pct": 3.4,
+     "power_mbe_pct": 3.8
+    },
+    "2": {
+     "nsrdb_mbe_pct": 3.5,
+     "power_mbe_pct": 4.4
+    },
+    "3": {
+     "nsrdb_mbe_pct": 1.9,
+     "power_mbe_pct": 2.8
+    },
+    "4": {
+     "nsrdb_mbe_pct": 3.7,
+     "power_mbe_pct": 7.9
+    },
+    "5": {
+     "nsrdb_mbe_pct": 5.3,
+     "power_mbe_pct": 15.5
+    },
+    "6": {
+     "nsrdb_mbe_pct": 7.9,
+     "power_mbe_pct": 17.2
+    },
+    "7": {
+     "nsrdb_mbe_pct": 9.3,
+     "power_mbe_pct": 10.2
+    },
+    "8": {
+     "nsrdb_mbe_pct": 7.1,
+     "power_mbe_pct": 7.4
+    },
+    "9": {
+     "nsrdb_mbe_pct": 5.5,
+     "power_mbe_pct": 9.9
+    },
+    "10": {
+     "nsrdb_mbe_pct": 4.9,
+     "power_mbe_pct": 8.5
+    },
+    "11": {
+     "nsrdb_mbe_pct": 7.1,
+     "power_mbe_pct": 6.0
+    },
+    "12": {
+     "nsrdb_mbe_pct": 9.1,
+     "power_mbe_pct": 8.8
+    }
+   },
+   "episode_days": [
+    {
+     "date": "2019-11-17",
+     "ground": 4005,
+     "nsrdb": 3999,
+     "power": 3899
+    },
+    {
+     "date": "2019-11-18",
+     "ground": 3810,
+     "nsrdb": 3825,
+     "power": 4094
+    },
+    {
+     "date": "2019-11-19",
+     "ground": 2911,
+     "nsrdb": 2676,
+     "power": 3035
+    },
+    {
+     "date": "2019-11-20",
+     "ground": 1400,
+     "nsrdb": 1468,
+     "power": 2104
+    },
+    {
+     "date": "2020-02-13",
+     "ground": 4494,
+     "nsrdb": 4695,
+     "power": 4672
+    },
+    {
+     "date": "2020-02-14",
+     "ground": 4664,
+     "nsrdb": 4763,
+     "power": 4714
+    }
+   ],
+   "station": "223",
+   "station_name": "North Hollywood",
+   "distance_km": 15.1
+  },
+  "California_MorenoValley": {
+   "label": "California_MorenoValley products vs CIMIS #44 U.C. Riverside (10.2 km)",
+   "daylight_hours": 20549,
+   "days": 1826,
+   "days_dropped_ground_outage": 0,
+   "hourly": {
+    "nsrdb": {
+     "n": 20549,
+     "r": 0.9678,
+     "mbe_pct": 1.89,
+     "rmse_wm2": 74.9,
+     "rmse_pct": 15.2
+    },
+    "power": {
+     "n": 20549,
+     "r": 0.957,
+     "mbe_pct": -3.03,
+     "rmse_wm2": 85.8,
+     "rmse_pct": 17.4
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1826,
+     "r": 0.9784,
+     "mbe_pct": 1.89,
+     "rmse_wm2": 468.8,
+     "rmse_pct": 8.5
+    },
+    "power": {
+     "n": 1826,
+     "r": 0.9612,
+     "mbe_pct": -3.03,
+     "rmse_wm2": 600.7,
+     "rmse_pct": 10.9
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.641,
+   "monthly_bias_vs_ground": {
+    "1": {
+     "nsrdb_mbe_pct": -1.2,
+     "power_mbe_pct": -1.7
+    },
+    "2": {
+     "nsrdb_mbe_pct": -3.0,
+     "power_mbe_pct": -1.3
+    },
+    "3": {
+     "nsrdb_mbe_pct": -2.8,
+     "power_mbe_pct": 0.2
+    },
+    "4": {
+     "nsrdb_mbe_pct": 0.9,
+     "power_mbe_pct": -2.0
+    },
+    "5": {
+     "nsrdb_mbe_pct": 4.0,
+     "power_mbe_pct": -3.3
+    },
+    "6": {
+     "nsrdb_mbe_pct": 8.7,
+     "power_mbe_pct": -4.8
+    },
+    "7": {
+     "nsrdb_mbe_pct": 1.8,
+     "power_mbe_pct": -5.9
+    },
+    "8": {
+     "nsrdb_mbe_pct": 2.0,
+     "power_mbe_pct": -3.3
+    },
+    "9": {
+     "nsrdb_mbe_pct": 3.3,
+     "power_mbe_pct": -3.1
+    },
+    "10": {
+     "nsrdb_mbe_pct": 1.1,
+     "power_mbe_pct": -3.9
+    },
+    "11": {
+     "nsrdb_mbe_pct": -0.1,
+     "power_mbe_pct": -2.7
+    },
+    "12": {
+     "nsrdb_mbe_pct": 1.7,
+     "power_mbe_pct": 0.5
+    }
+   },
+   "episode_days": [
+    {
+     "date": "2019-11-17",
+     "ground": 4069,
+     "nsrdb": 4075,
+     "power": 4041
+    },
+    {
+     "date": "2019-11-18",
+     "ground": 3970,
+     "nsrdb": 3906,
+     "power": 3884
+    },
+    {
+     "date": "2019-11-19",
+     "ground": 2598,
+     "nsrdb": 2403,
+     "power": 2620
+    },
+    {
+     "date": "2019-11-20",
+     "ground": 2216,
+     "nsrdb": 1822,
+     "power": 1851
+    },
+    {
+     "date": "2020-02-13",
+     "ground": 4821,
+     "nsrdb": 4818,
+     "power": 4812
+    },
+    {
+     "date": "2020-02-14",
+     "ground": 4900,
+     "nsrdb": 4867,
+     "power": 4958
+    }
+   ],
+   "station": "44",
+   "station_name": "U.C. Riverside",
+   "distance_km": 10.2
+  },
+  "California_Oakland": {
+   "label": "California_Oakland products vs CIMIS #254 Oakland Metro (11.6 km)",
+   "daylight_hours": 20370,
+   "days": 1825,
+   "days_dropped_ground_outage": 1,
+   "hourly": {
+    "nsrdb": {
+     "n": 20370,
+     "r": 0.9653,
+     "mbe_pct": 1.26,
+     "rmse_wm2": 75.5,
+     "rmse_pct": 16.6
+    },
+    "power": {
+     "n": 20370,
+     "r": 0.9484,
+     "mbe_pct": -5.56,
+     "rmse_wm2": 94.8,
+     "rmse_pct": 20.8
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1825,
+     "r": 0.9833,
+     "mbe_pct": 1.22,
+     "rmse_wm2": 421.7,
+     "rmse_pct": 8.3
+    },
+    "power": {
+     "n": 1825,
+     "r": 0.9563,
+     "mbe_pct": -5.6,
+     "rmse_wm2": 718.3,
+     "rmse_pct": 14.1
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.613,
+   "monthly_bias_vs_ground": {
+    "1": {
+     "nsrdb_mbe_pct": -0.6,
+     "power_mbe_pct": 0.3
+    },
+    "2": {
+     "nsrdb_mbe_pct": -2.1,
+     "power_mbe_pct": -1.1
+    },
+    "3": {
+     "nsrdb_mbe_pct": -1.9,
+     "power_mbe_pct": -1.2
+    },
+    "4": {
+     "nsrdb_mbe_pct": -0.1,
+     "power_mbe_pct": -4.1
+    },
+    "5": {
+     "nsrdb_mbe_pct": -0.7,
+     "power_mbe_pct": -6.4
+    },
+    "6": {
+     "nsrdb_mbe_pct": 1.0,
+     "power_mbe_pct": -6.9
+    },
+    "7": {
+     "nsrdb_mbe_pct": 3.5,
+     "power_mbe_pct": -10.8
+    },
+    "8": {
+     "nsrdb_mbe_pct": 3.3,
+     "power_mbe_pct": -10.2
+    },
+    "9": {
+     "nsrdb_mbe_pct": 4.1,
+     "power_mbe_pct": -6.3
+    },
+    "10": {
+     "nsrdb_mbe_pct": 2.5,
+     "power_mbe_pct": -4.8
+    },
+    "11": {
+     "nsrdb_mbe_pct": 1.8,
+     "power_mbe_pct": -1.9
+    },
+    "12": {
+     "nsrdb_mbe_pct": 1.1,
+     "power_mbe_pct": 1.8
+    }
+   },
+   "episode_days": [
+    {
+     "date": "2019-11-17",
+     "ground": 3368,
+     "nsrdb": 3417,
+     "power": 3365
+    },
+    {
+     "date": "2019-11-18",
+     "ground": 3333,
+     "nsrdb": 3401,
+     "power": 3217
+    },
+    {
+     "date": "2019-11-19",
+     "ground": 3166,
+     "nsrdb": 3364,
+     "power": 3164
+    },
+    {
+     "date": "2019-11-20",
+     "ground": 3146,
+     "nsrdb": 3316,
+     "power": 3210
+    },
+    {
+     "date": "2020-02-13",
+     "ground": 3006,
+     "nsrdb": 1842,
+     "power": 2358
+    },
+    {
+     "date": "2020-02-14",
+     "ground": 3841,
+     "nsrdb": 3922,
+     "power": 3487
+    }
+   ],
+   "station": "254",
+   "station_name": "Oakland Metro",
+   "distance_km": 11.6
+  },
+  "California_Ontario": {
+   "label": "California_Ontario products vs CIMIS #78 Pomona (15.0 km)",
+   "daylight_hours": 20591,
+   "days": 1826,
+   "days_dropped_ground_outage": 0,
+   "hourly": {
+    "nsrdb": {
+     "n": 20591,
+     "r": 0.9668,
+     "mbe_pct": 3.53,
+     "rmse_wm2": 77.7,
+     "rmse_pct": 16.6
+    },
+    "power": {
+     "n": 20591,
+     "r": 0.9036,
+     "mbe_pct": 8.07,
+     "rmse_wm2": 132.6,
+     "rmse_pct": 28.3
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1826,
+     "r": 0.9712,
+     "mbe_pct": 3.53,
+     "rmse_wm2": 554.6,
+     "rmse_pct": 10.5
+    },
+    "power": {
+     "n": 1826,
+     "r": 0.8711,
+     "mbe_pct": 8.07,
+     "rmse_wm2": 1146.1,
+     "rmse_pct": 21.7
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.677,
+   "monthly_bias_vs_ground": {
+    "1": {
+     "nsrdb_mbe_pct": 0.5,
+     "power_mbe_pct": 3.0
+    },
+    "2": {
+     "nsrdb_mbe_pct": -1.0,
+     "power_mbe_pct": 4.4
+    },
+    "3": {
+     "nsrdb_mbe_pct": 0.1,
+     "power_mbe_pct": 8.3
+    },
+    "4": {
+     "nsrdb_mbe_pct": 2.6,
+     "power_mbe_pct": 13.8
+    },
+    "5": {
+     "nsrdb_mbe_pct": 9.6,
+     "power_mbe_pct": 24.4
+    },
+    "6": {
+     "nsrdb_mbe_pct": 9.5,
+     "power_mbe_pct": 15.9
+    },
+    "7": {
+     "nsrdb_mbe_pct": 2.8,
+     "power_mbe_pct": 0.9
+    },
+    "8": {
+     "nsrdb_mbe_pct": 2.3,
+     "power_mbe_pct": 0.1
+    },
+    "9": {
+     "nsrdb_mbe_pct": 4.2,
+     "power_mbe_pct": 8.1
+    },
+    "10": {
+     "nsrdb_mbe_pct": 2.5,
+     "power_mbe_pct": 5.8
+    },
+    "11": {
+     "nsrdb_mbe_pct": 1.3,
+     "power_mbe_pct": 1.3
+    },
+    "12": {
+     "nsrdb_mbe_pct": 1.4,
+     "power_mbe_pct": 4.0
+    }
+   },
+   "episode_days": [
+    {
+     "date": "2019-11-17",
+     "ground": 4092,
+     "nsrdb": 4050,
+     "power": 3985
+    },
+    {
+     "date": "2019-11-18",
+     "ground": 3760,
+     "nsrdb": 3882,
+     "power": 3992
+    },
+    {
+     "date": "2019-11-19",
+     "ground": 2461,
+     "nsrdb": 2566,
+     "power": 2883
+    },
+    {
+     "date": "2019-11-20",
+     "ground": 1369,
+     "nsrdb": 1356,
+     "power": 2312
+    },
+    {
+     "date": "2020-02-13",
+     "ground": 4511,
+     "nsrdb": 4791,
+     "power": 4761
+    },
+    {
+     "date": "2020-02-14",
+     "ground": 4480,
+     "nsrdb": 4880,
+     "power": 4749
+    }
+   ],
+   "station": "78",
+   "station_name": "Pomona",
+   "distance_km": 15.0
+  },
+  "California_Oxnard": {
+   "label": "California_Oxnard products vs CIMIS #152 Camarillo (17.1 km)",
+   "daylight_hours": 20515,
+   "days": 1826,
+   "days_dropped_ground_outage": 0,
+   "hourly": {
+    "nsrdb": {
+     "n": 20515,
+     "r": 0.9478,
+     "mbe_pct": 1.07,
+     "rmse_wm2": 97.6,
+     "rmse_pct": 20.7
+    },
+    "power": {
+     "n": 20515,
+     "r": 0.9414,
+     "mbe_pct": 3.18,
+     "rmse_wm2": 105.1,
+     "rmse_pct": 22.3
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1826,
+     "r": 0.9663,
+     "mbe_pct": 1.07,
+     "rmse_wm2": 524.2,
+     "rmse_pct": 9.9
+    },
+    "power": {
+     "n": 1826,
+     "r": 0.9371,
+     "mbe_pct": 3.18,
+     "rmse_wm2": 737.8,
+     "rmse_pct": 13.9
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.652,
+   "monthly_bias_vs_ground": {
+    "1": {
+     "nsrdb_mbe_pct": 0.6,
+     "power_mbe_pct": -1.8
+    },
+    "2": {
+     "nsrdb_mbe_pct": 1.8,
+     "power_mbe_pct": -1.6
+    },
+    "3": {
+     "nsrdb_mbe_pct": 2.4,
+     "power_mbe_pct": -2.6
+    },
+    "4": {
+     "nsrdb_mbe_pct": 3.2,
+     "power_mbe_pct": 6.1
+    },
+    "5": {
+     "nsrdb_mbe_pct": -1.7,
+     "power_mbe_pct": 8.3
+    },
+    "6": {
+     "nsrdb_mbe_pct": -1.9,
+     "power_mbe_pct": 10.5
+    },
+    "7": {
+     "nsrdb_mbe_pct": -1.0,
+     "power_mbe_pct": 2.2
+    },
+    "8": {
+     "nsrdb_mbe_pct": 1.4,
+     "power_mbe_pct": 2.6
+    },
+    "9": {
+     "nsrdb_mbe_pct": 4.9,
+     "power_mbe_pct": 4.7
+    },
+    "10": {
+     "nsrdb_mbe_pct": 1.5,
+     "power_mbe_pct": 1.5
+    },
+    "11": {
+     "nsrdb_mbe_pct": 4.0,
+     "power_mbe_pct": 0.0
+    },
+    "12": {
+     "nsrdb_mbe_pct": 0.4,
+     "power_mbe_pct": -3.1
+    }
+   },
+   "episode_days": [
+    {
+     "date": "2019-11-17",
+     "ground": 3903,
+     "nsrdb": 3963,
+     "power": 3868
+    },
+    {
+     "date": "2019-11-18",
+     "ground": 3892,
+     "nsrdb": 3902,
+     "power": 4041
+    },
+    {
+     "date": "2019-11-19",
+     "ground": 2385,
+     "nsrdb": 2875,
+     "power": 2818
+    },
+    {
+     "date": "2019-11-20",
+     "ground": 2080,
+     "nsrdb": 1975,
+     "power": 2123
+    },
+    {
+     "date": "2020-02-13",
+     "ground": 4361,
+     "nsrdb": 4622,
+     "power": 4708
+    },
+    {
+     "date": "2020-02-14",
+     "ground": 4620,
+     "nsrdb": 4729,
+     "power": 4599
+    }
+   ],
+   "station": "152",
+   "station_name": "Camarillo",
+   "distance_km": 17.1
+  },
+  "California_RanchoCucamonga": {
+   "label": "California_RanchoCucamonga products vs CIMIS #78 Pomona (21.0 km)",
+   "daylight_hours": 20586,
+   "days": 1826,
+   "days_dropped_ground_outage": 0,
+   "hourly": {
+    "nsrdb": {
+     "n": 20586,
+     "r": 0.9524,
+     "mbe_pct": 5.14,
+     "rmse_wm2": 94.0,
+     "rmse_pct": 20.0
+    },
+    "power": {
+     "n": 20586,
+     "r": 0.9036,
+     "mbe_pct": 8.07,
+     "rmse_wm2": 132.6,
+     "rmse_pct": 28.3
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1826,
+     "r": 0.9583,
+     "mbe_pct": 5.14,
+     "rmse_wm2": 682.7,
+     "rmse_pct": 12.9
+    },
+    "power": {
+     "n": 1826,
+     "r": 0.871,
+     "mbe_pct": 8.07,
+     "rmse_wm2": 1146.1,
+     "rmse_pct": 21.7
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.617,
+   "monthly_bias_vs_ground": {
+    "1": {
+     "nsrdb_mbe_pct": 2.0,
+     "power_mbe_pct": 3.0
+    },
+    "2": {
+     "nsrdb_mbe_pct": -0.9,
+     "power_mbe_pct": 4.4
+    },
+    "3": {
+     "nsrdb_mbe_pct": 1.3,
+     "power_mbe_pct": 8.3
+    },
+    "4": {
+     "nsrdb_mbe_pct": 4.9,
+     "power_mbe_pct": 13.8
+    },
+    "5": {
+     "nsrdb_mbe_pct": 13.0,
+     "power_mbe_pct": 24.4
+    },
+    "6": {
+     "nsrdb_mbe_pct": 12.2,
+     "power_mbe_pct": 15.9
+    },
+    "7": {
+     "nsrdb_mbe_pct": 3.3,
+     "power_mbe_pct": 0.9
+    },
+    "8": {
+     "nsrdb_mbe_pct": 2.9,
+     "power_mbe_pct": 0.1
+    },
+    "9": {
+     "nsrdb_mbe_pct": 6.2,
+     "power_mbe_pct": 8.1
+    },
+    "10": {
+     "nsrdb_mbe_pct": 4.4,
+     "power_mbe_pct": 5.8
+    },
+    "11": {
+     "nsrdb_mbe_pct": 2.5,
+     "power_mbe_pct": 1.3
+    },
+    "12": {
+     "nsrdb_mbe_pct": 2.8,
+     "power_mbe_pct": 4.0
+    }
+   },
+   "episode_days": [
+    {
+     "date": "2019-11-17",
+     "ground": 4092,
+     "nsrdb": 4056,
+     "power": 3985
+    },
+    {
+     "date": "2019-11-18",
+     "ground": 3760,
+     "nsrdb": 3916,
+     "power": 3992
+    },
+    {
+     "date": "2019-11-19",
+     "ground": 2461,
+     "nsrdb": 2558,
+     "power": 2883
+    },
+    {
+     "date": "2019-11-20",
+     "ground": 1369,
+     "nsrdb": 1438,
+     "power": 2312
+    },
+    {
+     "date": "2020-02-13",
+     "ground": 4511,
+     "nsrdb": 4823,
+     "power": 4761
+    },
+    {
+     "date": "2020-02-14",
+     "ground": 4480,
+     "nsrdb": 4886,
+     "power": 4749
+    }
+   ],
+   "station": "78",
+   "station_name": "Pomona",
+   "distance_km": 21.0
+  },
+  "California_SanBernardino": {
+   "label": "California_SanBernardino products vs CIMIS #251 Highland (9.6 km)",
+   "daylight_hours": 20563,
+   "days": 1826,
+   "days_dropped_ground_outage": 0,
+   "hourly": {
+    "nsrdb": {
+     "n": 20563,
+     "r": 0.97,
+     "mbe_pct": 9.49,
+     "rmse_wm2": 83.6,
+     "rmse_pct": 18.8
+    },
+    "power": {
+     "n": 20563,
+     "r": 0.934,
+     "mbe_pct": 13.88,
+     "rmse_wm2": 118.5,
+     "rmse_pct": 26.6
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1826,
+     "r": 0.9849,
+     "mbe_pct": 9.49,
+     "rmse_wm2": 625.7,
+     "rmse_pct": 12.5
+    },
+    "power": {
+     "n": 1826,
+     "r": 0.9224,
+     "mbe_pct": 13.88,
+     "rmse_wm2": 1060.4,
+     "rmse_pct": 21.1
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.461,
+   "monthly_bias_vs_ground": {
+    "1": {
+     "nsrdb_mbe_pct": 10.5,
+     "power_mbe_pct": 12.2
+    },
+    "2": {
+     "nsrdb_mbe_pct": 9.1,
+     "power_mbe_pct": 16.7
+    },
+    "3": {
+     "nsrdb_mbe_pct": 8.0,
+     "power_mbe_pct": 18.9
+    },
+    "4": {
+     "nsrdb_mbe_pct": 10.2,
+     "power_mbe_pct": 21.0
+    },
+    "5": {
+     "nsrdb_mbe_pct": 10.2,
+     "power_mbe_pct": 21.8
+    },
+    "6": {
+     "nsrdb_mbe_pct": 10.0,
+     "power_mbe_pct": 13.7
+    },
+    "7": {
+     "nsrdb_mbe_pct": 9.3,
+     "power_mbe_pct": 7.8
+    },
+    "8": {
+     "nsrdb_mbe_pct": 9.3,
+     "power_mbe_pct": 7.6
+    },
+    "9": {
+     "nsrdb_mbe_pct": 9.4,
+     "power_mbe_pct": 13.5
+    },
+    "10": {
+     "nsrdb_mbe_pct": 9.2,
+     "power_mbe_pct": 12.1
+    },
+    "11": {
+     "nsrdb_mbe_pct": 9.1,
+     "power_mbe_pct": 9.3
+    },
+    "12": {
+     "nsrdb_mbe_pct": 9.1,
+     "power_mbe_pct": 12.1
+    }
+   },
+   "episode_days": [
+    {
+     "date": "2019-11-17",
+     "ground": 3623,
+     "nsrdb": 4043,
+     "power": 3985
+    },
+    {
+     "date": "2019-11-18",
+     "ground": 3529,
+     "nsrdb": 3928,
+     "power": 3992
+    },
+    {
+     "date": "2019-11-19",
+     "ground": 2087,
+     "nsrdb": 2807,
+     "power": 2883
+    },
+    {
+     "date": "2019-11-20",
+     "ground": 1309,
+     "nsrdb": 1560,
+     "power": 2312
+    },
+    {
+     "date": "2020-02-13",
+     "ground": 4177,
+     "nsrdb": 4753,
+     "power": 4761
+    },
+    {
+     "date": "2020-02-14",
+     "ground": 4324,
+     "nsrdb": 4844,
+     "power": 4749
+    }
+   ],
+   "station": "251",
+   "station_name": "Highland",
+   "distance_km": 9.6
+  },
+  "California_SanDiego": {
+   "label": "California_SanDiego products vs CIMIS #184 San Diego II (2.6 km)",
+   "daylight_hours": 14680,
+   "days": 1310,
+   "days_dropped_ground_outage": 0,
+   "hourly": {
+    "nsrdb": {
+     "n": 14680,
+     "r": 0.9628,
+     "mbe_pct": 8.5,
+     "rmse_wm2": 86.8,
+     "rmse_pct": 19.8
+    },
+    "power": {
+     "n": 14680,
+     "r": 0.919,
+     "mbe_pct": 0.27,
+     "rmse_wm2": 113.7,
+     "rmse_pct": 25.9
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1310,
+     "r": 0.9807,
+     "mbe_pct": 8.5,
+     "rmse_wm2": 571.0,
+     "rmse_pct": 11.6
+    },
+    "power": {
+     "n": 1310,
+     "r": 0.8868,
+     "mbe_pct": 0.27,
+     "rmse_wm2": 849.1,
+     "rmse_pct": 17.3
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.483,
+   "monthly_bias_vs_ground": {
+    "1": {
+     "nsrdb_mbe_pct": 8.9,
+     "power_mbe_pct": 7.0
+    },
+    "2": {
+     "nsrdb_mbe_pct": 9.4,
+     "power_mbe_pct": 7.0
+    },
+    "3": {
+     "nsrdb_mbe_pct": 12.2,
+     "power_mbe_pct": 14.1
+    },
+    "4": {
+     "nsrdb_mbe_pct": 9.4,
+     "power_mbe_pct": 5.1
+    },
+    "5": {
+     "nsrdb_mbe_pct": 6.7,
+     "power_mbe_pct": 2.9
+    },
+    "6": {
+     "nsrdb_mbe_pct": 7.4,
+     "power_mbe_pct": -5.1
+    },
+    "7": {
+     "nsrdb_mbe_pct": 6.9,
+     "power_mbe_pct": -11.0
+    },
+    "8": {
+     "nsrdb_mbe_pct": 8.3,
+     "power_mbe_pct": -5.8
+    },
+    "9": {
+     "nsrdb_mbe_pct": 12.6,
+     "power_mbe_pct": 4.8
+    },
+    "10": {
+     "nsrdb_mbe_pct": 9.8,
+     "power_mbe_pct": 2.7
+    },
+    "11": {
+     "nsrdb_mbe_pct": 6.0,
+     "power_mbe_pct": -0.8
+    },
+    "12": {
+     "nsrdb_mbe_pct": 6.0,
+     "power_mbe_pct": 3.1
+    }
+   },
+   "episode_days": [
+    {
+     "date": "2019-11-17",
+     "ground": 3960,
+     "nsrdb": 4093,
+     "power": 4057
+    },
+    {
+     "date": "2019-11-18",
+     "ground": 3539,
+     "nsrdb": 3668,
+     "power": 3324
+    },
+    {
+     "date": "2019-11-19",
+     "ground": 1670,
+     "nsrdb": 1945,
+     "power": 2022
+    },
+    {
+     "date": "2019-11-20",
+     "ground": 1525,
+     "nsrdb": 1852,
+     "power": 2190
+    },
+    {
+     "date": "2020-02-13",
+     "ground": 4581,
+     "nsrdb": 4882,
+     "power": 4835
+    },
+    {
+     "date": "2020-02-14",
+     "ground": 4592,
+     "nsrdb": 4945,
+     "power": 4752
+    }
+   ],
+   "station": "184",
+   "station_name": "San Diego II",
+   "distance_km": 2.6
+  }
+ },
+ "time_convention": {
+  "chosen": "PST/end",
+  "votes": {
+   "PST/end": 9
+  }
+ }
+}

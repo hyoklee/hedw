@@ -236,14 +236,65 @@ Run: `agent/results/ground_local_20261120/` (`agent/ground/validate_local.py`). 
 
 ![monthly bias vs ground](../agent/results/ground_local_20261120/figures/monthly_bias_vs_ground.png)
 
-**Not covered:**
-- **Inland Empire (5 cities) and Oakland:** need CIMIS, which needs a user-registered app key.
-- **Honolulu:** no public ground series found on Oahu.
+**Not covered:** Honolulu; no public ground series was found on Oahu. California is covered by CIMIS below.
+
+### California: CIMIS, 2019–2023
+
+Run: `agent/results/ground_cimis_20261120/` (`agent/ground/validate_cimis.py`). Each flagged city's own series (city coordinates, the HEDW-US request) is compared with its nearest CIMIS station, 3–21 km away:
+
+| City | Station | Daily r NSRDB | Daily r POWER | Daily RMSE % NSRDB | Daily RMSE % POWER | MBE % NSRDB | MBE % POWER |
+|---|---|---|---|---|---|---|---|
+| ChulaVista | #184 San Diego II (11.2 km) | 0.9738 | 0.8866 | 14.1 | 17.3 | +10.92 | +0.26 |
+| Fontana | #44 U.C. Riverside (16.8 km) | 0.9782 | 0.9349 | 8.4 | 13.7 | -0.16 | +3.2 |
+| Glendale | #223 North Hollywood (10.2 km) | 0.9838 | 0.9425 | 10.3 | 16.4 | +6.32 | +9.26 |
+| LongBeach | #174 Long Beach (9.7 km) | 0.9748 | 0.9187 | 14.8 | 15.4 | +10.71 | +4.08 |
+| LosAngeles | #223 North Hollywood (15.1 km) | 0.9823 | 0.9424 | 10.1 | 16.4 | +5.86 | +9.27 |
+| MorenoValley | #44 U.C. Riverside (10.2 km) | 0.9784 | 0.9612 | 8.5 | 10.9 | +1.89 | -3.03 |
+| Oakland | #254 Oakland Metro (11.6 km) | 0.9833 | 0.9563 | 8.3 | 14.1 | +1.22 | -5.6 |
+| Ontario | #78 Pomona (15.0 km) | 0.9712 | 0.8711 | 10.5 | 21.7 | +3.53 | +8.07 |
+| Oxnard | #152 Camarillo (17.1 km) | 0.9663 | 0.9371 | 9.9 | 13.9 | +1.07 | +3.18 |
+| RanchoCucamonga | #78 Pomona (21.0 km) | 0.9583 | 0.871 | 12.9 | 21.7 | +5.14 | +8.07 |
+| SanBernardino | #251 Highland (9.6 km) | 0.9849 | 0.9224 | 12.5 | 21.1 | +9.49 | +13.88 |
+| SanDiego | #184 San Diego II (2.6 km) | 0.9807 | 0.8868 | 11.6 | 17.3 | +8.5 | +0.27 |
+
+![monthly bias vs CIMIS](../agent/results/ground_cimis_20261120/figures/monthly_bias_vs_cimis.png)
+
+**Summer-minus-winter bias** (JJA − DJF, percentage points), which cancels a constant station calibration offset (`seasonal_anomaly.txt`):
+
+| Station | NSRDB | POWER |
+|---|---|---|
+| Long Beach | +7.3 | −6.6 |
+| Santa Monica | +8.1 | +11.8 |
+| MIDC LMU (2011–2014, RSR) | +7.7 | −6.2 |
+| UC Riverside | +3.8 | −3.9 |
+| Pomona | +3.0 | +1.8 |
+| North Hollywood | +4.3 | +6.0 |
+| Camarillo | +3.1 | +7.0 |
+| Highland | +0.5 | −4.0 |
+| San Diego II | +1.0 | −13.0 |
+| Oakland Metro | +4.3 | −9.6 |
+
+**Verdicts:**
+- **Day to day, NSRDB (HEDW-US) is better for all 12 flagged California cities.** Daily r is 0.958–0.985 against 0.871–0.961, and daily RMSE is lower for every city. So the low NSRDB-vs-POWER correlation that flagged them comes from POWER.
+- **Inland Empire** (Ontario, Fontana, San Bernardino, Rancho Cucamonga, Moreno Valley):
+  - POWER is the outlier. Its daily RMSE is 10.9–21.7 % against 8.4–12.9 % for NSRDB.
+  - POWER reads up to +24 % high in late spring at Pomona and Highland, where its 1° cell includes the San Gabriel and San Bernardino mountains and the high desert.
+  - **HEDW-US is fine here.**
+- **Oakland:** POWER reads too cloudy in summer (−9.6 points JJA − DJF), probably bay fog spread across its cell. NSRDB is within about 2 %. **HEDW-US is fine.**
+- **Coastal Los Angeles** (Long Beach, Santa Monica, and LMU in 2011–2014):
+  - NSRDB has a summer excess of **+7 to +8 points** relative to winter, against +3 to +4 inland. Three independent instruments in two periods agree.
+  - **HEDW-US's coastal-LA `solar_GHI` is too high in the marine-layer months, by roughly 4–8 % beyond the inland behaviour.** Long Beach shows +14.2 % against the ground in June–August.
+  - POWER errs too, in a sign that depends on its cell.
+- **San Diego and Chula Vista:**
+  - NSRDB's offset is nearly flat through the year (+1.0 points JJA − DJF). Its +8 to +11 % level against San Diego II may partly be that station's calibration.
+  - The summer discrepancy here is mostly POWER's (−13.0 points).
+- **Caveat:** CIMIS pyranometers may carry their own seasonal artefacts, common to both products. That could explain NSRDB's small +3 to +4 points almost everywhere. The coastal-LA excess stands out above that baseline.
 
 **Recommendation for HEDW-US users:**
 - Mask 2019-11-17 to 2019-11-20 and 2020-02-13 to 2020-02-14 in `solar_*` and derived columns for all cities east of about −113°.
 - Otherwise the solar stream is better than the POWER alternative.
-- At coastal Southern California sites, expect summer (June to September) GHI about 10 % high.
+- At coastal Los Angeles sites (Long Beach, Santa Monica, and by extension Los Angeles and Oxnard nearer the coast), expect June–August GHI roughly 5–15 % high. Ground data from LMU (2011–2014) and CIMIS (2019–2023) agree.
+- Everywhere else the flags are POWER's problem: South Florida, the Inland Empire, Oakland and San Diego.
 
 ## LLM steps and their reliability
 
@@ -275,6 +326,6 @@ It did surface the Birmingham 2020-02-14 day. Takeaway: number checking catches 
 ## Limitations
 
 - This compares NSRDB with POWER, not the released HEDW-US files. The 141-city membership is inferred: 7 targets lack a county mapping, Anchorage has no data, and one more is unknown. Processing that HEDW-US applied after the download is not covered.
-- POWER is not ground truth. At all 14 SURFRAD and SOLRAD sites NSRDB beats it, no SURFRAD or SOLRAD station is within 238 km of a flagged city. FAWN, 10–36 km from the South Florida cities, has a low absolute calibration. MIDC LMU, on the LA coast, is from 2011–2014. CIMIS, for the Inland Empire and Oakland, needs a key, and Honolulu has no ground series.
+- POWER is not ground truth. At all 14 SURFRAD and SOLRAD sites NSRDB beats it, no SURFRAD or SOLRAD station is within 238 km of a flagged city. FAWN, 10–36 km from the South Florida cities, has a low absolute calibration. MIDC LMU, on the LA coast, is from 2011–2014. CIMIS covers all 12 flagged California cities from 3–21 km, and Honolulu has no ground series.
 - The anomalous-day test is per city and relative, so the threshold (|z| > 4 and > 1 kWh/m²/day) sets the count.
 - Reading the hourly Fill Flag as a percentage is an inference from its values, not from documentation.

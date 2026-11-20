@@ -1,0 +1,13 @@
+CIMIS stations: 276 total, 136 active over all of 2019-2023
+California_ChulaVista        #184 San Diego II 11 km; #147 Otay Lake 14 km; #150 Miramar 28 km
+California_Fontana           #44 U.C. Riverside 17 km; #251 Highland 23 km; #192 Lake Arrowhead 27 km
+California_Glendale          #223 North Hollywood 10 km; #216 Arleta 17 km; #99 Santa Monica 23 km
+California_LongBeach         #174 Long Beach 10 km; #99 Santa Monica 40 km; #223 North Hollywood 44 km
+California_LosAngeles        #223 North Hollywood 15 km; #99 Santa Monica 22 km; #159 Monrovia 26 km
+California_MorenoValley      #44 U.C. Riverside 10 km; #251 Highland 19 km; #240 Perris - Menifee 20 km
+California_Oakland           #254 Oakland Metro 12 km; #178 Moraga 12 km; #213 El Cerrito 14 km
+California_Ontario           #78 Pomona 15 km; #44 U.C. Riverside 31 km; #159 Monrovia 32 km
+California_Oxnard            #152 Camarillo 17 km; #217 Moorpark 31 km; #219 West Hills 49 km
+California_RanchoCucamonga   #78 Pomona 21 km; #44 U.C. Riverside 28 km; #159 Monrovia 36 km
+California_SanBernardino     #251 Highland 10 km; #44 U.C. Riverside 17 km; #192 Lake Arrowhead 18 km
+California_SanDiego          #184 San Diego II 3 km; #150 Miramar 19 km; #173 Torrey Pines 22 km

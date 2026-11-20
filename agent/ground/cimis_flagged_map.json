@@ -1,0 +1,62 @@
+{
+ "California_ChulaVista": {
+  "station": "184",
+  "name": "San Diego II",
+  "km": 11.2
+ },
+ "California_Fontana": {
+  "station": "44",
+  "name": "U.C. Riverside",
+  "km": 16.8
+ },
+ "California_Glendale": {
+  "station": "223",
+  "name": "North Hollywood",
+  "km": 10.2
+ },
+ "California_LongBeach": {
+  "station": "174",
+  "name": "Long Beach",
+  "km": 9.7
+ },
+ "California_LosAngeles": {
+  "station": "223",
+  "name": "North Hollywood",
+  "km": 15.1
+ },
+ "California_MorenoValley": {
+  "station": "44",
+  "name": "U.C. Riverside",
+  "km": 10.2
+ },
+ "California_Oakland": {
+  "station": "254",
+  "name": "Oakland Metro",
+  "km": 11.6
+ },
+ "California_Ontario": {
+  "station": "78",
+  "name": "Pomona",
+  "km": 15.0
+ },
+ "California_Oxnard": {
+  "station": "152",
+  "name": "Camarillo",
+  "km": 17.1
+ },
+ "California_RanchoCucamonga": {
+  "station": "78",
+  "name": "Pomona",
+  "km": 21.0
+ },
+ "California_SanBernardino": {
+  "station": "251",
+  "name": "Highland",
+  "km": 9.6
+ },
+ "California_SanDiego": {
+  "station": "184",
+  "name": "San Diego II",
+  "km": 2.6
+ }
+}

@@ -1,0 +1,12 @@
+Summer-minus-winter bias vs ground (JJA - DJF, percentage points); cancels a constant station calibration offset
+station                        NSRDB   POWER
+CIMIS_44_UCRiverside            +3.8    -3.9
+CIMIS_78_Pomona                 +3.0    +1.8
+CIMIS_152_Camarillo             +3.1    +7.0
+CIMIS_174_LongBeach             +7.3    -6.6
+CIMIS_184_SanDiegoII            +1.0   -13.0
+CIMIS_223_NorthHollywood        +4.3    +6.0
+CIMIS_251_Highland              +0.5    -4.0
+CIMIS_254_OaklandMetro          +4.3    -9.6
+CIMIS_99_SantaMonica            +8.1   +11.8
+MIDC_LMU (2011-2014, RSR)       +7.7    -6.2

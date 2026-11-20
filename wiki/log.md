@@ -148,3 +148,16 @@
   - Daily r: NSRDB 0.978, POWER 0.9551.
   - So in coastal Southern California the summer flag is partly a real NSRDB/HEDW-US over-estimate.
 - **Results:** `agent/results/ground_local_20261120/`. Pages: [source-fawn-midc-cimis.md](source-fawn-midc-cimis.md), [agent_solar_coherence.md](agent_solar_coherence.md#near-the-flagged-cities-fawn-and-midc-lmu).
+
+## [2026-11-20] test | CIMIS ground truth for the 12 flagged California cities
+- **Access:** the user registered a CIMIS key, stored in `~/.config/hedw/cimis.env`, and approved access. The current documented API sends the key in the `Ocp-Apim-Subscription-Key` header; the old `/api` path is gone. The site's embedded key was not used.
+- **Stations:** 136 of 276 were active over 2019–2023. The nearest to each flagged city is 3–21 km away; #99 Santa Monica was added as a coastal reference.
+- **Download:** 9 × 43,824 hourly records in 7.9 min, no failures. NSRDB (45/45) and POWER (9/9) fetched at the station coordinates.
+- **Time:** PST with end-of-hour labels, 9/9 by lag scan.
+- **Day to day:** NSRDB beats POWER for all 12 cities, daily r 0.958–0.985 against 0.871–0.961.
+- **Bias:**
+  - Inland Empire: POWER is the outlier, daily RMSE 10.9–21.7 % against 8.4–12.9 %.
+  - Oakland: POWER is too cloudy in summer.
+  - Coastal LA (Long Beach, Santa Monica, plus LMU): NSRDB summer excess of +7 to +8 points JJA − DJF, a real HEDW-US bias.
+  - San Diego: the summer error is mostly POWER's (−13 points).
+- **Results:** `agent/results/ground_cimis_20261120/`. Pages: [source-fawn-midc-cimis.md](source-fawn-midc-cimis.md), [agent_solar_coherence.md](agent_solar_coherence.md#california-cimis-2019-2023).
