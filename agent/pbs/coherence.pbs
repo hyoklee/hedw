@@ -1,0 +1,24 @@
+#!/bin/bash
+#PBS -N hedw_coherence
+#PBS -q debug
+#PBS -A IOWarp
+#PBS -l select=1
+#PBS -l filesystems=home:flare
+#PBS -l walltime=00:10:00
+#PBS -j oe
+# Solar-coherence detector over all cities on Aurora, then aggregation.
+# Submit with agent/pbs/submit.sh (sets AGENT_DIR, RUN_DIR, MANIFEST, PPN).
+# Inputs (raw/nsrdb, raw/power) are fetched beforehand on the login node.
+set -u
+PPN=${PPN:-50}
+NNODES=$(sort -u "$PBS_NODEFILE" | wc -l)
+NR=$((NNODES * PPN))
+echo "job $PBS_JOBID: $NNODES nodes x $PPN ranks = $NR ranks; $(wc -l < "$MANIFEST") cities; start $(date -u +%FT%TZ)"
+T0=$(date +%s.%N)
+mpiexec -n "$NR" --ppn "$PPN" --cpu-bind depth -d 2 \
+  env NRANKS="$NR" "$AGENT_DIR/pbs/worker.sh" "$MANIFEST" "$RUN_DIR/shards"
+T1=$(date +%s.%N)
+PY=${CLIO_AGENT_PY:-$HOME/.local/share/clio/clio-agent-097/.venv/bin/python}
+"$PY" -I "$AGENT_DIR/aggregate.py" "$RUN_DIR"
+T2=$(date +%s.%N)
+python3 -c "print('timing detect_s=%.2f aggregate_s=%.2f' % ($T1-$T0, $T2-$T1))"

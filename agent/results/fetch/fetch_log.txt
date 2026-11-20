@@ -1,0 +1,270 @@
+14:09:23 power Texas_Houston: 3207503
+14:09:23 power Illinois_Chicago: 3199255
+14:09:25 power Pennsylvania_Philadelphia: 3202294
+14:09:25 power Arizona_Phoenix: 3215235
+14:09:26 power Texas_SanAntonio: 3208918
+14:09:27 power California_SanDiego: 3209477
+14:09:28 power Texas_Dallas: 3207220
+14:09:28 power California_SanJose: 3209343
+14:09:29 power Texas_Austin: 3208499
+14:09:29 power Indiana_Indianapolis: 3200202
+14:09:30 power California_SanFrancisco: 3211196
+14:09:31 power Florida_Jacksonville: 3208492
+14:09:32 power Ohio_Columbus: 3200645
+14:09:32 power North Carolina_Charlotte: 3205046
+14:09:33 power Texas_FortWorth: 3208747
+14:09:34 power Michigan_Detroit: 3199735
+14:09:34 power Texas_ElPaso: 3215287
+14:09:35 power Tennessee_Memphis: 3202621
+14:09:36 power Washington_Seattle: 3199453
+14:09:37 power Colorado_Denver: 3210548
+14:09:38 power District of Columbia_Washington: 3202728
+14:09:39 power Massachusetts_Boston: 3199807
+14:09:39 power Tennessee_Nashville: 3202301
+14:09:40 power Maryland_Baltimore: 3202302
+14:09:40 power Oklahoma_OklahomaCity: 3206952
+14:09:41 power Kentucky_Louisville: 3200735
+14:09:42 power Oregon_Portland: 3200183
+14:09:42 power Nevada_LasVegas: 3213779
+14:09:44 power Wisconsin_Milwaukee: 3197946
+14:09:44 power New Mexico_Albuquerque: 3214596
+14:09:45 power Arizona_Tucson: 3216034
+14:09:46 power California_Fresno: 3209414
+14:09:47 power California_Sacramento: 3208327
+14:09:48 power California_LongBeach: 3210093
+14:09:48 power Missouri_KansasCity: 3202845
+14:09:49 power Arizona_Mesa: 3215090
+14:09:50 power Virginia_VirginiaBeach: 3203664
+14:09:51 power Georgia_Atlanta: 3205596
+14:09:51 power Colorado_ColoradoSprings: 3211219
+14:09:52 power Nebraska_Omaha: 3203688
+14:09:53 power North Carolina_Raleigh: 3205274
+14:09:54 power Florida_Miami: 3212170
+14:09:54 power California_Oakland: 3211196
+14:09:55 power Oklahoma_Tulsa: 3204823
+14:09:55 power Minnesota_Minneapolis: 3201149
+14:09:57 power Kansas_Wichita: 3206198
+14:09:57 power Ohio_Cleveland: 3199404
+14:09:57 power Texas_Arlington: 3208747
+14:09:58 power Louisiana_NewOrleans: 3206536
+14:09:59 power California_Bakersfield: 3210040
+14:10:00 power Florida_Tampa: 3211079
+14:10:00 power Hawaii_Honolulu: 3216349
+14:10:01 power Colorado_Aurora: 3210549
+14:10:02 power California_Anaheim: 3212347
+14:10:03 power California_SantaAna: 3212349
+14:10:03 power Missouri_St.Louis: 3201487
+14:10:04 power California_Riverside: 3212350
+14:10:05 power Texas_CorpusChristi: 3210094
+14:10:05 power Kentucky_Lexington-Fayette: 3200986
+14:10:06 power Pennsylvania_Pittsburgh: 3199657
+14:10:07 power Alaska_Anchorage: 3188066
+14:10:07 power California_Stockton: 3209343
+14:10:08 power Ohio_Cincinnati: 3200640
+14:10:09 power Minnesota_St.Paul: 3201148
+14:10:09 power Ohio_Toledo: 3200121
+14:10:10 power North Carolina_Greensboro: 3204534
+14:10:11 power New Jersey_Newark: 3201198
+14:10:11 power Texas_Plano: 3206970
+14:10:12 power Nevada_Henderson: 3212970
+14:10:13 power Nebraska_Lincoln: 3204659
+14:10:14 power New York_Buffalo: 3198320
+14:10:14 power New Jersey_JerseyCity: 3201198
+14:10:15 power California_ChulaVista: 3209476
+14:10:16 power Indiana_FortWayne: 3199285
+14:10:16 power Florida_Orlando: 3210522
+14:10:16 power Florida_St.Petersburg: 3211078
+14:10:17 power Arizona_Chandler: 3215090
+14:10:17 power Texas_Laredo: 3210282
+14:10:18 power Virginia_Norfolk: 3204599
+14:10:19 power North Carolina_Durham: 3205275
+14:10:20 power Wisconsin_Madison: 3200126
+14:10:20 power Texas_Lubbock: 3212326
+14:10:21 power California_Irvine: 3212350
+14:10:22 power North Carolina_Winston-Salem: 3204863
+14:10:23 power Arizona_Glendale: 3215235
+14:10:23 power Texas_Garland: 3207220
+14:10:24 power Florida_Hialeah: 3212170
+14:10:25 power Nevada_Reno: 3212130
+14:10:25 power Virginia_Chesapeake: 3204599
+14:10:25 power Arizona_Gilbert: 3215090
+14:10:27 power Texas_Irving: 3207220
+14:10:27 power Louisiana_BatonRouge: 3205839
+14:10:27 power Arizona_Scottsdale: 3215090
+14:10:28 power Nevada_NorthLasVegas: 3213781
+14:10:29 power California_Fremont: 3209343
+14:10:30 power Idaho_BoiseCity: 3205723
+14:10:30 power Virginia_Richmond: 3203796
+14:10:31 power California_SanBernardino: 3212333
+14:10:31 power Alabama_Birmingham: 3204257
+14:10:32 power Washington_Spokane: 3200594
+14:10:33 power New York_Rochester: 3196728
+14:10:34 power Iowa_DesMoines: 3203039
+14:10:34 power California_Modesto: 3208697
+14:10:35 power North Carolina_Fayetteville: 3205274
+14:10:35 power Washington_Tacoma: 3199454
+14:10:36 power California_Oxnard: 3213093
+14:10:37 power California_Fontana: 3212334
+14:10:37 power Georgia_Columbus: 3206687
+14:10:38 power Alabama_Montgomery: 3205066
+14:10:38 power California_MorenoValley: 3212349
+14:10:39 power Louisiana_Shreveport: 3204597
+14:10:40 power Illinois_Aurora: 3200244
+14:10:41 power New York_Yonkers: 3200991
+14:10:41 power Ohio_Akron: 3199404
+14:10:42 power California_HuntingtonBeach: 3212348
+14:10:43 power Arkansas_LittleRock: 3203011
+14:10:43 power Georgia_Augusta-RichmondCounty: 3206974
+14:10:44 power Texas_Amarillo: 3211526
+14:10:46 power Alabama_Mobile: 3206416
+14:10:47 power Michigan_GrandRapids: 3198267
+14:10:49 power Utah_SaltLakeCity: 3210642
+14:10:50 power Florida_Tallahassee: 3208449
+14:10:51 power California_Glendale: 3212180
+14:10:52 power Alabama_Huntsville: 3203820
+14:10:52 power Texas_GrandPrairie: 3207219
+14:10:53 power Tennessee_Knoxville: 3205643
+14:10:54 power Massachusetts_Worcester: 3199809
+14:10:54 power Virginia_NewportNews: 3203160
+14:10:56 power Texas_Brownsville: 3210501
+14:10:56 power Kansas_OverlandPark: 3203895
+14:10:57 power California_SantaClarita: 3212182
+14:10:57 power Rhode Island_Providence: 3200424
+14:10:58 power Tennessee_Chattanooga: 3203817
+14:10:59 power California_GardenGrove: 3212349
+14:10:59 power California_Oceanside: 3212349
+14:11:00 power Mississippi_Jackson: 3205114
+14:11:01 power Florida_FortLauderdale: 3211467
+14:11:02 power California_SantaRosa: 3209473
+14:11:02 power California_RanchoCucamonga: 3212334
+14:11:03 power Florida_PortSt.Lucie: 3210954
+14:11:04 power Arizona_Tempe: 3215089
+14:11:04 power California_Ontario: 3212333
+14:11:05 power Washington_Vancouver: 3200183
+14:11:05 power Florida_CapeCoral: 3211565
+14:11:07 power Missouri_Springfield: 3203183
+14:11:07 power South Dakota_SiouxFalls: 3203605
+14:11:08 power Florida_PembrokePines: 3211467
+14:11:09 power Arizona_Peoria: 3215235
+14:11:09 POWER done: 150/150 ok
+14:11:09   HTTP 429 Pennsylvania_Philadelphia_2019.csv try 1: Error Code,Error Message
+"OVER_RATE_LIMIT","You have exceeded your rate limit. Try again later or contact us for assistance: https://developer.nrel.gov/contact/"
+14:11:14 nsrdb Illinois_Chicago 2019: 702716
+14:11:14 nsrdb Texas_Houston 2019: 720497
+14:11:19 nsrdb Pennsylvania_Philadelphia 2019: 714244
+14:11:20 nsrdb Illinois_Chicago 2020: 705489
+14:11:20 nsrdb Texas_Houston 2020: 716734
+14:11:25 nsrdb Pennsylvania_Philadelphia 2020: 712236
+14:11:26 nsrdb Illinois_Chicago 2021: 703563
+14:11:26 nsrdb Texas_Houston 2021: 715047
+14:11:30 nsrdb Pennsylvania_Philadelphia 2021: 712825
+14:11:31 nsrdb Texas_Houston 2022: 716344
+14:11:32 nsrdb Illinois_Chicago 2022: 704440
+14:11:36 nsrdb Pennsylvania_Philadelphia 2022: 714289
+14:11:37 nsrdb Illinois_Chicago 2023: 701449
+14:11:38 nsrdb Texas_Houston 2023: 716804
+14:11:42 nsrdb Pennsylvania_Philadelphia 2023: 709408
+14:11:43 nsrdb Arizona_Phoenix 2019: 709157
+14:11:43 nsrdb Texas_SanAntonio 2019: 709767
+14:11:47 nsrdb California_SanDiego 2019: 721841
+14:11:49 nsrdb Arizona_Phoenix 2020: 713645
+14:11:49 nsrdb Texas_SanAntonio 2020: 710475
+14:11:52 nsrdb California_SanDiego 2020: 722395
+14:11:54 nsrdb Arizona_Phoenix 2021: 711859
+14:11:55 nsrdb Texas_SanAntonio 2021: 708634
+14:11:58 nsrdb California_SanDiego 2021: 719866
+14:12:00 nsrdb Arizona_Phoenix 2022: 710351
+14:12:00 nsrdb Texas_SanAntonio 2022: 712591
+14:12:03 nsrdb California_SanDiego 2022: 719588
+14:12:05 nsrdb Arizona_Phoenix 2023: 710198
+14:12:06 nsrdb Texas_SanAntonio 2023: 709033
+14:12:09 nsrdb California_SanDiego 2023: 720943
+14:12:11 nsrdb Texas_Dallas 2019: 710687
+14:12:11 nsrdb California_SanJose 2019: 718011
+14:12:15 nsrdb Texas_Austin 2019: 711122
+14:12:16 nsrdb Texas_Dallas 2020: 714020
+14:12:16 nsrdb California_SanJose 2020: 716572
+14:12:19 nsrdb Texas_Austin 2020: 711269
+14:12:22 nsrdb California_SanJose 2021: 716343
+14:12:22 nsrdb Texas_Dallas 2021: 711907
+14:12:25 nsrdb Texas_Austin 2021: 714838
+14:12:27 nsrdb California_SanJose 2022: 711413
+14:12:28 nsrdb Texas_Dallas 2022: 713322
+14:12:30 nsrdb Texas_Austin 2022: 712043
+14:12:33 nsrdb Texas_Dallas 2023: 708712
+14:12:34 nsrdb California_SanJose 2023: 718983
+14:12:35 nsrdb Texas_Austin 2023: 710298
+14:12:39 nsrdb Indiana_Indianapolis 2019: 708261
+14:12:39 nsrdb Florida_Jacksonville 2019: 712674
+14:12:40   HTTP 429 Florida_Jacksonville_2020.csv try 1: Error Code,Error Message
+"OVER_RATE_LIMIT","You have exceeded your rate limit. Try again later or contact us for assistance: https://developer.nrel.gov/contact/"
+14:12:40 nsrdb California_SanFrancisco 2019: 722663
+14:12:44 nsrdb Indiana_Indianapolis 2020: 708496
+14:12:46 nsrdb California_SanFrancisco 2020: 720464
+14:12:49 nsrdb Indiana_Indianapolis 2021: 708827
+14:12:50 nsrdb Florida_Jacksonville 2020: 717305
+14:12:52 nsrdb California_SanFrancisco 2021: 719359
+14:12:55 nsrdb Indiana_Indianapolis 2022: 708095
+14:12:56 nsrdb Florida_Jacksonville 2021: 711036
+14:12:57 nsrdb California_SanFrancisco 2022: 718596
+14:13:00 nsrdb Indiana_Indianapolis 2023: 705826
+14:13:01 nsrdb Florida_Jacksonville 2022: 709815
+14:13:02 nsrdb California_SanFrancisco 2023: 720492
+14:13:05 nsrdb Ohio_Columbus 2019: 707775
+14:13:07 nsrdb Florida_Jacksonville 2023: 711852
+14:13:07 nsrdb North Carolina_Charlotte 2019: 707126
+14:13:10 nsrdb Ohio_Columbus 2020: 710878
+14:13:12 nsrdb Texas_FortWorth 2019: 709123
+14:13:12 nsrdb North Carolina_Charlotte 2020: 707169
+14:13:16 nsrdb Ohio_Columbus 2021: 706767
+14:13:18 nsrdb Texas_FortWorth 2020: 712761
+14:13:18 nsrdb North Carolina_Charlotte 2021: 706501
+14:13:21 nsrdb Ohio_Columbus 2022: 707069
+14:13:23 nsrdb North Carolina_Charlotte 2022: 706106
+14:13:24 nsrdb Texas_FortWorth 2021: 710259
+14:13:27 nsrdb Ohio_Columbus 2023: 706834
+14:13:28 nsrdb North Carolina_Charlotte 2023: 707151
+14:13:30 nsrdb Texas_FortWorth 2022: 712914
+14:13:32 nsrdb Michigan_Detroit 2019: 709954
+14:13:34 nsrdb Texas_ElPaso 2019: 709851
+14:13:35 nsrdb Texas_FortWorth 2023: 710497
+14:13:37 nsrdb Michigan_Detroit 2020: 713567
+14:13:39 nsrdb Texas_ElPaso 2020: 712584
+14:13:40 nsrdb Tennessee_Memphis 2019: 713484
+14:13:42 nsrdb Michigan_Detroit 2021: 711760
+14:13:45 nsrdb Tennessee_Memphis 2020: 716237
+14:13:46 nsrdb Texas_ElPaso 2021: 707057
+14:13:48 nsrdb Michigan_Detroit 2022: 712897
+14:13:51 nsrdb Tennessee_Memphis 2021: 715581
+14:13:51 nsrdb Texas_ElPaso 2022: 709390
+14:13:53 nsrdb Michigan_Detroit 2023: 709075
+14:13:56 nsrdb Tennessee_Memphis 2022: 718136
+14:13:57 nsrdb Texas_ElPaso 2023: 711914
+14:13:58 nsrdb Washington_Seattle 2019: 716047
+14:14:02 nsrdb Tennessee_Memphis 2023: 716243
+14:14:02 nsrdb Colorado_Denver 2019: 715497
+14:14:03 nsrdb Washington_Seattle 2020: 713220
+14:14:07 nsrdb District of Columbia_Washington 2019: 715650
+14:14:07 nsrdb Colorado_Denver 2020: 717365
+14:14:08   HTTP 429 Colorado_Denver_2021.csv try 1: Error Code,Error Message
+"OVER_RATE_LIMIT","You have exceeded your rate limit. Try again later or contact us for assistance: https://developer.nrel.gov/contact/"
+14:14:09 nsrdb Washington_Seattle 2021: 711941
+14:14:12 nsrdb District of Columbia_Washington 2020: 718224
+14:14:14 nsrdb Washington_Seattle 2022: 714913
+14:14:17 nsrdb District of Columbia_Washington 2021: 717566
+14:14:19 nsrdb Colorado_Denver 2021: 714552
+14:14:19 nsrdb Washington_Seattle 2023: 711684
+14:14:22 nsrdb District of Columbia_Washington 2022: 718467
+14:14:24 nsrdb Colorado_Denver 2022: 714130
+14:14:25 nsrdb Massachusetts_Boston 2019: 710506
+14:14:27 nsrdb District of Columbia_Washington 2023: 712869
+14:14:30 nsrdb Massachusetts_Boston 2020: 712157
+14:14:30 nsrdb Colorado_Denver 2023: 715547
+14:14:33 nsrdb Tennessee_Nashville 2019: 709728
+14:14:35 nsrdb Massachusetts_Boston 2021: 708847
+14:14:35 nsrdb Maryland_Baltimore 2019: 716819
+14:14:38 nsrdb Tennessee_Nashville 2020: 712515
+14:14:40 nsrdb Maryland_Baltimore 2020: 717327
+14:14:40 nsrdb Massachusetts_Boston 2022: 709874
+14:14:43 nsrdb Tennessee_Nashville 2021: 709860
+14:14:45 nsrdb Maryland_Baltimore 2021: 719370

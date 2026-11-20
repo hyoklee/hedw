@@ -1,0 +1,13 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "solar-coherence",
+  "version": "0.1.0",
+  "description": "HEDW-US solar-coherence agent: the hedw_report tool (run digests and per-city results), hedw_day (hourly NSRDB vs POWER for one city-day), and PBS submission of new runs on Aurora.",
+  "license": "BSD-3-Clause",
+  "keywords": ["hedw", "nsrdb", "nasa-power", "solar", "anomaly"],
+  "extensions": {
+    "ai.iowarp.clio": {
+      "requires": ["shell"]
+    }
+  }
+}
