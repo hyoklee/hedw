@@ -1,0 +1,15 @@
+# Raw dataset files (IEEE DataPort, subscription; re-download, never commit)
+raw/*.zip
+raw/data/
+raw/figures/
+raw/results/
+*.h5
+*.csv.gz
+# editor backups
+*~
+# clio-agent / clio-coder runtime state
+.clio/
+data/
+__pycache__/
+*.pyc
+core.*
