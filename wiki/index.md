@@ -16,6 +16,7 @@
 
 | Page | Summary |
 |---|---|
+| [concept-data-access.md](concept-data-access.md) | Download issues: IEEE Xplore returns 418, DataPort needs a login, no mirrors. Manual steps and a fallback |
 | [concept-ghi.md](concept-ghi.md) | Global horizontal irradiance and its physical consistency checks |
 | [concept-nsrdb.md](concept-nsrdb.md) | NREL NSRDB, the HEDW-US irradiance source; resampling and time-zone pitfalls |
 | [concept-solar-coherence.md](concept-solar-coherence.md) | Coherence metrics (phase, amplitude, shape, physics) and anomaly thresholds |

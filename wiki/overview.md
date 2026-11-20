@@ -16,4 +16,4 @@
   - paper and dataset metadata ingested;
   - NASA POWER hourly API verified from Aurora;
   - coherence method drafted.
-- Blocked: the paper PDF and `data.zip` need an IEEE login. Waiting on the user to place them in `../raw/`.
+- Blocked: the paper PDF and `data.zip` need an IEEE login. Waiting on the user to place them in `../raw/`. See [concept-data-access.md](concept-data-access.md).

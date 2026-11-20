@@ -4,7 +4,7 @@
 - **Landing page:** https://ieee-dataport.org/documents/hourly-electricity-demand-and-weather-data-major-us-cities-2019-2023 (DataPort dataset id 14627)
 - **Citation:** Mohammed Sleiman, Rui Bo, IEEE DataPort, February 28, 2026.
 - **License:** CC BY 4.0 (DataCite `rightsList`).
-- **Access:** "Subscription Required". Files need an IEEE DataPort login; IEEE Society members are included.
+- **Access:** "Subscription Required". Files need an IEEE DataPort login; IEEE Society members are included. No public mirror was found; see [concept-data-access.md](concept-data-access.md).
 - **Metadata record:** [`raw/datacite_10.21227_fpqq-nr70.json`](../raw/datacite_10.21227_fpqq-nr70.json)
 
 ## Files (from the landing page, 2026-11-20)

@@ -8,7 +8,7 @@
 - **DOI:** [10.1109/IEEEDATA.2026.3752026](https://doi.org/10.1109/IEEEDATA.2026.3752026)
 - **License:** CC BY 4.0, effective 2026-01-01 (Crossref `license`). Unpaywall reports `is_oa: true`, host type publisher, with no repository copy.
 - **Metadata record:** [`raw/crossref_10.1109_IEEEDATA.2026.3752026.json`](../raw/crossref_10.1109_IEEEDATA.2026.3752026.json)
-- **Full text:** not yet in `raw/`. IEEE Xplore refuses automated downloads (HTTP 418), so the PDF has to be saved from a browser to `raw/paper.pdf`.
+- **Full text:** not yet in `raw/`. IEEE Xplore refuses automated downloads (HTTP 418), so the PDF has to be saved from a browser to `raw/paper.pdf`. Every attempt is listed in [concept-data-access.md](concept-data-access.md).
 
 ## Status
 

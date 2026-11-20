@@ -26,3 +26,9 @@
 
 - clio-core `a23b96cbd` (2026-11-11): the OMNI `format` values in the CAE sources are `hdf5`, `hdf5_vol`, `binary` and `sequential`; there is no CSV reader.
 - Decision: convert the HEDW-US CSVs to HDF5 with one dataset per column before ingesting through CAE.
+
+## [2026-11-20] query | Can the paper and data be downloaded automatically?
+
+- No. IEEE Xplore returns 202 with an empty body, or 418, for every URL, including the Crossref similarity-checking link. Unpaywall lists no repository copy. DataPort files need a login. GitHub, Hugging Face, Zenodo and web searches found no mirror.
+- Spoofing a browser to get past IEEE's bot blocking was refused by the permission system and will not be retried.
+- Filed as [concept-data-access.md](concept-data-access.md), with the manual download steps and an NSRDB-API fallback.
