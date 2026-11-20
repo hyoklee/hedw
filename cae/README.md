@@ -1,6 +1,6 @@
 # cae/: clio-core CAE experiments on HEDW-US
 
-HEDW-US city files are CSV. CAE gained a `csv::` assimilator for this work, on clio-core branch `feat/cae-csv-assimilator`, commit `7d45a1cdd`; see [wiki/cae_csv_assimilator.md](../wiki/cae_csv_assimilator.md). OMNI `dataset_filter`s select CSV columns by `/<header>`, so there is no CSV-to-HDF5 conversion step.
+HEDW-US city files are CSV. CAE gained a `csv::` assimilator for this work, on clio-core branch `feat/cae-csv-assimilator`, commit `7d45a1cdd`, PR [iowarp/clio-core#1393](https://github.com/iowarp/clio-core/pull/1393); see [wiki/cae_csv_assimilator.md](../wiki/cae_csv_assimilator.md). OMNI `dataset_filter`s select CSV columns by `/<header>`, so there is no CSV-to-HDF5 conversion step.
 
 ## Files: `hedw/`
 
