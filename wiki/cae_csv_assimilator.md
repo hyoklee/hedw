@@ -8,7 +8,8 @@ HEDW-US ships each city as CSV (and Parquet). clio-core CAE could read only `hdf
 |---|---|
 | Repo / branch | `iowarp/clio-core`, local branch `feat/cae-csv-assimilator` in `~/clio-core.csv` (worktree of `~/clio-core.dev`) |
 | Base | upstream `dev` at `1ad647318` (2026-11-20) |
-| Commit | `7d45a1cdd` "CAE: add a CSV assimilator (csv:: sources, format csv)" (local only, not pushed) |
+| Commit | `7d45a1cdd` "CAE: add a CSV assimilator (csv:: sources, format csv)", pushed to fork `hyoklee/core` branch `feat/cae-csv-assimilator` |
+| PR | [iowarp/clio-core#1393](https://github.com/iowarp/clio-core/pull/1393), base `dev`, opened 2026-11-20 |
 | Size | 15 files, about 1,430 lines new (7 files) plus about 80 changed. The shared glob matcher moved out of `hdf5_file_assimilator.cc`, which drops 119 lines there |
 
 ### Semantics
@@ -68,7 +69,7 @@ ParseOmni: Successfully scheduled 2 assimilations
 ## Bugs and notes found on the way
 
 - **Missing CTE chimod gives a hang, not an error.** The first test run hung for 300 s because only the CAE targets had been built. The runtime log said `ChiMod 'clio_cte_core' not found`, but `ParseOmni` then waited forever (`[stuck-wait] no completion after 60s`) instead of failing. Build `clio_cte_core_runtime`, `clio_bdev_runtime` and `clio_admin_runtime` before running CAE tests. Fail-fast behaviour here would help; this is not filed upstream.
-- **Upstream decision pending.** Whether to push the branch to the fork and open a PR against `iowarp/clio-core` is waiting on the user.
+- **Upstream:** opened as [iowarp/clio-core#1393](https://github.com/iowarp/clio-core/pull/1393). It may need a rebase onto #1392, which adds a path policy for local sources, so that `csv::` paths get the same check.
 
 ## Related
 

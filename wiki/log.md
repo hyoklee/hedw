@@ -63,3 +63,7 @@
 - `ctest -R '^cae_'` passes 47/47. The new tests are `cae_csv_table` and `cae_csv_assim` (200k rows, byte-for-byte; −9 and −5 paths).
 - NSRDB NYC 2019 run through `cae/hedw/run_hedw.sh`: `clio_cae` exit 0 in 116 ms; 16 columns × 8,760 rows; 9 selected per transfer.
 - Page: [cae_csv_assimilator.md](cae_csv_assimilator.md).
+
+## [2026-11-20] test | CSV assimilator PR opened
+
+- Pushed `feat/cae-csv-assimilator` (7d45a1cdd) to the fork hyoklee/core. Opened [iowarp/clio-core#1393](https://github.com/iowarp/clio-core/pull/1393) against `dev`.
