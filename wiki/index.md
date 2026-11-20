@@ -12,7 +12,7 @@
 | [source-upstream-code.md](source-upstream-code.md) | Authors' MIT pipeline (commit e15d054): city coordinates, exact NSRDB request; NREL host now dead |
 | [source-ieee-dataport-fpqq-nr70.md](source-ieee-dataport-fpqq-nr70.md) | DataPort record: 141 cities × 43,824 h × 22 columns, `data.zip` 3.18 GB, CC BY 4.0, login required |
 | [source-noaa-surfrad-solrad.md](source-noaa-surfrad-solrad.md) | NOAA GML SURFRAD (7) and SOLRAD (7) ground pyranometers, 2019–2023; none within 238 km of a flagged city; GML throttles bulk downloads |
-| [source-fawn-midc-cimis.md](source-fawn-midc-cimis.md) | Ground data near the flagged cities: FAWN Fort Lauderdale 10–36 km from 4 flagged cities (reads 8–25 % low, local start-of-hour labels), MIDC LMU on the LA coast (2010–2016), CIMIS 9 stations 3–21 km from all 12 flagged California cities (header-key API, PST hour-ending) |
+| [source-fawn-midc-cimis.md](source-fawn-midc-cimis.md) | Ground data near the flagged cities: FAWN Fort Lauderdale 10–36 km from 4 flagged cities (reads 8–25 % low, local start-of-hour labels), MIDC LMU on the LA coast (2010–2016), CIMIS 9 stations 3–21 km from all 12 flagged California cities (header-key API, PST hour-ending); MIDC Hawaii: Kalaeloa Oahu 2010–2011, NELHA 2012– |
 | [source-nasa-power.md](source-nasa-power.md) | POWER Hourly API v2.10.5: `ALLSKY_SFC_SW_DWN` in Wh/m², UTC, CERES SYN1deg |
 
 ## Concepts

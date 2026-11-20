@@ -236,7 +236,7 @@ Run: `agent/results/ground_local_20261120/` (`agent/ground/validate_local.py`). 
 
 ![monthly bias vs ground](../agent/results/ground_local_20261120/figures/monthly_bias_vs_ground.png)
 
-**Not covered:** Honolulu; no public ground series was found on Oahu. California is covered by CIMIS below.
+**Honolulu** is covered in the Hawaii section below, and California by CIMIS.
 
 ### California: CIMIS, 2019–2023
 
@@ -290,11 +290,37 @@ Run: `agent/results/ground_cimis_20261120/` (`agent/ground/validate_cimis.py`). 
   - The summer discrepancy here is mostly POWER's (−13.0 points).
 - **Caveat:** CIMIS pyranometers may carry their own seasonal artefacts, common to both products. That could explain NSRDB's small +3 to +4 points almost everywhere. The coastal-LA excess stands out above that baseline.
 
+### Hawaii: MIDC Kalaeloa (Oahu) and NELHA (Big Island)
+
+Run: `agent/results/ground_hawaii_20261120/` (`agent/ground/validate_hawaii.py`). The time lag scan gives 0 h at all three sites (r 0.948–0.971).
+
+| Comparison | Days | Daily r NSRDB | Daily r POWER | MBE % NSRDB | MBE % POWER | Daily RMSE % NSRDB | Daily RMSE % POWER |
+|---|---|---|---|---|---|---|---|
+| NELHA Kona, products at NELHA, 2019–2023 | 1,826 | **0.9599** | 0.8689 | **+0.02** | +3.08 | **6.1** | 11.3 |
+| Kalaeloa Oahu, products at Kalaeloa, 2010–2011 | 594 | 0.9053 | 0.7991 | +10.08 | +13.5 | 14.7 | 19.9 |
+| Kalaeloa Oahu, **Honolulu city-hall** products (HEDW-US request, 23 km), 2010–2011 | 594 | 0.7604 | 0.773 | +10.14 | +11.14 | 19.9 | 18.9 |
+
+![Hawaii monthly bias](../agent/results/ground_hawaii_20261120/figures/monthly_bias_hawaii.png)
+
+**Findings:**
+- **NSRDB is accurate on a Hawaiian coast during the HEDW-US period.** At NELHA it has essentially no bias, half of POWER's daily error, and a much higher daily r. NELHA is west of −113°, so the 2019/2020 fill episodes do not apply.
+- **Kalaeloa:**
+  - Both products read about 10–14 % above the RSR, with a matching summer rise (JJA − DJF: NSRDB +8.8, POWER +15.1 points). A shared offset like this points at the 2010–2011 instrument, not at either product.
+  - Day to day, NSRDB at the station tracks the ground far better (0.905 against 0.799).
+- **NSRDB resolves weather differences inside Oahu; POWER cannot.**
+  - Moving the products from Kalaeloa to Honolulu city hall, 23 km apart, drops NSRDB's correlation with the Kalaeloa ground from 0.905 to 0.760. The dry Ewa plain and the Koʻolau-shadowed city really do have different clouds.
+  - POWER barely changes (0.799 to 0.773), because both points lie in the same 1° cell.
+  - So Kalaeloa cannot verify Honolulu city's values directly, and no in-period Oahu ground series is public.
+- **Verdict for Honolulu:**
+  - The flag was low NSRDB-vs-POWER daily r (0.935, z = −3.8) and a +4.05 % bias.
+  - The evidence points to POWER: its mostly-ocean, mountain-crossing cell is the poorer product at both Hawaiian sites. NSRDB was unbiased at NELHA during 2019–2023.
+  - This is strong circumstantial evidence, not a direct check. That would need a 2019–2023 Oahu pyranometer, for example through the Hawaii Climate Data Portal, which needs a token.
+
 **Recommendation for HEDW-US users:**
 - Mask 2019-11-17 to 2019-11-20 and 2020-02-13 to 2020-02-14 in `solar_*` and derived columns for all cities east of about −113°.
 - Otherwise the solar stream is better than the POWER alternative.
 - At coastal Los Angeles sites (Long Beach, Santa Monica, and by extension Los Angeles and Oxnard nearer the coast), expect June–August GHI roughly 5–15 % high. Ground data from LMU (2011–2014) and CIMIS (2019–2023) agree.
-- Everywhere else the flags are POWER's problem: South Florida, the Inland Empire, Oakland and San Diego.
+- Everywhere else the flags are POWER's problem: South Florida, the Inland Empire, Oakland and San Diego. Honolulu very likely too, though no in-period Oahu pyranometer exists to confirm it.
 
 ## LLM steps and their reliability
 
@@ -326,6 +352,6 @@ It did surface the Birmingham 2020-02-14 day. Takeaway: number checking catches 
 ## Limitations
 
 - This compares NSRDB with POWER, not the released HEDW-US files. The 141-city membership is inferred: 7 targets lack a county mapping, Anchorage has no data, and one more is unknown. Processing that HEDW-US applied after the download is not covered.
-- POWER is not ground truth. At all 14 SURFRAD and SOLRAD sites NSRDB beats it, no SURFRAD or SOLRAD station is within 238 km of a flagged city. FAWN, 10–36 km from the South Florida cities, has a low absolute calibration. MIDC LMU, on the LA coast, is from 2011–2014. CIMIS covers all 12 flagged California cities from 3–21 km, and Honolulu has no ground series.
+- POWER is not ground truth. At all 14 SURFRAD and SOLRAD sites NSRDB beats it, no SURFRAD or SOLRAD station is within 238 km of a flagged city. FAWN, 10–36 km from the South Florida cities, has a low absolute calibration. MIDC LMU, on the LA coast, is from 2011–2014. CIMIS covers all 12 flagged California cities from 3–21 km, and Hawaii has MIDC Kalaeloa (Oahu, 2010–2011) and NELHA (Big Island, 2019–2023).
 - The anomalous-day test is per city and relative, so the threshold (|z| > 4 and > 1 kWh/m²/day) sets the count.
 - Reading the hourly Fill Flag as a percentage is an inference from its values, not from documentation.

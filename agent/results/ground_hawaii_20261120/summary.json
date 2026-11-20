@@ -1,0 +1,336 @@
+{
+ "MIDC_Kalaeloa_Oahu_2010-2011": {
+  "label": "Kalaeloa ground vs products at Kalaeloa (2010-2011)",
+  "daylight_hours": 6850,
+  "days": 594,
+  "days_dropped_ground_outage": 0,
+  "hourly": {
+   "nsrdb": {
+    "n": 6850,
+    "r": 0.8896,
+    "mbe_pct": 10.09,
+    "rmse_wm2": 139.5,
+    "rmse_pct": 30.1
+   },
+   "power": {
+    "n": 6850,
+    "r": 0.8691,
+    "mbe_pct": 13.5,
+    "rmse_wm2": 153.9,
+    "rmse_pct": 33.2
+   }
+  },
+  "daily": {
+   "nsrdb": {
+    "n": 594,
+    "r": 0.9053,
+    "mbe_pct": 10.08,
+    "rmse_wm2": 783.5,
+    "rmse_pct": 14.7
+   },
+   "power": {
+    "n": 594,
+    "r": 0.7991,
+    "mbe_pct": 13.5,
+    "rmse_wm2": 1063.7,
+    "rmse_pct": 19.9
+   }
+  },
+  "daily_nsrdb_closer_frac": 0.552,
+  "monthly_bias_vs_ground": {
+   "1": {
+    "nsrdb_mbe_pct": 4.2,
+    "power_mbe_pct": 7.0
+   },
+   "2": {
+    "nsrdb_mbe_pct": 3.8,
+    "power_mbe_pct": -3.4
+   },
+   "3": {
+    "nsrdb_mbe_pct": 9.1,
+    "power_mbe_pct": 7.7
+   },
+   "4": {
+    "nsrdb_mbe_pct": 7.1,
+    "power_mbe_pct": 9.4
+   },
+   "5": {
+    "nsrdb_mbe_pct": 11.0,
+    "power_mbe_pct": 14.4
+   },
+   "6": {
+    "nsrdb_mbe_pct": 12.2,
+    "power_mbe_pct": 17.3
+   },
+   "7": {
+    "nsrdb_mbe_pct": 13.1,
+    "power_mbe_pct": 17.1
+   },
+   "8": {
+    "nsrdb_mbe_pct": 13.4,
+    "power_mbe_pct": 17.2
+   },
+   "9": {
+    "nsrdb_mbe_pct": 14.2,
+    "power_mbe_pct": 24.8
+   },
+   "10": {
+    "nsrdb_mbe_pct": 9.0,
+    "power_mbe_pct": 13.7
+   },
+   "11": {
+    "nsrdb_mbe_pct": 3.4,
+    "power_mbe_pct": 8.0
+   },
+   "12": {
+    "nsrdb_mbe_pct": 4.3,
+    "power_mbe_pct": 2.7
+   }
+  },
+  "episode_days": [],
+  "lag_scan_r_vs_power": {
+   "-1": 0.9115,
+   "0": 0.9514,
+   "1": 0.8906
+  },
+  "summer_minus_winter": {
+   "nsrdb": 8.8,
+   "power": 15.1
+  }
+ },
+ "Hawaii_Honolulu_2010-2011": {
+  "label": "Kalaeloa ground vs Honolulu city-hall products (HEDW-US request, 23 km, 2010-2011)",
+  "daylight_hours": 6850,
+  "days": 594,
+  "days_dropped_ground_outage": 0,
+  "hourly": {
+   "nsrdb": {
+    "n": 6850,
+    "r": 0.8173,
+    "mbe_pct": 10.14,
+    "rmse_wm2": 176.8,
+    "rmse_pct": 38.1
+   },
+   "power": {
+    "n": 6850,
+    "r": 0.8599,
+    "mbe_pct": 11.14,
+    "rmse_wm2": 152.4,
+    "rmse_pct": 32.9
+   }
+  },
+  "daily": {
+   "nsrdb": {
+    "n": 594,
+    "r": 0.7604,
+    "mbe_pct": 10.14,
+    "rmse_wm2": 1065.5,
+    "rmse_pct": 19.9
+   },
+   "power": {
+    "n": 594,
+    "r": 0.773,
+    "mbe_pct": 11.14,
+    "rmse_wm2": 1011.6,
+    "rmse_pct": 18.9
+   }
+  },
+  "daily_nsrdb_closer_frac": 0.409,
+  "monthly_bias_vs_ground": {
+   "1": {
+    "nsrdb_mbe_pct": 3.3,
+    "power_mbe_pct": 2.4
+   },
+   "2": {
+    "nsrdb_mbe_pct": -0.6,
+    "power_mbe_pct": 0.2
+   },
+   "3": {
+    "nsrdb_mbe_pct": 1.8,
+    "power_mbe_pct": 2.8
+   },
+   "4": {
+    "nsrdb_mbe_pct": 3.1,
+    "power_mbe_pct": 6.2
+   },
+   "5": {
+    "nsrdb_mbe_pct": 11.8,
+    "power_mbe_pct": 15.5
+   },
+   "6": {
+    "nsrdb_mbe_pct": 13.9,
+    "power_mbe_pct": 14.6
+   },
+   "7": {
+    "nsrdb_mbe_pct": 14.2,
+    "power_mbe_pct": 15.0
+   },
+   "8": {
+    "nsrdb_mbe_pct": 15.1,
+    "power_mbe_pct": 13.7
+   },
+   "9": {
+    "nsrdb_mbe_pct": 22.5,
+    "power_mbe_pct": 21.7
+   },
+   "10": {
+    "nsrdb_mbe_pct": 10.4,
+    "power_mbe_pct": 10.1
+   },
+   "11": {
+    "nsrdb_mbe_pct": 1.2,
+    "power_mbe_pct": 5.3
+   },
+   "12": {
+    "nsrdb_mbe_pct": -0.3,
+    "power_mbe_pct": 2.0
+   }
+  },
+  "episode_days": [],
+  "lag_scan_r_vs_power": {
+   "-1": 0.9043,
+   "0": 0.948,
+   "1": 0.8917
+  },
+  "summer_minus_winter": {
+   "nsrdb": 13.6,
+   "power": 12.9
+  }
+ },
+ "MIDC_NELHA_Kona_2019-2023": {
+  "label": "NELHA Kona ground vs products at NELHA (2019-2023)",
+  "daylight_hours": 20736,
+  "days": 1826,
+  "days_dropped_ground_outage": 0,
+  "hourly": {
+   "nsrdb": {
+    "n": 20736,
+    "r": 0.9713,
+    "mbe_pct": 0.02,
+    "rmse_wm2": 71.4,
+    "rmse_pct": 13.8
+   },
+   "power": {
+    "n": 20736,
+    "r": 0.9239,
+    "mbe_pct": 3.08,
+    "rmse_wm2": 115.7,
+    "rmse_pct": 22.4
+   }
+  },
+  "daily": {
+   "nsrdb": {
+    "n": 1826,
+    "r": 0.9599,
+    "mbe_pct": 0.02,
+    "rmse_wm2": 357.7,
+    "rmse_pct": 6.1
+   },
+   "power": {
+    "n": 1826,
+    "r": 0.8689,
+    "mbe_pct": 3.08,
+    "rmse_wm2": 662.9,
+    "rmse_pct": 11.3
+   }
+  },
+  "daily_nsrdb_closer_frac": 0.68,
+  "monthly_bias_vs_ground": {
+   "1": {
+    "nsrdb_mbe_pct": 1.4,
+    "power_mbe_pct": 2.6
+   },
+   "2": {
+    "nsrdb_mbe_pct": -0.3,
+    "power_mbe_pct": 1.9
+   },
+   "3": {
+    "nsrdb_mbe_pct": -0.5,
+    "power_mbe_pct": 2.2
+   },
+   "4": {
+    "nsrdb_mbe_pct": -1.2,
+    "power_mbe_pct": 2.4
+   },
+   "5": {
+    "nsrdb_mbe_pct": 0.1,
+    "power_mbe_pct": 2.2
+   },
+   "6": {
+    "nsrdb_mbe_pct": 0.3,
+    "power_mbe_pct": 3.6
+   },
+   "7": {
+    "nsrdb_mbe_pct": 3.6,
+    "power_mbe_pct": 8.5
+   },
+   "8": {
+    "nsrdb_mbe_pct": 0.4,
+    "power_mbe_pct": 3.9
+   },
+   "9": {
+    "nsrdb_mbe_pct": -1.7,
+    "power_mbe_pct": 3.0
+   },
+   "10": {
+    "nsrdb_mbe_pct": -0.5,
+    "power_mbe_pct": 1.2
+   },
+   "11": {
+    "nsrdb_mbe_pct": -0.7,
+    "power_mbe_pct": 1.7
+   },
+   "12": {
+    "nsrdb_mbe_pct": -1.5,
+    "power_mbe_pct": 2.1
+   }
+  },
+  "episode_days": [
+   {
+    "date": "2019-11-17",
+    "ground": 2657,
+    "nsrdb": 2746,
+    "power": 3210
+   },
+   {
+    "date": "2019-11-18",
+    "ground": 4366,
+    "nsrdb": 4654,
+    "power": 4069
+   },
+   {
+    "date": "2019-11-19",
+    "ground": 5040,
+    "nsrdb": 4554,
+    "power": 4400
+   },
+   {
+    "date": "2019-11-20",
+    "ground": 5146,
+    "nsrdb": 5131,
+    "power": 5074
+   },
+   {
+    "date": "2020-02-13",
+    "ground": 5741,
+    "nsrdb": 5858,
+    "power": 5700
+   },
+   {
+    "date": "2020-02-14",
+    "ground": 3788,
+    "nsrdb": 4716,
+    "power": 5127
+   }
+  ],
+  "lag_scan_r_vs_power": {
+   "-1": 0.9335,
+   "0": 0.9709,
+   "1": 0.9012
+  },
+  "summer_minus_winter": {
+   "nsrdb": 1.6,
+   "power": 3.1
+  }
+ }
+}

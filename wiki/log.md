@@ -161,3 +161,12 @@
   - Coastal LA (Long Beach, Santa Monica, plus LMU): NSRDB summer excess of +7 to +8 points JJA − DJF, a real HEDW-US bias.
   - San Diego: the summer error is mostly POWER's (−13 points).
 - **Results:** `agent/results/ground_cimis_20261120/`. Pages: [source-fawn-midc-cimis.md](source-fawn-midc-cimis.md), [agent_solar_coherence.md](agent_solar_coherence.md#california-cimis-2019-2023).
+
+## [2026-11-20] test | Hawaii stations for Honolulu
+- **Stations found:** the MIDC site list has 3 Hawaii stations: OAHURS1M (Kalaeloa, Oahu, 23 km from Honolulu, 2010-03 to 2011-11), NELHA (Kona, 2012 to present) and LANAI (2009–2012). No public 2019–2023 Oahu series was found; the Hawaii Climate Data Portal needs a token.
+- **Data fetched:** NSRDB and POWER for Kalaeloa and Honolulu city hall (2010–2011) and for NELHA (2019–2023): 9/9 NSRDB files, 3/3 POWER.
+- **NELHA 2019–2023:** NSRDB MBE +0.02 %, RMSE 6.1 %, r 0.9599; POWER +3.08 %, 11.3 %, 0.8689.
+- **Kalaeloa:** both products are about 10–14 % above the RSR, likely the instrument. Daily r is 0.9053 for NSRDB against 0.7991 for POWER.
+- **Honolulu city-hall products against Kalaeloa:** r drops to 0.7604 (NSRDB) and 0.773 (POWER), so 23 km is too far for a direct check.
+- **Verdict:** the Honolulu flag is very likely POWER's, but this is not directly verified.
+- **Results:** `agent/results/ground_hawaii_20261120/`. Page: [agent_solar_coherence.md](agent_solar_coherence.md#hawaii-midc-kalaeloa-oahu-and-nelha-big-island).

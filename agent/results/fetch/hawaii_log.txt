@@ -1,0 +1,18 @@
+17:15:06 power Hawaii_Honolulu: 1286418
+17:15:07 power MIDC_Kalaeloa_Oahu: 1286407
+17:15:07 POWER done: 2/2 ok
+17:15:17 nsrdb MIDC_Kalaeloa_Oahu 2010: 716133
+17:15:24 nsrdb MIDC_Kalaeloa_Oahu 2011: 719204
+17:15:40 nsrdb Hawaii_Honolulu 2010: 720542
+17:15:47 nsrdb Hawaii_Honolulu 2011: 723354
+17:15:48 NSRDB done: 4/4 ok; failed: []
+17:15:48 elapsed 42 s
+17:15:49 power MIDC_NELHA_Kona: 3217305
+17:15:49 POWER done: 1/1 ok
+17:15:54 nsrdb MIDC_NELHA_Kona 2019: 736155
+17:16:00 nsrdb MIDC_NELHA_Kona 2020: 738162
+17:16:05 nsrdb MIDC_NELHA_Kona 2021: 735201
+17:16:11 nsrdb MIDC_NELHA_Kona 2022: 735232
+17:16:16 nsrdb MIDC_NELHA_Kona 2023: 736541
+17:16:17 NSRDB done: 5/5 ok; failed: []
+17:16:17 elapsed 30 s

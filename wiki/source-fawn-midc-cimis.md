@@ -45,7 +45,17 @@ SURFRAD and SOLRAD have no station within 238 km of any flagged city ([source-no
   - Location: 33.966674, −118.4226, about 19 km from LA city hall and about 5 km from the ocean. Instrument: an RSR (rotating shadowband radiometer, roughly ±5 % uncertainty).
   - Data: 1-min, PST (UTC−8, field `PST` = HHMM), from 2010-04-06 to 2016-05-05. **It ended before the HEDW-US period.**
   - The battery was faulty from December 2014 to July 2015, so 2011–2014 was used. The lag scan against POWER gives the best lag at 0 h (r 0.98).
-- **NELHA** (Hawaii) is on the Big Island, not Oahu, so it does not cover Honolulu. It was not used.
+- **Hawaii stations** (from the MIDC site list, checked 2026-11-20):
+
+  | Site | ID | Location | Instrument | Record | Distance to Honolulu |
+  |---|---|---|---|---|---|
+  | SOLRMAP Kalaeloa, Oahu | `OAHURS1M` | 21.31347, −158.08257, 11 m, Ewa plain | RSR | 2010-03-16 to 2011-11-01 | ~23 km |
+  | NELHA, Kona, Big Island | `NELHA` | 19.728144, −156.058936, 4 m | — | 2012-11-01 to present | ~260 km |
+  | SOLRMAP La Ola, Lanai | `LANAI` | 20.76685, −156.92291 | RSR | 2009 to 2012 | Not used |
+
+  - All are 1-min, with field `HST` = HHMM (UTC−10).
+  - NELHA's 1-min files carry 2019–2023 in full.
+  - No public Oahu series inside 2019–2023 was found. A possible route is the Hawaii Climate Data Portal / Hawaii Mesonet (`hcdp.ikewai.org`), which needs a requested API token; its Oahu solar stations mostly start around 2022.
 
 ## CIMIS: California Irrigation Management Information System (DWR)
 
