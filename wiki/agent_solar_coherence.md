@@ -311,16 +311,52 @@ Run: `agent/results/ground_hawaii_20261120/` (`agent/ground/validate_hawaii.py`)
   - Moving the products from Kalaeloa to Honolulu city hall, 23 km apart, drops NSRDB's correlation with the Kalaeloa ground from 0.905 to 0.760. The dry Ewa plain and the Koʻolau-shadowed city really do have different clouds.
   - POWER barely changes (0.799 to 0.773), because both points lie in the same 1° cell.
   - So Kalaeloa cannot verify Honolulu city's values directly, and no in-period Oahu ground series is public.
-- **Verdict for Honolulu:**
-  - The flag was low NSRDB-vs-POWER daily r (0.935, z = −3.8) and a +4.05 % bias.
-  - The evidence points to POWER: its mostly-ocean, mountain-crossing cell is the poorer product at both Hawaiian sites. NSRDB was unbiased at NELHA during 2019–2023.
-  - This is strong circumstantial evidence, not a direct check. That would need a 2019–2023 Oahu pyranometer, for example through the Hawaii Climate Data Portal, which needs a token.
+- **Verdict for Honolulu:** superseded by the in-period Oahu check below.
+
+### Hawaii: Hawaii Mesonet on Oahu (HCDP), 2022–2023
+
+The user requested an HCDP API token (2026-11-20). See [source-fawn-midc-cimis.md](source-fawn-midc-cimis.md#hcdp-hawaii-mesonet) for access.
+
+- **Coverage:** only two Oahu Mesonet stations have shortwave data inside 2019–2023, both from 2022-04-16. The other stations start in 2024 or later, and Kaʻala is a 1,205 m summit.
+
+  | Station | Location | Distance to city hall |
+  |---|---|---|
+  | 0501 Lyon Arboretum | Mānoa valley | 6.5 km |
+  | 0502 Nuʻuanu Reservoir 1 | Nuʻuanu valley mouth | 4.2 km |
+
+- **Data:** `SWin_1_Avg`, 5-min means, UTC, end-stamped. The lag scan against POWER peaks at 0 h at both stations (r 0.934 at Nuʻuanu). 591–596 usable days.
+
+| Series | Days | Daily r NSRDB / POWER | MBE % NSRDB / POWER | Daily RMSE % NSRDB / POWER | NSRDB closer |
+|---|---|---|---|---|---|
+| Nuʻuanu (0502), products at the station | 591 | **0.841** / 0.789 | **+3.5** / +11.8 | **18.2** / 23.5 | 63 % of days |
+| Nuʻuanu (0502), Honolulu city-hall products | 591 | 0.792 / 0.789 | +17.9 / +11.8 | 27.3 / 23.5 | 38 % |
+| Lyon (0501), products at the station | 596 | 0.713 / 0.488 | +40.7 / +52.3 | 50.0 / 64.1 | 72 % |
+| Lyon (0501), Honolulu city-hall products | 588 | 0.498 / 0.492 | +59.5 / +51.2 | 70.9 / 62.8 | 21 % |
+
+![Oahu Mesonet monthly bias](../agent/results/ground_hcdp_20261120/figures/monthly_bias_hcdp.png)
+
+**Findings:**
+- **Nuʻuanu is a direct in-period test, and NSRDB wins it.**
+  - At the station, NSRDB is nearly unbiased (+3.5 %; monthly biases within ±3 % from February to September). It has a lower RMSE and a higher daily r.
+  - POWER reads 12 % high, with the largest excess in February to June.
+  - October and November are high for both products (+15 to +28 %). A September outage (2,011 records) suggests the sensor may have been serviced, so treat those months with care.
+- **Lyon is a deep, cloudy valley that neither product resolves.**
+  - Both products read 40–60 % above it.
+  - Recent data says this is real cloud, not a fault: in November 2026, Lyon received 0.67 times Nuʻuanu's total. NSRDB still tracks Lyon's day-to-day weather better (r 0.71 against 0.49).
+- **The coast-to-valley gradient is real, and only NSRDB sees it** (`gradient_check_2026-11.txt`).
+  - In a 14-day window in November 2026, the coastal Kapiʻolani CC station (0534, which starts 2026-11) received **1.35 times** Nuʻuanu's total.
+  - NSRDB puts city hall 1.13 times above Nuʻuanu for November. POWER gives every point on south Oahu the same value.
+  - So NSRDB's higher value at Honolulu city hall is the product resolving a real gradient, and if anything it understates it. It is not an error.
+- **Verdict for Honolulu (updated):**
+  - The flag was low NSRDB-vs-POWER daily r (0.935) and a +4.05 % bias. That is POWER's coarse cell, not an HEDW-US error.
+  - The nearest in-period pyranometer shows NSRDB is the better product: bias +3.5 % against +11.8 %. Its higher city-hall value matches the coast being sunnier than the valleys.
+  - Downtown itself still has no in-period ground series, so the exact size of the city-hall bias is not measured.
 
 **Recommendation for HEDW-US users:**
 - Mask 2019-11-17 to 2019-11-20 and 2020-02-13 to 2020-02-14 in `solar_*` and derived columns for all cities east of about −113°.
 - Otherwise the solar stream is better than the POWER alternative.
 - At coastal Los Angeles sites (Long Beach, Santa Monica, and by extension Los Angeles and Oxnard nearer the coast), expect June–August GHI roughly 5–15 % high. Ground data from LMU (2011–2014) and CIMIS (2019–2023) agree.
-- Everywhere else the flags are POWER's problem: South Florida, the Inland Empire, Oakland and San Diego. Honolulu very likely too, though no in-period Oahu pyranometer exists to confirm it.
+- Everywhere else the flags are POWER's problem: South Florida, the Inland Empire, Oakland and San Diego. Honolulu too: the in-period Hawaii Mesonet station at Nuʻuanu (4 km away, 2022–2023) favours NSRDB (bias +3.5 % against +11.8 %).
 
 ## LLM steps and their reliability
 
@@ -352,6 +388,6 @@ It did surface the Birmingham 2020-02-14 day. Takeaway: number checking catches 
 ## Limitations
 
 - This compares NSRDB with POWER, not the released HEDW-US files. The 141-city membership is inferred: 7 targets lack a county mapping, Anchorage has no data, and one more is unknown. Processing that HEDW-US applied after the download is not covered.
-- POWER is not ground truth. At all 14 SURFRAD and SOLRAD sites NSRDB beats it, no SURFRAD or SOLRAD station is within 238 km of a flagged city. FAWN, 10–36 km from the South Florida cities, has a low absolute calibration. MIDC LMU, on the LA coast, is from 2011–2014. CIMIS covers all 12 flagged California cities from 3–21 km, and Hawaii has MIDC Kalaeloa (Oahu, 2010–2011) and NELHA (Big Island, 2019–2023).
+- POWER is not ground truth. At all 14 SURFRAD and SOLRAD sites NSRDB beats it, no SURFRAD or SOLRAD station is within 238 km of a flagged city. FAWN, 10–36 km from the South Florida cities, has a low absolute calibration. MIDC LMU, on the LA coast, is from 2011–2014. CIMIS covers all 12 flagged California cities from 3–21 km, and Hawaii has MIDC Kalaeloa (Oahu, 2010–2011), NELHA (Big Island, 2019–2023) and the Hawaii Mesonet on Oahu (Nuʻuanu and Lyon, 2022–2023).
 - The anomalous-day test is per city and relative, so the threshold (|z| > 4 and > 1 kWh/m²/day) sets the count.
 - Reading the hourly Fill Flag as a percentage is an inference from its values, not from documentation.

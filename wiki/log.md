@@ -170,3 +170,15 @@
 - **Honolulu city-hall products against Kalaeloa:** r drops to 0.7604 (NSRDB) and 0.773 (POWER), so 23 km is too far for a direct check.
 - **Verdict:** the Honolulu flag is very likely POWER's, but this is not directly verified.
 - **Results:** `agent/results/ground_hawaii_20261120/`. Page: [agent_solar_coherence.md](agent_solar_coherence.md#hawaii-midc-kalaeloa-oahu-and-nelha-big-island).
+
+## [2026-11-20] test | Honolulu vs the Hawaii Mesonet on Oahu (HCDP), 2022–2023
+
+- The user obtained an HCDP API token, stored in `~/.config/hedw/hcdp.env`. The API spec was read from `hcdp_api.yaml` in github.com/hcdp/hcdp_api_docs.
+- Only 0501 Lyon and 0502 Nuʻuanu have Oahu shortwave data inside the HEDW-US period, from 2022-04-16. NSRDB and POWER were fetched at both station coordinates.
+- **Nuʻuanu, 4.2 km from city hall:**
+  - NSRDB MBE +3.5 %, daily RMSE 18.2 %, r 0.841.
+  - POWER +11.8 %, 23.5 %, 0.789.
+- **Lyon:** both products read 40–60 % high. This is real valley cloud: Lyon gets 0.67 times Nuʻuanu's total in the November 2026 overlap.
+- **Coast-to-valley gradient:** coastal 0534 got 1.35 times Nuʻuanu's total over 14 days in November 2026. NSRDB resolves this gradient (1.13) and POWER does not.
+- **Honolulu verdict:** the flag is POWER's error, now supported by in-period ground data.
+- **Results:** `agent/results/ground_hcdp_20261120/`. Page: [agent_solar_coherence.md](agent_solar_coherence.md#hawaii-hawaii-mesonet-on-oahu-hcdp-20222023).

@@ -1,4 +1,4 @@
-# Source: ground pyranometers near the flagged cities (FAWN, MIDC, CIMIS)
+# Source: ground pyranometers near the flagged cities (FAWN, MIDC, CIMIS, HCDP)
 
 SURFRAD and SOLRAD have no station within 238 km of any flagged city ([source-noaa-surfrad-solrad.md](source-noaa-surfrad-solrad.md)). This page records the regional networks that were checked on 2026-11-20.
 
@@ -55,7 +55,7 @@ SURFRAD and SOLRAD have no station within 238 km of any flagged city ([source-no
 
   - All are 1-min, with field `HST` = HHMM (UTC−10).
   - NELHA's 1-min files carry 2019–2023 in full.
-  - No public Oahu series inside 2019–2023 was found. A possible route is the Hawaii Climate Data Portal / Hawaii Mesonet (`hcdp.ikewai.org`), which needs a requested API token; its Oahu solar stations mostly start around 2022.
+  - MIDC has no Oahu series inside 2019–2023. The Hawaii Mesonet (below) does, from 2022.
 
 ## CIMIS: California Irrigation Management Information System (DWR)
 
@@ -91,5 +91,27 @@ SURFRAD and SOLRAD have no station within 238 km of any flagged city ([source-no
   - `HlySolRad` in W/m², with a QC code. Records with a blank code (passed) or `Y` (moderate outlier) are kept.
   - Hour labels run 0100–2400. A lag scan against POWER confirms **PST (no DST), with the label marking the end of the hour**, at 9 of 9 stations.
 - **Quality caveat:** CIMIS uses agricultural-grade pyranometers. Some stations show a flat offset against both products all year (Highland about +10 % for NSRDB), which looks like the station's own calibration. Monthly *shapes*, and the summer-minus-winter bias, are more robust than absolute levels.
+
+## HCDP: Hawaii Climate Data Portal / Hawaii Mesonet (UH)
+
+- **Access (2026-11-20):**
+  - The user requested an API token through the HCDP access form. It is stored in `~/.config/hedw/hcdp.env` (mode 600, outside the repo).
+  - Base `https://api.hcdp.ikewai.org`, with header `Authorization: Bearer <token>`.
+  - The OpenAPI spec is `hcdp_api.yaml` in github.com/hcdp/hcdp_api_docs. The Swagger page itself renders only in a browser.
+  - `GET /mesonet/db/stations`, `/mesonet/db/variables`, `/mesonet/db/measurements?station_ids=&var_ids=&start_date=&end_date=&row_mode=array&limit=`; the default limit is 10,000 and the maximum 1,000,000.
+  - In `row_mode=array` the `index` lists `station_id` first, but the rows carry the timestamp first.
+- **Variable:** `SWin_1_Avg`, incoming shortwave in W/m², 5-min means, UTC timestamps.
+- **Oahu stations with shortwave data, first record:**
+  - 0501 Lyon Arboretum and 0502 Nuʻuanu Res 1: 2022-04-16
+  - 0521 Kaʻala: 2023-02 (summit, 1,205 m, not used)
+  - 0506 Kalāwahine: 2024-03
+  - 0541: 2024-04
+  - 0551: 2024-06
+  - 0531: 2024-12
+  - 0532: 2025-11
+  - 0533: 2026-06
+  - 0534 Kapiʻolani CC (coastal): 2026-11
+  - 0503 to 0505 and 0520 have no shortwave.
+- **Download:** `../agent/ground/fetch_hcdp.py` makes one request per station-month, 1 s apart. 0501 returned 171,960 rows and 0502 returned 169,867 for 2022-04 to 2023-12. Stored in `../raw/ground/hcdp/` (git-ignored).
 
 **Results:** [agent_solar_coherence.md](agent_solar_coherence.md#near-the-flagged-cities-fawn-and-midc-lmu) and [the CIMIS section](agent_solar_coherence.md#california-cimis-2019-2023). **Related:** [source-noaa-surfrad-solrad.md](source-noaa-surfrad-solrad.md), [concept-solar-coherence.md](concept-solar-coherence.md)

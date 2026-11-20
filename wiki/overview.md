@@ -24,8 +24,8 @@
     - **South Florida:** FAWN ground data blames POWER for the low correlation.
     - **Coastal Los Angeles:** MIDC LMU (2011–2014) and CIMIS (2019–2023) both show NSRDB/HEDW-US about 5–15 % too high in summer.
     - **Inland Empire, Oakland, San Diego:** CIMIS ground data puts the error on POWER.
-    - **Honolulu:** MIDC NELHA (2019–2023) and Kalaeloa (2010–2011) favour NSRDB over POWER, but neither can check the city directly.
+    - **Honolulu:** the Hawaii Mesonet station at Nuʻuanu (HCDP, 4 km away, 2022–2023) gives NSRDB a bias of +3.5 % against POWER's +11.8 %. MIDC NELHA and Kalaeloa agree, so the flag is POWER's.
   - NSRDB gap-filled every city east of about −113° (109 cities) on 6 days (2019-11-17 to 20, 2020-02-13 to 14), plus a median of 1.3 % of daylight hours elsewhere. HEDW-US carries these values without a flag.
 - **Open:**
   - `data.zip` needs a DataPort login, to check the released files and the quarantined cities ([concept-data-access.md](concept-data-access.md)).
-  - An in-period Oahu pyranometer for Honolulu (Hawaii Climate Data Portal, needs a token). Every other flagged city has a ground check (FAWN, CIMIS, MIDC). At all 14 SURFRAD and SOLRAD sites NSRDB beats POWER, and the filled days are confirmed wrong ([source-noaa-surfrad-solrad.md](source-noaa-surfrad-solrad.md)).
+  - Every flagged city now has a ground check (FAWN, CIMIS, MIDC, HCDP). Downtown Honolulu itself has no in-period station. At all 14 SURFRAD and SOLRAD sites NSRDB beats POWER, and the filled days are confirmed wrong ([source-noaa-surfrad-solrad.md](source-noaa-surfrad-solrad.md)).

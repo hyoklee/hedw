@@ -1,0 +1,10 @@
+Hawaii Mesonet coast-to-valley gradient check (outside the HEDW-US period; NSRDB has no 2026 data)
+Window: 2026-11-06..2026-11-19 HST, 14 complete days (>=270 of 288 five-minute values), SWin_1_Avg daily totals.
+Station                         total MJ/m2   ratio to 0502
+0534 Kapiolani CC (coastal, 73 m)     248.2        1.354
+0502 Nuuanu Res 1 (valley mouth)      183.3        1.000
+0501 Lyon Arboretum (Manoa valley)    122.9        0.671
+NSRDB at Honolulu city hall vs at 0502, Nov 2022-2023 (from summary.json monthly MBE): (1+0.292)/(1+0.145) = 1.13
+POWER uses one 0.5 x 0.625 deg cell for all three points (ratio 1.00).
+Reading: the coast is much sunnier than the valleys over 4-7 km; NSRDB resolves part of that gradient, POWER cannot.
+Different year and a 14-day window, so this is a sign/magnitude check only.
