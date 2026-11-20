@@ -24,5 +24,4 @@
   - NSRDB gap-filled every city east of about −113° (109 cities) on 6 days (2019-11-17 to 20, 2020-02-13 to 14), plus a median of 1.3 % of daylight hours elsewhere. HEDW-US carries these values without a flag.
 - **Open:**
   - `data.zip` needs a DataPort login, to check the released files and the quarantined cities ([concept-data-access.md](concept-data-access.md)).
-  - Ground truth for the flagged cities. SURFRAD and SOLRAD have no station within 238 km; CIMIS, FAWN or Hawaii pyranometers would be needed. At the 7 SURFRAD sites, NSRDB beats POWER and the filled days are confirmed wrong ([source-noaa-surfrad-solrad.md](source-noaa-surfrad-solrad.md)).
-  - SOLRAD stations: waiting on GML throttling.
+  - Ground truth for the flagged cities. SURFRAD and SOLRAD have no station within 238 km; CIMIS, FAWN or Hawaii pyranometers would be needed. At all 14 SURFRAD and SOLRAD sites NSRDB beats POWER, and the filled days are confirmed wrong ([source-noaa-surfrad-solrad.md](source-noaa-surfrad-solrad.md)).

@@ -6,3 +6,11 @@ GML back at 15:31:27
 15:31:33 SURFRAD_GoodwinCreek_MS 26 day(s) requested: {'ok': 24, 'missing': 2} in 2 s
 15:31:34 SURFRAD_PennState_PA 30 day(s) requested: {'missing': 6, 'ok': 24} in 2 s
 15:31:36 SURFRAD_SiouxFalls_SD 25 day(s) requested: {'ok': 24, 'missing': 1} in 2 s
+15:31:38 SOLRAD_Albuquerque_NM 1826 day(s) requested: {'ok': 1825, 'missing': 1} in 99 s
+15:33:17 SOLRAD_Bismarck_ND 1826 day(s) requested: {'ok': 1825, 'missing': 1} in 117 s
+15:35:14 SOLRAD_Hanford_CA 1826 day(s) requested: {'ok': 1824, 'missing': 2} in 112 s
+15:37:06 SOLRAD_Madison_WI 1826 day(s) requested: {'ok': 1825, 'missing': 1} in 114 s
+15:39:00 SOLRAD_Seattle_WA 1826 day(s) requested: {'ok': 1349, 'missing': 477} in 92 s
+15:40:32 SOLRAD_SaltLakeCity_UT 1826 day(s) requested: {'ok': 1822, 'error': 3, 'missing': 1} in 124 s
+15:42:36 SOLRAD_Sterling_VA 1826 day(s) requested: {'ok': 1825, 'missing': 1} in 112 s
+15:44:40 SOLRAD_SaltLakeCity_UT 4 day(s) requested: {'ok': 3, 'missing': 1} in 0 s

@@ -133,39 +133,54 @@ None is in a comparable coastal climate ([source-noaa-surfrad-solrad.md](source-
 
 Both products were fetched for the exact station coordinates. The ground value is the hourly mean of 1-min QC-0 data, using the component sum where available. Daylight means zenith < 85° with all three series valid.
 
-**Run:** `agent/results/ground_20261120_surfrad/`, with the **7 SURFRAD stations**, 2019–2023. The 7 SOLRAD stations are waiting on GML throttling and will be added to this table when they arrive.
+**Run:** `agent/results/ground_20261120/`, with all **14 stations** (7 SURFRAD, 7 SOLRAD), 2019–2023. Seattle has 1,317 usable days because 477 daily files are absent on the GML server.
 
-| Station | Daily r NSRDB | Daily r POWER | Daily MBE % NSRDB | Daily MBE % POWER | Daily RMSE % NSRDB | Daily RMSE % POWER | Hourly RMSE W/m² NSRDB | Hourly RMSE W/m² POWER | Days NSRDB closer |
-|---|---|---|---|---|---|---|---|---|---|
-| Bondville_IL | 0.9926 | 0.9709 | 1.37 | -2.13 | 7.3 | 14.1 | 53.0 | 88.6 | 0.73 |
-| TableMountain_CO | 0.9738 | 0.9337 | 1.02 | -0.2 | 11.0 | 15.9 | 91.6 | 117.5 | 0.627 |
-| DesertRock_NV | 0.9938 | 0.9843 | -0.01 | -1.74 | 4.3 | 7.1 | 52.3 | 72.9 | 0.736 |
-| FortPeck_MT | 0.9864 | 0.9801 | -1.01 | -0.75 | 10.3 | 11.8 | 65.1 | 77.2 | 0.567 |
-| GoodwinCreek_MS | 0.9905 | 0.9821 | 3.16 | 0.98 | 7.9 | 9.6 | 62.1 | 78.7 | 0.595 |
-| PennState_PA | 0.9893 | 0.9764 | 1.57 | 1.29 | 9.1 | 13.3 | 62.5 | 87.7 | 0.632 |
-| SiouxFalls_SD | 0.9873 | 0.9811 | 1.23 | 1.02 | 9.1 | 10.7 | 59.5 | 72.2 | 0.568 |
+| Station | Days | Daily r NSRDB | Daily r POWER | Daily MBE % NSRDB | Daily MBE % POWER | Daily RMSE % NSRDB | Daily RMSE % POWER | Hourly RMSE W/m² NSRDB | Hourly RMSE W/m² POWER | Days NSRDB closer |
+|---|---|---|---|---|---|---|---|---|---|---|
+| SURFRAD Bondville_IL | 1820 | 0.9926 | 0.9709 | 1.37 | -2.13 | 7.3 | 14.1 | 53.0 | 88.6 | 0.73 |
+| SURFRAD TableMountain_CO | 1815 | 0.9731 | 0.9331 | 1.01 | -0.24 | 11.0 | 15.9 | 91.9 | 117.8 | 0.628 |
+| SURFRAD DesertRock_NV | 1816 | 0.9938 | 0.9843 | -0.01 | -1.72 | 4.3 | 7.1 | 52.1 | 72.6 | 0.735 |
+| SURFRAD FortPeck_MT | 1818 | 0.9866 | 0.98 | -1.04 | -0.75 | 10.2 | 11.7 | 65.1 | 77.6 | 0.569 |
+| SURFRAD GoodwinCreek_MS | 1817 | 0.9905 | 0.9822 | 3.14 | 0.98 | 7.8 | 9.6 | 61.9 | 78.4 | 0.598 |
+| SURFRAD PennState_PA | 1811 | 0.9895 | 0.9756 | 1.53 | 1.13 | 9.0 | 13.5 | 62.5 | 88.3 | 0.633 |
+| SURFRAD SiouxFalls_SD | 1819 | 0.9873 | 0.9812 | 1.19 | 1.02 | 9.2 | 10.7 | 59.6 | 72.2 | 0.566 |
+| SOLRAD Albuquerque_NM | 1821 | 0.9884 | 0.9734 | 1.95 | -0.9 | 6.4 | 8.5 | 69.8 | 87.4 | 0.554 |
+| SOLRAD Bismarck_ND | 1823 | 0.9871 | 0.9798 | 1.54 | 2.5 | 10.1 | 12.3 | 62.2 | 78.1 | 0.55 |
+| SOLRAD Hanford_CA | 1820 | 0.9949 | 0.9902 | 1.98 | 1.37 | 4.8 | 6.2 | 44.5 | 56.5 | 0.582 |
+| SOLRAD Madison_WI | 1822 | 0.9881 | 0.9757 | -0.24 | 0.3 | 10.1 | 13.5 | 58.6 | 81.1 | 0.619 |
+| SOLRAD Seattle_WA | 1317 | 0.9907 | 0.9689 | 2.19 | 4.38 | 10.5 | 17.7 | 68.1 | 92.7 | 0.626 |
+| SOLRAD SaltLakeCity_UT | 1824 | 0.9868 | 0.968 | 2.11 | 3.61 | 9.0 | 13.2 | 75.3 | 98.3 | 0.637 |
+| SOLRAD Sterling_VA | 1824 | 0.9902 | 0.9785 | 1.26 | 2.27 | 7.9 | 11.3 | 57.6 | 83.0 | 0.6 |
 
-![RMSE by station](../agent/results/ground_20261120_surfrad/figures/rmse_by_station.png)
+![RMSE by station](../agent/results/ground_20261120/figures/rmse_by_station.png)
 
 **Findings:**
 
-1. **NSRDB is closer to the ground than POWER at all 7 stations.**
-   - Median daily RMSE is 9.1 % for NSRDB against 11.8 % for POWER.
-   - Median hourly RMSE is 62.1 against 78.7 W/m².
-   - Median daily r is 0.9893 against 0.9801.
-   - NSRDB is closer on a median 63 % of days.
-   - The largest POWER penalty is at Table Mountain, on the Front Range edge (15.9 % against 11.0 %), and at Bondville (14.1 % against 7.3 %).
+1. **NSRDB is closer to the ground than POWER at all 14 of 14 stations.**
+   - Median daily RMSE is 9.0 % for NSRDB against 12.0 % for POWER.
+   - Median hourly RMSE is 62.05 against 82.05 W/m².
+   - Median daily r is 0.9889 against 0.9771.
+   - NSRDB is closer on a median 61 % of days.
+   - POWER's largest penalties are at the sites whose 1° cell is most mixed:
 
-   In this comparison POWER is the noisier reference. That supports reading the 17 flagged cities as POWER representativeness (1° cells), not an HEDW-US defect, though it is not proof for those cities.
+     | Station | Setting | Daily RMSE POWER | Daily RMSE NSRDB |
+     |---|---|---|---|
+     | Seattle | Puget Sound, the most maritime site | 17.7 % | 10.5 % |
+     | Table Mountain | Front Range edge | 15.9 % | 11.0 % |
+     | Bondville | | 14.1 % | 7.3 % |
+     | Salt Lake City | Lake and mountains | 13.2 % | 9.0 % |
+
+   The Seattle result is the nearest available analogue of the coastal flagged cities. It supports reading the 17 flagged cities as POWER representativeness (1° cells), not an HEDW-US defect, though it is not proof for those cities.
 
 2. **Routine NSRDB gap filling is harmless.**
-   - Filled hours outside the episodes (9064 station-hours): NSRDB RMSE 36.6 W/m² against POWER 41.2 on the same hours, with a median NSRDB MBE of -4.0 %.
-   - Retrieved hours: NSRDB 63.0 against POWER 80.4.
+   - Filled hours outside the episodes (18,615 station-hours): NSRDB RMSE 38.2 W/m² against POWER 45.0 on the same hours, with a median NSRDB MBE of -2.9 %.
+   - Retrieved hours: NSRDB 63.2 against POWER 84.2.
 
 3. **The domain-wide fill episodes are genuinely wrong in NSRDB, and so in HEDW-US.**
-   - On the six episode days, 36 station-days were filled (all SURFRAD stations from -105.237 to -77.93 longitude). Desert Rock at −116.0° was not filled, consistent with the −113° split.
-   - Median absolute daily error is **28.2 % for NSRDB against 10.2 % for POWER**.
-   - Hourly RMSE on the episode hours (322 station-hours) is 107.5 W/m² for NSRDB against 63.1 for POWER, with a median NSRDB MBE of -13.0 %.
+   - On the six episode days, 66 station-days were filled. The filled stations run from -111.95495 to -77.4869 longitude (Salt Lake City to Sterling).
+   - Hanford, Seattle and Desert Rock, all west of −113°, were not filled, which confirms the −113° split.
+   - Median absolute daily error is **25.8 % for NSRDB against 10.8 % for POWER**.
+   - Hourly RMSE on the episode hours (597 station-hours) is 126.2 W/m² for NSRDB against 64.9 for POWER, with a median NSRDB MBE of -11.6 %.
    - The errors go both ways:
 
      | Station | Day | Measured (Wh/m²) | NSRDB | POWER |
@@ -174,7 +189,7 @@ Both products were fetched for the exact station coordinates. The ground value i
      | Sioux Falls | 2020-02-14 | 3,859 | 1,523 | 3,707 |
      | Bondville | 2019-11-18 (overcast) | 583 | 1,437 | 1,129 |
 
-   ![episode days](../agent/results/ground_20261120_surfrad/figures/episode_days.png)
+   ![episode days](../agent/results/ground_20261120/figures/episode_days.png)
 
 **Recommendation for HEDW-US users:**
 - Mask 2019-11-17 to 2019-11-20 and 2020-02-13 to 2020-02-14 in `solar_*` and derived columns for all cities east of about −113°.
@@ -210,6 +225,6 @@ It did surface the Birmingham 2020-02-14 day. Takeaway: number checking catches 
 ## Limitations
 
 - This compares NSRDB with POWER, not the released HEDW-US files. The 141-city membership is inferred: 7 targets lack a county mapping, Anchorage has no data, and one more is unknown. Processing that HEDW-US applied after the download is not covered.
-- POWER is not ground truth. At the 7 SURFRAD sites NSRDB beats it everywhere, but no ground station is within 238 km of a flagged city. Settling those cities needs CIMIS (California), FAWN (Florida) or Hawaii pyranometers.
+- POWER is not ground truth. At all 14 SURFRAD and SOLRAD sites NSRDB beats it, but no ground station is within 238 km of a flagged city. Settling those cities needs CIMIS (California), FAWN (Florida) or Hawaii pyranometers.
 - The anomalous-day test is per city and relative, so the threshold (|z| > 4 and > 1 kWh/m²/day) sets the count.
 - Reading the hourly Fill Flag as a percentage is an inference from its values, not from documentation.

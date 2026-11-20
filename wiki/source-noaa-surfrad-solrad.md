@@ -5,7 +5,8 @@
   - Format: `README_SURFRAD` and `README_SOLRAD.txt` in the same tree.
 - **Access:** open, no key.
   - About 0.35 MB per daily file of 1-minute data, about 0.2 s per file from the Aurora login node.
-  - **Throttling:** after about 12,000 files in about 13 minutes at 8 parallel connections (2026-11-20 15:17–15:30), `gml.noaa.gov` started refusing TLS connections from this node (curl exit 35, HTTP 000) while `www.noaa.gov` still answered. The fetcher now uses 3 workers and resumes by filling only missing days.
+  - **Throttling:** after about 12,000 files in about 13 minutes at 8 parallel connections (2026-11-20 15:17–15:30), `gml.noaa.gov` started refusing TLS connections from this node (curl exit 35, HTTP 000) while `www.noaa.gov` still answered. Access came back at 15:31. The fetcher now uses 3 workers and resumes by filling only missing days. At 3 workers, each SOLRAD station took 92–124 s.
+  - **Station gaps:** Seattle (`sea`) lacks 477 of 1,826 daily files for 2019–2023, which are absent on the server. Other stations lack 1 to 6 days.
 - **Measurements:** 1-min UTC. Each value is followed by a QC flag (0 = good, BSRN philosophy); −9999.9 means missing.
   - SURFRAD columns: global, upwelling, direct-normal, diffuse, ...
   - SOLRAD columns: global, direct-normal, diffuse, ...

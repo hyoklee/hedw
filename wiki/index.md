@@ -33,7 +33,7 @@
 
 | Page | Summary |
 |---|---|
-| [agent_solar_coherence.md](agent_solar_coherence.md) | NSRDB (HEDW-US solar) vs NASA POWER, 149 cities, 2019–2023: lag 0 h in all 745 city-years, median daily r 0.977; 17 coastal or mountain-edge cities flagged; NSRDB gap-filled the whole eastern domain (109 cities) on 6 days, passed into HEDW-US unflagged; clio-agent 10/10, clio-coder prose errors; at 7 SURFRAD sites NSRDB beats POWER (daily RMSE 9.1 % vs 11.8 %) but is badly wrong on the filled days (28.2 % vs 10.2 %) |
+| [agent_solar_coherence.md](agent_solar_coherence.md) | NSRDB (HEDW-US solar) vs NASA POWER, 149 cities, 2019–2023: lag 0 h in all 745 city-years, median daily r 0.977; 17 coastal or mountain-edge cities flagged; NSRDB gap-filled the whole eastern domain (109 cities) on 6 days, passed into HEDW-US unflagged; clio-agent 10/10, clio-coder prose errors; at 14 SURFRAD and SOLRAD sites NSRDB beats POWER (daily RMSE 9.0 % vs 12.0 %) but is badly wrong on the filled days (25.8 % vs 10.8 %) |
 
 ## Workflow studies
 

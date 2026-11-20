@@ -1,0 +1,62 @@
+{
+ "stations": 14,
+ "period": "2019-2023",
+ "daylight_definition": "zenith < 85 deg, all three series valid",
+ "median_daily_r": {
+  "nsrdb": 0.9889,
+  "power": 0.9771
+ },
+ "median_daily_mbe_pct": {
+  "nsrdb": 1.45,
+  "power": 1.0
+ },
+ "median_daily_rmse_pct": {
+  "nsrdb": 9.0,
+  "power": 12.0
+ },
+ "median_hourly_rmse_wm2": {
+  "nsrdb": 62.05,
+  "power": 82.05
+ },
+ "stations_where_nsrdb_daily_rmse_lower": 14,
+ "median_daily_nsrdb_closer_frac": 0.609,
+ "filled_hours": {
+  "hours": 19212,
+  "median_nsrdb_rmse_wm2": 46.8,
+  "median_power_rmse_wm2_same_hours": 47.5
+ },
+ "filled_routine_hours": {
+  "hours": 18615,
+  "median_nsrdb_rmse_wm2": 38.2,
+  "median_power_rmse_wm2_same_hours": 45.0,
+  "median_nsrdb_mbe_pct": -2.9
+ },
+ "filled_episode_hours": {
+  "hours": 597,
+  "median_nsrdb_rmse_wm2": 126.2,
+  "median_power_rmse_wm2_same_hours": 64.9,
+  "median_nsrdb_mbe_pct": -11.6
+ },
+ "retrieved_hours": {
+  "hours": 257652,
+  "median_nsrdb_rmse_wm2": 63.2,
+  "median_power_rmse_wm2_same_hours": 84.2
+ },
+ "episode_days": {
+  "station_days_filled": 66,
+  "station_days_not_filled": 18,
+  "filled_median_abs_err_pct": {
+   "nsrdb": 25.8,
+   "power": 10.8
+  },
+  "filled_stations_lon_range": [
+   -111.95495,
+   -77.4869
+  ],
+  "not_filled_stations": [
+   "SOLRAD_Hanford_CA",
+   "SOLRAD_Seattle_WA",
+   "SURFRAD_DesertRock_NV"
+  ]
+ }
+}

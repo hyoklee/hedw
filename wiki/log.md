@@ -124,3 +124,9 @@
   - GML refused TLS from this node after about 12,000 files at 8 workers. The SOLRAD fetch now waits for GML and resumes with 3 workers.
   - NSRDB returned 3 transient HTTP 400s for station-years; they succeeded on retry.
 - **Pages:** [source-noaa-surfrad-solrad.md](source-noaa-surfrad-solrad.md), [agent_solar_coherence.md](agent_solar_coherence.md#ground-truth-surfrad-and-solrad).
+
+## [2026-11-20] test | Ground truth extended to all 14 SURFRAD and SOLRAD stations
+- **What:** SOLRAD downloaded after GML recovered (3 workers, 92–124 s per station). The 24 SURFRAD days lost in the outage were refilled. `run agent/results/ground_20261120/` replaces `ground_20261120_surfrad`.
+- **Overall:** NSRDB beats POWER at 14/14 stations. Median daily RMSE is 9.0 % against 12.0 %, and hourly 62.05 against 82.05 W/m². POWER's worst site is Seattle (17.7 % against 10.5 %).
+- **Fill episodes:** NSRDB median absolute daily error 25.8 % against POWER 10.8 %. The filled stations run from −111.95° to −77.49°, and the western stations were not filled.
+- **Routine filled hours:** NSRDB 38.2 against POWER 45.0 W/m².

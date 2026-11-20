@@ -1,0 +1,1516 @@
+{
+ "stations": 14,
+ "period": "2019-2023",
+ "daylight_definition": "zenith < 85 deg, all three series valid",
+ "median_daily_r": {
+  "nsrdb": 0.9889,
+  "power": 0.9771
+ },
+ "median_daily_mbe_pct": {
+  "nsrdb": 1.45,
+  "power": 1.0
+ },
+ "median_daily_rmse_pct": {
+  "nsrdb": 9.0,
+  "power": 12.0
+ },
+ "median_hourly_rmse_wm2": {
+  "nsrdb": 62.05,
+  "power": 82.05
+ },
+ "stations_where_nsrdb_daily_rmse_lower": 14,
+ "median_daily_nsrdb_closer_frac": 0.609,
+ "filled_hours": {
+  "hours": 19212,
+  "median_nsrdb_rmse_wm2": 46.8,
+  "median_power_rmse_wm2_same_hours": 47.5
+ },
+ "filled_routine_hours": {
+  "hours": 18615,
+  "median_nsrdb_rmse_wm2": 38.2,
+  "median_power_rmse_wm2_same_hours": 45.0,
+  "median_nsrdb_mbe_pct": -2.9
+ },
+ "filled_episode_hours": {
+  "hours": 597,
+  "median_nsrdb_rmse_wm2": 126.2,
+  "median_power_rmse_wm2_same_hours": 64.9,
+  "median_nsrdb_mbe_pct": -11.6
+ },
+ "retrieved_hours": {
+  "hours": 257652,
+  "median_nsrdb_rmse_wm2": 63.2,
+  "median_power_rmse_wm2_same_hours": 84.2
+ },
+ "episode_days": {
+  "station_days_filled": 66,
+  "station_days_not_filled": 18,
+  "filled_median_abs_err_pct": {
+   "nsrdb": 25.8,
+   "power": 10.8
+  },
+  "filled_stations_lon_range": [
+   -111.95495,
+   -77.4869
+  ],
+  "not_filled_stations": [
+   "SOLRAD_Hanford_CA",
+   "SOLRAD_Seattle_WA",
+   "SURFRAD_DesertRock_NV"
+  ]
+ },
+ "per_station": {
+  "SURFRAD_Bondville_IL": {
+   "station": "SURFRAD_Bondville_IL",
+   "network": "surfrad",
+   "lat": 40.05,
+   "lon": -88.37,
+   "elev_m": 213.0,
+   "daylight_hours": 20286,
+   "days": 1820,
+   "hourly": {
+    "nsrdb": {
+     "n": 20286,
+     "r": 0.9809,
+     "mbe_pct": 1.37,
+     "rmse_wm2": 53.0,
+     "rmse_pct": 14.6
+    },
+    "power": {
+     "n": 20286,
+     "r": 0.9443,
+     "mbe_pct": -2.13,
+     "rmse_wm2": 88.6,
+     "rmse_pct": 24.4
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1820,
+     "r": 0.9926,
+     "mbe_pct": 1.37,
+     "rmse_wm2": 296.3,
+     "rmse_pct": 7.3
+    },
+    "power": {
+     "n": 1820,
+     "r": 0.9709,
+     "mbe_pct": -2.13,
+     "rmse_wm2": 571.1,
+     "rmse_pct": 14.1
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.73,
+   "hourly_filled": {
+    "nsrdb": {
+     "n": 1194,
+     "r": 0.9587,
+     "mbe_pct": -3.33,
+     "rmse_wm2": 33.1,
+     "rmse_pct": 38.7
+    },
+    "power": {
+     "n": 1194,
+     "r": 0.9153,
+     "mbe_pct": 4.06,
+     "rmse_wm2": 46.7,
+     "rmse_pct": 54.5
+    }
+   },
+   "hourly_retrieved": {
+    "nsrdb": {
+     "n": 19092,
+     "r": 0.9797,
+     "mbe_pct": 1.44,
+     "rmse_wm2": 54.0,
+     "rmse_pct": 14.2
+    },
+    "power": {
+     "n": 19092,
+     "r": 0.9405,
+     "mbe_pct": -2.22,
+     "rmse_wm2": 90.6,
+     "rmse_pct": 23.8
+    }
+   },
+   "hourly_filled_routine": {
+    "nsrdb": {
+     "n": 1138,
+     "r": 0.9645,
+     "mbe_pct": -4.01,
+     "rmse_wm2": 28.3,
+     "rmse_pct": 35.6
+    },
+    "power": {
+     "n": 1138,
+     "r": 0.927,
+     "mbe_pct": 6.19,
+     "rmse_wm2": 40.3,
+     "rmse_pct": 50.8
+    }
+   },
+   "hourly_filled_episode": {
+    "nsrdb": {
+     "n": 56,
+     "r": 0.9034,
+     "mbe_pct": 1.82,
+     "rmse_wm2": 84.5,
+     "rmse_pct": 39.5
+    },
+    "power": {
+     "n": 56,
+     "r": 0.8164,
+     "mbe_pct": -12.01,
+     "rmse_wm2": 116.0,
+     "rmse_pct": 54.3
+    }
+   }
+  },
+  "SURFRAD_TableMountain_CO": {
+   "station": "SURFRAD_TableMountain_CO",
+   "network": "surfrad",
+   "lat": 40.125,
+   "lon": -105.237,
+   "elev_m": 1689.0,
+   "daylight_hours": 20240,
+   "days": 1815,
+   "hourly": {
+    "nsrdb": {
+     "n": 20240,
+     "r": 0.9437,
+     "mbe_pct": 0.98,
+     "rmse_wm2": 91.9,
+     "rmse_pct": 22.1
+    },
+    "power": {
+     "n": 20240,
+     "r": 0.9012,
+     "mbe_pct": -0.25,
+     "rmse_wm2": 117.8,
+     "rmse_pct": 28.3
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1815,
+     "r": 0.9731,
+     "mbe_pct": 1.01,
+     "rmse_wm2": 512.1,
+     "rmse_pct": 11.0
+    },
+    "power": {
+     "n": 1815,
+     "r": 0.9331,
+     "mbe_pct": -0.24,
+     "rmse_wm2": 739.1,
+     "rmse_pct": 15.9
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.628,
+   "hourly_filled": {
+    "nsrdb": {
+     "n": 1372,
+     "r": 0.8886,
+     "mbe_pct": -4.69,
+     "rmse_wm2": 57.2,
+     "rmse_pct": 51.3
+    },
+    "power": {
+     "n": 1372,
+     "r": 0.8738,
+     "mbe_pct": 4.5,
+     "rmse_wm2": 60.1,
+     "rmse_pct": 53.9
+    }
+   },
+   "hourly_retrieved": {
+    "nsrdb": {
+     "n": 18868,
+     "r": 0.9387,
+     "mbe_pct": 1.08,
+     "rmse_wm2": 94.0,
+     "rmse_pct": 21.4
+    },
+    "power": {
+     "n": 18868,
+     "r": 0.891,
+     "mbe_pct": -0.34,
+     "rmse_wm2": 120.9,
+     "rmse_pct": 27.6
+    }
+   },
+   "hourly_filled_routine": {
+    "nsrdb": {
+     "n": 1316,
+     "r": 0.8719,
+     "mbe_pct": -4.83,
+     "rmse_wm2": 55.3,
+     "rmse_pct": 53.8
+    },
+    "power": {
+     "n": 1316,
+     "r": 0.848,
+     "mbe_pct": 5.33,
+     "rmse_wm2": 59.5,
+     "rmse_pct": 58.0
+    }
+   },
+   "hourly_filled_episode": {
+    "nsrdb": {
+     "n": 56,
+     "r": 0.8824,
+     "mbe_pct": -3.67,
+     "rmse_wm2": 92.3,
+     "rmse_pct": 28.9
+    },
+    "power": {
+     "n": 56,
+     "r": 0.9277,
+     "mbe_pct": -1.77,
+     "rmse_wm2": 72.3,
+     "rmse_pct": 22.6
+    }
+   }
+  },
+  "SURFRAD_DesertRock_NV": {
+   "station": "SURFRAD_DesertRock_NV",
+   "network": "surfrad",
+   "lat": 36.624,
+   "lon": -116.019,
+   "elev_m": 1007.0,
+   "daylight_hours": 20437,
+   "days": 1816,
+   "hourly": {
+    "nsrdb": {
+     "n": 20437,
+     "r": 0.9839,
+     "mbe_pct": -0.01,
+     "rmse_wm2": 52.1,
+     "rmse_pct": 10.2
+    },
+    "power": {
+     "n": 20437,
+     "r": 0.9688,
+     "mbe_pct": -1.73,
+     "rmse_wm2": 72.6,
+     "rmse_pct": 14.3
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1816,
+     "r": 0.9938,
+     "mbe_pct": -0.01,
+     "rmse_wm2": 246.2,
+     "rmse_pct": 4.3
+    },
+    "power": {
+     "n": 1816,
+     "r": 0.9843,
+     "mbe_pct": -1.72,
+     "rmse_wm2": 405.0,
+     "rmse_pct": 7.1
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.735,
+   "hourly_filled": {
+    "nsrdb": {
+     "n": 1463,
+     "r": 0.9695,
+     "mbe_pct": 0.49,
+     "rmse_wm2": 65.2,
+     "rmse_pct": 23.6
+    },
+    "power": {
+     "n": 1463,
+     "r": 0.9552,
+     "mbe_pct": -0.37,
+     "rmse_wm2": 78.4,
+     "rmse_pct": 28.4
+    }
+   },
+   "hourly_retrieved": {
+    "nsrdb": {
+     "n": 18974,
+     "r": 0.984,
+     "mbe_pct": -0.03,
+     "rmse_wm2": 50.9,
+     "rmse_pct": 9.7
+    },
+    "power": {
+     "n": 18974,
+     "r": 0.968,
+     "mbe_pct": -1.78,
+     "rmse_wm2": 72.2,
+     "rmse_pct": 13.7
+    }
+   },
+   "hourly_filled_routine": {
+    "nsrdb": {
+     "n": 1457,
+     "r": 0.9694,
+     "mbe_pct": 0.5,
+     "rmse_wm2": 65.3,
+     "rmse_pct": 23.6
+    },
+    "power": {
+     "n": 1457,
+     "r": 0.9552,
+     "mbe_pct": -0.35,
+     "rmse_wm2": 78.4,
+     "rmse_pct": 28.3
+    }
+   },
+   "hourly_filled_episode": {
+    "nsrdb": {
+     "n": 6
+    },
+    "power": {
+     "n": 6
+    }
+   }
+  },
+  "SURFRAD_FortPeck_MT": {
+   "station": "SURFRAD_FortPeck_MT",
+   "network": "surfrad",
+   "lat": 48.31,
+   "lon": -105.1,
+   "elev_m": 634.0,
+   "daylight_hours": 19797,
+   "days": 1818,
+   "hourly": {
+    "nsrdb": {
+     "n": 19797,
+     "r": 0.9669,
+     "mbe_pct": -1.04,
+     "rmse_wm2": 65.1,
+     "rmse_pct": 17.8
+    },
+    "power": {
+     "n": 19797,
+     "r": 0.9497,
+     "mbe_pct": -0.75,
+     "rmse_wm2": 77.6,
+     "rmse_pct": 21.2
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1818,
+     "r": 0.9866,
+     "mbe_pct": -1.04,
+     "rmse_wm2": 406.2,
+     "rmse_pct": 10.2
+    },
+    "power": {
+     "n": 1818,
+     "r": 0.98,
+     "mbe_pct": -0.75,
+     "rmse_wm2": 467.4,
+     "rmse_pct": 11.7
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.569,
+   "hourly_filled": {
+    "nsrdb": {
+     "n": 1665,
+     "r": 0.9233,
+     "mbe_pct": -11.79,
+     "rmse_wm2": 41.7,
+     "rmse_pct": 41.0
+    },
+    "power": {
+     "n": 1665,
+     "r": 0.9191,
+     "mbe_pct": 5.23,
+     "rmse_wm2": 41.6,
+     "rmse_pct": 40.9
+    }
+   },
+   "hourly_retrieved": {
+    "nsrdb": {
+     "n": 18132,
+     "r": 0.9637,
+     "mbe_pct": -0.79,
+     "rmse_wm2": 66.8,
+     "rmse_pct": 17.1
+    },
+    "power": {
+     "n": 18132,
+     "r": 0.9442,
+     "mbe_pct": -0.89,
+     "rmse_wm2": 80.1,
+     "rmse_pct": 20.5
+    }
+   },
+   "hourly_filled_routine": {
+    "nsrdb": {
+     "n": 1615,
+     "r": 0.9295,
+     "mbe_pct": -11.56,
+     "rmse_wm2": 38.8,
+     "rmse_pct": 39.6
+    },
+    "power": {
+     "n": 1615,
+     "r": 0.9151,
+     "mbe_pct": 5.46,
+     "rmse_wm2": 41.1,
+     "rmse_pct": 42.0
+    }
+   },
+   "hourly_filled_episode": {
+    "nsrdb": {
+     "n": 50,
+     "r": 0.764,
+     "mbe_pct": -15.11,
+     "rmse_wm2": 96.0,
+     "rmse_pct": 43.6
+    },
+    "power": {
+     "n": 50,
+     "r": 0.926,
+     "mbe_pct": 1.88,
+     "rmse_wm2": 53.9,
+     "rmse_pct": 24.5
+    }
+   }
+  },
+  "SURFRAD_GoodwinCreek_MS": {
+   "station": "SURFRAD_GoodwinCreek_MS",
+   "network": "surfrad",
+   "lat": 34.25,
+   "lon": -89.87,
+   "elev_m": 98.0,
+   "daylight_hours": 20353,
+   "days": 1817,
+   "hourly": {
+    "nsrdb": {
+     "n": 20353,
+     "r": 0.9769,
+     "mbe_pct": 3.15,
+     "rmse_wm2": 61.9,
+     "rmse_pct": 15.7
+    },
+    "power": {
+     "n": 20353,
+     "r": 0.9594,
+     "mbe_pct": 0.97,
+     "rmse_wm2": 78.4,
+     "rmse_pct": 20.0
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1817,
+     "r": 0.9905,
+     "mbe_pct": 3.14,
+     "rmse_wm2": 345.3,
+     "rmse_pct": 7.8
+    },
+    "power": {
+     "n": 1817,
+     "r": 0.9822,
+     "mbe_pct": 0.98,
+     "rmse_wm2": 421.7,
+     "rmse_pct": 9.6
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.598,
+   "hourly_filled": {
+    "nsrdb": {
+     "n": 1062,
+     "r": 0.9393,
+     "mbe_pct": -7.62,
+     "rmse_wm2": 43.3,
+     "rmse_pct": 53.2
+    },
+    "power": {
+     "n": 1062,
+     "r": 0.9543,
+     "mbe_pct": 7.76,
+     "rmse_wm2": 38.1,
+     "rmse_pct": 46.9
+    }
+   },
+   "hourly_retrieved": {
+    "nsrdb": {
+     "n": 19291,
+     "r": 0.9756,
+     "mbe_pct": 3.27,
+     "rmse_wm2": 62.7,
+     "rmse_pct": 15.3
+    },
+    "power": {
+     "n": 19291,
+     "r": 0.9564,
+     "mbe_pct": 0.9,
+     "rmse_wm2": 80.1,
+     "rmse_pct": 19.5
+    }
+   },
+   "hourly_filled_routine": {
+    "nsrdb": {
+     "n": 1008,
+     "r": 0.9626,
+     "mbe_pct": -3.75,
+     "rmse_wm2": 26.9,
+     "rmse_pct": 40.6
+    },
+    "power": {
+     "n": 1008,
+     "r": 0.9294,
+     "mbe_pct": 9.31,
+     "rmse_wm2": 37.7,
+     "rmse_pct": 57.0
+    }
+   },
+   "hourly_filled_episode": {
+    "nsrdb": {
+     "n": 54,
+     "r": 0.7521,
+     "mbe_pct": -20.76,
+     "rmse_wm2": 152.7,
+     "rmse_pct": 41.9
+    },
+    "power": {
+     "n": 54,
+     "r": 0.9766,
+     "mbe_pct": 2.5,
+     "rmse_wm2": 45.2,
+     "rmse_pct": 12.4
+    }
+   }
+  },
+  "SURFRAD_PennState_PA": {
+   "station": "SURFRAD_PennState_PA",
+   "network": "surfrad",
+   "lat": 40.72,
+   "lon": -77.93,
+   "elev_m": 376.0,
+   "daylight_hours": 20156,
+   "days": 1811,
+   "hourly": {
+    "nsrdb": {
+     "n": 20156,
+     "r": 0.9717,
+     "mbe_pct": 1.53,
+     "rmse_wm2": 62.5,
+     "rmse_pct": 18.4
+    },
+    "power": {
+     "n": 20156,
+     "r": 0.9416,
+     "mbe_pct": 1.13,
+     "rmse_wm2": 88.3,
+     "rmse_pct": 26.0
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1811,
+     "r": 0.9895,
+     "mbe_pct": 1.53,
+     "rmse_wm2": 341.8,
+     "rmse_pct": 9.0
+    },
+    "power": {
+     "n": 1811,
+     "r": 0.9756,
+     "mbe_pct": 1.13,
+     "rmse_wm2": 510.4,
+     "rmse_pct": 13.5
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.633,
+   "hourly_filled": {
+    "nsrdb": {
+     "n": 1305,
+     "r": 0.9145,
+     "mbe_pct": -2.69,
+     "rmse_wm2": 37.2,
+     "rmse_pct": 51.7
+    },
+    "power": {
+     "n": 1305,
+     "r": 0.9224,
+     "mbe_pct": 11.16,
+     "rmse_wm2": 37.1,
+     "rmse_pct": 51.6
+    }
+   },
+   "hourly_retrieved": {
+    "nsrdb": {
+     "n": 18851,
+     "r": 0.97,
+     "mbe_pct": 1.59,
+     "rmse_wm2": 63.9,
+     "rmse_pct": 17.8
+    },
+    "power": {
+     "n": 18851,
+     "r": 0.937,
+     "mbe_pct": 0.99,
+     "rmse_wm2": 90.8,
+     "rmse_pct": 25.3
+    }
+   },
+   "hourly_filled_routine": {
+    "nsrdb": {
+     "n": 1255,
+     "r": 0.9406,
+     "mbe_pct": -1.82,
+     "rmse_wm2": 29.6,
+     "rmse_pct": 43.7
+    },
+    "power": {
+     "n": 1255,
+     "r": 0.9227,
+     "mbe_pct": 10.46,
+     "rmse_wm2": 34.8,
+     "rmse_pct": 51.4
+    }
+   },
+   "hourly_filled_episode": {
+    "nsrdb": {
+     "n": 50,
+     "r": 0.5746,
+     "mbe_pct": -10.92,
+     "rmse_wm2": 118.9,
+     "rmse_pct": 66.3
+    },
+    "power": {
+     "n": 50,
+     "r": 0.8717,
+     "mbe_pct": 17.77,
+     "rmse_wm2": 74.7,
+     "rmse_pct": 41.6
+    }
+   }
+  },
+  "SURFRAD_SiouxFalls_SD": {
+   "station": "SURFRAD_SiouxFalls_SD",
+   "network": "surfrad",
+   "lat": 43.73,
+   "lon": -96.62,
+   "elev_m": 473.0,
+   "daylight_hours": 20113,
+   "days": 1819,
+   "hourly": {
+    "nsrdb": {
+     "n": 20113,
+     "r": 0.9742,
+     "mbe_pct": 1.19,
+     "rmse_wm2": 59.6,
+     "rmse_pct": 16.1
+    },
+    "power": {
+     "n": 20113,
+     "r": 0.9601,
+     "mbe_pct": 1.02,
+     "rmse_wm2": 72.2,
+     "rmse_pct": 19.5
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1819,
+     "r": 0.9873,
+     "mbe_pct": 1.19,
+     "rmse_wm2": 376.3,
+     "rmse_pct": 9.2
+    },
+    "power": {
+     "n": 1819,
+     "r": 0.9812,
+     "mbe_pct": 1.02,
+     "rmse_wm2": 439.8,
+     "rmse_pct": 10.7
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.566,
+   "hourly_filled": {
+    "nsrdb": {
+     "n": 1418,
+     "r": 0.9387,
+     "mbe_pct": -8.73,
+     "rmse_wm2": 48.8,
+     "rmse_pct": 44.3
+    },
+    "power": {
+     "n": 1418,
+     "r": 0.955,
+     "mbe_pct": 4.96,
+     "rmse_wm2": 41.5,
+     "rmse_pct": 37.6
+    }
+   },
+   "hourly_retrieved": {
+    "nsrdb": {
+     "n": 18695,
+     "r": 0.9727,
+     "mbe_pct": 1.4,
+     "rmse_wm2": 60.3,
+     "rmse_pct": 15.5
+    },
+    "power": {
+     "n": 18695,
+     "r": 0.9567,
+     "mbe_pct": 0.93,
+     "rmse_wm2": 74.0,
+     "rmse_pct": 19.0
+    }
+   },
+   "hourly_filled_routine": {
+    "nsrdb": {
+     "n": 1368,
+     "r": 0.963,
+     "mbe_pct": -7.11,
+     "rmse_wm2": 36.5,
+     "rmse_pct": 35.2
+    },
+    "power": {
+     "n": 1368,
+     "r": 0.9503,
+     "mbe_pct": 5.24,
+     "rmse_wm2": 41.6,
+     "rmse_pct": 40.1
+    }
+   },
+   "hourly_filled_episode": {
+    "nsrdb": {
+     "n": 50,
+     "r": 0.526,
+     "mbe_pct": -24.95,
+     "rmse_wm2": 176.1,
+     "rmse_pct": 61.8
+    },
+    "power": {
+     "n": 50,
+     "r": 0.982,
+     "mbe_pct": 2.18,
+     "rmse_wm2": 38.4,
+     "rmse_pct": 13.5
+    }
+   }
+  },
+  "SOLRAD_Albuquerque_NM": {
+   "station": "SOLRAD_Albuquerque_NM",
+   "network": "solrad",
+   "lat": 35.03796,
+   "lon": -106.62211,
+   "elev_m": 1617.0,
+   "daylight_hours": 20380,
+   "days": 1821,
+   "hourly": {
+    "nsrdb": {
+     "n": 20380,
+     "r": 0.9723,
+     "mbe_pct": 1.96,
+     "rmse_wm2": 69.8,
+     "rmse_pct": 14.2
+    },
+    "power": {
+     "n": 20380,
+     "r": 0.9532,
+     "mbe_pct": -0.9,
+     "rmse_wm2": 87.4,
+     "rmse_pct": 17.8
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1821,
+     "r": 0.9884,
+     "mbe_pct": 1.95,
+     "rmse_wm2": 350.2,
+     "rmse_pct": 6.4
+    },
+    "power": {
+     "n": 1821,
+     "r": 0.9734,
+     "mbe_pct": -0.9,
+     "rmse_wm2": 469.6,
+     "rmse_pct": 8.5
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.554,
+   "hourly_filled": {
+    "nsrdb": {
+     "n": 995,
+     "r": 0.895,
+     "mbe_pct": 1.54,
+     "rmse_wm2": 72.9,
+     "rmse_pct": 58.1
+    },
+    "power": {
+     "n": 995,
+     "r": 0.9381,
+     "mbe_pct": 3.54,
+     "rmse_wm2": 54.1,
+     "rmse_pct": 43.1
+    }
+   },
+   "hourly_retrieved": {
+    "nsrdb": {
+     "n": 19385,
+     "r": 0.9711,
+     "mbe_pct": 1.96,
+     "rmse_wm2": 69.6,
+     "rmse_pct": 13.6
+    },
+    "power": {
+     "n": 19385,
+     "r": 0.9491,
+     "mbe_pct": -0.95,
+     "rmse_wm2": 88.8,
+     "rmse_pct": 17.4
+    }
+   },
+   "hourly_filled_routine": {
+    "nsrdb": {
+     "n": 939,
+     "r": 0.8852,
+     "mbe_pct": 4.03,
+     "rmse_wm2": 66.3,
+     "rmse_pct": 61.6
+    },
+    "power": {
+     "n": 939,
+     "r": 0.9202,
+     "mbe_pct": 6.1,
+     "rmse_wm2": 53.5,
+     "rmse_pct": 49.7
+    }
+   },
+   "hourly_filled_episode": {
+    "nsrdb": {
+     "n": 56,
+     "r": 0.8185,
+     "mbe_pct": -9.04,
+     "rmse_wm2": 143.8,
+     "rmse_pct": 33.8
+    },
+    "power": {
+     "n": 56,
+     "r": 0.9615,
+     "mbe_pct": -7.35,
+     "rmse_wm2": 63.5,
+     "rmse_pct": 14.9
+    }
+   }
+  },
+  "SOLRAD_Bismarck_ND": {
+   "station": "SOLRAD_Bismarck_ND",
+   "network": "solrad",
+   "lat": 46.77179,
+   "lon": -100.75955,
+   "elev_m": 503.0,
+   "daylight_hours": 19831,
+   "days": 1823,
+   "hourly": {
+    "nsrdb": {
+     "n": 19831,
+     "r": 0.9706,
+     "mbe_pct": 1.54,
+     "rmse_wm2": 62.2,
+     "rmse_pct": 17.3
+    },
+    "power": {
+     "n": 19831,
+     "r": 0.9519,
+     "mbe_pct": 2.5,
+     "rmse_wm2": 78.1,
+     "rmse_pct": 21.7
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1823,
+     "r": 0.9871,
+     "mbe_pct": 1.54,
+     "rmse_wm2": 394.1,
+     "rmse_pct": 10.1
+    },
+    "power": {
+     "n": 1823,
+     "r": 0.9798,
+     "mbe_pct": 2.5,
+     "rmse_wm2": 481.8,
+     "rmse_pct": 12.3
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.55,
+   "hourly_filled": {
+    "nsrdb": {
+     "n": 1531,
+     "r": 0.9481,
+     "mbe_pct": -4.82,
+     "rmse_wm2": 41.2,
+     "rmse_pct": 39.2
+    },
+    "power": {
+     "n": 1531,
+     "r": 0.9321,
+     "mbe_pct": 12.1,
+     "rmse_wm2": 48.3,
+     "rmse_pct": 45.9
+    }
+   },
+   "hourly_retrieved": {
+    "nsrdb": {
+     "n": 18300,
+     "r": 0.9682,
+     "mbe_pct": 1.68,
+     "rmse_wm2": 63.7,
+     "rmse_pct": 16.7
+    },
+    "power": {
+     "n": 18300,
+     "r": 0.9476,
+     "mbe_pct": 2.27,
+     "rmse_wm2": 80.1,
+     "rmse_pct": 21.0
+    }
+   },
+   "hourly_filled_routine": {
+    "nsrdb": {
+     "n": 1485,
+     "r": 0.9492,
+     "mbe_pct": -4.64,
+     "rmse_wm2": 39.4,
+     "rmse_pct": 39.1
+    },
+    "power": {
+     "n": 1485,
+     "r": 0.9264,
+     "mbe_pct": 12.5,
+     "rmse_wm2": 48.3,
+     "rmse_pct": 48.0
+    }
+   },
+   "hourly_filled_episode": {
+    "nsrdb": {
+     "n": 46
+    },
+    "power": {
+     "n": 46
+    }
+   }
+  },
+  "SOLRAD_Hanford_CA": {
+   "station": "SOLRAD_Hanford_CA",
+   "network": "solrad",
+   "lat": 36.31,
+   "lon": -119.63,
+   "elev_m": 73.0,
+   "daylight_hours": 19984,
+   "days": 1820,
+   "hourly": {
+    "nsrdb": {
+     "n": 19984,
+     "r": 0.9883,
+     "mbe_pct": 1.98,
+     "rmse_wm2": 44.5,
+     "rmse_pct": 9.2
+    },
+    "power": {
+     "n": 19984,
+     "r": 0.9797,
+     "mbe_pct": 1.37,
+     "rmse_wm2": 56.5,
+     "rmse_pct": 11.7
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1820,
+     "r": 0.9949,
+     "mbe_pct": 1.98,
+     "rmse_wm2": 255.8,
+     "rmse_pct": 4.8
+    },
+    "power": {
+     "n": 1820,
+     "r": 0.9902,
+     "mbe_pct": 1.37,
+     "rmse_wm2": 327.3,
+     "rmse_pct": 6.2
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.582,
+   "hourly_filled": {
+    "nsrdb": {
+     "n": 1337,
+     "r": 0.9823,
+     "mbe_pct": 1.41,
+     "rmse_wm2": 50.1,
+     "rmse_pct": 16.6
+    },
+    "power": {
+     "n": 1337,
+     "r": 0.9768,
+     "mbe_pct": 0.9,
+     "rmse_wm2": 56.3,
+     "rmse_pct": 18.6
+    }
+   },
+   "hourly_retrieved": {
+    "nsrdb": {
+     "n": 18647,
+     "r": 0.9883,
+     "mbe_pct": 2.0,
+     "rmse_wm2": 44.0,
+     "rmse_pct": 8.9
+    },
+    "power": {
+     "n": 18647,
+     "r": 0.9792,
+     "mbe_pct": 1.39,
+     "rmse_wm2": 56.5,
+     "rmse_pct": 11.4
+    }
+   },
+   "hourly_filled_routine": {
+    "nsrdb": {
+     "n": 1333,
+     "r": 0.9823,
+     "mbe_pct": 1.4,
+     "rmse_wm2": 50.2,
+     "rmse_pct": 16.6
+    },
+    "power": {
+     "n": 1333,
+     "r": 0.9768,
+     "mbe_pct": 0.88,
+     "rmse_wm2": 56.3,
+     "rmse_pct": 18.6
+    }
+   },
+   "hourly_filled_episode": {
+    "nsrdb": {
+     "n": 4
+    },
+    "power": {
+     "n": 4
+    }
+   }
+  },
+  "SOLRAD_Madison_WI": {
+   "station": "SOLRAD_Madison_WI",
+   "network": "solrad",
+   "lat": 43.0725,
+   "lon": -89.41133,
+   "elev_m": 271.0,
+   "daylight_hours": 20219,
+   "days": 1822,
+   "hourly": {
+    "nsrdb": {
+     "n": 20219,
+     "r": 0.9747,
+     "mbe_pct": -0.23,
+     "rmse_wm2": 58.6,
+     "rmse_pct": 17.2
+    },
+    "power": {
+     "n": 20219,
+     "r": 0.9495,
+     "mbe_pct": 0.3,
+     "rmse_wm2": 81.1,
+     "rmse_pct": 23.9
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1822,
+     "r": 0.9881,
+     "mbe_pct": -0.24,
+     "rmse_wm2": 381.0,
+     "rmse_pct": 10.1
+    },
+    "power": {
+     "n": 1822,
+     "r": 0.9757,
+     "mbe_pct": 0.3,
+     "rmse_wm2": 510.5,
+     "rmse_pct": 13.5
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.619,
+   "hourly_filled": {
+    "nsrdb": {
+     "n": 1428,
+     "r": 0.8783,
+     "mbe_pct": -7.1,
+     "rmse_wm2": 44.9,
+     "rmse_pct": 58.2
+    },
+    "power": {
+     "n": 1428,
+     "r": 0.9132,
+     "mbe_pct": 10.89,
+     "rmse_wm2": 39.4,
+     "rmse_pct": 51.0
+    }
+   },
+   "hourly_retrieved": {
+    "nsrdb": {
+     "n": 18791,
+     "r": 0.9735,
+     "mbe_pct": -0.12,
+     "rmse_wm2": 59.5,
+     "rmse_pct": 16.5
+    },
+    "power": {
+     "n": 18791,
+     "r": 0.9454,
+     "mbe_pct": 0.13,
+     "rmse_wm2": 83.4,
+     "rmse_pct": 23.2
+    }
+   },
+   "hourly_filled_routine": {
+    "nsrdb": {
+     "n": 1376,
+     "r": 0.8946,
+     "mbe_pct": -6.59,
+     "rmse_wm2": 37.7,
+     "rmse_pct": 51.8
+    },
+    "power": {
+     "n": 1376,
+     "r": 0.8934,
+     "mbe_pct": 10.68,
+     "rmse_wm2": 38.8,
+     "rmse_pct": 53.3
+    }
+   },
+   "hourly_filled_episode": {
+    "nsrdb": {
+     "n": 52,
+     "r": 0.7976,
+     "mbe_pct": -12.19,
+     "rmse_wm2": 133.4,
+     "rmse_pct": 68.9
+    },
+    "power": {
+     "n": 52,
+     "r": 0.9748,
+     "mbe_pct": 12.96,
+     "rmse_wm2": 51.9,
+     "rmse_pct": 26.8
+    }
+   }
+  },
+  "SOLRAD_Seattle_WA": {
+   "station": "SOLRAD_Seattle_WA",
+   "network": "solrad",
+   "lat": 47.68685,
+   "lon": -122.25667,
+   "elev_m": 20.0,
+   "daylight_hours": 14643,
+   "days": 1317,
+   "hourly": {
+    "nsrdb": {
+     "n": 14643,
+     "r": 0.9639,
+     "mbe_pct": 2.19,
+     "rmse_wm2": 68.1,
+     "rmse_pct": 22.3
+    },
+    "power": {
+     "n": 14643,
+     "r": 0.9295,
+     "mbe_pct": 4.38,
+     "rmse_wm2": 92.7,
+     "rmse_pct": 30.3
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1317,
+     "r": 0.9907,
+     "mbe_pct": 2.19,
+     "rmse_wm2": 355.4,
+     "rmse_pct": 10.5
+    },
+    "power": {
+     "n": 1317,
+     "r": 0.9689,
+     "mbe_pct": 4.38,
+     "rmse_wm2": 599.9,
+     "rmse_pct": 17.7
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.626,
+   "hourly_filled": {
+    "nsrdb": {
+     "n": 1842,
+     "r": 0.9863,
+     "mbe_pct": -1.68,
+     "rmse_wm2": 33.6,
+     "rmse_pct": 22.9
+    },
+    "power": {
+     "n": 1842,
+     "r": 0.9696,
+     "mbe_pct": 0.77,
+     "rmse_wm2": 51.0,
+     "rmse_pct": 34.7
+    }
+   },
+   "hourly_retrieved": {
+    "nsrdb": {
+     "n": 12801,
+     "r": 0.9593,
+     "mbe_pct": 2.44,
+     "rmse_wm2": 71.7,
+     "rmse_pct": 21.8
+    },
+    "power": {
+     "n": 12801,
+     "r": 0.921,
+     "mbe_pct": 4.61,
+     "rmse_wm2": 97.3,
+     "rmse_pct": 29.6
+    }
+   },
+   "hourly_filled_routine": {
+    "nsrdb": {
+     "n": 1832,
+     "r": 0.9863,
+     "mbe_pct": -1.69,
+     "rmse_wm2": 33.7,
+     "rmse_pct": 22.8
+    },
+    "power": {
+     "n": 1832,
+     "r": 0.9696,
+     "mbe_pct": 0.65,
+     "rmse_wm2": 51.0,
+     "rmse_pct": 34.6
+    }
+   },
+   "hourly_filled_episode": {
+    "nsrdb": {
+     "n": 10
+    },
+    "power": {
+     "n": 10
+    }
+   }
+  },
+  "SOLRAD_SaltLakeCity_UT": {
+   "station": "SOLRAD_SaltLakeCity_UT",
+   "network": "solrad",
+   "lat": 40.7722,
+   "lon": -111.95495,
+   "elev_m": 1288.0,
+   "daylight_hours": 20095,
+   "days": 1824,
+   "hourly": {
+    "nsrdb": {
+     "n": 20095,
+     "r": 0.9643,
+     "mbe_pct": 2.11,
+     "rmse_wm2": 75.3,
+     "rmse_pct": 17.9
+    },
+    "power": {
+     "n": 20095,
+     "r": 0.9357,
+     "mbe_pct": 3.61,
+     "rmse_wm2": 98.3,
+     "rmse_pct": 23.4
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1824,
+     "r": 0.9868,
+     "mbe_pct": 2.11,
+     "rmse_wm2": 416.8,
+     "rmse_pct": 9.0
+    },
+    "power": {
+     "n": 1824,
+     "r": 0.968,
+     "mbe_pct": 3.61,
+     "rmse_wm2": 609.7,
+     "rmse_pct": 13.2
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.637,
+   "hourly_filled": {
+    "nsrdb": {
+     "n": 1396,
+     "r": 0.9427,
+     "mbe_pct": -1.06,
+     "rmse_wm2": 50.3,
+     "rmse_pct": 42.8
+    },
+    "power": {
+     "n": 1396,
+     "r": 0.9379,
+     "mbe_pct": 11.95,
+     "rmse_wm2": 54.6,
+     "rmse_pct": 46.5
+    }
+   },
+   "hourly_retrieved": {
+    "nsrdb": {
+     "n": 18699,
+     "r": 0.9611,
+     "mbe_pct": 2.17,
+     "rmse_wm2": 76.8,
+     "rmse_pct": 17.3
+    },
+    "power": {
+     "n": 18699,
+     "r": 0.9289,
+     "mbe_pct": 3.45,
+     "rmse_wm2": 100.8,
+     "rmse_pct": 22.8
+    }
+   },
+   "hourly_filled_routine": {
+    "nsrdb": {
+     "n": 1342,
+     "r": 0.9447,
+     "mbe_pct": -0.51,
+     "rmse_wm2": 47.7,
+     "rmse_pct": 43.2
+    },
+    "power": {
+     "n": 1342,
+     "r": 0.9348,
+     "mbe_pct": 12.15,
+     "rmse_wm2": 53.7,
+     "rmse_pct": 48.6
+    }
+   },
+   "hourly_filled_episode": {
+    "nsrdb": {
+     "n": 54,
+     "r": 0.8567,
+     "mbe_pct": -6.23,
+     "rmse_wm2": 93.4,
+     "rmse_pct": 32.3
+    },
+    "power": {
+     "n": 54,
+     "r": 0.9281,
+     "mbe_pct": 10.14,
+     "rmse_wm2": 74.2,
+     "rmse_pct": 25.6
+    }
+   }
+  },
+  "SOLRAD_Sterling_VA": {
+   "station": "SOLRAD_Sterling_VA",
+   "network": "solrad",
+   "lat": 38.97203,
+   "lon": -77.4869,
+   "elev_m": 85.0,
+   "daylight_hours": 20330,
+   "days": 1824,
+   "hourly": {
+    "nsrdb": {
+     "n": 20330,
+     "r": 0.9765,
+     "mbe_pct": 1.26,
+     "rmse_wm2": 57.6,
+     "rmse_pct": 15.8
+    },
+    "power": {
+     "n": 20330,
+     "r": 0.9489,
+     "mbe_pct": 2.27,
+     "rmse_wm2": 83.0,
+     "rmse_pct": 22.7
+    }
+   },
+   "daily": {
+    "nsrdb": {
+     "n": 1824,
+     "r": 0.9902,
+     "mbe_pct": 1.26,
+     "rmse_wm2": 320.5,
+     "rmse_pct": 7.9
+    },
+    "power": {
+     "n": 1824,
+     "r": 0.9785,
+     "mbe_pct": 2.27,
+     "rmse_wm2": 461.0,
+     "rmse_pct": 11.3
+    }
+   },
+   "daily_nsrdb_closer_frac": 0.6,
+   "hourly_filled": {
+    "nsrdb": {
+     "n": 1204,
+     "r": 0.8767,
+     "mbe_pct": -7.44,
+     "rmse_wm2": 49.6,
+     "rmse_pct": 63.9
+    },
+    "power": {
+     "n": 1204,
+     "r": 0.9279,
+     "mbe_pct": 12.28,
+     "rmse_wm2": 40.3,
+     "rmse_pct": 51.9
+    }
+   },
+   "hourly_retrieved": {
+    "nsrdb": {
+     "n": 19126,
+     "r": 0.9754,
+     "mbe_pct": 1.37,
+     "rmse_wm2": 58.0,
+     "rmse_pct": 15.1
+    },
+    "power": {
+     "n": 19126,
+     "r": 0.9448,
+     "mbe_pct": 2.14,
+     "rmse_wm2": 85.0,
+     "rmse_pct": 22.2
+    }
+   },
+   "hourly_filled_routine": {
+    "nsrdb": {
+     "n": 1151,
+     "r": 0.9558,
+     "mbe_pct": -2.1,
+     "rmse_wm2": 27.9,
+     "rmse_pct": 38.8
+    },
+    "power": {
+     "n": 1151,
+     "r": 0.9219,
+     "mbe_pct": 12.19,
+     "rmse_wm2": 38.7,
+     "rmse_pct": 53.8
+    }
+   },
+   "hourly_filled_episode": {
+    "nsrdb": {
+     "n": 53,
+     "r": 0.2793,
+     "mbe_pct": -48.39,
+     "rmse_wm2": 197.6,
+     "rmse_pct": 97.2
+    },
+    "power": {
+     "n": 53,
+     "r": 0.9452,
+     "mbe_pct": 12.97,
+     "rmse_wm2": 66.3,
+     "rmse_pct": 32.6
+    }
+   }
+  }
+ }
+}
