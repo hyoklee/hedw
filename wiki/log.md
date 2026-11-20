@@ -99,3 +99,9 @@
 - **CAE:** bulk `csv::` ingest of 746 NSRDB files in 7.86 s.
 - **Hazard:** clio-core's ctest cleanup killed the clio-agent runtime.
 - **Pages:** [agent_solar_coherence.md](agent_solar_coherence.md), [workflow_aurora_clio.md](workflow_aurora_clio.md).
+
+## [2026-11-20] test | PR #1393 merged with dev (path policy)
+- **Why:** #1392 (the CAE local path policy) landed on `dev`, so the PR conflicted and GitHub skipped CI on the coverage commit.
+- **What:** merge commit `9b44e0f3e` keeps both sides and applies `PathPolicy` to `csv::` sources. It adds a refusal test (a CSV under `.ssh` gives ParseOmni −2).
+- **Result:** `ctest -R '^cae_'` passes 46/46 and the PR is mergeable again.
+- **Side effect:** the ctest run killed the clio-agent runtime again, so the server was restarted ([workflow_aurora_clio.md](workflow_aurora_clio.md)).
