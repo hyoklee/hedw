@@ -40,6 +40,14 @@ A note on the license: CC BY 4.0 allows redistribution, but DataPort still puts 
 
 Rebuild only the irradiance stream from its upstream source, the NREL NSRDB API, which is free but needs an NREL API key registered to an email address. Compare it with NASA POWER for the same cities and period. This checks NSRDB against POWER, **not** HEDW-US itself: it cannot detect errors HEDW-US introduced in processing (time zone, resampling, the 40 quarantined cities). It also needs the city coordinates, which are in the paper.
 
+## Update 2026-11-20 (later)
+
+- **Paper:** resolved. The user added `raw/paper.pdf` to the GitHub repo (commit c4c91d5).
+- **Authors' code:** public on GitHub (MIT); [source-upstream-code.md](source-upstream-code.md). It provides the city coordinates (`target_cities.csv`) and the exact NSRDB request, so the irradiance stream can be rebuilt with the same parameters.
+- **NREL is now NLR:** `developer.nrel.gov`, `nsrdb.nrel.gov` and `www.nrel.gov` no longer resolve. `developer.nlr.gov` and `nsrdb.nlr.gov` answer HTTP 200.
+- **API key signup:** the user authorised using their email for NLR data access. The signup form (`developer.nlr.gov/signup/`, embedded api.data.gov form) is protected by **reCAPTCHA** and also asks for first and last name. An agent must not solve or bypass a CAPTCHA, so the key has to be created by the user in a browser and saved locally as `~/.config/hedw/nlr.env` (not in the repo).
+- **`data.zip`:** still needs a DataPort login.
+
 ## What does work automatically
 
 - NASA POWER hourly API: open, no key; see [source-nasa-power.md](source-nasa-power.md).

@@ -16,4 +16,5 @@
   - paper and dataset metadata ingested;
   - NASA POWER hourly API verified from Aurora;
   - coherence method drafted.
-- Blocked: the paper PDF and `data.zip` need an IEEE login. Waiting on the user to place them in `../raw/`. See [concept-data-access.md](concept-data-access.md).
+- Paper ingested ([source-paper-hedw-us.md](source-paper-hedw-us.md)); authors' code inspected ([source-upstream-code.md](source-upstream-code.md)).
+- Blocked: `data.zip` needs a DataPort login; the NLR API key needs a browser signup (reCAPTCHA). See [concept-data-access.md](concept-data-access.md).

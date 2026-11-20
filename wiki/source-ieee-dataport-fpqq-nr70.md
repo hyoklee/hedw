@@ -48,12 +48,13 @@ The page also links a `README.md` with usage instructions. Not yet downloaded.
 
 ## Open questions for ingest
 
-These are checked once `data.zip` is in `raw/`:
-- Is the timestamp column in UTC or local time?
-- Are the NSRDB values instantaneous at the half hour, or hourly means? Was NSRDB's native 30-min data resampled?
-- Which columns hold GHI, DNI and DHI, and what are their units?
-- Are city coordinates given (needed for the POWER lookup), or only names and counties?
-- Is the "rooftop solar proxy" derived from GHI? If so, it inherits any GHI anomaly.
+The paper and code ([source-paper-hedw-us.md](source-paper-hedw-us.md), [source-upstream-code.md](source-upstream-code.md)) answer most of these:
+- **Time base:** UTC master index. The CSVs rebuild time from `solar_Year…solar_Minute`.
+- **Irradiance columns:** `solar_GHI`, `solar_DNI`, `solar_DHI` in W/m², from NSRDB GOES aggregated v4 requested at `interval=60`.
+- **Coordinates:** city-hall lat/lon in the code's `target_cities.csv`.
+- **Rooftop-solar proxy:** `btm_solar_proxy` = GHI × cos(zenith), so it inherits any GHI anomaly.
+- **The 22 vs 34 column count:** the DataPort text says 22 columns and the paper says 34; check against the files.
+- **Still open, needs `data.zip`:** the actual `solar_Minute` values, which settle the half-hour phase question in [concept-nsrdb.md](concept-nsrdb.md).
 
 ## Related
 

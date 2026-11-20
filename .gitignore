@@ -13,3 +13,5 @@ data/
 __pycache__/
 *.pyc
 core.*
+# upstream code clones (re-clone at the commit in wiki/source-upstream-code.md)
+raw/upstream/

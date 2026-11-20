@@ -8,7 +8,8 @@
 
 | Page | Summary |
 |---|---|
-| [source-paper-hedw-us.md](source-paper-hedw-us.md) | Sleiman & Bo, *IEEE Data Descriptions* 2026, doi:10.1109/IEEEDATA.2026.3752026. Metadata only; PDF pending |
+| [source-paper-hedw-us.md](source-paper-hedw-us.md) | Sleiman & Bo, *IEEE Data Descriptions* 3:859–867 (2026). Construction, 34 columns, quality audit, benchmarks, solar timing caveats |
+| [source-upstream-code.md](source-upstream-code.md) | Authors' MIT pipeline (commit e15d054): city coordinates, exact NSRDB request; NREL host now dead |
 | [source-ieee-dataport-fpqq-nr70.md](source-ieee-dataport-fpqq-nr70.md) | DataPort record: 141 cities × 43,824 h × 22 columns, `data.zip` 3.18 GB, CC BY 4.0, login required |
 | [source-nasa-power.md](source-nasa-power.md) | POWER Hourly API v2.10.5: `ALLSKY_SFC_SW_DWN` in Wh/m², UTC, CERES SYN1deg |
 

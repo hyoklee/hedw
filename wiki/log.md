@@ -32,3 +32,20 @@
 - No. IEEE Xplore returns 202 with an empty body, or 418, for every URL, including the Crossref similarity-checking link. Unpaywall lists no repository copy. DataPort files need a login. GitHub, Hugging Face, Zenodo and web searches found no mirror.
 - Spoofing a browser to get past IEEE's bot blocking was refused by the permission system and will not be retried.
 - Filed as [concept-data-access.md](concept-data-access.md), with the manual download steps and an NSRDB-API fallback.
+
+## [2026-11-20] ingest | Paper PDF (raw/paper.pdf, added by the user in c4c91d5)
+
+- Read all 9 pages (vol. 3, pp. 859–867). Rewrote [source-paper-hedw-us.md](source-paper-hedw-us.md) with the construction, the 34 columns, the audit (101 OK / 36 WARN / 4 CRITICAL) and the benchmarks.
+- The paper says no external validation of irradiance was done.
+- Flagged a possible +30 min solar phase shift (nearest-tie alignment with a 40 min tolerance) and the GHI·cos(zenith) proxy.
+
+## [2026-11-20] ingest | Authors' pipeline code (commit e15d054)
+
+- Shallow-cloned to `raw/upstream/hedw-code/` (git-ignored); not executed. MIT license.
+- `target_cities.csv` gives 150 city-hall coordinates. The NSRDB request is GOES aggregated v4, interval 60, utc=true.
+- Page: [source-upstream-code.md](source-upstream-code.md).
+
+## [2026-11-20] query | Can the NSRDB stream be rebuilt?
+
+- `developer.nrel.gov` no longer resolves (NREL is now NLR); `developer.nlr.gov` works.
+- The API key signup is behind reCAPTCHA and needs first and last name, so the user has to create the key. Recorded in [concept-data-access.md](concept-data-access.md).
