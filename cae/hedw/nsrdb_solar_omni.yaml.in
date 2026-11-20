@@ -1,0 +1,27 @@
+# OMNI file: selective CSV ingest of one NSRDB point-year (GOES aggregated
+# v4.0.0, 60 min, UTC; the request HEDW-US used, see wiki/source-upstream-code.md).
+# Rendered by run_hedw.sh, which replaces @NSRDB_CSV@ and @OUT@.
+#
+# The run: step strips NSRDB's two metadata lines; the csv:: assimilator then
+# stores each selected column as tag <dst>/<header> (description + chunk_N).
+transfers:
+  # Only what the solar-coherence check needs: time fields and irradiance.
+  - name: "nsrdb_solar"
+    src: csv::@NSRDB_CSV@
+    dst: iowarp::hedw/nsrdb/solar
+    format: csv
+    run: strip_nsrdb_header.sh
+    run_out: @OUT@/nsrdb_table.csv
+    dataset_filter:
+      include_patterns: ["/Year", "/Month", "/Day", "/Hour", "/Minute",
+                         "/GHI", "/DNI", "/DHI", "/Solar Zenith Angle"]
+  # Everything except the meteorology, by exclusion.
+  - name: "nsrdb_no_met"
+    src: csv::@NSRDB_CSV@
+    dst: iowarp::hedw/nsrdb/no_met
+    format: csv
+    run: strip_nsrdb_header.sh
+    run_out: @OUT@/nsrdb_table2.csv
+    dataset_filter:
+      exclude_patterns: ["/Temperature", "/Wind*", "/Dew Point",
+                         "/Relative Humidity", "/Pressure", "/Surface Albedo"]

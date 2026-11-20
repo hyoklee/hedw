@@ -6,7 +6,7 @@
 
 1. **Document the dataset:** structure, provenance, units, time base and quality issues.
 2. **Solar coherence:** check every city's NSRDB irradiance against NASA POWER for the full 2019–2023 period, and flag cities and years where they disagree ([concept-solar-coherence.md](concept-solar-coherence.md), [source-nasa-power.md](source-nasa-power.md)). This matters downstream: the rooftop-solar proxy, solar volatility and the GHI forecasting benchmark all inherit any irradiance error.
-3. **Selective ingest with CAE:** ingest only the columns an analysis needs (for example timestamp and GHI) through OMNI files. CAE reads `hdf5` and `binary`, so the CSVs are first converted to one HDF5 dataset per column (`../cae/`).
+3. **Selective ingest with CAE:** ingest only the columns an analysis needs (for example timestamp and GHI) through OMNI files. CAE now reads CSV column by column through a new `csv::` assimilator ([cae_csv_assimilator.md](cae_csv_assimilator.md)).
 4. **CLIO agent:** an anomaly agent built with clio-agent (tools and plugin) and clio-coder (code and interpretation), on the pattern proven in [hyoklee/poro](https://github.com/hyoklee/poro).
 5. **Aurora workflow:** find the layout of nodes, ranks, queue and LLM calls that gives the most CLIO-agent work per node-hour of the `IOWarp` allocation.
 

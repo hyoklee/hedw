@@ -59,9 +59,9 @@ wiki/
 3. Update `index.md` and append to `log.md`.
 
 ### Run a CAE ingestion test
-1. Convert the city CSVs to HDF5, one dataset per column (`cae/hedw/csv_to_h5.py`), because CAE reads `hdf5` and `binary` only.
-2. Write or reuse an OMNI file with a `dataset_filter` that selects only the columns the analysis needs, for example the GHI and timestamp columns.
-3. Run it through `clio_cae` and the verifier. Check byte-for-byte.
+1. Build clio-core with the `csv::` assimilator (branch `feat/cae-csv-assimilator`; see `../cae/README.md`), including the CTE, bdev and admin chimods.
+2. Write or reuse an OMNI file with `src: csv::<path>`, `format: csv`, and a `dataset_filter` over the column names `/<header>`, for example `/solar_*`.
+3. Run it with `cae/hedw/run_hedw.sh` (`clio_run` + `clio_cae`). Bytes are verified by `cae_csv_assim`.
 4. File the result as `cae_<topic>.md` and log it.
 
 ### Run the solar-coherence agent

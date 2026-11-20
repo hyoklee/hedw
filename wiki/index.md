@@ -24,7 +24,9 @@
 
 ## CAE experiments
 
-None yet. See `../cae/README.md` for the plan.
+| Page | Summary |
+|---|---|
+| [cae_csv_assimilator.md](cae_csv_assimilator.md) | New clio-core `csv::` assimilator: column-wise ingest with `dataset_filter`; 47/47 CAE tests pass; NSRDB real-data run, 116 ms |
 
 ## Agent runs
 

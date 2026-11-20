@@ -55,3 +55,11 @@
 - The user-provided key is saved in `~/.config/hedw/nlr.env` (mode 600, outside the repo).
 - `developer.nlr.gov/.../nsrdb-GOES-aggregated-v4-0-0-download.csv` returns a 302 to S3 (`nsrdb-data.stratus.nlr.gov`). `full_name` is not required.
 - New York 2019: 8,760 rows, all `Minute = 30`. pandas 2.3.3 nearest-tie goes to the later record, so HEDW-US row HH:00 holds NSRDB HH:30. Recorded in [concept-nsrdb.md](concept-nsrdb.md); script `agent/checks/nearest_tie.py`.
+
+## [2026-11-20] test | CSV assimilator added to clio-core CAE
+
+- The user asked for CSV support in CAE. This supersedes the earlier "convert CSV to HDF5" decision.
+- clio-core branch `feat/cae-csv-assimilator`, commit `7d45a1cdd` (local, base `dev` 1ad647318): `csv::` source, `format: csv`, columns filtered as `/<header>`, the same tag and blob layout as HDF5.
+- `ctest -R '^cae_'` passes 47/47. The new tests are `cae_csv_table` and `cae_csv_assim` (200k rows, byte-for-byte; −9 and −5 paths).
+- NSRDB NYC 2019 run through `cae/hedw/run_hedw.sh`: `clio_cae` exit 0 in 116 ms; 16 columns × 8,760 rows; 9 selected per transfer.
+- Page: [cae_csv_assimilator.md](cae_csv_assimilator.md).
