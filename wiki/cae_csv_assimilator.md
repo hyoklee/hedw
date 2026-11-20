@@ -8,7 +8,7 @@ HEDW-US ships each city as CSV (and Parquet). clio-core CAE could read only `hdf
 |---|---|
 | Repo / branch | `iowarp/clio-core`, local branch `feat/cae-csv-assimilator` in `~/clio-core.csv` (worktree of `~/clio-core.dev`) |
 | Base | upstream `dev` at `1ad647318` (2026-11-20) |
-| Commit | `7d45a1cdd` "CAE: add a CSV assimilator (csv:: sources, format csv)", pushed to fork `hyoklee/core` branch `feat/cae-csv-assimilator` |
+| Commits | `7d45a1cdd` "CAE: add a CSV assimilator (csv:: sources, format csv)"; `9ed157887` "CAE csv: cover the remaining patch lines" (2026-11-20). Fork `hyoklee/core`, branch `feat/cae-csv-assimilator` |
 | PR | [iowarp/clio-core#1393](https://github.com/iowarp/clio-core/pull/1393), base `dev`, opened 2026-11-20 |
 | Size | 15 files, about 1,430 lines new (7 files) plus about 80 changed. The shared glob matcher moved out of `hdf5_file_assimilator.cc`, which drops 119 lines there |
 
@@ -65,6 +65,25 @@ ParseOmni: Successfully scheduled 2 assimilations
 - Transfer 2 excluded the 7 meteorology columns.
 - Both kept 9 of the 16 columns, as intended.
 - This run checks the column selection only, not the stored bytes; that byte-for-byte check is done by `cae_csv_assim`. A Python-side verifier like poro's `verify_porotomo.py` would need clio-core built with `CLIO_CORE_ENABLE_PYTHON=ON`.
+
+## Patch coverage (Codecov)
+
+The first CI run passed every check, but Codecov reported patch coverage of 97.63 %, with 5 lines uncovered. The line list came from the public Codecov API (`api.codecov.io/api/v2/github/iowarp/repos/clio-core/compare/file/<path>?pullid=1393`).
+
+| Line | Cause | Fix |
+|---|---|---|
+| `csv_table.cc:74-75` | No test for a blank first line (the "empty header" error) | New test |
+| `csv_table.cc:202` | No test for a malformed last record without a trailing newline | New test |
+| `csv_table.cc:287`, `csv_file_assimilator.cc:75` | Closing braces of `EncodeCsvColumn` and `SelectColumns` | Both now fill an out-parameter |
+
+**Why the closing braces counted as missed.** Both functions return a named local (NRVO). GCC 13 puts the exception cleanup of that object on the closing brace. That is an exception-only block that never runs (`=====` in gcov), and lcov 2 counts it as a missed line. CI collects coverage with GCC 13.3 and lcov 2.x.
+
+A 30-line experiment under GCC 13.4 reproduced this. Returning a local struct or vector left a `=====` brace; filling a caller-owned out-parameter did not.
+
+**Verification:**
+- GCC 13.4 with gcov shows no unexecuted lines in `csv_table.cc`.
+- `ctest -R '^cae_'` passes 47/47.
+- clang-format 19.1.7 and cpplint are clean.
 
 ## Bugs and notes found on the way
 

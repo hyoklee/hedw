@@ -67,3 +67,11 @@
 ## [2026-11-20] test | CSV assimilator PR opened
 
 - Pushed `feat/cae-csv-assimilator` (7d45a1cdd) to the fork hyoklee/core. Opened [iowarp/clio-core#1393](https://github.com/iowarp/clio-core/pull/1393) against `dev`.
+
+## [2026-11-20] test | PR #1393 patch coverage fixed
+- **Problem:** Codecov reported patch coverage of 97.63 %, with 5 uncovered lines (4 in `csv_table.cc`, 1 in `csv_file_assimilator.cc`).
+- **Fix:**
+  - Two of the lines were untested error paths. Added tests for a blank first line and for a bad last record with no trailing newline.
+  - Three were closing braces of functions that return a named local. GCC 13 marks these as exception-only blocks (`=====`) and lcov 2 counts them as misses. `EncodeCsvColumn` and `SelectColumns` now fill out-parameters instead.
+- **Verification:** GCC 13.4 with gcov shows `csv_table.cc` fully covered; `ctest -R '^cae_'` passes 47/47; lint is clean.
+- **Pushed:** commit `9ed157887`, waiting for CI. Details in [cae_csv_assimilator.md](cae_csv_assimilator.md#patch-coverage-codecov).
